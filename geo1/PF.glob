@@ -1,0 +1,208 @@
+DIGEST f4d3fc7a09b7cfb57bfe04bd922eaa41
+FPF.PF
+R24:34 Coq.Arith.Arith <> <> lib
+R61:65 Coq.Reals.Reals <> <> lib
+ind 133:137 <> Point
+constr 151:154 <> pair
+R165:165 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R170:174 PF.PF <> Point ind
+R306:309 PF.PF <> pair constr
+not 288:288 <> ::Point_scope:'('_x_','_x_')'
+R365:365 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R367:368 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R370:370 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+ind 423:426 <> Line
+constr 441:444 <> line
+R455:459 PF.PF <> Point ind
+R464:467 PF.PF <> Line ind
+R510:513 PF.PF <> pair constr
+R526:529 PF.PF <> line constr
+R537:537 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R539:539 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R541:541 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R531:531 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R533:533 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R535:535 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R550:550 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R552:553 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R555:555 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+def 733:737 <> Pplus
+R746:750 PF.PF <> Point ind
+R755:759 PF.PF <> Point ind
+R775:775 PF.PF <> B var
+R772:772 PF.PF <> A var
+R786:786 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R788:789 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R791:791 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R794:794 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R796:797 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R799:799 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R808:808 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R814:815 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R821:821 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R810:812 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R817:819 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R839:843 PF.PF <> Pplus def
+R852:852 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R854:855 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R857:857 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R845:845 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R847:848 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R850:850 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+def 889:893 <> Vetor
+R905:909 PF.PF <> Point ind
+def 924:929 <> Pminus
+R938:942 PF.PF <> Point ind
+R947:951 PF.PF <> Point ind
+R967:967 PF.PF <> B var
+R964:964 PF.PF <> A var
+R978:978 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R980:981 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R983:983 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R986:986 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R988:989 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R991:991 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1000:1000 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1006:1007 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1013:1013 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1002:1004 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1009:1011 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1031:1036 PF.PF <> Pminus def
+R1045:1045 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1047:1048 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1050:1050 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1038:1038 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1040:1041 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1043:1043 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+def 1064:1066 <> Vec
+R1074:1078 PF.PF <> Point ind
+R1084:1089 PF.PF <> Pminus def
+R1093:1093 PF.PF <> A var
+R1091:1091 PF.PF <> B var
+def 1127:1132 <> Pmults
+R1139:1139 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1147:1151 PF.PF <> Point ind
+R1165:1165 PF.PF <> A var
+R1176:1176 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1178:1179 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1181:1181 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1186:1186 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1192:1193 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1199:1199 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1188:1190 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1187:1187 PF.PF <> n var
+R1195:1197 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1194:1194 PF.PF <> n var
+R1217:1222 PF.PF <> Pmults def
+R1226:1226 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1228:1229 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1231:1231 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+def 1247:1250 <> Pneg
+R1256:1260 PF.PF <> Point ind
+R1264:1268 PF.PF <> Point ind
+R1281:1281 PF.PF <> P var
+R1292:1292 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1294:1295 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1297:1297 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1302:1302 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1305:1306 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1309:1309 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1303:1303 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R1307:1307 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+def 1354:1366 <> Pquantityprod
+R1375:1379 PF.PF <> Point ind
+R1384:1384 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1400:1400 PF.PF <> B var
+R1397:1397 PF.PF <> A var
+R1411:1411 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1413:1414 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1416:1416 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1419:1419 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1421:1422 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1424:1424 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1439:1441 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1435:1437 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1443:1445 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1464:1476 PF.PF <> Pquantityprod def
+R1484:1484 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1486:1486 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1488:1488 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1478:1478 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1480:1480 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1482:1482 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+def 1563:1572 <> Pouterprod
+R1581:1585 PF.PF <> Point ind
+R1590:1594 PF.PF <> Vetor def
+R1599:1604 PF.PF <> Pminus def
+R1608:1608 PF.PF <> A var
+R1606:1606 PF.PF <> B var
+def 1641:1646 <> Pequal
+R1654:1658 PF.PF <> Point ind
+R1682:1682 PF.PF <> B var
+R1679:1679 PF.PF <> A var
+R1692:1692 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1694:1695 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1697:1697 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1700:1700 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1702:1703 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1705:1705 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R1713:1716 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1711:1711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1718:1718 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1869:1873 PF.PF <> Pplus def
+not 1855:1855 <> ::Point_scope:x_'+'_x
+R1978:1983 PF.PF <> Pmults def
+not 1964:1964 <> ::Point_scope:x_'*'_x
+R2087:2092 PF.PF <> Pminus def
+not 2073:2073 <> ::Point_scope:x_'-'_x
+R2197:2209 PF.PF <> Pquantityprod def
+not 2182:2182 <> ::Point_scope:x_'·'_x
+R2311:2314 PF.PF <> Pneg def
+not 2299:2299 <> ::Point_scope:'-'_x
+R2359:2364 PF.PF <> Pequal def
+not 2344:2344 <> ::Point_scope:x_'=='_x
+R2475:2479 PF.PF <> Pplus def
+R2489:2491 PF.PF <> ::Point_scope:x_'*'_x not
+R2492:2492 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2494:2494 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2496:2496 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2511:2513 PF.PF <> ::Point_scope:x_'+'_x not
+R2505:2505 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2507:2508 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2510:2510 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2514:2514 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2516:2517 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2519:2519 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2536:2538 PF.PF <> ::Point_scope:x_'-'_x not
+R2530:2530 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2532:2533 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2535:2535 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2539:2539 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2541:2542 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2544:2544 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2554:2556 PF.PF <> ::Point_scope:x_'*'_x not
+R2557:2557 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2559:2560 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2562:2562 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2577:2580 PF.PF <> ::Point_scope:x_'·'_x not
+R2571:2571 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2573:2574 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2576:2576 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2581:2581 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2583:2584 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2586:2586 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2595:2595 PF.PF <> ::Point_scope:'-'_x not
+R2596:2596 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2598:2598 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2600:2600 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2614:2615 PF.PF <> ::Point_scope:x_'=='_x not
+R2609:2609 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2611:2611 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2613:2613 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2617:2617 PF.PF <> ::Point_scope:x_'*'_x not
+R2618:2618 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2620:2620 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2622:2622 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2656:2656 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2658:2658 PF.PF <> ::Point_scope:'('_x_','_x_')' not
+R2660:2660 PF.PF <> ::Point_scope:'('_x_','_x_')' not

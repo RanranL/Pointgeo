@@ -1,0 +1,17 @@
+(*Class P_Geo_Definitions :=
+  { PPoint : Type }.
+
+Check PPoint.*)
+From Coq Require Import Arith.Arith.
+From Coq Require Import Init.Nat.
+
+Theorem first_exam : forall B C P N  G M,
+
+    2 * P = B -> 2 * N = C -> 2 * M = B + C
+           -> exists u v r s, u * P + v * C = r * N + s * B
+                              -> exists l, G =l * M.
+Proof.
+  intros B C P N G M H1 H2 H3.
+  
+  
+                                              

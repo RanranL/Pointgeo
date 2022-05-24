@@ -1,0 +1,235 @@
+(*Class P_Geo_Definitions :=
+  { PPoint : Type }.
+
+Check PPoint.*)
+From Coq Require Import Arith.Arith.
+Require Export Coq.Reals.RIneq.
+Require Export Coq.Reals.R_sqrt.
+Require Export Coq.micromega.Lra.
+ 
+  
+From PF Require Import PF.
+
+(*Require Import Reals.*)
+
+(*Open Scope R_scope.
+Local Open Scope R_scope.
+*)
+
+Check Point.
+Check Pplus.
+Check Pmults.
+Check Line.
+
+(************************************************************************************************)
+(** * O *)
+
+(** the definition of O *)
+Definition O : Point := (0, 0).
+
+(** definite A as O *)
+Definition O2 (A : Point) : Prop := A = (0, 0).
+
+Check O2.
+
+
+
+(*************************************************************************************************)
+(** * PROPERTY *)
+(** The following definition is to definite the property of three points collinear, and "col1" is the example for it. *)
+Locate "_ + _".
+
+
+Definition collin (A B P : Point) :=
+  exists (u v t : R), (u + v)%R = t ->
+                       (u * A) + (v * B) = t * P.
+
+(** NOT A B P different *)
+(* 
+Example col1: collin (0, 0) (2, 2) (1, 1).
+Proof.
+  unfold collin.
+  exists 1. exists 1. exists 2.
+  intros. field_simplify.
+  reflexivity.
+Qed.
+ *)
+Search Rplus.
+Locate Rplus_0_l.
+
+Lemma Pplus_0_l: forall (A : Point), O + A = A.
+Proof. 
+  intros. unfold O, Pplus.
+  induction A. 
+  do 2 rewrite Rplus_0_l.
+  auto.
+Qed.
+
+Lemma omega3: forall x y, (x + 0, y + 0)= (x, y).
+Proof. intros. do 2 rewrite Rplus_0_r. reflexivity. Qed.
+
+Search Rplus.
+Lemma Pplus_0_r: forall A, A + O = A.
+Proof.
+  intros. unfold O. induction A. simpl. apply omega3.
+Qed.
+
+  
+Lemma lmult_O: forall n, n * O = O.
+Proof.
+  intros. unfold O, Pmults. rewrite Rmult_0_r; auto.
+Qed.
+
+Lemma Unit_right: forall A, 1 * A = A.
+Proof.
+  intros. induction A.
+  unfold Pmults. do 2 rewrite Rmult_1_l. reflexivity.
+Qed.
+
+Lemma Unit_right': forall A, A = 1 * A.
+Proof. intros. rewrite Unit_right; auto. Qed.
+
+Axiom Pplus_1: forall A B, Pplus A B = O <-> A = Pmults (-1) B.
+  
+Axiom Pmults_1: forall n m A, Pmults (n) (Pmults m A) = Pmults (n * m) A.
+
+Axiom Alge: forall x: R, ((-1) * (-1 * x) = x)%R.
+(*Proof. intros. Search Ropp. apply Ropp_mult_distr_l.  omega. Qed.*)
+
+Lemma collinO1: forall A B,
+  (exists (l : R), A = Pmults l B) -> collin A B O. 
+Proof.
+  intros. unfold collin. destruct H.  
+  exists 1. exists (-1 * x)%R. exists (1-x)%R.
+  intros. rewrite lmult_O with (n := (1-x)%R). rewrite Unit_right.
+  apply Pplus_1. rewrite Pmults_1. rewrite Alge.
+  auto.
+Qed.
+
+Definition Xcollin (A B C D F : Point) :=
+  forall u v r s, (u + v = r + s)%R ->
+         (u * A) + (v * B) = (r * C) + (s * D) ->
+         (r + s) * F = (r * C) + (s * D).
+                              
+
+(********************************************************************)
+(*                          geometry structure                      *)
+(********************************************************************)
+
+(** the definition of Midpoint *)
+
+Definition Midpoint (C A B : Point) :=
+  Pplus A B = Pmults 2 C.                 
+
+Lemma midpoint_O: forall A B C, A = O -> Midpoint C A B -> B = Pmults 2 C.
+Proof.
+  intros. unfold Midpoint in H0.
+  rewrite H in H0. rewrite Pplus_0_l in H0. auto.
+Qed.
+
+(** Parallel *)
+Definition Parall (A B C D : Point) : Prop := A + C = B + D.
+
+(** line segment equality *)
+Definition Lseg_eq (A B C D : Point) : Prop := (A - B) · (A - B) = (C - D)·(C - D).
+
+(** Perpendicular *)
+Definition Perpendicular (A B C D : Point) : Prop := (A - B) · (C - D) = 0.
+
+(** Point on line *)
+Definition PonLine (C A B : Point) (t : R) := C = t*A + (1 - t)%R * B.
+
+(** median point of traingle *)
+Definition Ptraingle_median (G A B C : Point) := G = 1/3 * (A + B + C). 
+
+(** Definition Collin (l : Z) (O A B : Point) :=
+  B = Pmults l A. *)    
+
+Theorem first_exam : forall B N C P G M,
+
+    B = Pmults 2 P -> C = Pmults 2 N -> Pmults 2 M = Pplus B C
+           -> Xcollin N B P C G -> exists l, G = Pmults l M.
+Proof. 
+  intros.  
+  generalize H1. rewrite H in H1.
+  intros.  generalize H3. rewrite H0 in H3.
+  intros. rewrite H1 in H3.
+  unfold Xcollin in H2. 
+  exists (2/3).
+  Axiom Alge1 : forall n m A B, Pmults n A = Pmults m B <-> A = Pmults (m/n) B.
+  apply Alge1.  rewrite H1.
+  rewrite Unit_right' with (A := C).
+  assert (3 = 2+1)%R. lra.
+  rewrite H5.
+  apply H2 with (u:= 2) (v:= 1) (r:=2) (s:=1). auto.
+  do 2 rewrite Unit_right.
+  Axiom exch: forall A B, Pplus A B = Pplus B A.
+  rewrite <- H0. rewrite H. rewrite exch. auto.
+Qed.  
+
+
+(* current_goal *)
+(*
+Ltac O (A : Point) :=
+  match goal with
+  |
+  |
+  end.
+*)
+Definition collinP (A B C : Point) : Prop := A = O /\ exists l, B = Pmults l C. 
+
+  Theorem first_exam': forall A B N C P G M,
+    A = O ->
+    Midpoint P A B ->
+    Midpoint N A C ->
+    Midpoint M B C ->
+    Xcollin N B P C G ->
+    collinP A G M.
+Proof.
+  intros.
+  apply midpoint_O in H0. apply midpoint_O in H1. unfold Midpoint in H2. unfold collinP.
+  split. apply H. symmetry in H2.  generalize H2.
+  rewrite H0 in H2. intros. rewrite H2 in H4.
+  unfold Xcollin in H3. exists (2/3).  
+  apply Alge1. rewrite H2. rewrite Unit_right' with (A := C).
+  assert (3=2+1)%R. lra. rewrite H5. apply H3 with (u:=2) (v:=1)(r:=2)(s:=1). auto. do 2 rewrite Unit_right.
+  rewrite <- H1. rewrite H0. rewrite exch.
+  auto. apply H. apply H.
+Qed.
+ 
+Theorem parall_exam: forall A B C D M P,
+    A = O ->
+    Parall A B C D ->
+    Midpoint M A B -> 
+    Xcollin A C M D P ->
+    C = 3 * P.
+Proof. 
+  intros. unfold Parall in H0. unfold Midpoint in H1. unfold Xcollin in H2. 
+  rewrite H in *. rewrite Pplus_0_l in *.
+  symmetry. rewrite H0. rewrite H1.
+  (* left_O;right_O;... in * eliminate O(origal point)？*)
+  assert (1 + 2 = 3)%R;auto. rewrite <- H3. rewrite Rplus_comm. rewrite Unit_right' with (A:=D).
+  apply H2 with (u:=2)(v:=1)(r:=2)(s:=1). auto.
+  rewrite lmult_O. rewrite Pplus_0_l. rewrite <- H1.
+  do 2 rewrite Unit_right. auto.
+Qed.
+
+Lemma sym: forall A B, A · B = B · A.
+Proof.
+  intros. unfold Pquantityprod.
+  induction A. induction B. lra. 
+Qed.
+
+
+Theorem tri_3_heights: forall A B C D E H,
+    Perpendicular A D B C ->
+    Perpendicular B E A C ->
+    Xcollin A D B E H ->
+    Perpendicular C H A B.
+Proof.
+  
+    
+
+
+
+                                         

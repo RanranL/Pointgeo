@@ -1,0 +1,129 @@
+(*Class P_Geo_Definitions :=
+  { PPoint : Type }.
+
+Check PPoint.*)
+From Coq Require Import Arith.Arith.
+Require Import ZArith.
+
+Open Scope Z.
+
+(** * The definition of point *)
+
+Inductive Point : Type :=
+| pair (n1 n2 : Z) : Point.
+
+Notation " ( x , y ) " := (pair x y).
+
+Check pair 1 2.
+Check (1,2).
+
+(***********************************************************************************************)
+(** * DEFINITION *)
+
+(** ** point_add *)
+
+Definition Pplus (A B : Point) : Point :=
+  match A, B with
+  | (a, b), (c, d)
+    => (a + c, b + d)
+  end.
+
+Compute Pplus (1, 2) (4, 6).
+
+(** ** Pmults *)
+
+Definition Pmults (n : Z) (A : Point) :=
+  match A with
+  | (x, y) => (n * x, n * y)
+  end.
+
+
+Compute Pmults 2 (1, 2).
+(*Notation " x * y " := (Pmults x y).*)
+
+
+
+(************************************************************************************************)
+(** * O *)
+
+(** the definition of O *)
+Definition O : Point := (0, 0).
+
+(** definite A as O *)
+Definition O2 (A : Point) : Prop := A = (0, 0).
+
+Check O2.
+
+(*************************************************************************************************)
+(** * PROPERTY *)
+(** The following definition is to definite the property of three points collinear, and "col1" is the example for it. *)
+
+Definition collin (A B P : Point) :=
+  exists (u v t : Z), u + v = t ->
+                      Pplus (Pmults u A) (Pmults v B) = Pmults t P.
+
+(** NOT A B P different *)
+ 
+Example col1: collin (0, 0) (2, 2) (1, 1).
+Proof.
+  unfold collin.
+  exists 1. exists 1. exists 2.
+  intros; reflexivity.
+Qed.
+
+Lemma left_O: forall (A : Point), Pplus O A = A.
+Proof.
+  intros. unfold O, Pplus.
+  induction A. auto.  
+Qed.
+
+Axiom right_O: forall A, Pplus A O = A.
+Axiom lmult_O: forall A, Pmults A O = O.
+Axiom Unit_right: forall A, Pmults 1 A = A.
+Axiom Pplus_1: forall A B, Pplus A B = O <-> A = Pmults (-1) B.
+Axiom Pmults_1: forall n m A, Pmults (n) (Pmults m A) = Pmults (n * m) A.
+
+
+Lemma Alge: forall x: Z, (-1) * (-1 *x) = x.
+Proof. intros. omega. Qed.
+
+Lemma collinO1: forall A B,
+  (exists (l : Z), A = Pmults l B) -> collin A B O. 
+Proof.
+  intros. unfold collin. destruct H.  
+  exists 1. exists (-1 * x). exists (1-x).
+  intros. rewrite lmult_O with (A := (1-x)). rewrite Unit_right.
+  apply Pplus_1. rewrite Pmults_1. rewrite Alge.
+  auto.
+Qed.
+
+
+
+
+
+(** Definition Collin (l : Z) (O A B : Point) :=
+  B = Pmults l A. *)
+
+
+
+
+
+    
+
+
+
+
+
+
+Axiom axi: 
+
+Theorem first_exam : forall B C P N  G M,
+
+    2 * P = B -> 2 * N = C -> 2 * M = B + C
+           -> exists l, G =l * M.
+Proof.
+  intros.
+  
+  
+  
+                                              

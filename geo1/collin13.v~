@@ -1,0 +1,178 @@
+(*Class P_Geo_Definitions :=
+  { PPoint : Type }.
+
+Check PPoint.*)
+From Coq Require Import Arith.Arith.
+Require Import ZArith.
+
+Open Scope Z.
+
+(** * The definition of point *)
+
+Inductive Point : Type :=
+| pair (n1 n2 : Z) : Point.
+
+Notation " ( x , y ) " := (pair x y).
+
+Check pair 1 2.
+Check (1,2).
+
+(***********************************************************************************************)
+(** * DEFINITION *)
+
+(** ** point_add *)
+
+Definition Pplus (A B : Point) : Point :=
+  match A, B with
+  | (a, b), (c, d)
+    => (a + c, b + d)
+  end.
+
+Compute Pplus (1, 2) (4, 6).
+
+(** ** Pmults *)
+
+Definition Pmults (n : Z) (A : Point) :=
+  match A with
+  | (x, y) => (n * x, n * y)
+  end.
+
+
+Compute Pmults 2 (1, 2).
+(*Notation " x * y " := (Pmults x y).*)
+
+
+
+(************************************************************************************************)
+(** * O *)
+
+(** the definition of O *)
+Definition O : Point := (0, 0).
+
+(** definite A as O *)
+Definition O2 (A : Point) : Prop := A = (0, 0).
+
+Check O2.
+
+(*************************************************************************************************)
+(** * PROPERTY *)
+(** The following definition is to definite the property of three points collinear, and "col1" is the example for it. *)
+
+Definition collin (A B P : Point) :=
+  exists (u v t : Z), u + v = t ->
+                      Pplus (Pmults u A) (Pmults v B) = Pmults t P.
+
+(** NOT A B P different *)
+ 
+Example col1: collin (0, 0) (2, 2) (1, 1).
+Proof.
+  unfold collin.
+  exists 1. exists 1. exists 2.
+  intros.  reflexivity.
+Qed.
+
+Lemma left_O: forall (A : Point), Pplus O A = A.
+Proof.
+  intros. unfold O, Pplus.
+  induction A. auto.  
+Qed.
+
+Lemma omega2: forall x,  1 * x = x.
+Proof. intros. omega. Qed.
+
+Lemma omega3': forall x, x + 0 = x.
+Proof. intros. omega. Qed.
+    
+Lemma omega3: forall x y, (x + 0, y + 0)= (x, y).
+Proof. intros. do 2 rewrite omega3'. reflexivity. Qed.
+
+Lemma right_O: forall A, Pplus A O = A.
+Proof.
+  intros. unfold O. induction A. simpl. apply omega3.
+Qed.
+
+Lemma omega4: forall x, x * 0 = 0.
+Proof. intros. omega. Qed.
+  
+Lemma lmult_O: forall n, Pmults n O = O.
+Proof.
+  intros. unfold O, Pmults. rewrite omega4; auto.
+Qed.
+
+Lemma Unit_right: forall A, Pmults 1 A = A.
+Proof.
+  intros. induction A.
+  unfold Pmults. do 2 rewrite omega2. reflexivity.
+Qed.
+
+Axiom Unit_right': forall A, A = Pmults 1 A.
+
+Axiom Pplus_1: forall A B, Pplus A B = O <-> A = Pmults (-1) B.
+Axiom Pmults_1: forall n m A, Pmults (n) (Pmults m A) = Pmults (n * m) A.
+
+Lemma Alge: forall x: Z, (-1) * (-1 *x) = x.
+Proof. intros. omega. Qed.
+
+Lemma collinO1: forall A B,
+  (exists (l : Z), A = Pmults l B) -> collin A B O. 
+Proof.
+  intros. unfold collin. destruct H.  
+  exists 1. exists (-1 * x). exists (1-x).
+  intros. rewrite lmult_O with (n := (1-x)). rewrite Unit_right.
+  apply Pplus_1. rewrite Pmults_1. rewrite Alge.
+  auto.
+Qed.
+
+Definition Xcollin (A B C D F : Point) :=
+  forall u v r s, u + v = r + s ->
+         Pplus (Pmults u A) (Pmults v B) = Pplus (Pmults r C) (Pmults s D) ->
+         Pmults (r + s) F = Pplus (Pmults r C) (Pmults s D).
+                              
+
+    
+(** the definition of midpoint *)
+
+Definition Midpoint (C A B : Point) :=
+  Pmults 2 C = Pplus A B. 
+
+
+(** Definition Collin (l : Z) (O A B : Point) :=
+  B = Pmults l A. *)    
+
+Theorem first_exam : forall B N C P G M,
+
+    B = Pmults 2 P -> C = Pmults 2 N -> Pmults 2 M = Pplus B C
+           -> Xcollin N B P C G -> exists l, G = Pmults l M.
+Proof.
+  intros.
+  generalize H1. rewrite H in H1.
+  intros.  generalize H3. rewrite H0 in H3.
+  intros. rewrite H1 in H3.
+  unfold Xcollin in H2. 
+  exists (2/3).
+  Axiom Alge1 : forall n m A B, Pmults n A = Pmults m B <-> A = Pmults (m/n) B.
+  apply Alge1.  rewrite H1.
+  rewrite Unit_right' with (A := C).
+  Axiom alge: 3 = 2+1.
+  rewrite alge.
+  apply H2 with (u:= 2) (v:= 1) (r:=2) (s:=1). auto.
+  do 2 rewrite Unit_right.
+  Axiom exch: forall A B, Pplus A B = Pplus B A.
+  rewrite <- H0. rewrite H. rewrite exch. auto.
+Qed.  
+
+
+(* current_goal *)
+
+Theorem first_exam': forall A B N C P G M,
+    Midpoint P A B ->
+    Midpoint N A C ->
+    Midpoint M B C ->
+    Xcollin N B P C G ->
+    collin A G M.
+Proof.
+  
+    
+                         
+  
+                                              

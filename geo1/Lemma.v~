@@ -1,0 +1,266 @@
+From Coq Require Import Arith.Arith.
+Require Export Coq.Reals.RIneq.
+Require Export Coq.Reals.R_sqrt.
+Require Export Coq.micromega.Lra.
+
+From PF Require Import PF.
+
+Axiom Point_eq: forall a b c d, (a, b) = (c, d) -> a = c /\ b = d.
+
+(** * O *)
+
+(** the definition of O *)
+Definition O : Point := (0, 0).
+
+(** definite A as O *)
+Definition O2 (A : Point) : Prop := A = (0, 0).
+
+Check O2.
+
+
+
+(*************************************************************************************************)
+(** * PROPERTY *)
+(** The following definition is to definite the property of three points collinear, and "col1" is the example for it. *)
+Locate "_ + _".
+
+Definition CollinP (B C: Point) : Prop :=
+  exists l, B = l * C.
+
+Definition collin (A B C: Point) : Prop :=
+  exists m, (B - A) = m * (C - A).
+
+Definition collinP (A B C : Point) : Prop :=
+  A = O /\ exists l, B = Pmults l C.
+
+
+
+Definition collin' (A B P : Point) :=
+  exists (u v t : R), (u + v)%R = t ->
+                       (u * A) + (v * B) = t * P.
+
+(** NOT A B P different *)
+ 
+(* Example col1: collin (0, 0) (2, 2) (1, 1).
+Proof.
+  unfold collin.
+  exists 1. exists 1. exists 2. 
+  intros. simpl. lra. field_simplify.
+  reflexivity.
+Qed.  
+ *) 
+Search Rplus.
+Locate Rplus_0_l.
+
+Tactic Notation " Psolver " := unfold Pequal; split; lra.
+Search Rplus.
+
+(****** Pplus_comm *********)
+
+Theorem Pplus_comm: forall A B, A + B = B + A.
+Proof. 
+  unfold Pplus.
+  induction A. induction B.
+  rewrite Rplus_comm.
+  rewrite Rplus_comm with (r1 := n3) (r2 := n2).
+  reflexivity.
+Qed.
+Locate Pplus_minus.
+Lemma Pplus_minus: forall A B, A + (B - A) = B.
+Proof.
+  intros. unfold Pplus, Pminus. induction A, B.
+  do 2 rewrite Rplus_minus; auto.
+Qed.
+
+Lemma Pplus_opp_r: forall P, (P + -P) = O.
+Proof.
+  intros. unfold Pplus, Pneg, O. induction P.
+  do 2 rewrite Rplus_opp_r; auto.
+Qed.
+
+Tactic Notation " Unfold " := unfold Pplus, O, Pminus, Pneg.
+
+Lemma Pplus_assoc: forall A B C, A + B + C = A + (B + C).
+Proof.
+  intros. Unfold. induction A, B, C.
+  do 2 rewrite Rplus_assoc; auto.
+Qed.
+(*
+Theorem Pequal: forall a b c d: R, a=c /\ b=d <-> (a, b) = (c, d).
+Proof. intros. split. intros. induction H. rewrite H, H0; auto.
+       intros. split; apply Point_eq in H; apply H.
+Qed.*)
+
+Lemma Pplus_eq_reg_l: forall P A B, P + A = P + B -> A = B.
+Proof.
+  Unfold. induction P, A, B.
+  intros. apply Point_eq in H. induction H.
+  apply Rplus_eq_reg_l in H; rewrite H.
+  apply Rplus_eq_reg_l in H0; rewrite H0.
+  auto.
+Qed.
+  
+Lemma Pplus_eq_compat_l: forall P A B, A = B -> P + A = P + B.
+Proof. intros. rewrite H. reflexivity. Qed.
+
+Lemma Pplus_eq_compat_r: forall P A B, A = B -> A + P = B + P.
+Proof. intros. rewrite H. reflexivity. Qed.
+
+Lemma Pplus_opp_l: forall P, - P + P = O.
+Proof.
+  intros. Unfold. induction P.
+  do 2 rewrite Rplus_opp_l; reflexivity.
+Qed.
+
+Lemma Popp_plus_distr: forall A B, - (A + B) = - A + - B.
+Proof.
+  intros. Unfold. induction A, B.
+  do 2 rewrite Ropp_plus_distr; reflexivity.
+Qed.
+
+Lemma Pplus_0_r_uniq: forall P A, P + A = P -> A = O.
+Proof.
+  Unfold. induction P, A.
+  intros. apply Point_eq in H. induction H.
+  apply Rplus_0_r_uniq in H; rewrite H.
+  apply Rplus_0_r_uniq in H0; rewrite H0. reflexivity.
+Qed.
+                                                           
+Lemma Pplus_0_l: forall (A : Point), O + A = A.
+Proof. 
+  intros. unfold O, Pplus.
+  induction A. do 2 rewrite Rplus_0_l. reflexivity.
+Qed.
+
+Lemma Pplus_0_l': forall (A : Point), O + A == A.
+Proof. 
+  intros. unfold O, Pplus.
+  induction A. Psolver.
+Qed.
+
+Lemma omega3: forall x y, (x + 0, y + 0) = (x, y).  
+Proof. intros. do 2 rewrite Rplus_0_r.  reflexivity. Qed. 
+
+Lemma Pplus_0_r: forall A, A + O = A.
+Proof.
+  intros. unfold O. unfold Pplus. induction A. apply omega3.
+Qed.
+
+Lemma Pplus_0_r': forall A, A + O == A.
+Proof.
+  intros. unfold O. induction A. Psolver. Qed.
+(* simpl. apply omega3.*)
+
+Search Pplus.
+
+Lemma lmult_O: forall n, n * O = O.
+Proof.
+  intros. unfold O, Pmults. rewrite Rmult_0_r; auto.
+Qed.
+
+Lemma lmult_O': forall n, n * O == O.
+Proof.
+  intros. unfold O, Pmults. Psolver. Qed. (* rewrite Rmult_0_r; auto.*)
+
+Lemma Pminus_O_r: forall P, P - O = P.
+Proof.
+  intros. unfold Pminus, O.
+  induction P. do 2 rewrite Rminus_0_r; auto.
+Qed.
+
+
+Lemma Pminus_O_r': forall P, P - O == P.
+Proof.
+  intros. unfold Pminus, O.
+  induction P. Psolver. (* do 2 rewrite Rminus_0_r; auto.*)
+Qed.
+
+Lemma Pminus_P: forall P, P - P = O.
+Proof.
+  intros. unfold Pminus, O. induction P.
+  assert (H: forall n1: R, (n1 - n1 = 0)%R). { intros. lra. }
+  do 2 rewrite H; reflexivity. 
+Qed.
+
+Lemma Pminus_P': forall P, P - P == O.
+Proof.
+  intros. unfold Pminus, O. induction P. Psolver.
+Qed.
+(*  assert (H: forall n1: R, (n1 - n1 = 0)%R). { intros. lra. }
+  do 2 rewrite H; reflexivity. 
+Qed.*)
+
+Lemma Unit_right: forall A, 1 * A = A.
+Proof.
+  intros. induction A.
+  unfold Pmults. do 2 rewrite Rmult_1_l. reflexivity.
+Qed. 
+
+Theorem EQUAL: forall A B, A = B <-> A == B.
+Proof. 
+  intros. split. intros. rewrite H. unfold Pequal. induction B. auto.
+  unfold Pequal. induction A, B. intros. induction H. rewrite H, H0; auto.
+Qed.
+
+
+Lemma unit_right: forall A, 1 * A == A.
+Proof.
+  intros. induction A. Psolver.
+Qed.
+(* unfold Pmults. do 2 rewrite Rmult_1_l. reflexivity.
+Qed. *)
+Lemma Unit_right': forall A, A = 1 * A.
+Proof. intros. rewrite Unit_right. auto. Qed.
+
+Lemma Unit_right'': forall A, A == 1 * A.
+Proof. intros. induction A. Psolver. Qed.
+
+
+
+Search Rmult.
+
+Lemma Pmult_plus_distr_l: forall n B C,
+    n * (B + C) = n * B + n * C.
+Proof.
+  intros. unfold Pplus, Pmults.
+  induction B, C.
+  do 2 rewrite Rmult_plus_distr_l; reflexivity.
+Qed.
+
+Lemma Pmult_minus_distr_l: forall n B C,
+    n * (B - C) = n * B - n * C.
+Proof.
+  intros. unfold Pminus, Pmults.
+  induction B, C.
+  do 2 rewrite Rmult_minus_distr_l; reflexivity.
+Qed.
+
+Axiom Pplus_1: forall A B, A + B = O <-> A = (-1) * B.
+  
+Axiom Pmults_1: forall n m A, Pmults (n) (Pmults m A) = Pmults (n * m) A.
+
+Axiom Alge: forall x: R, ((-1) * (-1 * x) = x)%R.
+(*Proof. intros. Search Ropp. apply Ropp_mult_distr_l.  omega. Qed.*)
+
+Lemma collinO1: forall A B,
+  (exists (l : R), A = Pmults l B) -> collin' A B O. 
+Proof.
+  intros. unfold collin'. destruct H.  
+  exists 1. exists (-1 * x)%R. exists (1-x)%R.
+  intros. rewrite lmult_O with (n := (1-x)%R). rewrite Unit_right.
+  apply Pplus_1. rewrite Pmults_1. rewrite Alge.
+  auto.
+Qed.
+
+Definition Xcollin (A B C D F : Point) :=
+  forall u v r s, (u + v = r + s)%R ->
+         (u * A) + (v * B) = (r * C) + (s * D) ->
+         (r + s) * F = (r * C) + (s * D).
+
+Lemma COLLIN: forall A B C,
+    A = O -> collin A B C -> CollinP B C.
+Proof.
+  intros. unfold CollinP. unfold collin in *. rewrite H in *. do 2 rewrite Pminus_O_r in *. auto.
+Qed.  
+ 
+                              
