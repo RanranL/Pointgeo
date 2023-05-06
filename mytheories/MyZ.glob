@@ -1,0 +1,27 @@
+DIGEST 5ed85aa5fd6fad8073d4fb557f727827
+FCoqtail.mytheories.MyZ
+R15:20 Coq.ZArith.ZArith <> <> lib
+R38:43 Coq.Setoids.Setoid <> <> lib
+R100:100 Coq.Numbers.BinNums <> Z ind
+R102:105 Coq.ZArith.BinInt Z le def
+R100:100 Coq.Numbers.BinNums <> Z ind
+R102:105 Coq.ZArith.BinInt Z le def
+R129:137 Coq.ZArith.BinInt Z le_refl thm
+R100:100 Coq.Numbers.BinNums <> Z ind
+R102:105 Coq.ZArith.BinInt Z le def
+R162:171 Coq.ZArith.BinInt Z le_trans thm
+R100:100 Coq.Numbers.BinNums <> Z ind
+R102:105 Coq.ZArith.BinInt Z le def
+R129:137 Coq.ZArith.BinInt Z le_refl thm
+R162:171 Coq.ZArith.BinInt Z le_trans thm
+prf 187:192 <> eq_Zle
+R210:210 Coq.Numbers.BinNums <> Z ind
+binder 204:204 <> x:1
+binder 206:206 <> y:2
+R219:222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R215:217 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R214:214 Coqtail.mytheories.MyZ <> x:1 var
+R218:218 Coqtail.mytheories.MyZ <> y:2 var
+R224:227 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R223:223 Coqtail.mytheories.MyZ <> x:1 var
+R228:228 Coqtail.mytheories.MyZ <> y:2 var

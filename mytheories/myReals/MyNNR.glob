@@ -1,0 +1,20 @@
+DIGEST aef2245ab74b8430810e547821d16b37
+FCoqtail.mytheories.myReals.MyNNR
+R15:19 Coq.Reals.Reals <> <> lib
+R21:30 Coqtail.Reals.Rpow_facts <> <> lib
+def 71:77 <> nnr_sqr
+R84:84 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 80:80 <> r:1
+R89:98 Coq.Reals.RIneq <> nonnegreal rec
+R117:119 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R131:138 Coqtail.Reals.Rpow_facts <> pow2_pos thm
+R117:119 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R131:138 Coqtail.Reals.Rpow_facts <> pow2_pos thm
+def 162:168 <> nnr_abs
+R175:175 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 171:171 <> r:2
+R180:189 Coq.Reals.RIneq <> nonnegreal rec
+R207:210 Coq.Reals.Rbasic_fun <> Rabs def
+R223:230 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R207:210 Coq.Reals.Rbasic_fun <> Rabs def
+R223:230 Coq.Reals.Rbasic_fun <> Rabs_pos thm

@@ -1,0 +1,1784 @@
+DIGEST 86c134d177b4323eb7d03224ddb281c8
+FCoqtail.Reals.Rintegral.Riemann_integrable
+R15:17 Coq.Arith.Max <> <> lib
+R35:39 Coq.Reals.Reals <> <> lib
+R57:59 Coq.micromega.Lra <> <> lib
+R77:86 Coq.Reals.RiemannInt <> <> lib
+R104:124 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> <> lib
+R142:156 Coqtail.Reals.Rextensionality <> <> lib
+sec 253:263 <> Copy_stdlib
+prf 273:300 <> Riemann_integrable_opp_bound
+R317:320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R316:316 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R321:321 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 314:314 <> f:1
+R329:329 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 325:325 <> a:2
+binder 327:327 <> b:3
+R361:364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R337:354 Coq.Reals.RiemannInt <> Riemann_integrable def
+R360:360 Coqtail.Reals.Rintegral.Riemann_integrable <> b:3 var
+R358:358 Coqtail.Reals.Rintegral.Riemann_integrable <> a:2 var
+R356:356 Coqtail.Reals.Rintegral.Riemann_integrable <> f:1 var
+R365:382 Coq.Reals.RiemannInt <> Riemann_integrable def
+R388:388 Coqtail.Reals.Rintegral.Riemann_integrable <> a:2 var
+R386:386 Coqtail.Reals.Rintegral.Riemann_integrable <> b:3 var
+R384:384 Coqtail.Reals.Rintegral.Riemann_integrable <> f:1 var
+R405:417 Coq.Reals.RiemannInt <> RiemannInt_P1 thm
+R405:417 Coq.Reals.RiemannInt <> RiemannInt_P1 thm
+def 437:441 <> RinvN
+R446:448 Coq.Init.Datatypes <> nat ind
+binder 444:444 <> N:4
+R453:459 Coq.Reals.RIneq <> posreal rec
+R464:472 Coq.Reals.RIneq <> mkposreal constr
+R477:485 Coq.Reals.RiemannInt <> RinvN_pos thm
+R487:487 Coqtail.Reals.Rintegral.Riemann_integrable <> N:4 var
+prf 498:518 <> Riemann_integrable_PI
+R535:538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R534:534 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R539:539 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 532:532 <> f:5
+R547:547 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 543:543 <> a:6
+binder 545:545 <> b:7
+R559:576 Coq.Reals.RiemannInt <> Riemann_integrable def
+R582:582 Coqtail.Reals.Rintegral.Riemann_integrable <> b:7 var
+R580:580 Coqtail.Reals.Rintegral.Riemann_integrable <> a:6 var
+R578:578 Coqtail.Reals.Rintegral.Riemann_integrable <> f:5 var
+binder 551:553 <> pr1:8
+binder 555:557 <> pr2:9
+R604:606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R590:599 Coq.Reals.RiemannInt <> RiemannInt def
+R601:603 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:8 var
+R607:616 Coq.Reals.RiemannInt <> RiemannInt def
+R618:620 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:9 var
+R637:649 Coq.Reals.RiemannInt <> RiemannInt_P5 thm
+R637:649 Coq.Reals.RiemannInt <> RiemannInt_P5 thm
+prf 664:692 <> Riemann_integrable_continuity
+R709:712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R708:708 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R713:713 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 706:706 <> f:10
+R721:721 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 717:717 <> a:11
+binder 719:719 <> b:12
+R734:741 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R730:732 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R729:729 Coqtail.Reals.Rintegral.Riemann_integrable <> a:11 var
+R733:733 Coqtail.Reals.Rintegral.Riemann_integrable <> b:12 var
+R742:742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R787:791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R752:752 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 750:750 <> x:13
+R766:769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R756:759 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R761:764 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R755:755 Coqtail.Reals.Rintegral.Riemann_integrable <> a:11 var
+R760:760 Coqtail.Reals.Rintegral.Riemann_integrable <> x:13 var
+R760:760 Coqtail.Reals.Rintegral.Riemann_integrable <> x:13 var
+R765:765 Coqtail.Reals.Rintegral.Riemann_integrable <> b:12 var
+R770:782 Coq.Reals.Ranalysis1 <> continuity_pt def
+R784:784 Coqtail.Reals.Rintegral.Riemann_integrable <> f:10 var
+R786:786 Coqtail.Reals.Rintegral.Riemann_integrable <> x:13 var
+R792:809 Coq.Reals.RiemannInt <> Riemann_integrable def
+R815:815 Coqtail.Reals.Rintegral.Riemann_integrable <> b:12 var
+R813:813 Coqtail.Reals.Rintegral.Riemann_integrable <> a:11 var
+R811:811 Coqtail.Reals.Rintegral.Riemann_integrable <> f:10 var
+R832:844 Coq.Reals.RiemannInt <> RiemannInt_P6 thm
+R832:844 Coq.Reals.RiemannInt <> RiemannInt_P6 thm
+prf 859:886 <> Riemann_integrable_singleton
+R901:904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R900:900 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R905:905 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 898:898 <> f:14
+R911:911 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 909:909 <> a:15
+R915:932 Coq.Reals.RiemannInt <> Riemann_integrable def
+R938:938 Coqtail.Reals.Rintegral.Riemann_integrable <> a:15 var
+R936:936 Coqtail.Reals.Rintegral.Riemann_integrable <> a:15 var
+R934:934 Coqtail.Reals.Rintegral.Riemann_integrable <> f:14 var
+R955:967 Coq.Reals.RiemannInt <> RiemannInt_P7 thm
+R955:967 Coq.Reals.RiemannInt <> RiemannInt_P7 thm
+prf 982:1014 <> Riemann_integrable_continuity_gen
+R1031:1034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1030:1030 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1035:1035 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1028:1028 <> f:16
+R1043:1043 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1039:1039 <> a:17
+binder 1041:1041 <> b:18
+R1057:1064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1052:1055 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1051:1051 Coqtail.Reals.Rintegral.Riemann_integrable <> a:17 var
+R1056:1056 Coqtail.Reals.Rintegral.Riemann_integrable <> b:18 var
+R1065:1065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1110:1114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1075:1075 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1073:1073 <> x:19
+R1089:1092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1079:1082 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1084:1087 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1078:1078 Coqtail.Reals.Rintegral.Riemann_integrable <> a:17 var
+R1083:1083 Coqtail.Reals.Rintegral.Riemann_integrable <> x:19 var
+R1083:1083 Coqtail.Reals.Rintegral.Riemann_integrable <> x:19 var
+R1088:1088 Coqtail.Reals.Rintegral.Riemann_integrable <> b:18 var
+R1093:1105 Coq.Reals.Ranalysis1 <> continuity_pt def
+R1107:1107 Coqtail.Reals.Rintegral.Riemann_integrable <> f:16 var
+R1109:1109 Coqtail.Reals.Rintegral.Riemann_integrable <> x:19 var
+R1115:1132 Coq.Reals.RiemannInt <> Riemann_integrable def
+R1138:1138 Coqtail.Reals.Rintegral.Riemann_integrable <> b:18 var
+R1136:1136 Coqtail.Reals.Rintegral.Riemann_integrable <> a:17 var
+R1134:1134 Coqtail.Reals.Rintegral.Riemann_integrable <> f:16 var
+R1155:1183 Coq.Reals.RiemannInt <> continuity_implies_RiemannInt thm
+R1155:1183 Coq.Reals.RiemannInt <> continuity_implies_RiemannInt thm
+prf 1198:1222 <> RiemannInt_bound_exchange
+R1239:1242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1238:1238 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1243:1243 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1236:1236 <> f:20
+R1251:1251 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1247:1247 <> a:21
+binder 1249:1249 <> b:22
+R1259:1276 Coq.Reals.RiemannInt <> Riemann_integrable def
+R1282:1282 Coqtail.Reals.Rintegral.Riemann_integrable <> b:22 var
+R1280:1280 Coqtail.Reals.Rintegral.Riemann_integrable <> a:21 var
+R1278:1278 Coqtail.Reals.Rintegral.Riemann_integrable <> f:20 var
+binder 1255:1257 <> pr1:23
+R1294:1311 Coq.Reals.RiemannInt <> Riemann_integrable def
+R1317:1317 Coqtail.Reals.Rintegral.Riemann_integrable <> a:21 var
+R1315:1315 Coqtail.Reals.Rintegral.Riemann_integrable <> b:22 var
+R1313:1313 Coqtail.Reals.Rintegral.Riemann_integrable <> f:20 var
+binder 1290:1292 <> pr2:24
+R1335:1337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1321:1330 Coq.Reals.RiemannInt <> RiemannInt def
+R1332:1334 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:23 var
+R1338:1339 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R1340:1349 Coq.Reals.RiemannInt <> RiemannInt def
+R1351:1353 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:24 var
+R1370:1382 Coq.Reals.RiemannInt <> RiemannInt_P8 thm
+R1370:1382 Coq.Reals.RiemannInt <> RiemannInt_P8 thm
+prf 1397:1423 <> RiemannInt_bound_exchange_1
+R1443:1446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1442:1442 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1447:1447 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1438:1438 <> f:25
+R1457:1457 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1451:1451 <> a:26
+binder 1453:1453 <> b:27
+R1467:1484 Coq.Reals.RiemannInt <> Riemann_integrable def
+R1490:1490 Coqtail.Reals.Rintegral.Riemann_integrable <> b:27 var
+R1488:1488 Coqtail.Reals.Rintegral.Riemann_integrable <> a:26 var
+R1486:1486 Coqtail.Reals.Rintegral.Riemann_integrable <> f:25 var
+binder 1461:1463 <> pr1:28
+R1512:1514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1498:1507 Coq.Reals.RiemannInt <> RiemannInt def
+R1509:1511 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:28 var
+R1515:1516 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R1517:1526 Coq.Reals.RiemannInt <> RiemannInt def
+R1529:1556 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+R1558:1558 Coqtail.Reals.Rintegral.Riemann_integrable <> f:25 var
+R1560:1560 Coqtail.Reals.Rintegral.Riemann_integrable <> a:26 var
+R1562:1562 Coqtail.Reals.Rintegral.Riemann_integrable <> b:27 var
+R1564:1566 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:28 var
+R1595:1619 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_bound_exchange thm
+R1632:1659 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+R1595:1619 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_bound_exchange thm
+R1632:1659 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+R1595:1619 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_bound_exchange thm
+R1632:1659 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+prf 1700:1719 <> RiemannInt_singleton
+R1736:1739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1735:1735 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1740:1740 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1733:1733 <> f:29
+R1746:1746 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1744:1744 <> a:30
+R1753:1770 Coq.Reals.RiemannInt <> Riemann_integrable def
+R1776:1776 Coqtail.Reals.Rintegral.Riemann_integrable <> a:30 var
+R1774:1774 Coqtail.Reals.Rintegral.Riemann_integrable <> a:30 var
+R1772:1772 Coqtail.Reals.Rintegral.Riemann_integrable <> f:29 var
+binder 1750:1751 <> pr:31
+R1793:1795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1780:1789 Coq.Reals.RiemannInt <> RiemannInt def
+R1791:1792 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:31 var
+R1813:1825 Coq.Reals.RiemannInt <> RiemannInt_P9 thm
+R1813:1825 Coq.Reals.RiemannInt <> RiemannInt_P9 thm
+prf 1840:1864 <> Riemann_integrable_linear
+R1883:1886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1882:1882 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1887:1887 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1878:1878 <> f:32
+binder 1880:1880 <> g:33
+R1897:1897 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1891:1891 <> a:34
+binder 1893:1893 <> b:35
+binder 1895:1895 <> l:36
+R1929:1936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1905:1922 Coq.Reals.RiemannInt <> Riemann_integrable def
+R1928:1928 Coqtail.Reals.Rintegral.Riemann_integrable <> b:35 var
+R1926:1926 Coqtail.Reals.Rintegral.Riemann_integrable <> a:34 var
+R1924:1924 Coqtail.Reals.Rintegral.Riemann_integrable <> f:32 var
+R1961:1968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1937:1954 Coq.Reals.RiemannInt <> Riemann_integrable def
+R1960:1960 Coqtail.Reals.Rintegral.Riemann_integrable <> b:35 var
+R1958:1958 Coqtail.Reals.Rintegral.Riemann_integrable <> a:34 var
+R1956:1956 Coqtail.Reals.Rintegral.Riemann_integrable <> g:33 var
+R1969:1986 Coq.Reals.RiemannInt <> Riemann_integrable def
+R2017:2017 Coqtail.Reals.Rintegral.Riemann_integrable <> b:35 var
+R2015:2015 Coqtail.Reals.Rintegral.Riemann_integrable <> a:34 var
+R1995:1995 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1993:1993 <> x:37
+R2003:2005 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2000:2000 Coqtail.Reals.Rintegral.Riemann_integrable <> f:32 var
+R2002:2002 Coqtail.Reals.Rintegral.Riemann_integrable <> x:37 var
+R2007:2009 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2006:2006 Coqtail.Reals.Rintegral.Riemann_integrable <> l:36 var
+R2010:2010 Coqtail.Reals.Rintegral.Riemann_integrable <> g:33 var
+R2012:2012 Coqtail.Reals.Rintegral.Riemann_integrable <> x:37 var
+R2034:2047 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+R2034:2047 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+prf 2636:2652 <> RiemannInt_linear
+R2671:2674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2670:2670 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2675:2675 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2666:2666 <> f:38
+binder 2668:2668 <> g:39
+R2685:2685 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2679:2679 <> a:40
+binder 2681:2681 <> b:41
+binder 2683:2683 <> l:42
+R2693:2710 Coq.Reals.RiemannInt <> Riemann_integrable def
+R2716:2716 Coqtail.Reals.Rintegral.Riemann_integrable <> b:41 var
+R2714:2714 Coqtail.Reals.Rintegral.Riemann_integrable <> a:40 var
+R2712:2712 Coqtail.Reals.Rintegral.Riemann_integrable <> f:38 var
+binder 2689:2691 <> pr1:43
+R2728:2745 Coq.Reals.RiemannInt <> Riemann_integrable def
+R2751:2751 Coqtail.Reals.Rintegral.Riemann_integrable <> b:41 var
+R2749:2749 Coqtail.Reals.Rintegral.Riemann_integrable <> a:40 var
+R2747:2747 Coqtail.Reals.Rintegral.Riemann_integrable <> g:39 var
+binder 2724:2726 <> pr2:44
+R2763:2780 Coq.Reals.RiemannInt <> Riemann_integrable def
+R2811:2811 Coqtail.Reals.Rintegral.Riemann_integrable <> b:41 var
+R2809:2809 Coqtail.Reals.Rintegral.Riemann_integrable <> a:40 var
+R2789:2789 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2787:2787 <> x:45
+R2797:2799 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2794:2794 Coqtail.Reals.Rintegral.Riemann_integrable <> f:38 var
+R2796:2796 Coqtail.Reals.Rintegral.Riemann_integrable <> x:45 var
+R2801:2803 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2800:2800 Coqtail.Reals.Rintegral.Riemann_integrable <> l:42 var
+R2804:2804 Coqtail.Reals.Rintegral.Riemann_integrable <> g:39 var
+R2806:2806 Coqtail.Reals.Rintegral.Riemann_integrable <> x:45 var
+binder 2759:2761 <> pr3:46
+R2833:2835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2819:2828 Coq.Reals.RiemannInt <> RiemannInt def
+R2830:2832 Coqtail.Reals.Rintegral.Riemann_integrable <> pr3:46 var
+R2850:2852 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2836:2845 Coq.Reals.RiemannInt <> RiemannInt def
+R2847:2849 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:43 var
+R2854:2856 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2853:2853 Coqtail.Reals.Rintegral.Riemann_integrable <> l:42 var
+R2857:2866 Coq.Reals.RiemannInt <> RiemannInt def
+R2868:2870 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:44 var
+R2887:2900 Coq.Reals.RiemannInt <> RiemannInt_P13 thm
+R2887:2900 Coq.Reals.RiemannInt <> RiemannInt_P13 thm
+prf 2915:2941 <> Riemann_integrable_constant
+R2958:2958 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2952:2952 <> a:47
+binder 2954:2954 <> b:48
+binder 2956:2956 <> c:49
+R2961:2978 Coq.Reals.RiemannInt <> Riemann_integrable def
+R2994:2994 Coqtail.Reals.Rintegral.Riemann_integrable <> b:48 var
+R2992:2992 Coqtail.Reals.Rintegral.Riemann_integrable <> a:47 var
+R2981:2987 Coq.Reals.Ranalysis1 <> fct_cte def
+R2989:2989 Coqtail.Reals.Rintegral.Riemann_integrable <> c:49 var
+R3011:3024 Coq.Reals.RiemannInt <> RiemannInt_P14 thm
+R3011:3024 Coq.Reals.RiemannInt <> RiemannInt_P14 thm
+prf 3039:3057 <> RiemannInt_constant
+R3077:3077 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3071:3071 <> a:50
+binder 3073:3073 <> b:51
+binder 3075:3075 <> c:52
+R3084:3101 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3117:3117 Coqtail.Reals.Rintegral.Riemann_integrable <> b:51 var
+R3115:3115 Coqtail.Reals.Rintegral.Riemann_integrable <> a:50 var
+R3104:3110 Coq.Reals.Ranalysis1 <> fct_cte def
+R3112:3112 Coqtail.Reals.Rintegral.Riemann_integrable <> c:52 var
+binder 3081:3082 <> pr:53
+R3138:3140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3125:3134 Coq.Reals.RiemannInt <> RiemannInt def
+R3136:3137 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:53 var
+R3142:3145 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3151:3151 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3141:3141 Coqtail.Reals.Rintegral.Riemann_integrable <> c:52 var
+R3147:3149 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3146:3146 Coqtail.Reals.Rintegral.Riemann_integrable <> b:51 var
+R3150:3150 Coqtail.Reals.Rintegral.Riemann_integrable <> a:50 var
+R3168:3181 Coq.Reals.RiemannInt <> RiemannInt_P15 thm
+R3168:3181 Coq.Reals.RiemannInt <> RiemannInt_P15 thm
+prf 3196:3218 <> Riemann_integrable_Rabs
+R3235:3238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3234:3234 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3239:3239 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3232:3232 <> f:54
+R3247:3247 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3243:3243 <> a:55
+binder 3245:3245 <> b:56
+R3279:3282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3255:3272 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3278:3278 Coqtail.Reals.Rintegral.Riemann_integrable <> b:56 var
+R3276:3276 Coqtail.Reals.Rintegral.Riemann_integrable <> a:55 var
+R3274:3274 Coqtail.Reals.Rintegral.Riemann_integrable <> f:54 var
+R3283:3300 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3328:3328 Coqtail.Reals.Rintegral.Riemann_integrable <> b:56 var
+R3326:3326 Coqtail.Reals.Rintegral.Riemann_integrable <> a:55 var
+R3309:3309 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3307:3307 <> x:57
+R3314:3317 Coq.Reals.Rbasic_fun <> Rabs def
+R3320:3320 Coqtail.Reals.Rintegral.Riemann_integrable <> f:54 var
+R3322:3322 Coqtail.Reals.Rintegral.Riemann_integrable <> x:57 var
+R3345:3358 Coq.Reals.RiemannInt <> RiemannInt_P16 thm
+R3345:3358 Coq.Reals.RiemannInt <> RiemannInt_P16 thm
+prf 3373:3390 <> RiemannInt_le_Rabs
+R3407:3410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3406:3406 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3411:3411 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3404:3404 <> f:58
+R3419:3419 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3415:3415 <> a:59
+binder 3417:3417 <> b:60
+R3427:3444 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3450:3450 Coqtail.Reals.Rintegral.Riemann_integrable <> b:60 var
+R3448:3448 Coqtail.Reals.Rintegral.Riemann_integrable <> a:59 var
+R3446:3446 Coqtail.Reals.Rintegral.Riemann_integrable <> f:58 var
+binder 3423:3425 <> pr1:61
+R3462:3479 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3507:3507 Coqtail.Reals.Rintegral.Riemann_integrable <> b:60 var
+R3505:3505 Coqtail.Reals.Rintegral.Riemann_integrable <> a:59 var
+R3488:3488 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3486:3486 <> x:62
+R3493:3496 Coq.Reals.Rbasic_fun <> Rabs def
+R3499:3499 Coqtail.Reals.Rintegral.Riemann_integrable <> f:58 var
+R3501:3501 Coqtail.Reals.Rintegral.Riemann_integrable <> x:62 var
+binder 3458:3460 <> pr2:63
+R3521:3524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3516:3519 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3515:3515 Coqtail.Reals.Rintegral.Riemann_integrable <> a:59 var
+R3520:3520 Coqtail.Reals.Rintegral.Riemann_integrable <> b:60 var
+R3546:3549 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3525:3528 Coq.Reals.Rbasic_fun <> Rabs def
+R3531:3540 Coq.Reals.RiemannInt <> RiemannInt def
+R3542:3544 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:61 var
+R3550:3559 Coq.Reals.RiemannInt <> RiemannInt def
+R3561:3563 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:63 var
+R3580:3593 Coq.Reals.RiemannInt <> RiemannInt_P17 thm
+R3580:3593 Coq.Reals.RiemannInt <> RiemannInt_P17 thm
+prf 3608:3621 <> RiemannInt_ext
+R3640:3643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3639:3639 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3644:3644 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3635:3635 <> f:64
+binder 3637:3637 <> g:65
+R3652:3652 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3648:3648 <> a:66
+binder 3650:3650 <> b:67
+R3660:3677 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3683:3683 Coqtail.Reals.Rintegral.Riemann_integrable <> b:67 var
+R3681:3681 Coqtail.Reals.Rintegral.Riemann_integrable <> a:66 var
+R3679:3679 Coqtail.Reals.Rintegral.Riemann_integrable <> f:64 var
+binder 3656:3658 <> pr1:68
+R3695:3712 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3718:3718 Coqtail.Reals.Rintegral.Riemann_integrable <> b:67 var
+R3716:3716 Coqtail.Reals.Rintegral.Riemann_integrable <> a:66 var
+R3714:3714 Coqtail.Reals.Rintegral.Riemann_integrable <> g:65 var
+binder 3691:3693 <> pr2:69
+R3732:3739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3727:3730 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3726:3726 Coqtail.Reals.Rintegral.Riemann_integrable <> a:66 var
+R3731:3731 Coqtail.Reals.Rintegral.Riemann_integrable <> b:67 var
+R3740:3740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3775:3779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3750:3750 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3748:3748 <> x:70
+R3762:3765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3754:3756 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R3758:3760 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R3753:3753 Coqtail.Reals.Rintegral.Riemann_integrable <> a:66 var
+R3757:3757 Coqtail.Reals.Rintegral.Riemann_integrable <> x:70 var
+R3757:3757 Coqtail.Reals.Rintegral.Riemann_integrable <> x:70 var
+R3761:3761 Coqtail.Reals.Rintegral.Riemann_integrable <> b:67 var
+R3769:3771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3766:3766 Coqtail.Reals.Rintegral.Riemann_integrable <> f:64 var
+R3768:3768 Coqtail.Reals.Rintegral.Riemann_integrable <> x:70 var
+R3772:3772 Coqtail.Reals.Rintegral.Riemann_integrable <> g:65 var
+R3774:3774 Coqtail.Reals.Rintegral.Riemann_integrable <> x:70 var
+R3794:3796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3780:3789 Coq.Reals.RiemannInt <> RiemannInt def
+R3791:3793 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:68 var
+R3797:3806 Coq.Reals.RiemannInt <> RiemannInt def
+R3808:3810 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:69 var
+R3827:3840 Coq.Reals.RiemannInt <> RiemannInt_P18 thm
+R3827:3840 Coq.Reals.RiemannInt <> RiemannInt_P18 thm
+prf 3855:3871 <> RiemannInt_le_ext
+R3890:3893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3889:3889 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3894:3894 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3885:3885 <> f:71
+binder 3887:3887 <> g:72
+R3902:3902 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3898:3898 <> a:73
+binder 3900:3900 <> b:74
+R3910:3927 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3933:3933 Coqtail.Reals.Rintegral.Riemann_integrable <> b:74 var
+R3931:3931 Coqtail.Reals.Rintegral.Riemann_integrable <> a:73 var
+R3929:3929 Coqtail.Reals.Rintegral.Riemann_integrable <> f:71 var
+binder 3906:3908 <> pr1:75
+R3945:3962 Coq.Reals.RiemannInt <> Riemann_integrable def
+R3968:3968 Coqtail.Reals.Rintegral.Riemann_integrable <> b:74 var
+R3966:3966 Coqtail.Reals.Rintegral.Riemann_integrable <> a:73 var
+R3964:3964 Coqtail.Reals.Rintegral.Riemann_integrable <> g:72 var
+binder 3941:3943 <> pr2:76
+R3982:3989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3977:3980 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3976:3976 Coqtail.Reals.Rintegral.Riemann_integrable <> a:73 var
+R3981:3981 Coqtail.Reals.Rintegral.Riemann_integrable <> b:74 var
+R3990:3990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4026:4030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4000:4000 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3998:3998 <> x:77
+R4012:4015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4004:4006 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R4008:4010 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R4003:4003 Coqtail.Reals.Rintegral.Riemann_integrable <> a:73 var
+R4007:4007 Coqtail.Reals.Rintegral.Riemann_integrable <> x:77 var
+R4007:4007 Coqtail.Reals.Rintegral.Riemann_integrable <> x:77 var
+R4011:4011 Coqtail.Reals.Rintegral.Riemann_integrable <> b:74 var
+R4019:4022 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4016:4016 Coqtail.Reals.Rintegral.Riemann_integrable <> f:71 var
+R4018:4018 Coqtail.Reals.Rintegral.Riemann_integrable <> x:77 var
+R4023:4023 Coqtail.Reals.Rintegral.Riemann_integrable <> g:72 var
+R4025:4025 Coqtail.Reals.Rintegral.Riemann_integrable <> x:77 var
+R4045:4048 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4031:4040 Coq.Reals.RiemannInt <> RiemannInt def
+R4042:4044 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:75 var
+R4049:4058 Coq.Reals.RiemannInt <> RiemannInt def
+R4060:4062 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:76 var
+R4079:4092 Coq.Reals.RiemannInt <> RiemannInt_P19 thm
+R4079:4092 Coq.Reals.RiemannInt <> RiemannInt_P19 thm
+prf 4107:4126 <> RiemannInt_primitive
+R4143:4146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4142:4142 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4147:4147 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4140:4140 <> f:78
+R4155:4155 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4151:4151 <> a:79
+binder 4153:4153 <> b:80
+R4162:4165 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4161:4161 Coqtail.Reals.Rintegral.Riemann_integrable <> a:79 var
+R4166:4166 Coqtail.Reals.Rintegral.Riemann_integrable <> b:80 var
+binder 4159:4159 <> h:81
+R4186:4186 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4184:4184 <> x:82
+R4195:4198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4190:4193 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4189:4189 Coqtail.Reals.Rintegral.Riemann_integrable <> a:79 var
+R4194:4194 Coqtail.Reals.Rintegral.Riemann_integrable <> x:82 var
+R4205:4208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4200:4203 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4199:4199 Coqtail.Reals.Rintegral.Riemann_integrable <> x:82 var
+R4204:4204 Coqtail.Reals.Rintegral.Riemann_integrable <> b:80 var
+R4209:4226 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4232:4232 Coqtail.Reals.Rintegral.Riemann_integrable <> x:82 var
+R4230:4230 Coqtail.Reals.Rintegral.Riemann_integrable <> a:79 var
+R4228:4228 Coqtail.Reals.Rintegral.Riemann_integrable <> f:78 var
+binder 4174:4175 <> pr:83
+R4244:4261 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4267:4267 Coqtail.Reals.Rintegral.Riemann_integrable <> b:80 var
+R4265:4265 Coqtail.Reals.Rintegral.Riemann_integrable <> a:79 var
+R4263:4263 Coqtail.Reals.Rintegral.Riemann_integrable <> f:78 var
+binder 4240:4242 <> pr0:84
+R4289:4291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4275:4284 Coq.Reals.RiemannInt <> RiemannInt def
+R4286:4288 Coqtail.Reals.Rintegral.Riemann_integrable <> pr0:84 var
+R4308:4310 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4292:4300 Coq.Reals.RiemannInt <> primitive def
+R4307:4307 Coqtail.Reals.Rintegral.Riemann_integrable <> b:80 var
+R4304:4305 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:83 var
+R4302:4302 Coqtail.Reals.Rintegral.Riemann_integrable <> h:81 var
+R4311:4319 Coq.Reals.RiemannInt <> primitive def
+R4326:4326 Coqtail.Reals.Rintegral.Riemann_integrable <> a:79 var
+R4323:4324 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:83 var
+R4321:4321 Coqtail.Reals.Rintegral.Riemann_integrable <> h:81 var
+R4343:4356 Coq.Reals.RiemannInt <> RiemannInt_P20 thm
+R4343:4356 Coq.Reals.RiemannInt <> RiemannInt_P20 thm
+prf 4371:4402 <> Riemann_integrable_included_left
+R4419:4422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4418:4418 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4423:4423 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4416:4416 <> f:85
+R4433:4433 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4427:4427 <> a:86
+binder 4429:4429 <> b:87
+binder 4431:4431 <> c:88
+R4465:4468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4441:4458 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4464:4464 Coqtail.Reals.Rintegral.Riemann_integrable <> b:87 var
+R4462:4462 Coqtail.Reals.Rintegral.Riemann_integrable <> a:86 var
+R4460:4460 Coqtail.Reals.Rintegral.Riemann_integrable <> f:85 var
+R4480:4483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4470:4473 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R4475:4478 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R4469:4469 Coqtail.Reals.Rintegral.Riemann_integrable <> a:86 var
+R4474:4474 Coqtail.Reals.Rintegral.Riemann_integrable <> c:88 var
+R4474:4474 Coqtail.Reals.Rintegral.Riemann_integrable <> c:88 var
+R4479:4479 Coqtail.Reals.Rintegral.Riemann_integrable <> b:87 var
+R4484:4501 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4507:4507 Coqtail.Reals.Rintegral.Riemann_integrable <> c:88 var
+R4505:4505 Coqtail.Reals.Rintegral.Riemann_integrable <> a:86 var
+R4503:4503 Coqtail.Reals.Rintegral.Riemann_integrable <> f:85 var
+R4524:4537 Coq.Reals.RiemannInt <> RiemannInt_P22 thm
+R4524:4537 Coq.Reals.RiemannInt <> RiemannInt_P22 thm
+prf 4552:4584 <> Riemann_integrable_included_right
+R4601:4604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4600:4600 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4605:4605 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4598:4598 <> f:89
+R4615:4615 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4609:4609 <> a:90
+binder 4611:4611 <> b:91
+binder 4613:4613 <> c:92
+R4647:4650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4623:4640 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4646:4646 Coqtail.Reals.Rintegral.Riemann_integrable <> b:91 var
+R4644:4644 Coqtail.Reals.Rintegral.Riemann_integrable <> a:90 var
+R4642:4642 Coqtail.Reals.Rintegral.Riemann_integrable <> f:89 var
+R4662:4665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4652:4655 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R4657:4660 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R4651:4651 Coqtail.Reals.Rintegral.Riemann_integrable <> a:90 var
+R4656:4656 Coqtail.Reals.Rintegral.Riemann_integrable <> c:92 var
+R4656:4656 Coqtail.Reals.Rintegral.Riemann_integrable <> c:92 var
+R4661:4661 Coqtail.Reals.Rintegral.Riemann_integrable <> b:91 var
+R4666:4683 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4689:4689 Coqtail.Reals.Rintegral.Riemann_integrable <> b:91 var
+R4687:4687 Coqtail.Reals.Rintegral.Riemann_integrable <> c:92 var
+R4685:4685 Coqtail.Reals.Rintegral.Riemann_integrable <> f:89 var
+R4706:4719 Coq.Reals.RiemannInt <> RiemannInt_P23 thm
+R4706:4719 Coq.Reals.RiemannInt <> RiemannInt_P23 thm
+prf 4734:4759 <> Riemann_integrable_Chasles
+R4776:4779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4775:4775 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4780:4780 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4773:4773 <> f:93
+R4790:4790 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4784:4784 <> a:94
+binder 4786:4786 <> b:95
+binder 4788:4788 <> c:96
+R4822:4829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4798:4815 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4821:4821 Coqtail.Reals.Rintegral.Riemann_integrable <> b:95 var
+R4819:4819 Coqtail.Reals.Rintegral.Riemann_integrable <> a:94 var
+R4817:4817 Coqtail.Reals.Rintegral.Riemann_integrable <> f:93 var
+R4854:4857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4830:4847 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4853:4853 Coqtail.Reals.Rintegral.Riemann_integrable <> c:96 var
+R4851:4851 Coqtail.Reals.Rintegral.Riemann_integrable <> b:95 var
+R4849:4849 Coqtail.Reals.Rintegral.Riemann_integrable <> f:93 var
+R4858:4875 Coq.Reals.RiemannInt <> Riemann_integrable def
+R4881:4881 Coqtail.Reals.Rintegral.Riemann_integrable <> c:96 var
+R4879:4879 Coqtail.Reals.Rintegral.Riemann_integrable <> a:94 var
+R4877:4877 Coqtail.Reals.Rintegral.Riemann_integrable <> f:93 var
+R4898:4911 Coq.Reals.RiemannInt <> RiemannInt_P24 thm
+R4898:4911 Coq.Reals.RiemannInt <> RiemannInt_P24 thm
+prf 4926:4943 <> RiemannInt_Chasles
+R4960:4963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4959:4959 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4964:4964 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4957:4957 <> f:97
+R4974:4974 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4968:4968 <> a:98
+binder 4970:4970 <> b:99
+binder 4972:4972 <> c:100
+R4982:4999 Coq.Reals.RiemannInt <> Riemann_integrable def
+R5005:5005 Coqtail.Reals.Rintegral.Riemann_integrable <> b:99 var
+R5003:5003 Coqtail.Reals.Rintegral.Riemann_integrable <> a:98 var
+R5001:5001 Coqtail.Reals.Rintegral.Riemann_integrable <> f:97 var
+binder 4978:4980 <> pr1:101
+R5017:5034 Coq.Reals.RiemannInt <> Riemann_integrable def
+R5040:5040 Coqtail.Reals.Rintegral.Riemann_integrable <> c:100 var
+R5038:5038 Coqtail.Reals.Rintegral.Riemann_integrable <> b:99 var
+R5036:5036 Coqtail.Reals.Rintegral.Riemann_integrable <> f:97 var
+binder 5013:5015 <> pr2:102
+R5048:5065 Coq.Reals.RiemannInt <> Riemann_integrable def
+R5071:5071 Coqtail.Reals.Rintegral.Riemann_integrable <> c:100 var
+R5069:5069 Coqtail.Reals.Rintegral.Riemann_integrable <> a:98 var
+R5067:5067 Coqtail.Reals.Rintegral.Riemann_integrable <> f:97 var
+binder 5044:5046 <> pr3:103
+R5110:5112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5093:5095 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5079:5088 Coq.Reals.RiemannInt <> RiemannInt def
+R5090:5092 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:101 var
+R5096:5105 Coq.Reals.RiemannInt <> RiemannInt def
+R5107:5109 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:102 var
+R5113:5122 Coq.Reals.RiemannInt <> RiemannInt def
+R5124:5126 Coqtail.Reals.Rintegral.Riemann_integrable <> pr3:103 var
+R5143:5156 Coq.Reals.RiemannInt <> RiemannInt_P26 thm
+R5143:5156 Coq.Reals.RiemannInt <> RiemannInt_P26 thm
+prf 5171:5189 <> derivable_primitive
+R5206:5209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5205:5205 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5210:5210 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5203:5203 <> f:104
+R5220:5220 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5214:5214 <> a:105
+binder 5216:5216 <> b:106
+binder 5218:5218 <> x:107
+R5227:5230 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5226:5226 Coqtail.Reals.Rintegral.Riemann_integrable <> a:105 var
+R5231:5231 Coqtail.Reals.Rintegral.Riemann_integrable <> b:106 var
+binder 5224:5224 <> h:108
+R5251:5251 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5249:5249 <> x:109
+R5265:5268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5255:5258 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R5260:5263 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R5254:5254 Coqtail.Reals.Rintegral.Riemann_integrable <> a:105 var
+R5259:5259 Coqtail.Reals.Rintegral.Riemann_integrable <> x:109 var
+R5259:5259 Coqtail.Reals.Rintegral.Riemann_integrable <> x:109 var
+R5264:5264 Coqtail.Reals.Rintegral.Riemann_integrable <> b:106 var
+R5269:5281 Coq.Reals.Ranalysis1 <> continuity_pt def
+R5283:5283 Coqtail.Reals.Rintegral.Riemann_integrable <> f:104 var
+R5285:5285 Coqtail.Reals.Rintegral.Riemann_integrable <> x:109 var
+binder 5239:5240 <> C0:110
+R5304:5307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5294:5297 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R5299:5302 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R5293:5293 Coqtail.Reals.Rintegral.Riemann_integrable <> a:105 var
+R5298:5298 Coqtail.Reals.Rintegral.Riemann_integrable <> x:107 var
+R5298:5298 Coqtail.Reals.Rintegral.Riemann_integrable <> x:107 var
+R5303:5303 Coqtail.Reals.Rintegral.Riemann_integrable <> b:106 var
+R5308:5323 Coq.Reals.Ranalysis1 <> derivable_pt_lim def
+R5326:5334 Coq.Reals.RiemannInt <> primitive def
+R5339:5344 Coq.Reals.RiemannInt <> FTC_P1 thm
+R5348:5349 Coqtail.Reals.Rintegral.Riemann_integrable <> C0:110 var
+R5346:5346 Coqtail.Reals.Rintegral.Riemann_integrable <> h:108 var
+R5336:5336 Coqtail.Reals.Rintegral.Riemann_integrable <> h:108 var
+R5353:5353 Coqtail.Reals.Rintegral.Riemann_integrable <> x:107 var
+R5356:5356 Coqtail.Reals.Rintegral.Riemann_integrable <> f:104 var
+R5358:5358 Coqtail.Reals.Rintegral.Riemann_integrable <> x:107 var
+R5376:5389 Coq.Reals.RiemannInt <> RiemannInt_P28 thm
+R5376:5389 Coq.Reals.RiemannInt <> RiemannInt_P28 thm
+R6377:6387 Coqtail.Reals.Rintegral.Riemann_integrable Copy_stdlib <> sec
+prf 6398:6428 <> RiemannInt_integrable_eq_compat
+binder 6439:6439 <> f:111
+binder 6441:6441 <> g:112
+binder 6443:6443 <> a:113
+binder 6445:6445 <> b:114
+R6448:6448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6468:6474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6456:6456 <> x:115
+R6462:6464 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6459:6459 Coqtail.Reals.Rintegral.Riemann_integrable <> f:111 var
+R6461:6461 Coqtail.Reals.Rintegral.Riemann_integrable <> x:115 var
+R6465:6465 Coqtail.Reals.Rintegral.Riemann_integrable <> g:112 var
+R6467:6467 Coqtail.Reals.Rintegral.Riemann_integrable <> x:115 var
+R6499:6502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6475:6492 Coq.Reals.RiemannInt <> Riemann_integrable def
+R6498:6498 Coqtail.Reals.Rintegral.Riemann_integrable <> b:114 var
+R6496:6496 Coqtail.Reals.Rintegral.Riemann_integrable <> a:113 var
+R6494:6494 Coqtail.Reals.Rintegral.Riemann_integrable <> f:111 var
+R6503:6520 Coq.Reals.RiemannInt <> Riemann_integrable def
+R6526:6526 Coqtail.Reals.Rintegral.Riemann_integrable <> b:114 var
+R6524:6524 Coqtail.Reals.Rintegral.Riemann_integrable <> a:113 var
+R6522:6522 Coqtail.Reals.Rintegral.Riemann_integrable <> g:112 var
+prf 6705:6731 <> RiemannInt_integrable_minus
+R6748:6751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6747:6747 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R6752:6752 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6743:6743 <> f:116
+binder 6745:6745 <> g:117
+R6760:6760 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6756:6756 <> a:118
+binder 6758:6758 <> b:119
+R6771:6788 Coq.Reals.RiemannInt <> Riemann_integrable def
+R6794:6794 Coqtail.Reals.Rintegral.Riemann_integrable <> b:119 var
+R6792:6792 Coqtail.Reals.Rintegral.Riemann_integrable <> a:118 var
+R6790:6790 Coqtail.Reals.Rintegral.Riemann_integrable <> f:116 var
+binder 6767:6769 <> prf:120
+R6805:6822 Coq.Reals.RiemannInt <> Riemann_integrable def
+R6828:6828 Coqtail.Reals.Rintegral.Riemann_integrable <> b:119 var
+R6826:6826 Coqtail.Reals.Rintegral.Riemann_integrable <> a:118 var
+R6824:6824 Coqtail.Reals.Rintegral.Riemann_integrable <> g:117 var
+binder 6801:6803 <> prg:121
+R6833:6850 Coq.Reals.RiemannInt <> Riemann_integrable def
+R6875:6875 Coqtail.Reals.Rintegral.Riemann_integrable <> b:119 var
+R6873:6873 Coqtail.Reals.Rintegral.Riemann_integrable <> a:118 var
+binder 6857:6857 <> x:122
+R6865:6867 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6862:6862 Coqtail.Reals.Rintegral.Riemann_integrable <> f:116 var
+R6864:6864 Coqtail.Reals.Rintegral.Riemann_integrable <> x:122 var
+R6868:6868 Coqtail.Reals.Rintegral.Riemann_integrable <> g:117 var
+R6870:6870 Coqtail.Reals.Rintegral.Riemann_integrable <> x:122 var
+binder 6942:6942 <> x:123
+R6950:6952 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6949:6949 Coqtail.Reals.Rintegral.Riemann_integrable <> x:123 var
+R6953:6953 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6956:6959 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6962:6962 Coqtail.Reals.Rintegral.Riemann_integrable <> x:123 var
+R6900:6930 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_integrable_eq_compat thm
+binder 6942:6942 <> x:124
+R6950:6952 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6949:6949 Coqtail.Reals.Rintegral.Riemann_integrable <> x:124 var
+R6953:6953 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6956:6959 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6962:6962 Coqtail.Reals.Rintegral.Riemann_integrable <> x:124 var
+R6900:6930 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_integrable_eq_compat thm
+R6989:7002 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+R6989:7002 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+prf 7029:7044 <> RiemannInt_minus
+R7063:7066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7062:7062 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R7067:7067 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7058:7058 <> f:125
+binder 7060:7060 <> g:126
+R7075:7075 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7071:7071 <> a:127
+binder 7073:7073 <> b:128
+R7086:7103 Coq.Reals.RiemannInt <> Riemann_integrable def
+R7109:7109 Coqtail.Reals.Rintegral.Riemann_integrable <> b:128 var
+R7107:7107 Coqtail.Reals.Rintegral.Riemann_integrable <> a:127 var
+R7105:7105 Coqtail.Reals.Rintegral.Riemann_integrable <> f:125 var
+binder 7082:7084 <> prf:129
+R7120:7137 Coq.Reals.RiemannInt <> Riemann_integrable def
+R7143:7143 Coqtail.Reals.Rintegral.Riemann_integrable <> b:128 var
+R7141:7141 Coqtail.Reals.Rintegral.Riemann_integrable <> a:127 var
+R7139:7139 Coqtail.Reals.Rintegral.Riemann_integrable <> g:126 var
+binder 7116:7118 <> prg:130
+R7155:7172 Coq.Reals.RiemannInt <> Riemann_integrable def
+R7199:7199 Coqtail.Reals.Rintegral.Riemann_integrable <> b:128 var
+R7197:7197 Coqtail.Reals.Rintegral.Riemann_integrable <> a:127 var
+R7181:7181 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7179:7179 <> x:131
+R7189:7191 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7186:7186 Coqtail.Reals.Rintegral.Riemann_integrable <> f:125 var
+R7188:7188 Coqtail.Reals.Rintegral.Riemann_integrable <> x:131 var
+R7192:7192 Coqtail.Reals.Rintegral.Riemann_integrable <> g:126 var
+R7194:7194 Coqtail.Reals.Rintegral.Riemann_integrable <> x:131 var
+binder 7150:7153 <> prfg:132
+R7212:7215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7209:7210 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7208:7208 Coqtail.Reals.Rintegral.Riemann_integrable <> a:127 var
+R7211:7211 Coqtail.Reals.Rintegral.Riemann_integrable <> b:128 var
+R7231:7233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7216:7225 Coq.Reals.RiemannInt <> RiemannInt def
+R7227:7230 Coqtail.Reals.Rintegral.Riemann_integrable <> prfg:132 var
+R7248:7250 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7234:7243 Coq.Reals.RiemannInt <> RiemannInt def
+R7245:7247 Coqtail.Reals.Rintegral.Riemann_integrable <> prf:129 var
+R7251:7260 Coq.Reals.RiemannInt <> RiemannInt def
+R7262:7264 Coqtail.Reals.Rintegral.Riemann_integrable <> prg:130 var
+binder 7302:7302 <> x:133
+binder 7304:7304 <> y:134
+R7312:7314 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7308:7310 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7307:7307 Coqtail.Reals.Rintegral.Riemann_integrable <> x:133 var
+R7311:7311 Coqtail.Reals.Rintegral.Riemann_integrable <> y:134 var
+R7316:7318 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7315:7315 Coqtail.Reals.Rintegral.Riemann_integrable <> x:133 var
+R7319:7319 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7322:7323 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7324:7324 Coqtail.Reals.Rintegral.Riemann_integrable <> y:134 var
+binder 7302:7302 <> x:135
+binder 7304:7304 <> y:136
+R7312:7314 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7308:7310 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7307:7307 Coqtail.Reals.Rintegral.Riemann_integrable <> x:135 var
+R7311:7311 Coqtail.Reals.Rintegral.Riemann_integrable <> y:136 var
+R7316:7318 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7315:7315 Coqtail.Reals.Rintegral.Riemann_integrable <> x:135 var
+R7319:7319 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7322:7323 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7324:7324 Coqtail.Reals.Rintegral.Riemann_integrable <> y:136 var
+R7382:7395 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+R7382:7395 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+R7430:7439 Coq.Reals.RiemannInt <> RiemannInt def
+R7453:7462 Coq.Reals.RiemannInt <> RiemannInt def
+R7430:7439 Coq.Reals.RiemannInt <> RiemannInt def
+R7453:7462 Coq.Reals.RiemannInt <> RiemannInt def
+R7478:7491 Coq.Reals.RiemannInt <> RiemannInt_P13 thm
+R7478:7491 Coq.Reals.RiemannInt <> RiemannInt_P13 thm
+R7500:7513 Coq.Reals.RiemannInt <> RiemannInt_P18 thm
+R7500:7513 Coq.Reals.RiemannInt <> RiemannInt_P18 thm
+prf 7546:7563 <> RiemannInt_minus_1
+R7583:7586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7582:7582 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R7587:7587 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7578:7578 <> f:137
+binder 7580:7580 <> g:138
+R7595:7595 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7591:7591 <> a:139
+binder 7593:7593 <> b:140
+R7606:7623 Coq.Reals.RiemannInt <> Riemann_integrable def
+R7629:7629 Coqtail.Reals.Rintegral.Riemann_integrable <> b:140 var
+R7627:7627 Coqtail.Reals.Rintegral.Riemann_integrable <> a:139 var
+R7625:7625 Coqtail.Reals.Rintegral.Riemann_integrable <> f:137 var
+binder 7602:7604 <> prf:141
+R7640:7657 Coq.Reals.RiemannInt <> Riemann_integrable def
+R7663:7663 Coqtail.Reals.Rintegral.Riemann_integrable <> b:140 var
+R7661:7661 Coqtail.Reals.Rintegral.Riemann_integrable <> a:139 var
+R7659:7659 Coqtail.Reals.Rintegral.Riemann_integrable <> g:138 var
+binder 7636:7638 <> prg:142
+R7676:7679 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7673:7674 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7672:7672 Coqtail.Reals.Rintegral.Riemann_integrable <> a:139 var
+R7675:7675 Coqtail.Reals.Rintegral.Riemann_integrable <> b:140 var
+R7711:7713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7694:7696 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7680:7689 Coq.Reals.RiemannInt <> RiemannInt def
+R7691:7693 Coqtail.Reals.Rintegral.Riemann_integrable <> prf:141 var
+R7697:7706 Coq.Reals.RiemannInt <> RiemannInt def
+R7708:7710 Coqtail.Reals.Rintegral.Riemann_integrable <> prg:142 var
+R7714:7723 Coq.Reals.RiemannInt <> RiemannInt def
+R7726:7752 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_integrable_minus thm
+R7754:7754 Coqtail.Reals.Rintegral.Riemann_integrable <> f:137 var
+R7756:7756 Coqtail.Reals.Rintegral.Riemann_integrable <> g:138 var
+R7758:7758 Coqtail.Reals.Rintegral.Riemann_integrable <> a:139 var
+R7760:7760 Coqtail.Reals.Rintegral.Riemann_integrable <> b:140 var
+R7762:7764 Coqtail.Reals.Rintegral.Riemann_integrable <> prf:141 var
+R7766:7768 Coqtail.Reals.Rintegral.Riemann_integrable <> prg:142 var
+R7797:7812 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_minus thm
+R7797:7812 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_minus thm
+R7797:7812 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_minus thm
+R7797:7812 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_minus thm
+prf 7857:7875 <> RiemannInt_linear_1
+R7895:7898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7894:7894 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R7899:7899 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7890:7890 <> f:143
+binder 7892:7892 <> g:144
+R7909:7909 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7903:7903 <> a:145
+binder 7905:7905 <> b:146
+binder 7907:7907 <> l:147
+R7917:7934 Coq.Reals.RiemannInt <> Riemann_integrable def
+R7940:7940 Coqtail.Reals.Rintegral.Riemann_integrable <> b:146 var
+R7938:7938 Coqtail.Reals.Rintegral.Riemann_integrable <> a:145 var
+R7936:7936 Coqtail.Reals.Rintegral.Riemann_integrable <> f:143 var
+binder 7913:7915 <> pr1:148
+R7952:7969 Coq.Reals.RiemannInt <> Riemann_integrable def
+R7975:7975 Coqtail.Reals.Rintegral.Riemann_integrable <> b:146 var
+R7973:7973 Coqtail.Reals.Rintegral.Riemann_integrable <> a:145 var
+R7971:7971 Coqtail.Reals.Rintegral.Riemann_integrable <> g:144 var
+binder 7948:7950 <> pr2:149
+R8018:8020 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7997:7999 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7983:7992 Coq.Reals.RiemannInt <> RiemannInt def
+R7994:7996 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:148 var
+R8001:8003 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8000:8000 Coqtail.Reals.Rintegral.Riemann_integrable <> l:147 var
+R8004:8013 Coq.Reals.RiemannInt <> RiemannInt def
+R8015:8017 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:149 var
+R8021:8030 Coq.Reals.RiemannInt <> RiemannInt def
+R8033:8057 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_linear thm
+R8059:8059 Coqtail.Reals.Rintegral.Riemann_integrable <> f:143 var
+R8061:8061 Coqtail.Reals.Rintegral.Riemann_integrable <> g:144 var
+R8063:8063 Coqtail.Reals.Rintegral.Riemann_integrable <> a:145 var
+R8065:8065 Coqtail.Reals.Rintegral.Riemann_integrable <> b:146 var
+R8067:8067 Coqtail.Reals.Rintegral.Riemann_integrable <> l:147 var
+R8069:8071 Coqtail.Reals.Rintegral.Riemann_integrable <> pr1:148 var
+R8073:8075 Coqtail.Reals.Rintegral.Riemann_integrable <> pr2:149 var
+R8111:8127 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_linear thm
+R8111:8127 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_linear thm
+prf 8142:8163 <> Riemann_integrable_add
+R8184:8187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8183:8183 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8188:8188 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8179:8179 <> f:150
+binder 8181:8181 <> g:151
+R8196:8196 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8192:8192 <> a:152
+binder 8194:8194 <> b:153
+R8204:8221 Coq.Reals.RiemannInt <> Riemann_integrable def
+R8227:8227 Coqtail.Reals.Rintegral.Riemann_integrable <> b:153 var
+R8225:8225 Coqtail.Reals.Rintegral.Riemann_integrable <> a:152 var
+R8223:8223 Coqtail.Reals.Rintegral.Riemann_integrable <> f:150 var
+binder 8200:8202 <> pr1:154
+R8239:8256 Coq.Reals.RiemannInt <> Riemann_integrable def
+R8262:8262 Coqtail.Reals.Rintegral.Riemann_integrable <> b:153 var
+R8260:8260 Coqtail.Reals.Rintegral.Riemann_integrable <> a:152 var
+R8258:8258 Coqtail.Reals.Rintegral.Riemann_integrable <> g:151 var
+binder 8235:8237 <> pr2:155
+R8272:8289 Coq.Reals.RiemannInt <> Riemann_integrable def
+R8303:8303 Coqtail.Reals.Rintegral.Riemann_integrable <> b:153 var
+R8301:8301 Coqtail.Reals.Rintegral.Riemann_integrable <> a:152 var
+R8293:8295 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R8292:8292 Coqtail.Reals.Rintegral.Riemann_integrable <> f:150 var
+R8296:8296 Coqtail.Reals.Rintegral.Riemann_integrable <> g:151 var
+binder 8370:8370 <> x:156
+R8378:8380 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8377:8377 Coqtail.Reals.Rintegral.Riemann_integrable <> x:156 var
+R8382:8384 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8387:8387 Coqtail.Reals.Rintegral.Riemann_integrable <> x:156 var
+R8328:8358 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_integrable_eq_compat thm
+binder 8370:8370 <> x:157
+R8378:8380 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8377:8377 Coqtail.Reals.Rintegral.Riemann_integrable <> x:157 var
+R8382:8384 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8387:8387 Coqtail.Reals.Rintegral.Riemann_integrable <> x:157 var
+R8328:8358 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_integrable_eq_compat thm
+R8408:8415 Coq.Reals.Ranalysis1 <> plus_fct def
+R8431:8455 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_linear thm
+R8431:8455 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_linear thm
+prf 8483:8496 <> RiemannInt_add
+R8516:8519 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8515:8515 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8520:8520 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8511:8511 <> f:158
+binder 8513:8513 <> g:159
+R8528:8528 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8524:8524 <> a:160
+binder 8526:8526 <> b:161
+R8536:8553 Coq.Reals.RiemannInt <> Riemann_integrable def
+R8559:8559 Coqtail.Reals.Rintegral.Riemann_integrable <> b:161 var
+R8557:8557 Coqtail.Reals.Rintegral.Riemann_integrable <> a:160 var
+R8555:8555 Coqtail.Reals.Rintegral.Riemann_integrable <> f:158 var
+binder 8532:8534 <> prf:162
+R8571:8588 Coq.Reals.RiemannInt <> Riemann_integrable def
+R8594:8594 Coqtail.Reals.Rintegral.Riemann_integrable <> b:161 var
+R8592:8592 Coqtail.Reals.Rintegral.Riemann_integrable <> a:160 var
+R8590:8590 Coqtail.Reals.Rintegral.Riemann_integrable <> g:159 var
+binder 8567:8569 <> prg:163
+R8603:8620 Coq.Reals.RiemannInt <> Riemann_integrable def
+R8634:8634 Coqtail.Reals.Rintegral.Riemann_integrable <> b:161 var
+R8632:8632 Coqtail.Reals.Rintegral.Riemann_integrable <> a:160 var
+R8624:8626 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R8623:8623 Coqtail.Reals.Rintegral.Riemann_integrable <> f:158 var
+R8627:8627 Coqtail.Reals.Rintegral.Riemann_integrable <> g:159 var
+binder 8598:8601 <> prfg:164
+R8644:8651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8639:8642 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8638:8638 Coqtail.Reals.Rintegral.Riemann_integrable <> a:160 var
+R8643:8643 Coqtail.Reals.Rintegral.Riemann_integrable <> b:161 var
+R8683:8685 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8666:8668 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8652:8661 Coq.Reals.RiemannInt <> RiemannInt def
+R8663:8665 Coqtail.Reals.Rintegral.Riemann_integrable <> prf:162 var
+R8669:8678 Coq.Reals.RiemannInt <> RiemannInt def
+R8680:8682 Coqtail.Reals.Rintegral.Riemann_integrable <> prg:163 var
+R8686:8695 Coq.Reals.RiemannInt <> RiemannInt def
+R8697:8700 Coqtail.Reals.Rintegral.Riemann_integrable <> prfg:164 var
+R8733:8746 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+R8733:8746 Coq.Reals.RiemannInt <> RiemannInt_P10 thm
+R8779:8788 Coq.Reals.RiemannInt <> RiemannInt def
+R8802:8811 Coq.Reals.RiemannInt <> RiemannInt def
+R8779:8788 Coq.Reals.RiemannInt <> RiemannInt def
+R8802:8811 Coq.Reals.RiemannInt <> RiemannInt def
+R8832:8841 Coq.Reals.RiemannInt <> RiemannInt def
+R8855:8857 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8858:8867 Coq.Reals.RiemannInt <> RiemannInt def
+R8832:8841 Coq.Reals.RiemannInt <> RiemannInt def
+R8855:8857 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8858:8867 Coq.Reals.RiemannInt <> RiemannInt def
+R8901:8914 Coq.Reals.RiemannInt <> RiemannInt_P13 thm
+R8901:8914 Coq.Reals.RiemannInt <> RiemannInt_P13 thm
+R8928:8941 Coq.Reals.RiemannInt <> RiemannInt_P18 thm
+R8928:8941 Coq.Reals.RiemannInt <> RiemannInt_P18 thm
+R8963:8970 Coq.Reals.Ranalysis1 <> plus_fct def
+prf 8991:9006 <> RiemannInt_add_1
+R9025:9028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9024:9024 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9029:9029 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9020:9020 <> f:165
+binder 9022:9022 <> g:166
+R9037:9037 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9033:9033 <> a:167
+binder 9035:9035 <> b:168
+R9045:9062 Coq.Reals.RiemannInt <> Riemann_integrable def
+R9068:9068 Coqtail.Reals.Rintegral.Riemann_integrable <> b:168 var
+R9066:9066 Coqtail.Reals.Rintegral.Riemann_integrable <> a:167 var
+R9064:9064 Coqtail.Reals.Rintegral.Riemann_integrable <> f:165 var
+binder 9041:9043 <> prf:169
+R9080:9097 Coq.Reals.RiemannInt <> Riemann_integrable def
+R9103:9103 Coqtail.Reals.Rintegral.Riemann_integrable <> b:168 var
+R9101:9101 Coqtail.Reals.Rintegral.Riemann_integrable <> a:167 var
+R9099:9099 Coqtail.Reals.Rintegral.Riemann_integrable <> g:166 var
+binder 9076:9078 <> prg:170
+R9113:9120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9108:9111 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R9107:9107 Coqtail.Reals.Rintegral.Riemann_integrable <> a:167 var
+R9112:9112 Coqtail.Reals.Rintegral.Riemann_integrable <> b:168 var
+R9152:9154 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9135:9137 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9121:9130 Coq.Reals.RiemannInt <> RiemannInt def
+R9132:9134 Coqtail.Reals.Rintegral.Riemann_integrable <> prf:169 var
+R9138:9147 Coq.Reals.RiemannInt <> RiemannInt def
+R9149:9151 Coqtail.Reals.Rintegral.Riemann_integrable <> prg:170 var
+R9155:9164 Coq.Reals.RiemannInt <> RiemannInt def
+R9167:9188 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_add thm
+R9190:9190 Coqtail.Reals.Rintegral.Riemann_integrable <> f:165 var
+R9192:9192 Coqtail.Reals.Rintegral.Riemann_integrable <> g:166 var
+R9194:9194 Coqtail.Reals.Rintegral.Riemann_integrable <> a:167 var
+R9196:9196 Coqtail.Reals.Rintegral.Riemann_integrable <> b:168 var
+R9198:9200 Coqtail.Reals.Rintegral.Riemann_integrable <> prf:169 var
+R9202:9204 Coqtail.Reals.Rintegral.Riemann_integrable <> prg:170 var
+R9231:9244 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_add thm
+R9231:9244 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_add thm
+R9277:9294 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_minus_1 thm
+R9323:9341 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_linear_1 thm
+R9370:9385 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_add_1 thm
+prf 9409:9431 <> continuity_RiemannInt_1
+R9448:9451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9447:9447 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9452:9452 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9445:9445 <> f:171
+R9460:9460 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9456:9456 <> a:172
+binder 9458:9458 <> b:173
+R9468:9468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9528:9532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9478:9478 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9476:9476 <> x:174
+R9507:9510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9492:9495 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9482:9485 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R9487:9490 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R9481:9481 Coqtail.Reals.Rintegral.Riemann_integrable <> a:172 var
+R9486:9486 Coqtail.Reals.Rintegral.Riemann_integrable <> x:174 var
+R9486:9486 Coqtail.Reals.Rintegral.Riemann_integrable <> x:174 var
+R9491:9491 Coqtail.Reals.Rintegral.Riemann_integrable <> b:173 var
+R9497:9500 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R9502:9505 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R9496:9496 Coqtail.Reals.Rintegral.Riemann_integrable <> b:173 var
+R9501:9501 Coqtail.Reals.Rintegral.Riemann_integrable <> x:174 var
+R9501:9501 Coqtail.Reals.Rintegral.Riemann_integrable <> x:174 var
+R9506:9506 Coqtail.Reals.Rintegral.Riemann_integrable <> a:172 var
+R9511:9523 Coq.Reals.Ranalysis1 <> continuity_pt def
+R9525:9525 Coqtail.Reals.Rintegral.Riemann_integrable <> f:171 var
+R9527:9527 Coqtail.Reals.Rintegral.Riemann_integrable <> x:174 var
+R9533:9550 Coq.Reals.RiemannInt <> Riemann_integrable def
+R9556:9556 Coqtail.Reals.Rintegral.Riemann_integrable <> b:173 var
+R9554:9554 Coqtail.Reals.Rintegral.Riemann_integrable <> a:172 var
+R9552:9552 Coqtail.Reals.Rintegral.Riemann_integrable <> f:171 var
+R9582:9594 Coq.Reals.Rdefinitions <> total_order_T thm
+R9582:9594 Coq.Reals.Rdefinitions <> total_order_T thm
+R9638:9650 Coq.Reals.RiemannInt <> RiemannInt_P6 thm
+R9638:9650 Coq.Reals.RiemannInt <> RiemannInt_P6 thm
+R9715:9727 Coq.Reals.RiemannInt <> RiemannInt_P7 thm
+R9715:9727 Coq.Reals.RiemannInt <> RiemannInt_P7 thm
+R9741:9768 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+R9741:9768 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+R9777:9789 Coq.Reals.RiemannInt <> RiemannInt_P6 thm
+R9777:9789 Coq.Reals.RiemannInt <> RiemannInt_P6 thm
+prf 9904:9930 <> RiemannInt_derivable_pt_lim
+R9947:9950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9946:9946 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9951:9951 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9944:9944 <> f:175
+R9959:9959 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9955:9955 <> a:176
+binder 9957:9957 <> x:177
+R9981:9981 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9977:9977 <> x:178
+binder 9979:9979 <> y:179
+R9985:10002 Coq.Reals.RiemannInt <> Riemann_integrable def
+R10008:10008 Coqtail.Reals.Rintegral.Riemann_integrable <> y:179 var
+R10006:10006 Coqtail.Reals.Rintegral.Riemann_integrable <> x:178 var
+R10004:10004 Coqtail.Reals.Rintegral.Riemann_integrable <> f:175 var
+binder 9967:9968 <> pr:180
+R10024:10036 Coq.Reals.Ranalysis1 <> continuity_pt def
+R10038:10038 Coqtail.Reals.Rintegral.Riemann_integrable <> f:175 var
+R10040:10040 Coqtail.Reals.Rintegral.Riemann_integrable <> x:177 var
+binder 10018:10022 <> Hcont:181
+R10050:10065 Coq.Reals.Ranalysis1 <> derivable_pt_lim def
+binder 10072:10073 <> t1:182
+R10079:10088 Coq.Reals.RiemannInt <> RiemannInt def
+R10090:10090 Coqtail.Reals.Rintegral.Riemann_integrable <> f:175 var
+R10092:10092 Coqtail.Reals.Rintegral.Riemann_integrable <> a:176 var
+R10094:10095 Coqtail.Reals.Rintegral.Riemann_integrable <> t1:182 var
+R10098:10099 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:180 var
+R10103:10104 Coqtail.Reals.Rintegral.Riemann_integrable <> t1:182 var
+R10101:10101 Coqtail.Reals.Rintegral.Riemann_integrable <> a:176 var
+R10108:10108 Coqtail.Reals.Rintegral.Riemann_integrable <> x:177 var
+R10111:10111 Coqtail.Reals.Rintegral.Riemann_integrable <> f:175 var
+R10113:10113 Coqtail.Reals.Rintegral.Riemann_integrable <> x:177 var
+R10141:10156 Coq.Reals.Ranalysis1 <> derivable_pt_lim def
+R10206:10208 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R10212:10214 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10206:10208 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R10212:10214 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10283:10291 Coq.Reals.RIneq <> mkposreal constr
+R10283:10291 Coq.Reals.RIneq <> mkposreal constr
+R10408:10425 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_Chasles thm
+R10435:10435 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10456:10458 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10471:10473 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10408:10425 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_Chasles thm
+R10435:10435 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10456:10458 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10471:10473 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10408:10425 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_Chasles thm
+R10435:10435 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10456:10458 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10471:10473 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10544:10546 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10516:10518 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10497:10506 Coq.Reals.RiemannInt <> RiemannInt def
+R10519:10528 Coq.Reals.RiemannInt <> RiemannInt def
+R10538:10540 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10547:10556 Coq.Reals.RiemannInt <> RiemannInt def
+R10544:10546 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10516:10518 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10497:10506 Coq.Reals.RiemannInt <> RiemannInt def
+R10519:10528 Coq.Reals.RiemannInt <> RiemannInt def
+R10538:10540 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10547:10556 Coq.Reals.RiemannInt <> RiemannInt def
+R10647:10649 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10591:10600 Coq.Reals.RiemannInt <> RiemannInt def
+R10603:10629 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R10635:10637 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10668:10686 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_constant thm
+R10647:10649 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10591:10600 Coq.Reals.RiemannInt <> RiemannInt def
+R10603:10629 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R10635:10637 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10668:10686 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_constant thm
+R10668:10686 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_constant thm
+R10751:10753 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10747:10749 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10722:10731 Coq.Reals.RiemannInt <> RiemannInt def
+R10741:10743 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10810:10812 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10754:10763 Coq.Reals.RiemannInt <> RiemannInt def
+R10766:10792 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R10798:10800 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10826:10826 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10919:10922 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10852:10854 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10827:10836 Coq.Reals.RiemannInt <> RiemannInt def
+R10846:10848 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10855:10855 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10858:10862 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10863:10872 Coq.Reals.RiemannInt <> RiemannInt def
+R10875:10901 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R10907:10909 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10944:10947 Coq.Reals.Rdefinitions <> Rdiv def
+R10751:10753 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10747:10749 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10722:10731 Coq.Reals.RiemannInt <> RiemannInt def
+R10741:10743 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10810:10812 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10754:10763 Coq.Reals.RiemannInt <> RiemannInt def
+R10766:10792 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R10798:10800 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10826:10826 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10919:10922 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R10852:10854 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10827:10836 Coq.Reals.RiemannInt <> RiemannInt def
+R10846:10848 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10855:10855 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10858:10862 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10863:10872 Coq.Reals.RiemannInt <> RiemannInt def
+R10875:10901 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R10907:10909 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10968:10986 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_linear_1 thm
+R10968:10986 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_linear_1 thm
+R10968:10986 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_linear_1 thm
+R11019:11022 Coq.Reals.Rdefinitions <> Rdiv def
+R11041:11049 Coq.Reals.Rbasic_fun <> Rabs_mult thm
+R11058:11064 Coq.Reals.RIneq <> Rle_dec thm
+R11070:11072 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11041:11049 Coq.Reals.Rbasic_fun <> Rabs_mult thm
+R11041:11049 Coq.Reals.Rbasic_fun <> Rabs_mult thm
+R11058:11064 Coq.Reals.RIneq <> Rle_dec thm
+R11070:11072 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11336:11345 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11176:11185 Coq.Reals.RiemannInt <> RiemannInt def
+R11195:11217 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_Rabs thm
+R11235:11259 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_linear thm
+R11282:11284 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11290:11316 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R11322:11324 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11346:11349 Coq.Reals.Rbasic_fun <> Rabs def
+R11352:11353 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11152:11163 Coq.Reals.RIneq <> Rle_lt_trans thm
+R11336:11345 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11176:11185 Coq.Reals.RiemannInt <> RiemannInt def
+R11195:11217 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_Rabs thm
+R11235:11259 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_linear thm
+R11282:11284 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11290:11316 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R11322:11324 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11346:11349 Coq.Reals.Rbasic_fun <> Rabs def
+R11352:11353 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11152:11163 Coq.Reals.RIneq <> Rle_lt_trans thm
+R11417:11426 Coq.Reals.Raxioms <> Rmult_comm thm
+R11429:11432 Coq.Reals.Rbasic_fun <> Rabs def
+R11435:11436 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11449:11465 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R11417:11426 Coq.Reals.Raxioms <> Rmult_comm thm
+R11429:11432 Coq.Reals.Rbasic_fun <> Rabs def
+R11435:11436 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11417:11426 Coq.Reals.Raxioms <> Rmult_comm thm
+R11429:11432 Coq.Reals.Rbasic_fun <> Rabs def
+R11435:11436 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11417:11426 Coq.Reals.Raxioms <> Rmult_comm thm
+R11429:11432 Coq.Reals.Rbasic_fun <> Rabs def
+R11435:11436 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11417:11426 Coq.Reals.Raxioms <> Rmult_comm thm
+R11429:11432 Coq.Reals.Rbasic_fun <> Rabs def
+R11435:11436 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11449:11465 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R11478:11485 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R11478:11485 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R11494:11511 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_le_Rabs thm
+R11494:11511 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_le_Rabs thm
+R11661:11663 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11601:11610 Coq.Reals.RiemannInt <> RiemannInt def
+R11613:11639 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R11645:11647 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11655:11657 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R11664:11667 Coq.Reals.Rbasic_fun <> Rabs def
+R11670:11671 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11576:11587 Coq.Reals.RIneq <> Rle_lt_trans thm
+R11661:11663 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11601:11610 Coq.Reals.RiemannInt <> RiemannInt def
+R11613:11639 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R11645:11647 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11655:11657 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R11664:11667 Coq.Reals.Rbasic_fun <> Rabs def
+R11670:11671 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11576:11587 Coq.Reals.RIneq <> Rle_lt_trans thm
+R11696:11705 Coq.Reals.Raxioms <> Rmult_comm thm
+R11708:11711 Coq.Reals.Rbasic_fun <> Rabs def
+R11714:11715 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11728:11744 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R11696:11705 Coq.Reals.Raxioms <> Rmult_comm thm
+R11708:11711 Coq.Reals.Rbasic_fun <> Rabs def
+R11714:11715 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11696:11705 Coq.Reals.Raxioms <> Rmult_comm thm
+R11708:11711 Coq.Reals.Rbasic_fun <> Rabs def
+R11714:11715 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11696:11705 Coq.Reals.Raxioms <> Rmult_comm thm
+R11708:11711 Coq.Reals.Rbasic_fun <> Rabs def
+R11714:11715 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11696:11705 Coq.Reals.Raxioms <> Rmult_comm thm
+R11708:11711 Coq.Reals.Rbasic_fun <> Rabs def
+R11714:11715 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R11728:11744 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R11755:11762 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R11755:11762 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R11773:11786 Coq.Reals.RiemannInt <> RiemannInt_P19 thm
+R11773:11786 Coq.Reals.RiemannInt <> RiemannInt_P19 thm
+R11844:11846 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11849:11851 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11852:11858 Coq.Reals.Ranalysis1 <> fct_cte def
+R11880:11882 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11908:11914 Coq.Reals.Ranalysis1 <> fct_cte def
+R11844:11846 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11849:11851 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11852:11858 Coq.Reals.Ranalysis1 <> fct_cte def
+R11880:11882 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11942:11948 Coq.Reals.Ranalysis1 <> fct_cte def
+R11996:11999 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11996:11999 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R12133:12138 Coq.Reals.Rfunctions <> R_dist def
+R12169:12171 Coq.Reals.Rderiv <> D_x def
+R12174:12180 Coq.Reals.Ranalysis1 <> no_cond def
+R12218:12226 Coq.Reals.Raxioms <> Rlt_trans thm
+R12218:12226 Coq.Reals.Raxioms <> Rlt_trans thm
+R12254:12256 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R12263:12265 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R12259:12261 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12259:12261 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12254:12256 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R12263:12265 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R12259:12261 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12259:12261 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12301:12311 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12301:12311 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12301:12311 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12301:12311 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12322:12332 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12322:12332 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12322:12332 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12322:12332 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R12372:12374 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12354:12362 Coq.Reals.RIneq <> Rle_trans thm
+R12372:12374 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12354:12362 Coq.Reals.RIneq <> Rle_trans thm
+R12842:12860 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_constant thm
+R12842:12860 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_constant thm
+R12842:12860 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_constant thm
+R12873:12883 Coq.Reals.Raxioms <> Rmult_assoc thm
+R12895:12895 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12905:12908 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12901:12903 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12897:12899 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12909:12912 Coq.Reals.Rbasic_fun <> Rabs def
+R12915:12916 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R12873:12883 Coq.Reals.Raxioms <> Rmult_assoc thm
+R12873:12883 Coq.Reals.Raxioms <> Rmult_assoc thm
+R12895:12895 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12905:12908 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12901:12903 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12897:12899 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12909:12912 Coq.Reals.Rbasic_fun <> Rabs def
+R12915:12916 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R12961:12970 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R12961:12970 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R12961:12970 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R12961:12970 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R12989:12991 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12985:12987 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12989:12991 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12985:12987 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13029:13038 Coq.Reals.RIneq <> Rinv_r_sym thm
+R13029:13038 Coq.Reals.RIneq <> Rinv_r_sym thm
+R13063:13068 Coq.Reals.RIneq <> Rle_ge thm
+R13083:13098 Coq.Reals.RIneq <> Rinv_0_lt_compat thm
+R13063:13068 Coq.Reals.RIneq <> Rle_ge thm
+R13083:13098 Coq.Reals.RIneq <> Rinv_0_lt_compat thm
+R13126:13139 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R13157:13166 Coq.Reals.Raxioms <> Rplus_comm thm
+R13169:13177 Coq.Reals.RIneq <> Rplus_0_r thm
+R13180:13189 Coq.Reals.Raxioms <> Rplus_comm thm
+R13126:13139 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R13157:13166 Coq.Reals.Raxioms <> Rplus_comm thm
+R13157:13166 Coq.Reals.Raxioms <> Rplus_comm thm
+R13169:13177 Coq.Reals.RIneq <> Rplus_0_r thm
+R13169:13177 Coq.Reals.RIneq <> Rplus_0_r thm
+R13180:13189 Coq.Reals.Raxioms <> Rplus_comm thm
+R13180:13189 Coq.Reals.Raxioms <> Rplus_comm thm
+R13240:13253 Coq.Reals.RIneq <> Rplus_eq_reg_l thm
+R13271:13279 Coq.Reals.RIneq <> Rplus_0_r thm
+R13240:13253 Coq.Reals.RIneq <> Rplus_eq_reg_l thm
+R13271:13279 Coq.Reals.RIneq <> Rplus_0_r thm
+R13271:13279 Coq.Reals.RIneq <> Rplus_0_r thm
+R13662:13670 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13413:13422 Coq.Reals.RiemannInt <> RiemannInt def
+R13431:13453 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_Rabs thm
+R13471:13498 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+R13517:13541 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_linear thm
+R13546:13552 Coq.Reals.Ranalysis1 <> fct_cte def
+R13577:13579 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13596:13598 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13615:13641 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R13647:13649 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13671:13674 Coq.Reals.Rbasic_fun <> Rabs def
+R13677:13678 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13389:13400 Coq.Reals.RIneq <> Rle_lt_trans thm
+R13662:13670 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13413:13422 Coq.Reals.RiemannInt <> RiemannInt def
+R13431:13453 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_Rabs thm
+R13471:13498 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_opp_bound thm
+R13517:13541 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_linear thm
+R13546:13552 Coq.Reals.Ranalysis1 <> fct_cte def
+R13577:13579 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13596:13598 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13615:13641 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R13647:13649 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13671:13674 Coq.Reals.Rbasic_fun <> Rabs def
+R13677:13678 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13389:13400 Coq.Reals.RIneq <> Rle_lt_trans thm
+R13703:13712 Coq.Reals.Raxioms <> Rmult_comm thm
+R13715:13718 Coq.Reals.Rbasic_fun <> Rabs def
+R13721:13722 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13735:13751 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R13703:13712 Coq.Reals.Raxioms <> Rmult_comm thm
+R13715:13718 Coq.Reals.Rbasic_fun <> Rabs def
+R13721:13722 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13703:13712 Coq.Reals.Raxioms <> Rmult_comm thm
+R13715:13718 Coq.Reals.Rbasic_fun <> Rabs def
+R13721:13722 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13703:13712 Coq.Reals.Raxioms <> Rmult_comm thm
+R13715:13718 Coq.Reals.Rbasic_fun <> Rabs def
+R13721:13722 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13703:13712 Coq.Reals.Raxioms <> Rmult_comm thm
+R13715:13718 Coq.Reals.Rbasic_fun <> Rabs def
+R13721:13722 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13735:13751 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R13762:13769 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R13762:13769 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R13783:13809 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_bound_exchange_1 thm
+R13783:13809 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_bound_exchange_1 thm
+R13783:13809 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_bound_exchange_1 thm
+R13822:13830 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R13822:13830 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R13822:13830 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R13841:13858 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_le_Rabs thm
+R13841:13858 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_le_Rabs thm
+R13970:13972 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13910:13919 Coq.Reals.RiemannInt <> RiemannInt def
+R13922:13948 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R13952:13954 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13964:13966 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R13973:13976 Coq.Reals.Rbasic_fun <> Rabs def
+R13979:13980 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13887:13898 Coq.Reals.RIneq <> Rle_lt_trans thm
+R13970:13972 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13910:13919 Coq.Reals.RiemannInt <> RiemannInt def
+R13922:13948 Coqtail.Reals.Rintegral.Riemann_integrable <> Riemann_integrable_constant thm
+R13952:13954 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13964:13966 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R13973:13976 Coq.Reals.Rbasic_fun <> Rabs def
+R13979:13980 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R13887:13898 Coq.Reals.RIneq <> Rle_lt_trans thm
+R14005:14014 Coq.Reals.Raxioms <> Rmult_comm thm
+R14017:14020 Coq.Reals.Rbasic_fun <> Rabs def
+R14023:14024 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R14037:14053 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R14005:14014 Coq.Reals.Raxioms <> Rmult_comm thm
+R14017:14020 Coq.Reals.Rbasic_fun <> Rabs def
+R14023:14024 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R14005:14014 Coq.Reals.Raxioms <> Rmult_comm thm
+R14017:14020 Coq.Reals.Rbasic_fun <> Rabs def
+R14023:14024 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R14005:14014 Coq.Reals.Raxioms <> Rmult_comm thm
+R14017:14020 Coq.Reals.Rbasic_fun <> Rabs def
+R14023:14024 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R14005:14014 Coq.Reals.Raxioms <> Rmult_comm thm
+R14017:14020 Coq.Reals.Rbasic_fun <> Rabs def
+R14023:14024 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R14037:14053 Coq.Reals.RIneq <> Rmult_le_compat_l thm
+R14064:14071 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R14064:14071 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R14082:14098 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_le_ext thm
+R14082:14098 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_le_ext thm
+R14136:14142 Coq.Reals.Ranalysis1 <> fct_cte def
+R14167:14169 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14167:14169 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14199:14201 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14204:14206 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14207:14213 Coq.Reals.Ranalysis1 <> fct_cte def
+R14235:14237 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14199:14201 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14204:14206 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14207:14213 Coq.Reals.Ranalysis1 <> fct_cte def
+R14235:14237 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14253:14259 Coq.Reals.Ranalysis1 <> fct_cte def
+R14276:14282 Coq.Reals.RIneq <> Req_dec thm
+R14276:14282 Coq.Reals.RIneq <> Req_dec thm
+R14331:14333 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14334:14335 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14331:14333 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14334:14335 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14351:14357 Coq.Reals.Rbasic_fun <> Rabs_R0 thm
+R14351:14357 Coq.Reals.Rbasic_fun <> Rabs_R0 thm
+R14351:14357 Coq.Reals.Rbasic_fun <> Rabs_R0 thm
+R14427:14429 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14432:14434 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14427:14429 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14432:14434 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14495:14500 Coq.Reals.Rfunctions <> R_dist def
+R14511:14519 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R14511:14519 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R14511:14519 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R14511:14519 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R14553:14555 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14530:14543 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R14577:14579 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14572:14574 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14553:14555 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14530:14543 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R14577:14579 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14572:14574 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14622:14625 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14633:14633 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14612:14614 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14621:14621 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14617:14619 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14628:14630 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14643:14645 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14622:14625 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14633:14633 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14612:14614 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14621:14621 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14617:14619 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14628:14630 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14643:14645 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14687:14689 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14667:14678 Coq.Reals.RIneq <> Rle_lt_trans thm
+R14687:14689 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14667:14678 Coq.Reals.RIneq <> Rle_lt_trans thm
+R14703:14708 Coq.Reals.Rdefinitions <> Rminus def
+R14725:14741 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R14750:14763 Coq.Reals.RIneq <> Ropp_le_cancel thm
+R14725:14741 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R14750:14763 Coq.Reals.RIneq <> Ropp_le_cancel thm
+R14776:14790 Coq.Reals.RIneq <> Ropp_involutive thm
+R14815:14818 Coq.Reals.Rbasic_fun <> Rabs def
+R14799:14807 Coq.Reals.RIneq <> Rle_trans thm
+R14776:14790 Coq.Reals.RIneq <> Ropp_involutive thm
+R14776:14790 Coq.Reals.RIneq <> Ropp_involutive thm
+R14815:14818 Coq.Reals.Rbasic_fun <> Rabs def
+R14799:14807 Coq.Reals.RIneq <> Rle_trans thm
+R14838:14846 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R14855:14862 Coq.Reals.Rbasic_fun <> RRle_abs def
+R14838:14846 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R14838:14846 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R14855:14862 Coq.Reals.Rbasic_fun <> RRle_abs def
+R14873:14881 Coq.Reals.RIneq <> Rle_trans thm
+R14873:14881 Coq.Reals.RIneq <> Rle_trans thm
+R14986:14999 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R14986:14999 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R15048:15054 Coq.Reals.Ranalysis1 <> fct_cte def
+R15081:15094 Coq.Reals.RiemannInt <> RiemannInt_P15 thm
+R15081:15094 Coq.Reals.RiemannInt <> RiemannInt_P15 thm
+R15081:15094 Coq.Reals.RiemannInt <> RiemannInt_P15 thm
+R15107:15117 Coq.Reals.Raxioms <> Rmult_assoc thm
+R15129:15129 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15141:15144 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15131:15134 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15140:15140 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15136:15138 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15145:15148 Coq.Reals.Rbasic_fun <> Rabs def
+R15151:15152 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R15107:15117 Coq.Reals.Raxioms <> Rmult_assoc thm
+R15107:15117 Coq.Reals.Raxioms <> Rmult_assoc thm
+R15129:15129 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15141:15144 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15131:15134 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15140:15140 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15136:15138 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15145:15148 Coq.Reals.Rbasic_fun <> Rabs def
+R15151:15152 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R15175:15183 Coq.Reals.RIneq <> Rmult_1_r thm
+R15193:15196 Coq.Reals.Rdefinitions <> Rdiv def
+R15213:15226 Coq.Reals.RIneq <> Rmult_lt_reg_l thm
+R15273:15282 Coq.Reals.Raxioms <> Rmult_comm thm
+R15285:15286 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R15303:15313 Coq.Reals.Raxioms <> Rmult_assoc thm
+R15335:15344 Coq.Reals.RIneq <> Rinv_r_sym thm
+R15367:15375 Coq.Reals.Raxioms <> Rmult_1_l thm
+R15415:15423 Coq.Reals.RIneq <> Rplus_0_r thm
+R15446:15451 Coq.Reals.RIneq <> double thm
+R15460:15476 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+R15175:15183 Coq.Reals.RIneq <> Rmult_1_r thm
+R15175:15183 Coq.Reals.RIneq <> Rmult_1_r thm
+R15213:15226 Coq.Reals.RIneq <> Rmult_lt_reg_l thm
+R15273:15282 Coq.Reals.Raxioms <> Rmult_comm thm
+R15285:15286 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R15273:15282 Coq.Reals.Raxioms <> Rmult_comm thm
+R15285:15286 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R15303:15313 Coq.Reals.Raxioms <> Rmult_assoc thm
+R15303:15313 Coq.Reals.Raxioms <> Rmult_assoc thm
+R15335:15344 Coq.Reals.RIneq <> Rinv_r_sym thm
+R15335:15344 Coq.Reals.RIneq <> Rinv_r_sym thm
+R15335:15344 Coq.Reals.RIneq <> Rinv_r_sym thm
+R15367:15375 Coq.Reals.Raxioms <> Rmult_1_l thm
+R15367:15375 Coq.Reals.Raxioms <> Rmult_1_l thm
+R15415:15423 Coq.Reals.RIneq <> Rplus_0_r thm
+R15415:15423 Coq.Reals.RIneq <> Rplus_0_r thm
+R15446:15451 Coq.Reals.RIneq <> double thm
+R15446:15451 Coq.Reals.RIneq <> double thm
+R15460:15476 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+R15526:15534 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R15526:15534 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R15526:15534 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R15526:15534 Coq.Reals.Rbasic_fun <> Rabs_left thm
+R15549:15552 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15558:15558 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15554:15556 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15567:15568 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15549:15552 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15558:15558 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15554:15556 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15567:15568 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15601:15625 Coq.Reals.RIneq <> Ropp_mult_distr_l_reverse thm
+R15636:15660 Coq.Reals.RIneq <> Ropp_mult_distr_r_reverse thm
+R15675:15689 Coq.Reals.RIneq <> Ropp_involutive thm
+R15698:15707 Coq.Reals.RIneq <> Rinv_r_sym thm
+R15601:15625 Coq.Reals.RIneq <> Ropp_mult_distr_l_reverse thm
+R15601:15625 Coq.Reals.RIneq <> Ropp_mult_distr_l_reverse thm
+R15636:15660 Coq.Reals.RIneq <> Ropp_mult_distr_r_reverse thm
+R15636:15660 Coq.Reals.RIneq <> Ropp_mult_distr_r_reverse thm
+R15675:15689 Coq.Reals.RIneq <> Ropp_involutive thm
+R15675:15689 Coq.Reals.RIneq <> Ropp_involutive thm
+R15698:15707 Coq.Reals.RIneq <> Rinv_r_sym thm
+R15732:15747 Coq.Reals.RIneq <> Rinv_lt_0_compat thm
+R15732:15747 Coq.Reals.RIneq <> Rinv_lt_0_compat thm
+R15770:15772 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15766:15768 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15770:15772 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15766:15768 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15803:15816 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R15803:15816 Coq.Reals.RIneq <> Rplus_lt_reg_r thm
+R15849:15858 Coq.Reals.Raxioms <> Rplus_comm thm
+R15849:15858 Coq.Reals.Raxioms <> Rplus_comm thm
+R15849:15858 Coq.Reals.Raxioms <> Rplus_comm thm
+prf 15885:15907 <> RiemannInt_derivable_pt
+R15924:15927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15923:15923 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R15928:15928 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 15921:15921 <> f:183
+R15936:15936 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 15932:15932 <> a:184
+binder 15934:15934 <> x:185
+R15958:15958 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 15954:15954 <> x:186
+binder 15956:15956 <> y:187
+R15962:15979 Coq.Reals.RiemannInt <> Riemann_integrable def
+R15985:15985 Coqtail.Reals.Rintegral.Riemann_integrable <> y:187 var
+R15983:15983 Coqtail.Reals.Rintegral.Riemann_integrable <> x:186 var
+R15981:15981 Coqtail.Reals.Rintegral.Riemann_integrable <> f:183 var
+binder 15944:15945 <> pr:188
+R16001:16013 Coq.Reals.Ranalysis1 <> continuity_pt def
+R16015:16015 Coqtail.Reals.Rintegral.Riemann_integrable <> f:183 var
+R16017:16017 Coqtail.Reals.Rintegral.Riemann_integrable <> x:185 var
+binder 15995:15999 <> Hcont:189
+R16027:16038 Coq.Reals.Ranalysis1 <> derivable_pt def
+binder 16045:16046 <> t1:190
+R16052:16061 Coq.Reals.RiemannInt <> RiemannInt def
+R16063:16063 Coqtail.Reals.Rintegral.Riemann_integrable <> f:183 var
+R16065:16065 Coqtail.Reals.Rintegral.Riemann_integrable <> a:184 var
+R16067:16068 Coqtail.Reals.Rintegral.Riemann_integrable <> t1:190 var
+R16071:16072 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:188 var
+R16076:16077 Coqtail.Reals.Rintegral.Riemann_integrable <> t1:190 var
+R16074:16074 Coqtail.Reals.Rintegral.Riemann_integrable <> a:184 var
+R16081:16081 Coqtail.Reals.Rintegral.Riemann_integrable <> x:185 var
+R16108:16119 Coq.Reals.Ranalysis1 <> derivable_pt def
+R16122:16137 Coq.Reals.Ranalysis1 <> derivable_pt_abs def
+R16161:16187 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt_lim thm
+R16161:16187 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt_lim thm
+prf 16214:16233 <> derive_pt_RiemannInt
+R16251:16254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16250:16250 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R16255:16255 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16248:16248 <> f:191
+R16263:16263 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16259:16259 <> a:192
+binder 16261:16261 <> x:193
+R16285:16285 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16281:16281 <> x:194
+binder 16283:16283 <> y:195
+R16289:16306 Coq.Reals.RiemannInt <> Riemann_integrable def
+R16312:16312 Coqtail.Reals.Rintegral.Riemann_integrable <> y:195 var
+R16310:16310 Coqtail.Reals.Rintegral.Riemann_integrable <> x:194 var
+R16308:16308 Coqtail.Reals.Rintegral.Riemann_integrable <> f:191 var
+binder 16271:16272 <> pr:196
+R16328:16340 Coq.Reals.Ranalysis1 <> continuity_pt def
+R16342:16342 Coqtail.Reals.Rintegral.Riemann_integrable <> f:191 var
+R16344:16344 Coqtail.Reals.Rintegral.Riemann_integrable <> x:193 var
+binder 16322:16326 <> Hcont:197
+R16439:16441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16356:16364 Coq.Reals.Ranalysis1 <> derive_pt def
+binder 16371:16371 <> t:198
+R16376:16385 Coq.Reals.RiemannInt <> RiemannInt def
+R16388:16389 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:196 var
+R16393:16393 Coqtail.Reals.Rintegral.Riemann_integrable <> t:198 var
+R16391:16391 Coqtail.Reals.Rintegral.Riemann_integrable <> a:192 var
+R16397:16397 Coqtail.Reals.Rintegral.Riemann_integrable <> x:193 var
+R16400:16422 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt thm
+R16424:16424 Coqtail.Reals.Rintegral.Riemann_integrable <> f:191 var
+R16426:16426 Coqtail.Reals.Rintegral.Riemann_integrable <> a:192 var
+R16428:16428 Coqtail.Reals.Rintegral.Riemann_integrable <> x:193 var
+R16430:16431 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:196 var
+R16433:16437 Coqtail.Reals.Rintegral.Riemann_integrable <> Hcont:197 var
+R16442:16442 Coqtail.Reals.Rintegral.Riemann_integrable <> f:191 var
+R16444:16444 Coqtail.Reals.Rintegral.Riemann_integrable <> x:193 var
+R16470:16481 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R16470:16481 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R16470:16481 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R16490:16516 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt_lim thm
+R16490:16516 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt_lim thm
+prf 16545:16566 <> derive_pt_RiemannInt_1
+R16584:16587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16583:16583 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R16588:16588 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16581:16581 <> f:199
+R16596:16596 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16592:16592 <> a:200
+binder 16594:16594 <> x:201
+R16618:16618 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16614:16614 <> x:202
+binder 16616:16616 <> y:203
+R16622:16639 Coq.Reals.RiemannInt <> Riemann_integrable def
+R16645:16645 Coqtail.Reals.Rintegral.Riemann_integrable <> y:203 var
+R16643:16643 Coqtail.Reals.Rintegral.Riemann_integrable <> x:202 var
+R16641:16641 Coqtail.Reals.Rintegral.Riemann_integrable <> f:199 var
+binder 16604:16605 <> pr:204
+R16661:16673 Coq.Reals.Ranalysis1 <> continuity_pt def
+R16675:16675 Coqtail.Reals.Rintegral.Riemann_integrable <> f:199 var
+R16677:16677 Coqtail.Reals.Rintegral.Riemann_integrable <> x:201 var
+binder 16655:16659 <> Hcont:205
+binder 16680:16681 <> H1:206
+R16737:16739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16692:16700 Coq.Reals.Ranalysis1 <> derive_pt def
+binder 16707:16707 <> t:207
+R16712:16721 Coq.Reals.RiemannInt <> RiemannInt def
+R16724:16725 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:204 var
+R16729:16729 Coqtail.Reals.Rintegral.Riemann_integrable <> t:207 var
+R16727:16727 Coqtail.Reals.Rintegral.Riemann_integrable <> a:200 var
+R16733:16733 Coqtail.Reals.Rintegral.Riemann_integrable <> x:201 var
+R16735:16736 Coqtail.Reals.Rintegral.Riemann_integrable <> H1:206 var
+R16740:16740 Coqtail.Reals.Rintegral.Riemann_integrable <> f:199 var
+R16742:16742 Coqtail.Reals.Rintegral.Riemann_integrable <> x:201 var
+R16768:16779 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R16768:16779 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R16768:16779 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R16788:16814 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt_lim thm
+R16788:16814 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt_lim thm
+prf 16893:16934 <> derivable_pt_continuity_Riemann_implies_C1
+binder 16948:16948 <> f:208
+binder 16950:16951 <> t0:209
+binder 16964:16964 <> t:210
+binder 16966:16967 <> t0:211
+R16970:16987 Coq.Reals.RiemannInt <> Riemann_integrable def
+R16993:16994 Coqtail.Reals.Rintegral.Riemann_integrable <> t0:211 var
+R16991:16991 Coqtail.Reals.Rintegral.Riemann_integrable <> t:210 var
+R16989:16989 Coqtail.Reals.Rintegral.Riemann_integrable <> f:208 var
+binder 16954:16955 <> pr:212
+R17010:17018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16998:17007 Coq.Reals.Ranalysis1 <> continuity def
+R17009:17009 Coqtail.Reals.Rintegral.Riemann_integrable <> f:208 var
+R17019:17019 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+binder 17028:17028 <> t:213
+R17033:17042 Coq.Reals.RiemannInt <> RiemannInt def
+R17045:17046 Coqtail.Reals.Rintegral.Riemann_integrable <> pr:212 var
+R17051:17051 Coqtail.Reals.Rintegral.Riemann_integrable <> t:213 var
+R17048:17049 Coqtail.Reals.Rintegral.Riemann_integrable <> t0:209 var
+R17079:17087 Coq.Reals.Ranalysis1 <> derivable def
+binder 17094:17094 <> t:214
+R17099:17108 Coq.Reals.RiemannInt <> RiemannInt def
+R17117:17117 Coqtail.Reals.Rintegral.Riemann_integrable <> t:214 var
+R17079:17087 Coq.Reals.Ranalysis1 <> derivable def
+binder 17094:17094 <> t:215
+R17099:17108 Coq.Reals.RiemannInt <> RiemannInt def
+R17117:17117 Coqtail.Reals.Rintegral.Riemann_integrable <> t:215 var
+R17136:17158 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt thm
+R17136:17158 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt thm
+R17177:17179 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R17177:17179 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R17197:17199 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_0 constr
+R17197:17199 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_0 constr
+R17208:17221 Coqtail.Reals.Rextensionality <> continuity_ext thm
+R17208:17221 Coqtail.Reals.Rextensionality <> continuity_ext thm
+R17245:17250 Coq.Reals.Ranalysis1 <> derive def
+R17261:17282 Coqtail.Reals.Rintegral.Riemann_integrable <> derive_pt_RiemannInt_1 thm
+R17261:17282 Coqtail.Reals.Rintegral.Riemann_integrable <> derive_pt_RiemannInt_1 thm
+R17261:17282 Coqtail.Reals.Rintegral.Riemann_integrable <> derive_pt_RiemannInt_1 thm
+R17261:17282 Coqtail.Reals.Rintegral.Riemann_integrable <> derive_pt_RiemannInt_1 thm
+prf 17412:17432 <> RiemannInt_continuity
+binder 17443:17443 <> a:216
+binder 17445:17446 <> t0:217
+R17458:17467 Coq.Reals.Ranalysis1 <> continuity def
+R17469:17469 Coqtail.Reals.Rintegral.Riemann_integrable <> a:216 var
+binder 17449:17454 <> Hconta:218
+binder 17485:17486 <> t0:219
+binder 17488:17488 <> t:220
+R17495:17512 Coq.Reals.RiemannInt <> Riemann_integrable def
+R17519:17519 Coqtail.Reals.Rintegral.Riemann_integrable <> t:220 var
+R17516:17517 Coqtail.Reals.Rintegral.Riemann_integrable <> t0:219 var
+R17514:17514 Coqtail.Reals.Rintegral.Riemann_integrable <> a:216 var
+binder 17473:17474 <> Ha:221
+R17523:17532 Coq.Reals.Ranalysis1 <> continuity def
+binder 17539:17539 <> t:222
+R17544:17553 Coq.Reals.RiemannInt <> RiemannInt def
+R17556:17557 Coqtail.Reals.Rintegral.Riemann_integrable <> Ha:221 var
+R17562:17562 Coqtail.Reals.Rintegral.Riemann_integrable <> t:222 var
+R17559:17560 Coqtail.Reals.Rintegral.Riemann_integrable <> t0:217 var
+R17590:17609 Coq.Reals.Ranalysis1 <> derivable_continuous thm
+R17590:17609 Coq.Reals.Ranalysis1 <> derivable_continuous thm
+R17619:17627 Coq.Reals.Ranalysis1 <> derivable def
+R17644:17666 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt thm
+R17644:17666 Coqtail.Reals.Rintegral.Riemann_integrable <> RiemannInt_derivable_pt thm

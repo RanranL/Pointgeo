@@ -1,0 +1,470 @@
+DIGEST 86625ba584a6af925dfca2c172ef29fe
+FCoqtail.Complex.Canalysis_def
+R816:820 Coqtail.Complex.Cbase <> <> lib
+R838:847 Coqtail.Complex.Cprop_base <> <> lib
+R865:874 Coqtail.Complex.Cfunctions <> <> lib
+R892:895 Coqtail.Complex.Cmet <> <> lib
+R913:918 Coqtail.Complex.Cderiv <> <> lib
+R968:971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R967:967 Coqtail.Complex.Cdefinitions <> C def
+R972:972 Coqtail.Complex.Cdefinitions <> C def
+def 987:994 <> plus_fct
+binder 996:997 <> f1:1
+binder 999:1000 <> f2:2
+R1005:1005 Coqtail.Complex.Cdefinitions <> C def
+binder 1003:1003 <> x:3
+R1010:1010 Coqtail.Complex.Cdefinitions <> C def
+R1019:1021 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'+'_x not
+R1015:1016 Coqtail.Complex.Canalysis_def <> f1:1 var
+R1018:1018 Coqtail.Complex.Canalysis_def <> x:3 var
+R1022:1023 Coqtail.Complex.Canalysis_def <> f2:2 var
+R1025:1025 Coqtail.Complex.Canalysis_def <> x:3 var
+def 1039:1045 <> opp_fct
+binder 1047:1047 <> f:4
+R1052:1052 Coqtail.Complex.Cdefinitions <> C def
+binder 1050:1050 <> x:5
+R1057:1057 Coqtail.Complex.Cdefinitions <> C def
+R1062:1063 Coqtail.Complex.Cdefinitions <> ::C_scope:'-'_x not
+R1064:1064 Coqtail.Complex.Canalysis_def <> f:4 var
+R1066:1066 Coqtail.Complex.Canalysis_def <> x:5 var
+def 1080:1087 <> mult_fct
+binder 1089:1090 <> f1:6
+binder 1092:1093 <> f2:7
+R1098:1098 Coqtail.Complex.Cdefinitions <> C def
+binder 1096:1096 <> x:8
+R1103:1103 Coqtail.Complex.Cdefinitions <> C def
+R1112:1114 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'*'_x not
+R1108:1109 Coqtail.Complex.Canalysis_def <> f1:6 var
+R1111:1111 Coqtail.Complex.Canalysis_def <> x:8 var
+R1115:1116 Coqtail.Complex.Canalysis_def <> f2:7 var
+R1118:1118 Coqtail.Complex.Canalysis_def <> x:8 var
+def 1132:1144 <> mult_real_fct
+R1149:1149 Coqtail.Complex.Cdefinitions <> C def
+binder 1147:1147 <> a:9
+binder 1152:1152 <> f:10
+R1157:1157 Coqtail.Complex.Cdefinitions <> C def
+binder 1155:1155 <> x:11
+R1162:1162 Coqtail.Complex.Cdefinitions <> C def
+R1168:1170 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'*'_x not
+R1167:1167 Coqtail.Complex.Canalysis_def <> a:9 var
+R1171:1171 Coqtail.Complex.Canalysis_def <> f:10 var
+R1173:1173 Coqtail.Complex.Canalysis_def <> x:11 var
+def 1187:1195 <> minus_fct
+binder 1197:1198 <> f1:12
+binder 1200:1201 <> f2:13
+R1206:1206 Coqtail.Complex.Cdefinitions <> C def
+binder 1204:1204 <> x:14
+R1211:1211 Coqtail.Complex.Cdefinitions <> C def
+R1220:1222 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R1216:1217 Coqtail.Complex.Canalysis_def <> f1:12 var
+R1219:1219 Coqtail.Complex.Canalysis_def <> x:14 var
+R1223:1224 Coqtail.Complex.Canalysis_def <> f2:13 var
+R1226:1226 Coqtail.Complex.Canalysis_def <> x:14 var
+def 1240:1246 <> div_fct
+binder 1248:1249 <> f1:15
+binder 1251:1252 <> f2:16
+R1257:1257 Coqtail.Complex.Cdefinitions <> C def
+binder 1255:1255 <> x:17
+R1262:1262 Coqtail.Complex.Cdefinitions <> C def
+R1271:1273 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R1267:1268 Coqtail.Complex.Canalysis_def <> f1:15 var
+R1270:1270 Coqtail.Complex.Canalysis_def <> x:17 var
+R1274:1275 Coqtail.Complex.Canalysis_def <> f2:16 var
+R1277:1277 Coqtail.Complex.Canalysis_def <> x:17 var
+def 1291:1302 <> div_real_fct
+R1307:1307 Coqtail.Complex.Cdefinitions <> C def
+binder 1305:1305 <> a:18
+binder 1310:1310 <> f:19
+R1315:1315 Coqtail.Complex.Cdefinitions <> C def
+binder 1313:1313 <> x:20
+R1320:1320 Coqtail.Complex.Cdefinitions <> C def
+R1326:1328 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R1325:1325 Coqtail.Complex.Canalysis_def <> a:18 var
+R1329:1329 Coqtail.Complex.Canalysis_def <> f:19 var
+R1331:1331 Coqtail.Complex.Canalysis_def <> x:20 var
+def 1345:1348 <> comp
+binder 1350:1351 <> f1:21
+binder 1353:1354 <> f2:22
+R1359:1359 Coqtail.Complex.Cdefinitions <> C def
+binder 1357:1357 <> x:23
+R1364:1364 Coqtail.Complex.Cdefinitions <> C def
+R1369:1370 Coqtail.Complex.Canalysis_def <> f1:21 var
+R1373:1374 Coqtail.Complex.Canalysis_def <> f2:22 var
+R1376:1376 Coqtail.Complex.Canalysis_def <> x:23 var
+def 1391:1397 <> inv_fct
+binder 1399:1399 <> f:24
+R1404:1404 Coqtail.Complex.Cdefinitions <> C def
+binder 1402:1402 <> x:25
+R1409:1409 Coqtail.Complex.Cdefinitions <> C def
+R1414:1415 Coqtail.Complex.Cdefinitions <> ::C_scope:'/'_x not
+R1416:1416 Coqtail.Complex.Canalysis_def <> f:24 var
+R1418:1418 Coqtail.Complex.Canalysis_def <> x:25 var
+def 1432:1439 <> constant
+binder 1441:1441 <> f:26
+binder 1460:1460 <> x:27
+binder 1462:1462 <> y:28
+R1468:1470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1465:1465 Coqtail.Complex.Canalysis_def <> f:26 var
+R1467:1467 Coqtail.Complex.Canalysis_def <> x:27 var
+R1471:1471 Coqtail.Complex.Canalysis_def <> f:26 var
+R1473:1473 Coqtail.Complex.Canalysis_def <> y:28 var
+R1547:1554 Coqtail.Complex.Canalysis_def <> plus_fct def
+R1547:1554 Coqtail.Complex.Canalysis_def <> plus_fct def
+R1605:1612 Coqtail.Complex.Canalysis_def <> mult_fct def
+R1605:1612 Coqtail.Complex.Canalysis_def <> mult_fct def
+R1663:1671 Coqtail.Complex.Canalysis_def <> minus_fct def
+R1663:1671 Coqtail.Complex.Canalysis_def <> minus_fct def
+R1722:1728 Coqtail.Complex.Canalysis_def <> div_fct def
+R1722:1728 Coqtail.Complex.Canalysis_def <> div_fct def
+R1779:1785 Coqtail.Complex.Canalysis_def <> inv_fct def
+R1779:1785 Coqtail.Complex.Canalysis_def <> inv_fct def
+R1821:1827 Coqtail.Complex.Canalysis_def <> opp_fct def
+R1821:1827 Coqtail.Complex.Canalysis_def <> opp_fct def
+R1863:1875 Coqtail.Complex.Canalysis_def <> mult_real_fct def
+R1863:1875 Coqtail.Complex.Canalysis_def <> mult_real_fct def
+R1921:1932 Coqtail.Complex.Canalysis_def <> div_real_fct def
+R1921:1932 Coqtail.Complex.Canalysis_def <> div_real_fct def
+R1978:1981 Coqtail.Complex.Canalysis_def <> comp def
+R1978:1981 Coqtail.Complex.Canalysis_def <> comp def
+R2036:2043 Coqtail.Complex.Canalysis_def <> plus_fct def
+not 2029:2029 <> ::Cfun_scope:x_'+'_x
+R2078:2084 Coqtail.Complex.Canalysis_def <> opp_fct def
+not 2068:2068 <> ::Cfun_scope:'-'_x
+R2116:2123 Coqtail.Complex.Canalysis_def <> mult_fct def
+not 2109:2109 <> ::Cfun_scope:x_'*'_x
+R2152:2160 Coqtail.Complex.Canalysis_def <> minus_fct def
+not 2145:2145 <> ::Cfun_scope:x_'-'_x
+R2189:2195 Coqtail.Complex.Canalysis_def <> div_fct def
+not 2182:2182 <> ::Cfun_scope:x_'/'_x
+R2242:2245 Coqtail.Complex.Canalysis_def <> comp def
+not 2226:2226 <> ::Cfun_scope:x_'o'_x
+R2322:2328 Coqtail.Complex.Canalysis_def <> inv_fct def
+not 2312:2312 <> ::Cfun_scope:'/'_x
+def 2359:2365 <> fct_cte
+R2372:2372 Coqtail.Complex.Cdefinitions <> C def
+binder 2368:2368 <> a:29
+binder 2370:2370 <> x:30
+R2377:2377 Coqtail.Complex.Cdefinitions <> C def
+R2382:2382 Coqtail.Complex.Canalysis_def <> a:29 var
+def 2396:2397 <> id
+R2402:2402 Coqtail.Complex.Cdefinitions <> C def
+binder 2400:2400 <> x:31
+R2408:2408 Coqtail.Complex.Canalysis_def <> x:31 var
+def 2423:2429 <> no_cond
+R2434:2434 Coqtail.Complex.Cdefinitions <> C def
+binder 2432:2432 <> x:32
+R2447:2450 Coq.Init.Logic <> True ind
+def 2478:2490 <> constant_D_eq
+binder 2492:2492 <> f:33
+R2498:2501 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2497:2497 Coqtail.Complex.Cdefinitions <> C def
+binder 2495:2495 <> D:34
+R2511:2511 Coqtail.Complex.Cdefinitions <> C def
+binder 2509:2509 <> c:35
+R2535:2535 Coqtail.Complex.Cdefinitions <> C def
+binder 2533:2533 <> x:36
+R2541:2544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2538:2538 Coqtail.Complex.Canalysis_def <> D:34 var
+R2540:2540 Coqtail.Complex.Canalysis_def <> x:36 var
+R2548:2550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2545:2545 Coqtail.Complex.Canalysis_def <> f:33 var
+R2547:2547 Coqtail.Complex.Canalysis_def <> x:36 var
+R2551:2551 Coqtail.Complex.Canalysis_def <> c:35 var
+def 2742:2754 <> continuity_pt
+binder 2756:2756 <> f:37
+R2761:2761 Coqtail.Complex.Cdefinitions <> C def
+binder 2759:2759 <> z:38
+R2774:2784 Coqtail.Complex.Cderiv <> continue_in def
+R2786:2786 Coqtail.Complex.Canalysis_def <> f:37 var
+R2788:2794 Coqtail.Complex.Canalysis_def <> no_cond def
+R2796:2796 Coqtail.Complex.Canalysis_def <> z:38 var
+def 2810:2819 <> continuity
+binder 2821:2821 <> f:39
+R2842:2842 Coqtail.Complex.Cdefinitions <> C def
+binder 2840:2840 <> x:40
+R2845:2857 Coqtail.Complex.Canalysis_def <> continuity_pt def
+R2859:2859 Coqtail.Complex.Canalysis_def <> f:39 var
+R2861:2861 Coqtail.Complex.Canalysis_def <> x:40 var
+def 2875:2898 <> continuity_along_axis_pt
+binder 2900:2900 <> f:41
+binder 2902:2902 <> v:42
+binder 2904:2904 <> x:43
+R2920:2920 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2916:2918 <> eps:44
+R2930:2934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2926:2928 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R2923:2925 Coqtail.Complex.Canalysis_def <> eps:44 var
+R2935:2941 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2955:2956 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2948:2954 Coq.Reals.RIneq <> posreal rec
+binder 2942:2946 <> delta:45
+R2966:2966 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2964:2964 <> h:46
+R2983:2987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2975:2977 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2969:2972 Coq.Reals.Rbasic_fun <> Rabs def
+R2974:2974 Coqtail.Complex.Canalysis_def <> h:46 var
+R2978:2982 Coqtail.Complex.Canalysis_def <> delta:45 var
+R3020:3022 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2988:2991 Coq.Reals.Rlimit <> dist proj
+R2993:2997 Coqtail.Complex.Cmet <> C_met def
+R3000:3000 Coqtail.Complex.Canalysis_def <> f:41 var
+R3004:3006 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'+'_x not
+R3003:3003 Coqtail.Complex.Canalysis_def <> x:43 var
+R3008:3010 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'*'_x not
+R3007:3007 Coqtail.Complex.Canalysis_def <> h:46 var
+R3011:3011 Coqtail.Complex.Canalysis_def <> v:42 var
+R3016:3016 Coqtail.Complex.Canalysis_def <> f:41 var
+R3018:3018 Coqtail.Complex.Canalysis_def <> x:43 var
+R3023:3025 Coqtail.Complex.Canalysis_def <> eps:44 var
+R3039:3051 Coqtail.Complex.Canalysis_def <> continuity_pt def
+R3039:3051 Coqtail.Complex.Canalysis_def <> continuity_pt def
+R3087:3110 Coqtail.Complex.Canalysis_def <> continuity_along_axis_pt def
+R3087:3110 Coqtail.Complex.Canalysis_def <> continuity_along_axis_pt def
+R3156:3165 Coqtail.Complex.Canalysis_def <> continuity def
+R3156:3165 Coqtail.Complex.Canalysis_def <> continuity def
+def 3194:3204 <> growth_rate
+binder 3206:3206 <> f:47
+binder 3208:3208 <> x:48
+binder 3218:3218 <> y:49
+R3223:3223 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R3233:3237 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R3243:3243 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R3227:3229 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R3224:3224 Coqtail.Complex.Canalysis_def <> f:47 var
+R3226:3226 Coqtail.Complex.Canalysis_def <> y:49 var
+R3230:3230 Coqtail.Complex.Canalysis_def <> f:47 var
+R3232:3232 Coqtail.Complex.Canalysis_def <> x:48 var
+R3239:3241 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R3238:3238 Coqtail.Complex.Canalysis_def <> y:49 var
+R3242:3242 Coqtail.Complex.Canalysis_def <> x:48 var
+def 3428:3443 <> derivable_pt_lim
+binder 3445:3445 <> f:50
+R3454:3454 Coqtail.Complex.Cdefinitions <> C def
+binder 3448:3448 <> x:51
+binder 3450:3450 <> l:52
+R3478:3478 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3474:3476 <> eps:53
+R3488:3495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3482:3484 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3485:3487 Coqtail.Complex.Canalysis_def <> eps:53 var
+R3496:3502 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3518:3519 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3511:3517 Coq.Reals.RIneq <> posreal rec
+binder 3503:3507 <> delta:54
+R3531:3531 Coqtail.Complex.Cdefinitions <> C def
+binder 3527:3527 <> h:55
+R3540:3547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3535:3538 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3534:3534 Coqtail.Complex.Canalysis_def <> h:55 var
+R3563:3566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3555:3557 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3548:3552 Coqtail.Complex.Cdefinitions <> Cnorm def
+R3554:3554 Coqtail.Complex.Canalysis_def <> h:55 var
+R3558:3562 Coqtail.Complex.Canalysis_def <> delta:54 var
+R3600:3602 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3567:3571 Coqtail.Complex.Cdefinitions <> Cnorm def
+R3595:3597 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R3574:3574 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R3590:3593 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R3584:3586 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R3575:3575 Coqtail.Complex.Canalysis_def <> f:50 var
+R3579:3581 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'+'_x not
+R3578:3578 Coqtail.Complex.Canalysis_def <> x:51 var
+R3582:3582 Coqtail.Complex.Canalysis_def <> h:55 var
+R3587:3587 Coqtail.Complex.Canalysis_def <> f:50 var
+R3589:3589 Coqtail.Complex.Canalysis_def <> x:51 var
+R3594:3594 Coqtail.Complex.Canalysis_def <> h:55 var
+R3598:3598 Coqtail.Complex.Canalysis_def <> l:52 var
+R3603:3605 Coqtail.Complex.Canalysis_def <> eps:53 var
+def 3620:3635 <> derivable_pt_abs
+binder 3637:3637 <> f:56
+binder 3639:3639 <> x:57
+binder 3641:3641 <> l:58
+R3653:3668 Coqtail.Complex.Canalysis_def <> derivable_pt_lim def
+R3670:3670 Coqtail.Complex.Canalysis_def <> f:56 var
+R3672:3672 Coqtail.Complex.Canalysis_def <> x:57 var
+R3674:3674 Coqtail.Complex.Canalysis_def <> l:58 var
+def 3689:3700 <> derivable_pt
+binder 3702:3702 <> f:59
+binder 3704:3704 <> x:60
+R3709:3710 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R3712:3714 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R3737:3738 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 3711:3711 <> l:61
+R3715:3730 Coqtail.Complex.Canalysis_def <> derivable_pt_abs def
+R3732:3732 Coqtail.Complex.Canalysis_def <> f:59 var
+R3734:3734 Coqtail.Complex.Canalysis_def <> x:60 var
+R3736:3736 Coqtail.Complex.Canalysis_def <> l:61 var
+def 3752:3760 <> derivable
+binder 3762:3762 <> f:62
+binder 3774:3774 <> x:63
+R3777:3788 Coqtail.Complex.Canalysis_def <> derivable_pt def
+R3790:3790 Coqtail.Complex.Canalysis_def <> f:62 var
+R3792:3792 Coqtail.Complex.Canalysis_def <> x:63 var
+def 3807:3815 <> derive_pt
+binder 3817:3817 <> f:64
+binder 3819:3819 <> x:65
+R3825:3836 Coqtail.Complex.Canalysis_def <> derivable_pt def
+R3838:3838 Coqtail.Complex.Canalysis_def <> f:64 var
+R3840:3840 Coqtail.Complex.Canalysis_def <> x:65 var
+binder 3822:3823 <> pr:66
+R3846:3854 Coq.Init.Specif <> proj1_sig def
+R3856:3857 Coqtail.Complex.Canalysis_def <> pr:66 var
+def 3871:3876 <> derive
+binder 3878:3878 <> f:67
+R3884:3892 Coqtail.Complex.Canalysis_def <> derivable def
+R3894:3894 Coqtail.Complex.Canalysis_def <> f:67 var
+binder 3881:3882 <> pr:68
+binder 3897:3897 <> x:69
+R3902:3910 Coqtail.Complex.Canalysis_def <> derive_pt def
+R3912:3912 Coqtail.Complex.Canalysis_def <> f:67 var
+R3914:3914 Coqtail.Complex.Canalysis_def <> x:69 var
+R3917:3918 Coqtail.Complex.Canalysis_def <> pr:68 var
+R3920:3920 Coqtail.Complex.Canalysis_def <> x:69 var
+R3935:3950 Coqtail.Complex.Canalysis_def <> derivable_pt_lim def
+R3935:3950 Coqtail.Complex.Canalysis_def <> derivable_pt_lim def
+R3996:4011 Coqtail.Complex.Canalysis_def <> derivable_pt_abs def
+R3996:4011 Coqtail.Complex.Canalysis_def <> derivable_pt_abs def
+R4057:4068 Coqtail.Complex.Canalysis_def <> derivable_pt def
+R4057:4068 Coqtail.Complex.Canalysis_def <> derivable_pt def
+R4104:4112 Coqtail.Complex.Canalysis_def <> derivable def
+R4104:4112 Coqtail.Complex.Canalysis_def <> derivable def
+R4138:4146 Coqtail.Complex.Canalysis_def <> derive_pt def
+R4138:4146 Coqtail.Complex.Canalysis_def <> derive_pt def
+R4185:4190 Coqtail.Complex.Canalysis_def <> derive def
+R4185:4190 Coqtail.Complex.Canalysis_def <> derive def
+def 4364:4384 <> differentiable_pt_lim
+binder 4386:4386 <> f:70
+R4397:4397 Coqtail.Complex.Cdefinitions <> C def
+binder 4389:4389 <> x:71
+binder 4391:4391 <> v:72
+binder 4393:4393 <> l:73
+R4416:4419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4411:4414 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4410:4410 Coqtail.Complex.Canalysis_def <> v:72 var
+R4431:4431 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4427:4429 <> eps:74
+R4441:4448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4435:4437 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4438:4440 Coqtail.Complex.Canalysis_def <> eps:74 var
+R4449:4455 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4469:4470 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4462:4468 Coq.Reals.RIneq <> posreal rec
+binder 4456:4460 <> delta:75
+R4480:4480 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4478:4478 <> h:76
+R4491:4498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4484:4487 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4483:4483 Coqtail.Complex.Canalysis_def <> h:76 var
+R4513:4516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4505:4507 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4499:4502 Coq.Reals.Rbasic_fun <> Rabs def
+R4504:4504 Coqtail.Complex.Canalysis_def <> h:76 var
+R4508:4512 Coqtail.Complex.Canalysis_def <> delta:75 var
+R4556:4558 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4517:4521 Coqtail.Complex.Cdefinitions <> Cnorm def
+R4551:4553 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R4524:4524 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R4542:4546 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R4550:4550 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'/'_x not
+R4536:4538 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R4525:4525 Coqtail.Complex.Canalysis_def <> f:70 var
+R4529:4531 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'+'_x not
+R4528:4528 Coqtail.Complex.Canalysis_def <> x:71 var
+R4533:4533 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'*'_x not
+R4532:4532 Coqtail.Complex.Canalysis_def <> h:76 var
+R4534:4534 Coqtail.Complex.Canalysis_def <> v:72 var
+R4539:4539 Coqtail.Complex.Canalysis_def <> f:70 var
+R4541:4541 Coqtail.Complex.Canalysis_def <> x:71 var
+R4548:4548 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'*'_x not
+R4547:4547 Coqtail.Complex.Canalysis_def <> h:76 var
+R4549:4549 Coqtail.Complex.Canalysis_def <> v:72 var
+R4554:4554 Coqtail.Complex.Canalysis_def <> l:73 var
+R4559:4561 Coqtail.Complex.Canalysis_def <> eps:74 var
+def 4576:4596 <> differentiable_pt_abs
+binder 4598:4598 <> f:77
+binder 4600:4600 <> x:78
+binder 4602:4602 <> v:79
+binder 4604:4604 <> l:80
+R4616:4636 Coqtail.Complex.Canalysis_def <> differentiable_pt_lim def
+R4638:4638 Coqtail.Complex.Canalysis_def <> f:77 var
+R4640:4640 Coqtail.Complex.Canalysis_def <> x:78 var
+R4642:4642 Coqtail.Complex.Canalysis_def <> v:79 var
+R4644:4644 Coqtail.Complex.Canalysis_def <> l:80 var
+def 4659:4675 <> differentiable_pt
+binder 4677:4677 <> f:81
+binder 4679:4679 <> x:82
+binder 4681:4681 <> v:83
+R4686:4687 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R4689:4691 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R4721:4722 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 4688:4688 <> l:84
+R4692:4712 Coqtail.Complex.Canalysis_def <> differentiable_pt_abs def
+R4714:4714 Coqtail.Complex.Canalysis_def <> f:81 var
+R4716:4716 Coqtail.Complex.Canalysis_def <> x:82 var
+R4718:4718 Coqtail.Complex.Canalysis_def <> v:83 var
+R4720:4720 Coqtail.Complex.Canalysis_def <> l:84 var
+def 4736:4749 <> differentiable
+binder 4751:4751 <> f:85
+binder 4753:4753 <> v:86
+binder 4765:4765 <> x:87
+R4768:4784 Coqtail.Complex.Canalysis_def <> differentiable_pt def
+R4786:4786 Coqtail.Complex.Canalysis_def <> f:85 var
+R4788:4788 Coqtail.Complex.Canalysis_def <> x:87 var
+R4790:4790 Coqtail.Complex.Canalysis_def <> v:86 var
+def 4804:4826 <> fully_differentiable_pt
+binder 4828:4828 <> f:88
+binder 4830:4830 <> x:89
+binder 4842:4842 <> v:90
+R4845:4861 Coqtail.Complex.Canalysis_def <> differentiable_pt def
+R4863:4863 Coqtail.Complex.Canalysis_def <> f:88 var
+R4865:4865 Coqtail.Complex.Canalysis_def <> x:89 var
+R4867:4867 Coqtail.Complex.Canalysis_def <> v:90 var
+def 4881:4900 <> fully_differentiable
+binder 4902:4902 <> f:91
+binder 4914:4914 <> v:92
+R4917:4930 Coqtail.Complex.Canalysis_def <> differentiable def
+R4932:4932 Coqtail.Complex.Canalysis_def <> f:91 var
+R4934:4934 Coqtail.Complex.Canalysis_def <> v:92 var
+def 4949:4963 <> differential_pt
+binder 4965:4965 <> f:93
+binder 4967:4967 <> x:94
+binder 4969:4969 <> v:95
+R4975:4991 Coqtail.Complex.Canalysis_def <> differentiable_pt def
+R4993:4993 Coqtail.Complex.Canalysis_def <> f:93 var
+R4995:4995 Coqtail.Complex.Canalysis_def <> x:94 var
+R4997:4997 Coqtail.Complex.Canalysis_def <> v:95 var
+binder 4972:4973 <> pr:96
+R5003:5011 Coq.Init.Specif <> proj1_sig def
+R5013:5014 Coqtail.Complex.Canalysis_def <> pr:96 var
+def 5028:5039 <> differential
+binder 5041:5041 <> f:97
+binder 5043:5043 <> v:98
+R5049:5062 Coqtail.Complex.Canalysis_def <> differentiable def
+R5064:5064 Coqtail.Complex.Canalysis_def <> f:97 var
+R5066:5066 Coqtail.Complex.Canalysis_def <> v:98 var
+binder 5046:5047 <> pr:99
+binder 5069:5069 <> x:100
+R5074:5088 Coqtail.Complex.Canalysis_def <> differential_pt def
+R5090:5090 Coqtail.Complex.Canalysis_def <> f:97 var
+R5092:5092 Coqtail.Complex.Canalysis_def <> x:100 var
+R5094:5094 Coqtail.Complex.Canalysis_def <> v:98 var
+R5097:5098 Coqtail.Complex.Canalysis_def <> pr:99 var
+R5100:5100 Coqtail.Complex.Canalysis_def <> x:100 var
+R5115:5135 Coqtail.Complex.Canalysis_def <> differentiable_pt_lim def
+R5115:5135 Coqtail.Complex.Canalysis_def <> differentiable_pt_lim def
+R5178:5198 Coqtail.Complex.Canalysis_def <> differentiable_pt_abs def
+R5178:5198 Coqtail.Complex.Canalysis_def <> differentiable_pt_abs def
+R5240:5256 Coqtail.Complex.Canalysis_def <> differentiable_pt def
+R5240:5256 Coqtail.Complex.Canalysis_def <> differentiable_pt def
+R5296:5309 Coqtail.Complex.Canalysis_def <> differentiable def
+R5296:5309 Coqtail.Complex.Canalysis_def <> differentiable def
+R5345:5367 Coqtail.Complex.Canalysis_def <> fully_differentiable_pt def
+R5345:5367 Coqtail.Complex.Canalysis_def <> fully_differentiable_pt def
+R5403:5422 Coqtail.Complex.Canalysis_def <> fully_differentiable def
+R5403:5422 Coqtail.Complex.Canalysis_def <> fully_differentiable def
+R5448:5462 Coqtail.Complex.Canalysis_def <> differential_pt def
+R5448:5462 Coqtail.Complex.Canalysis_def <> differential_pt def
+R5511:5522 Coqtail.Complex.Canalysis_def <> differential def
+R5511:5522 Coqtail.Complex.Canalysis_def <> differential def

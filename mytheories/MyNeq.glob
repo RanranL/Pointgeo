@@ -1,0 +1,20 @@
+DIGEST 91032eee107f6ffd19d1da6bed773af1
+FCoqtail.mytheories.MyNeq
+R8:13 Coq.Setoids.Setoid <> <> lib
+binder 42:42 <> A:1
+R54:54 Coqtail.mytheories.MyNeq <> A:1 var
+R68:68 Coqtail.mytheories.MyNeq <> A:1 var
+binder 62:62 <> x:2
+binder 64:64 <> y:3
+R75:78 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R74:74 Coqtail.mytheories.MyNeq <> x:2 var
+R79:79 Coqtail.mytheories.MyNeq <> y:3 var
+binder 42:42 <> A:4
+R54:54 Coqtail.mytheories.MyNeq <> A:4 var
+R68:68 Coqtail.mytheories.MyNeq <> A:4 var
+binder 62:62 <> x:5
+binder 64:64 <> y:6
+R75:78 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R74:74 Coqtail.mytheories.MyNeq <> x:5 var
+R79:79 Coqtail.mytheories.MyNeq <> y:6 var
+R103:112 Coq.Init.Logic <> not_eq_sym thm

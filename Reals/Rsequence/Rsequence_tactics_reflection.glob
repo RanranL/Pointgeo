@@ -1,0 +1,459 @@
+DIGEST 873294ebc04f81b5ab19ae5f784e7dff
+FCoqtail.Reals.Rsequence.Rsequence_tactics_reflection
+R15:19 Coq.Reals.Rbase <> <> lib
+R21:27 Coqtail.mytheories.myReals.MyRIneq <> <> lib
+R45:57 Coqtail.Reals.Rsequence.Rsequence_def <> <> lib
+R59:73 Coqtail.Reals.Rsequence.Rsequence_facts <> <> lib
+R75:92 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> <> lib
+R111:114 Coq.Lists.List <> <> lib
+R132:137 Coqtail.Monad.Option <> <> lib
+R155:161 Coqtail.Reals.Tactics <> <> lib
+ind 265:268 <> rseq
+constr 277:284 <> rseq_cst
+constr 315:322 <> rseq_var
+constr 355:362 <> rseq_opp
+constr 396:404 <> rseq_plus
+constr 441:450 <> rseq_minus
+R302:302 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 298:298 <> r:3
+R306:309 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+R340:342 Coq.Init.Datatypes <> nat ind
+binder 336:336 <> n:4
+R346:349 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+R380:383 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+binder 376:376 <> r:5
+R387:390 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+R425:428 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+binder 417:418 <> rl:6
+binder 420:421 <> rr:7
+R432:435 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+R470:473 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+binder 462:463 <> rl:8
+binder 465:466 <> rr:9
+R477:480 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq:1 ind
+ind 494:503 <> rseq_limit
+constr 512:520 <> minus_inf
+constr 539:544 <> finite
+constr 579:586 <> plus_inf
+R524:533 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit:10 ind
+R560:560 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 556:556 <> l:12
+R564:573 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit:10 ind
+R590:599 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit:10 ind
+def 614:621 <> is_limit
+binder 623:623 <> r:13
+binder 625:625 <> l:14
+R636:636 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:14 var
+R647:655 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R660:676 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv_neg_infty def
+R678:678 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:13 var
+R684:689 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R696:702 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+R704:704 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:13 var
+R706:706 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:14 var
+R712:719 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R724:740 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv_pos_infty def
+R742:742 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:13 var
+prf 818:829 <> is_limit_ext
+binder 840:840 <> r:16
+binder 842:842 <> s:17
+binder 844:844 <> k:18
+binder 846:846 <> l:19
+R863:868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R851:858 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R860:860 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:16 var
+R862:862 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> k:18 var
+R875:878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R870:873 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'=='_x not
+R869:869 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:16 var
+R874:874 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> s:17 var
+R884:889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R880:882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R879:879 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> k:18 var
+R883:883 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:19 var
+R890:897 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R899:899 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> s:17 var
+R901:901 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:19 var
+R951:977 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_neg_infty_eq_compat thm
+R989:1005 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_eq_compat thm
+R1032:1058 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_pos_infty_eq_compat thm
+R951:977 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_neg_infty_eq_compat thm
+R989:1005 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_eq_compat thm
+R1032:1058 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_pos_infty_eq_compat thm
+def 1103:1117 <> Rseq_with_limit
+R1122:1122 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1124:1126 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1131:1133 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1165:1165 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R1127:1130 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq def
+binder 1123:1123 <> r:20
+R1134:1134 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1136:1138 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1149:1151 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1164:1164 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1139:1148 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit ind
+binder 1135:1135 <> l:21
+R1152:1159 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R1161:1161 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:20 var
+R1163:1163 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:21 var
+def 1180:1193 <> rseq_limit_opp
+binder 1195:1195 <> l:22
+R1206:1206 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:22 var
+R1217:1225 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R1230:1237 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1243:1248 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R1256:1261 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R1264:1265 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R1273:1280 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1286:1294 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+prf 1308:1330 <> rseq_limit_opp_is_limit
+binder 1341:1341 <> r:24
+binder 1343:1343 <> l:25
+R1360:1365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1348:1355 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R1357:1357 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:24 var
+R1359:1359 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:25 var
+R1366:1373 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R1376:1377 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:'-'_x not
+R1378:1378 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:24 var
+R1382:1395 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R1397:1397 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:25 var
+R1442:1469 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_neg_infty_opp_compat thm
+R1480:1497 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_opp_compat thm
+R1508:1535 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_pos_infty_opp_compat thm
+R1442:1469 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_neg_infty_opp_compat thm
+R1480:1497 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_opp_compat thm
+R1508:1535 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_pos_infty_opp_compat thm
+def 1570:1583 <> rseq_limit_add
+binder 1585:1586 <> ll:26
+binder 1588:1589 <> lr:27
+R1604:1605 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> lr:27 var
+R1600:1601 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> ll:26 var
+R1616:1624 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R1627:1634 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1640:1643 Coq.Init.Datatypes <> None constr
+R1649:1656 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1660:1668 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R1673:1676 Coq.Init.Datatypes <> None constr
+R1682:1690 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R1706:1709 Coq.Init.Datatypes <> Some constr
+R1711:1719 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R1736:1744 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R1749:1752 Coq.Init.Datatypes <> Some constr
+R1754:1762 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R1768:1775 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1792:1795 Coq.Init.Datatypes <> Some constr
+R1797:1804 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1821:1828 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1834:1837 Coq.Init.Datatypes <> Some constr
+R1839:1846 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R1852:1857 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R1863:1868 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R1876:1879 Coq.Init.Datatypes <> Some constr
+R1882:1887 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R1891:1893 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+def 1913:1922 <> comp_limit
+R1929:1932 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq ind
+binder 1925:1925 <> r:30
+R1942:1945 Coq.Init.Datatypes <> list ind
+R1947:1961 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> Rseq_with_limit def
+binder 1936:1938 <> env:31
+R1966:1971 Coq.Init.Datatypes <> option ind
+R1973:1982 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit ind
+R1993:1993 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:30 var
+R2004:2011 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_cst constr
+R2018:2023 Coqtail.Monad.Option <> Return def
+R2026:2031 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R2033:2033 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:30 var
+R2040:2047 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_var constr
+R2054:2057 Coqtail.Monad.Option <> Bind def
+binder 2082:2082 <> x:34
+R2087:2092 Coqtail.Monad.Option <> Return def
+R2095:2103 Coq.Init.Specif <> proj1_sig def
+R2106:2111 Coq.Init.Specif <> projT2 def
+R2113:2113 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> x:34 var
+R2060:2068 Coq.Lists.List <> nth_error def
+R2070:2072 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:31 var
+R2122:2129 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_opp constr
+R2136:2139 Coqtail.Monad.Option <> Bind def
+binder 2165:2165 <> l:35
+R2170:2173 Coq.Init.Datatypes <> Some constr
+R2176:2189 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R2191:2191 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:35 var
+R2142:2151 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit:32 def
+R2155:2157 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:31 var
+R2153:2153 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:30 var
+R2199:2207 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_plus constr
+R2218:2221 Coqtail.Monad.Option <> Bind def
+binder 2248:2249 <> ll:36
+R2277:2280 Coqtail.Monad.Option <> Bind def
+binder 2307:2308 <> lr:37
+R2313:2326 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_add def
+R2328:2329 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> ll:36 var
+R2331:2332 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> lr:37 var
+R2283:2292 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit:32 def
+R2297:2299 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:31 var
+R2224:2233 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit:32 def
+R2238:2240 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:31 var
+R2340:2349 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_minus constr
+R2360:2363 Coqtail.Monad.Option <> Bind def
+binder 2390:2391 <> ll:38
+R2420:2423 Coqtail.Monad.Option <> Bind def
+binder 2450:2451 <> lr:39
+R2456:2469 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_add def
+R2471:2472 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> ll:38 var
+R2475:2488 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R2490:2491 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> lr:39 var
+R2426:2435 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit:32 def
+R2440:2442 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:31 var
+R2366:2375 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit:32 def
+R2380:2382 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:31 var
+def 2511:2519 <> comp_rseq
+R2526:2529 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq ind
+binder 2522:2522 <> r:40
+R2539:2542 Coq.Init.Datatypes <> list ind
+R2544:2558 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> Rseq_with_limit def
+binder 2533:2535 <> env:41
+R2570:2570 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:40 var
+R2581:2588 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_cst constr
+R2595:2600 Coqtail.Monad.Option <> Return def
+R2603:2615 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_constant def
+R2617:2617 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:40 var
+R2624:2631 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_var constr
+R2638:2641 Coqtail.Monad.Option <> Bind def
+binder 2666:2667 <> un:44
+R2672:2675 Coq.Init.Datatypes <> Some constr
+R2678:2683 Coq.Init.Specif <> projT1 def
+R2685:2686 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:44 var
+R2644:2652 Coq.Lists.List <> nth_error def
+R2654:2656 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:41 var
+R2694:2701 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_opp constr
+R2708:2711 Coqtail.Monad.Option <> Bind def
+binder 2736:2737 <> un:45
+R2742:2745 Coq.Init.Datatypes <> Some constr
+R2748:2755 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_opp def
+R2757:2758 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:45 var
+R2714:2722 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq:42 def
+R2726:2728 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:41 var
+R2724:2724 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:40 var
+R2766:2774 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_plus constr
+R2785:2788 Coqtail.Monad.Option <> Bind def
+binder 2814:2815 <> un:46
+R2843:2846 Coqtail.Monad.Option <> Bind def
+binder 2872:2873 <> vn:47
+R2878:2881 Coq.Init.Datatypes <> Some constr
+R2884:2892 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_plus def
+R2894:2895 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:46 var
+R2897:2898 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> vn:47 var
+R2849:2857 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq:42 def
+R2862:2864 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:41 var
+R2791:2799 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq:42 def
+R2804:2806 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:41 var
+R2907:2916 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_minus constr
+R2927:2930 Coqtail.Monad.Option <> Bind def
+binder 2956:2957 <> un:48
+R2985:2988 Coqtail.Monad.Option <> Bind def
+binder 3014:3015 <> vn:49
+R3020:3023 Coq.Init.Datatypes <> Some constr
+R3026:3035 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_minus def
+R3037:3038 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:48 var
+R3040:3041 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> vn:49 var
+R2991:2999 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq:42 def
+R3004:3006 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:41 var
+R2933:2941 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq:42 def
+R2946:2948 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:41 var
+R3097:3103 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+R3097:3103 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+R3150:3166 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv_neg_infty def
+R3150:3166 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv_neg_infty def
+R3209:3225 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv_pos_infty def
+R3209:3225 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv_pos_infty def
+R3239:3246 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R3250:3257 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R3180:3187 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R3191:3199 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R3120:3127 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R3132:3137 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+prf 3272:3293 <> comp_rseq_limit_compat
+binder 3304:3304 <> r:50
+binder 3306:3308 <> env:51
+binder 3310:3311 <> un:52
+binder 3313:3313 <> l:53
+R3343:3348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3333:3335 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3318:3326 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R3328:3328 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:50 var
+R3330:3332 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:51 var
+R3336:3339 Coq.Init.Datatypes <> Some constr
+R3341:3342 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:52 var
+R3374:3379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3365:3367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3349:3358 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R3360:3360 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:50 var
+R3362:3364 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:51 var
+R3368:3371 Coq.Init.Datatypes <> Some constr
+R3373:3373 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:53 var
+R3380:3387 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R3389:3390 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:52 var
+R3392:3392 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:53 var
+R3502:3517 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_constant_cv thm
+R3502:3517 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_constant_cv thm
+R3531:3539 Coq.Lists.List <> nth_error def
+R3531:3539 Coq.Lists.List <> nth_error def
+R3601:3609 Coq.Init.Specif <> proj2_sig def
+R3612:3617 Coq.Init.Specif <> projT2 def
+R3601:3609 Coq.Init.Specif <> proj2_sig def
+R3612:3617 Coq.Init.Specif <> projT2 def
+R3654:3662 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R3715:3724 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R3654:3662 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R3715:3724 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R3804:3826 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R3804:3826 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R3859:3867 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R3921:3930 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R3983:3991 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R4045:4054 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R3859:3867 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R3921:3930 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R3983:3991 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R4045:4054 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R4176:4204 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_neg_infty_plus_compat thm
+R4176:4204 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_neg_infty_plus_compat thm
+R4281:4311 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_l thm
+R4281:4311 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_l thm
+R4388:4418 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_r thm
+R4388:4418 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_r thm
+R4495:4513 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_plus_compat thm
+R4495:4513 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_plus_compat thm
+R4590:4620 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_r thm
+R4590:4620 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_r thm
+R4697:4727 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_l thm
+R4697:4727 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_l thm
+R4803:4831 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_pos_infty_plus_compat thm
+R4803:4831 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_pos_infty_plus_compat thm
+R4908:4916 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R4970:4979 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R5032:5040 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R5094:5103 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R4908:4916 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R4970:4979 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R5032:5040 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R5094:5103 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R5170:5181 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit_ext thm
+R5184:5192 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_plus def
+R5198:5205 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_opp def
+R5239:5247 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_plus def
+R5250:5259 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_minus def
+R5262:5269 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_opp def
+R5170:5181 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit_ext thm
+R5184:5192 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_plus def
+R5198:5205 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_opp def
+R5395:5396 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5357:5387 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_l thm
+R5446:5459 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5462:5467 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R5487:5509 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R5395:5396 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5357:5387 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_l thm
+R5446:5459 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5462:5467 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R5487:5509 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R5543:5571 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_neg_infty_plus_compat thm
+R5616:5629 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5631:5638 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R5654:5676 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R5543:5571 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_neg_infty_plus_compat thm
+R5616:5629 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5631:5638 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R5654:5676 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R5710:5740 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_r thm
+R5793:5806 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5808:5816 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R5832:5854 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R5710:5740 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_r thm
+R5793:5806 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5808:5816 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R5832:5854 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R5888:5906 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_plus_compat thm
+R5951:5964 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5967:5972 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R5992:6014 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R5888:5906 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_plus_compat thm
+R5951:5964 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R5967:5972 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R5992:6014 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R6049:6079 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_r thm
+R6124:6137 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R6139:6146 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R6162:6184 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R6049:6079 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_neg_infty_r thm
+R6124:6137 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R6139:6146 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> plus_inf constr
+R6162:6184 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R6218:6246 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_pos_infty_plus_compat thm
+R6291:6304 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R6306:6314 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R6330:6352 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R6218:6246 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_pos_infty_plus_compat thm
+R6291:6304 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R6306:6314 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> minus_inf constr
+R6330:6352 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R6424:6425 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6386:6416 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_l thm
+R6475:6488 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R6491:6496 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R6516:6538 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+R6424:6425 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6386:6416 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_finite_plus_pos_infty_l thm
+R6475:6488 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp def
+R6491:6496 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> finite constr
+R6516:6538 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_limit_opp_is_limit thm
+def 6579:6595 <> rseq_precondition
+binder 6597:6597 <> r:54
+binder 6599:6601 <> env:55
+binder 6603:6604 <> un:56
+binder 6606:6606 <> l:57
+R6617:6625 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R6627:6627 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:54 var
+R6629:6631 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:55 var
+R6642:6645 Coq.Init.Datatypes <> None constr
+R6653:6657 Coq.Init.Logic <> False ind
+R6663:6666 Coq.Init.Datatypes <> Some constr
+R6682:6691 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R6693:6693 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:54 var
+R6695:6697 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:55 var
+R6710:6713 Coq.Init.Datatypes <> None constr
+R6718:6722 Coq.Init.Logic <> False ind
+R6730:6733 Coq.Init.Datatypes <> Some constr
+R6740:6740 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6749:6754 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6760:6760 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6743:6746 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'=='_x not
+R6741:6742 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:56 var
+R6756:6758 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6755:6755 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:57 var
+prf 6780:6797 <> tactic_correctness
+binder 6808:6808 <> r:58
+binder 6810:6812 <> env:59
+binder 6814:6815 <> un:60
+binder 6817:6817 <> l:61
+R6851:6857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6823:6839 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_precondition def
+R6841:6841 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> r:58 var
+R6843:6845 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> env:59 var
+R6847:6848 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:60 var
+R6850:6850 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:61 var
+R6858:6865 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit def
+R6867:6868 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> un:60 var
+R6870:6870 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> l:61 var
+R6887:6903 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> rseq_precondition def
+R6938:6946 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R6988:6997 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R6938:6946 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq def
+R6988:6997 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R6988:6997 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_limit def
+R7059:7070 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit_ext thm
+R7085:7106 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq_limit_compat thm
+R7059:7070 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> is_limit_ext thm
+R7085:7106 Coqtail.Reals.Rsequence.Rsequence_tactics_reflection <> comp_rseq_limit_compat thm

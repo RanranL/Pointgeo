@@ -1,0 +1,54 @@
+DIGEST 4cccf597ed0c4ab1d7444cf9339c5622
+FCoqtail.Reals.Ranalysis.Rfunction_facts
+R816:820 Coq.Reals.Reals <> <> lib
+R838:850 Coqtail.Reals.Ranalysis.Rfunction_def <> <> lib
+binder 1077:1077 <> x:1
+binder 1077:1077 <> x:2
+R1195:1201 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1203:1204 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1202:1202 <> x:3
+R1195:1201 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1203:1204 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1202:1202 <> x:4
+R1289:1292 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1289:1292 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1416:1419 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1416:1419 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+sec 1618:1624 <> Rfun_eq
+var 1638:1638 Rfun_eq f
+var 1640:1640 Rfun_eq g
+R1645:1648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1644:1644 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1649:1649 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 1663:1665 Rfun_eq Heq
+R1670:1673 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R1669:1669 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.f var
+R1674:1674 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.g var
+prf 1684:1711 <> Rfun_continuity_pt_eq_compat
+binder 1724:1724 <> x:8
+R1744:1747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1727:1739 Coq.Reals.Ranalysis1 <> continuity_pt def
+R1741:1741 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.f var
+R1743:1743 Coqtail.Reals.Ranalysis.Rfunction_facts <> x:8 var
+R1748:1760 Coq.Reals.Ranalysis1 <> continuity_pt def
+R1762:1762 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.g var
+R1764:1764 Coqtail.Reals.Ranalysis.Rfunction_facts <> x:8 var
+R1954:1956 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R1954:1956 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R1954:1956 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R1954:1956 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R1954:1956 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R1954:1956 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+prf 1979:2003 <> Rfun_continuity_eq_compat
+R2021:2024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2009:2018 Coq.Reals.Ranalysis1 <> continuity def
+R2020:2020 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.f var
+R2025:2034 Coq.Reals.Ranalysis1 <> continuity def
+R2036:2036 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.g var
+R2128:2130 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R2128:2130 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R2128:2130 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R2128:2130 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R2128:2130 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R2128:2130 Coqtail.Reals.Ranalysis.Rfunction_facts <> Rfun_eq.Heq var
+R2152:2158 Coqtail.Reals.Ranalysis.Rfunction_facts Rfun_eq <> sec

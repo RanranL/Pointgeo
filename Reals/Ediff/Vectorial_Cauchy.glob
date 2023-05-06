@@ -1,0 +1,115 @@
+DIGEST fcd7af553c948f78573a325617a8c47b
+FCoqtail.Reals.Ediff.Vectorial_Cauchy
+R15:19 Coqtail.Reals.Ediff.Evect <> <> lib
+sec 31:46 <> Vectorial_Cauchy
+var 58:58 Vectorial_Cauchy V
+var 77:77 Vectorial_Cauchy N
+R82:85 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R81:81 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+R86:86 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 99:100 Vectorial_Cauchy vO
+R102:102 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+var 115:118 Vectorial_Cauchy vadd
+R123:124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R122:122 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+R126:127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R125:125 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+R128:128 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+var 140:143 Vectorial_Cauchy smul
+R148:149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R147:147 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R151:152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R150:150 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+R153:153 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+var 165:167 Vectorial_Cauchy dim
+R171:173 Coq.Init.Datatypes <> nat ind
+var 185:188 Vectorial_Cauchy base
+R195:198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R192:194 Coq.Init.Datatypes <> nat ind
+R199:199 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+var 211:211 Vectorial_Cauchy p
+R218:221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R215:217 Coq.Init.Datatypes <> nat ind
+R223:226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R222:222 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+R227:227 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 242:251 Vectorial_Cauchy vect_space
+R255:268 Coqtail.Reals.Ediff.Evect <> R_vector_space rec
+R294:294 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.p var
+R289:292 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.base var
+R285:287 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.dim var
+R280:283 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.smul var
+R275:278 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.vadd var
+R272:273 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.vO var
+R270:270 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.N var
+prf 361:377 <> Cauchy_autonomous
+R394:397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R393:393 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+R398:398 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+binder 389:389 <> f:10
+R407:410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R406:406 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 402:402 <> I:11
+R423:426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R422:422 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+binder 418:418 <> K:12
+R441:450 Coqtail.Reals.Ediff.Evect <> Open_space def
+R463:463 Coqtail.Reals.Ediff.Vectorial_Cauchy <> K:12 var
+R452:461 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.vect_space var
+binder 434:437 <> open:13
+R475:475 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 470:471 <> t0:14
+R484:484 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+binder 479:480 <> x0:15
+R495:498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R491:491 Coqtail.Reals.Ediff.Vectorial_Cauchy <> K:12 var
+R493:494 Coqtail.Reals.Ediff.Vectorial_Cauchy <> x0:15 var
+R518:521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R499:510 Coqtail.Reals.Ediff.Evect <> VVcontinuity def
+R514:517 Coqtail.Reals.Ediff.Vectorial_Cauchy <> open:13 var
+R512:512 Coqtail.Reals.Ediff.Vectorial_Cauchy <> f:10 var
+R538:544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R522:530 Coqtail.Reals.Ediff.Evect <> lipschitz def
+R534:537 Coqtail.Reals.Ediff.Vectorial_Cauchy <> open:13 var
+R532:532 Coqtail.Reals.Ediff.Vectorial_Cauchy <> f:10 var
+R545:545 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R547:549 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R556:558 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R674:674 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R551:554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R550:550 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R555:555 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.V var
+binder 546:546 <> x:16
+R559:559 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R561:563 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R583:585 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R673:673 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R564:565 Coqtail.Reals.Ediff.Evect <> VC def
+R582:582 Coqtail.Reals.Ediff.Vectorial_Cauchy <> x:16 var
+R580:580 Coqtail.Reals.Ediff.Vectorial_Cauchy <> I:11 var
+R567:576 Coqtail.Reals.Ediff.Vectorial_Cauchy <> Vectorial_Cauchy.vect_space var
+binder 560:560 <> C:17
+R598:598 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 594:594 <> t:18
+R605:608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R602:602 Coqtail.Reals.Ediff.Vectorial_Cauchy <> I:11 var
+R604:604 Coqtail.Reals.Ediff.Vectorial_Cauchy <> t:18 var
+R609:609 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R617:621 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R610:610 Coqtail.Reals.Ediff.Vectorial_Cauchy <> K:12 var
+R613:613 Coqtail.Reals.Ediff.Vectorial_Cauchy <> x:16 var
+R615:615 Coqtail.Reals.Ediff.Vectorial_Cauchy <> t:18 var
+R660:663 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R650:652 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R623:629 Coqtail.Reals.Ediff.Evect <> Vderive def
+R632:643 Coqtail.Reals.Ediff.Evect <> VC_derivable thm
+R645:645 Coqtail.Reals.Ediff.Vectorial_Cauchy <> C:17 var
+R649:649 Coqtail.Reals.Ediff.Vectorial_Cauchy <> t:18 var
+R653:653 Coqtail.Reals.Ediff.Vectorial_Cauchy <> f:10 var
+R656:656 Coqtail.Reals.Ediff.Vectorial_Cauchy <> x:16 var
+R658:658 Coqtail.Reals.Ediff.Vectorial_Cauchy <> t:18 var
+R668:670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R664:664 Coqtail.Reals.Ediff.Vectorial_Cauchy <> x:16 var
+R666:667 Coqtail.Reals.Ediff.Vectorial_Cauchy <> t0:14 var
+R671:672 Coqtail.Reals.Ediff.Vectorial_Cauchy <> x0:15 var
+R745:760 Coqtail.Reals.Ediff.Vectorial_Cauchy Vectorial_Cauchy <> sec

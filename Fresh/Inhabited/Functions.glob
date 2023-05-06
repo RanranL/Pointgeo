@@ -1,0 +1,259 @@
+DIGEST f92d05a263bc387631a348f1bd14f56a
+FCoqtail.Fresh.Inhabited.Functions
+R15:19 Coqtail.Fresh.Inhabited.Monad <> <> lib
+R37:44 Coqtail.Fresh.Inhabited.Examples <> <> lib
+def 75:76 <> EM
+binder 89:89 <> P:1
+R101:104 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R100:100 Coqtail.Fresh.Inhabited.Functions <> P:1 var
+R105:106 Coq.Init.Logic <> ::type_scope:'~'_x not
+R107:107 Coqtail.Fresh.Inhabited.Functions <> P:1 var
+ind 159:160 <> SB
+constr 172:173 <> NO
+constr 177:177 <> Z
+constr 181:182 <> PO
+def 196:197 <> RR
+R205:208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R202:204 Coq.Init.Datatypes <> nat ind
+R209:210 Coqtail.Fresh.Inhabited.Functions <> SB ind
+sec 222:237 <> partial_function
+ax 252:252 <> A
+ax 254:254 <> B
+ax 276:276 <> x
+R280:280 Coqtail.Fresh.Inhabited.Functions <> A defax
+ax 295:295 <> y
+R299:299 Coqtail.Fresh.Inhabited.Functions <> B defax
+ax 314:315 <> AC
+R319:324 Coqtail.Fresh.Inhabited.Monad <> choice def
+prf 338:341 <> toto
+R345:346 Coqtail.Fresh.Inhabited.Monad <> :::'['_x_']' not
+R389:390 Coqtail.Fresh.Inhabited.Monad <> :::'['_x_']' not
+R347:347 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R349:351 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R358:360 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R388:388 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R353:356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R352:352 Coqtail.Fresh.Inhabited.Functions <> A defax
+R357:357 Coqtail.Fresh.Inhabited.Functions <> B defax
+binder 348:348 <> f:9
+binder 368:368 <> z:10
+R377:380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R372:375 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R371:371 Coqtail.Fresh.Inhabited.Functions <> z:10 var
+R376:376 Coqtail.Fresh.Inhabited.Functions <> x defax
+R384:386 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R381:381 Coqtail.Fresh.Inhabited.Functions <> f:9 var
+R383:383 Coqtail.Fresh.Inhabited.Functions <> z:10 var
+R387:387 Coqtail.Fresh.Inhabited.Functions <> y defax
+R415:416 Coqtail.Fresh.Inhabited.Functions <> AC defax
+R418:418 Coqtail.Fresh.Inhabited.Functions <> A defax
+binder 425:425 <> z:11
+R430:430 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R432:434 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R440:440 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 431:431 <> r:12
+R436:438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R435:435 Coqtail.Fresh.Inhabited.Functions <> r:12 var
+R439:439 Coqtail.Fresh.Inhabited.Functions <> y defax
+R415:416 Coqtail.Fresh.Inhabited.Functions <> AC defax
+R418:418 Coqtail.Fresh.Inhabited.Functions <> A defax
+binder 425:425 <> z:13
+R430:430 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R432:434 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R440:440 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 431:431 <> r:14
+R436:438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R435:435 Coqtail.Fresh.Inhabited.Functions <> r:14 var
+R439:439 Coqtail.Fresh.Inhabited.Functions <> y defax
+binder 524:524 <> z:15
+R529:537 Coq.Init.Specif <> proj1_sig def
+R542:542 Coqtail.Fresh.Inhabited.Functions <> z:15 var
+binder 524:524 <> z:16
+R529:537 Coq.Init.Specif <> proj1_sig def
+R542:542 Coqtail.Fresh.Inhabited.Functions <> z:16 var
+prf 627:631 <> toto'
+R635:636 Coqtail.Fresh.Inhabited.Monad <> :::'['_x_']' not
+R679:680 Coqtail.Fresh.Inhabited.Monad <> :::'['_x_']' not
+R637:637 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R639:641 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R648:650 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R678:678 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R643:646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R642:642 Coqtail.Fresh.Inhabited.Functions <> A defax
+R647:647 Coqtail.Fresh.Inhabited.Functions <> B defax
+binder 638:638 <> f:17
+binder 658:658 <> z:18
+R667:670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R662:665 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R661:661 Coqtail.Fresh.Inhabited.Functions <> z:18 var
+R666:666 Coqtail.Fresh.Inhabited.Functions <> x defax
+R674:676 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R671:671 Coqtail.Fresh.Inhabited.Functions <> f:17 var
+R673:673 Coqtail.Fresh.Inhabited.Functions <> z:18 var
+R677:677 Coqtail.Fresh.Inhabited.Functions <> y defax
+R705:706 Coqtail.Fresh.Inhabited.Functions <> AC defax
+R708:708 Coqtail.Fresh.Inhabited.Functions <> A defax
+binder 715:715 <> z:19
+R720:720 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R722:724 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R730:730 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 721:721 <> r:20
+R726:728 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R725:725 Coqtail.Fresh.Inhabited.Functions <> r:20 var
+R729:729 Coqtail.Fresh.Inhabited.Functions <> y defax
+R705:706 Coqtail.Fresh.Inhabited.Functions <> AC defax
+R708:708 Coqtail.Fresh.Inhabited.Functions <> A defax
+binder 715:715 <> z:21
+R720:720 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R722:724 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R730:730 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 721:721 <> r:22
+R726:728 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R725:725 Coqtail.Fresh.Inhabited.Functions <> r:22 var
+R729:729 Coqtail.Fresh.Inhabited.Functions <> y defax
+binder 822:822 <> z:23
+R827:835 Coq.Init.Specif <> proj1_sig def
+R840:840 Coqtail.Fresh.Inhabited.Functions <> z:23 var
+binder 822:822 <> z:24
+R827:835 Coq.Init.Specif <> proj1_sig def
+R840:840 Coqtail.Fresh.Inhabited.Functions <> z:24 var
+R931:946 Coqtail.Fresh.Inhabited.Functions partial_function <> sec
+def 1068:1077 <> eq_one_dec
+R1087:1090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1081:1086 Coqtail.Fresh.Inhabited.Monad <> choice def
+R1093:1098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1091:1092 Coqtail.Fresh.Inhabited.Functions <> EM def
+R1099:1100 Coqtail.Fresh.Inhabited.Monad <> :::'['_x_']' not
+R1253:1254 Coqtail.Fresh.Inhabited.Monad <> :::'['_x_']' not
+R1101:1102 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1106:1108 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1119:1128 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1251:1252 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1111:1114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1109:1110 Coqtail.Fresh.Inhabited.Functions <> RR def
+R1115:1118 Coq.Init.Datatypes <> bool ind
+binder 1103:1105 <> DEC:25
+binder 1136:1136 <> f:26
+R1148:1148 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1191:1205 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1250:1250 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1149:1149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1174:1178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1161:1163 Coq.Init.Datatypes <> nat ind
+binder 1157:1157 <> n:27
+R1169:1171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1166:1166 Coqtail.Fresh.Inhabited.Functions <> f:26 var
+R1168:1168 Coqtail.Fresh.Inhabited.Functions <> n:27 var
+R1172:1173 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1184:1186 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1179:1181 Coqtail.Fresh.Inhabited.Functions <> DEC:25 var
+R1183:1183 Coqtail.Fresh.Inhabited.Functions <> f:26 var
+R1187:1190 Coq.Init.Datatypes <> true constr
+R1206:1206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1232:1236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1207:1213 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1221:1222 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1218:1220 Coq.Init.Datatypes <> nat ind
+binder 1214:1214 <> n:28
+R1226:1229 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1223:1223 Coqtail.Fresh.Inhabited.Functions <> f:26 var
+R1225:1225 Coqtail.Fresh.Inhabited.Functions <> n:28 var
+R1230:1231 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1242:1244 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1237:1239 Coqtail.Fresh.Inhabited.Functions <> DEC:25 var
+R1241:1241 Coqtail.Fresh.Inhabited.Functions <> f:26 var
+R1245:1249 Coq.Init.Datatypes <> false constr
+R1288:1289 Coqtail.Fresh.Inhabited.Functions <> AC defax
+R1291:1292 Coqtail.Fresh.Inhabited.Functions <> RR def
+binder 1301:1301 <> f:29
+R1306:1306 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1308:1314 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1405:1405 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 1307:1307 <> b:30
+R1315:1315 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1354:1363 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1404:1404 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1316:1316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1341:1345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1328:1330 Coq.Init.Datatypes <> nat ind
+binder 1324:1324 <> n:31
+R1336:1338 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1333:1333 Coqtail.Fresh.Inhabited.Functions <> f:29 var
+R1335:1335 Coqtail.Fresh.Inhabited.Functions <> n:31 var
+R1339:1340 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1347:1349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1346:1346 Coqtail.Fresh.Inhabited.Functions <> b:30 var
+R1350:1353 Coq.Init.Datatypes <> true constr
+R1364:1364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1365:1371 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1379:1380 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1376:1378 Coq.Init.Datatypes <> nat ind
+binder 1372:1372 <> n:32
+R1384:1387 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1381:1381 Coqtail.Fresh.Inhabited.Functions <> f:29 var
+R1383:1383 Coqtail.Fresh.Inhabited.Functions <> n:32 var
+R1388:1389 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1396:1398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1395:1395 Coqtail.Fresh.Inhabited.Functions <> b:30 var
+R1399:1403 Coq.Init.Datatypes <> false constr
+R1288:1289 Coqtail.Fresh.Inhabited.Functions <> AC defax
+R1291:1292 Coqtail.Fresh.Inhabited.Functions <> RR def
+binder 1301:1301 <> f:33
+R1306:1306 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1308:1314 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1405:1405 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 1307:1307 <> b:34
+R1315:1315 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1354:1363 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1404:1404 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1316:1316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1341:1345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1328:1330 Coq.Init.Datatypes <> nat ind
+binder 1324:1324 <> n:35
+R1336:1338 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1333:1333 Coqtail.Fresh.Inhabited.Functions <> f:33 var
+R1335:1335 Coqtail.Fresh.Inhabited.Functions <> n:35 var
+R1339:1340 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1347:1349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1346:1346 Coqtail.Fresh.Inhabited.Functions <> b:34 var
+R1350:1353 Coq.Init.Datatypes <> true constr
+R1364:1364 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1365:1371 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1379:1380 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1376:1378 Coq.Init.Datatypes <> nat ind
+binder 1372:1372 <> n:36
+R1384:1387 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1381:1381 Coqtail.Fresh.Inhabited.Functions <> f:33 var
+R1383:1383 Coqtail.Fresh.Inhabited.Functions <> n:36 var
+R1388:1389 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1396:1398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1395:1395 Coqtail.Fresh.Inhabited.Functions <> b:34 var
+R1399:1403 Coq.Init.Datatypes <> false constr
+R1443:1449 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1457:1458 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1454:1456 Coq.Init.Datatypes <> nat ind
+binder 1450:1450 <> n:37
+R1462:1465 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1461:1461 Coqtail.Fresh.Inhabited.Functions <> n:37 var
+R1466:1467 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1443:1449 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1457:1458 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1454:1456 Coq.Init.Datatypes <> nat ind
+binder 1450:1450 <> n:38
+R1462:1465 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1461:1461 Coqtail.Fresh.Inhabited.Functions <> n:38 var
+R1466:1467 Coqtail.Fresh.Inhabited.Functions <> PO constr
+R1510:1514 Coq.Init.Datatypes <> false constr
+R1510:1514 Coq.Init.Datatypes <> false constr
+R1587:1595 Coq.Init.Logic <> False_ind scheme
+R1587:1595 Coq.Init.Logic <> False_ind scheme
+R1638:1641 Coq.Init.Datatypes <> true constr
+R1638:1641 Coq.Init.Datatypes <> true constr
+binder 1689:1689 <> x:39
+R1694:1702 Coq.Init.Specif <> proj1_sig def
+R1707:1707 Coqtail.Fresh.Inhabited.Functions <> x:39 var
+binder 1689:1689 <> x:40
+R1694:1702 Coq.Init.Specif <> proj1_sig def
+R1707:1707 Coqtail.Fresh.Inhabited.Functions <> x:40 var

@@ -1,0 +1,17 @@
+DIGEST cd8dedf480c467406fdc61ae004bdd81
+FCoqtail.Reals.Rsequence.Rsequence_stdlib
+R15:23 Coq.Reals.Ranalysis <> <> lib
+R41:53 Coqtail.Reals.Rsequence.Rsequence_def <> <> lib
+prf 63:75 <> Rseq_cv_Un_cv
+R85:87 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R78:84 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+R88:92 Coq.Reals.Rseries <> Un_cv def
+prf 127:147 <> Rseq_bound_max_has_ub
+binder 157:158 <> Un:1
+binder 160:160 <> M:2
+R184:187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R165:178 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_bound_max def
+R180:181 Coqtail.Reals.Rsequence.Rsequence_stdlib <> Un:1 var
+R183:183 Coqtail.Reals.Rsequence.Rsequence_stdlib <> M:2 var
+R188:193 Coq.Reals.SeqProp <> has_ub def
+R195:196 Coqtail.Reals.Rsequence.Rsequence_stdlib <> Un:1 var

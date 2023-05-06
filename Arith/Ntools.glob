@@ -1,0 +1,25 @@
+DIGEST 7c45821cd707d8d4833821c8fd5fcec6
+FCoqtail.Arith.Ntools
+R816:820 Coq.Arith.Arith <> <> lib
+def 900:907 <> iter_nat
+R912:914 Coq.Init.Datatypes <> nat ind
+binder 910:910 <> n:1
+binder 918:918 <> A:2
+R932:935 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R929:931 Coq.Init.Datatypes <> nat ind
+R937:940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R936:936 Coqtail.Arith.Ntools <> A:2 var
+R941:941 Coqtail.Arith.Ntools <> A:2 var
+binder 927:927 <> f:3
+R947:947 Coqtail.Arith.Ntools <> A:2 var
+binder 945:945 <> x:4
+R963:963 Coqtail.Arith.Ntools <> A:2 var
+R976:976 Coqtail.Arith.Ntools <> n:1 var
+R994:994 Coqtail.Arith.Ntools <> x:4 var
+R1002:1002 Coq.Init.Datatypes <> S constr
+R1010:1010 Coqtail.Arith.Ntools <> f:3 var
+R1015:1022 Coqtail.Arith.Ntools <> iter_nat:5 def
+R1031:1031 Coqtail.Arith.Ntools <> x:4 var
+R1029:1029 Coqtail.Arith.Ntools <> f:3 var
+R1027:1027 Coqtail.Arith.Ntools <> A:2 var
+R1012:1012 Coqtail.Arith.Ntools <> n:1 var

@@ -1,0 +1,557 @@
+DIGEST 342d8e2c7bd4c15dd8beece8f86920c9
+FCoqtail.Arith.Nfinite_sum
+R816:820 Coq.Arith.Arith <> <> lib
+R838:843 Coqtail.Arith.Nk_ind <> <> lib
+R861:864 Coqtail.Arith.Ndiv <> <> lib
+def 975:989 <> Nfinite_sum_0_n
+R996:998 Coq.Init.Datatypes <> nat ind
+binder 992:992 <> n:1
+R1009:1012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1006:1008 Coq.Init.Datatypes <> nat ind
+R1013:1015 Coq.Init.Datatypes <> nat ind
+binder 1002:1002 <> f:2
+R1031:1033 Coq.Init.Datatypes <> nat ind
+R1044:1044 Coqtail.Arith.Nfinite_sum <> n:1 var
+R1058:1058 Coqtail.Arith.Nfinite_sum <> f:2 var
+R1064:1064 Coq.Init.Datatypes <> S constr
+R1072:1072 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1076:1079 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1073:1073 Coqtail.Arith.Nfinite_sum <> f:2 var
+R1075:1075 Coqtail.Arith.Nfinite_sum <> n:1 var
+R1080:1094 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n:3 def
+R1099:1099 Coqtail.Arith.Nfinite_sum <> f:2 var
+prf 1178:1200 <> Nfinite_sum_plus_compat
+binder 1211:1211 <> n:5
+binder 1213:1213 <> f:6
+binder 1215:1215 <> g:7
+R1261:1263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1239:1241 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1220:1234 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1236:1236 Coqtail.Arith.Nfinite_sum <> n:5 var
+R1238:1238 Coqtail.Arith.Nfinite_sum <> f:6 var
+R1242:1256 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1258:1258 Coqtail.Arith.Nfinite_sum <> n:5 var
+R1260:1260 Coqtail.Arith.Nfinite_sum <> g:7 var
+R1264:1278 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1280:1280 Coqtail.Arith.Nfinite_sum <> n:5 var
+binder 1287:1287 <> k:8
+R1295:1297 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1292:1292 Coqtail.Arith.Nfinite_sum <> f:6 var
+R1294:1294 Coqtail.Arith.Nfinite_sum <> k:8 var
+R1298:1298 Coqtail.Arith.Nfinite_sum <> g:7 var
+R1300:1300 Coqtail.Arith.Nfinite_sum <> k:8 var
+R1361:1375 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1383:1397 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1383:1397 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1408:1425 Coq.Arith.Plus <> plus_assoc_reverse thm
+R1408:1425 Coq.Arith.Plus <> plus_assoc_reverse thm
+R1408:1425 Coq.Arith.Plus <> plus_assoc_reverse thm
+R1436:1453 Coq.Arith.Plus <> plus_assoc_reverse thm
+R1436:1453 Coq.Arith.Plus <> plus_assoc_reverse thm
+R1436:1453 Coq.Arith.Plus <> plus_assoc_reverse thm
+R1493:1495 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1471:1473 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1467:1467 Coq.Init.Datatypes <> S constr
+R1474:1488 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1515:1517 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1496:1510 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1521:1521 Coq.Init.Datatypes <> S constr
+R1493:1495 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1471:1473 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1467:1467 Coq.Init.Datatypes <> S constr
+R1474:1488 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1515:1517 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1496:1510 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1521:1521 Coq.Init.Datatypes <> S constr
+R1626:1630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1592:1595 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1625:1625 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1573:1587 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1615:1617 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1596:1610 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1621:1621 Coq.Init.Datatypes <> S constr
+R1672:1674 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1650:1652 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1631:1645 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1653:1667 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1678:1678 Coq.Init.Datatypes <> S constr
+R1626:1630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1592:1595 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1625:1625 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1573:1587 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1615:1617 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1596:1610 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1621:1621 Coq.Init.Datatypes <> S constr
+R1672:1674 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1650:1652 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1631:1645 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1653:1667 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1678:1678 Coq.Init.Datatypes <> S constr
+prf 1804:1827 <> Nfinite_sum_mult_distrib
+binder 1838:1838 <> a:9
+binder 1840:1840 <> n:10
+binder 1842:1842 <> f:11
+R1871:1873 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1849:1851 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1848:1848 Coqtail.Arith.Nfinite_sum <> a:9 var
+R1852:1866 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1868:1868 Coqtail.Arith.Nfinite_sum <> n:10 var
+R1870:1870 Coqtail.Arith.Nfinite_sum <> f:11 var
+R1874:1888 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1890:1890 Coqtail.Arith.Nfinite_sum <> n:10 var
+binder 1897:1897 <> k:12
+R1903:1905 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1902:1902 Coqtail.Arith.Nfinite_sum <> a:9 var
+R1906:1906 Coqtail.Arith.Nfinite_sum <> f:11 var
+R1908:1908 Coqtail.Arith.Nfinite_sum <> k:12 var
+R1969:1983 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1991:2005 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R1991:2005 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+prf 2096:2123 <> Nfinite_sum_subtle_eq_compat
+binder 2136:2136 <> n:13
+binder 2138:2138 <> f:14
+binder 2140:2140 <> g:15
+R2143:2143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2173:2177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2151:2151 <> k:16
+R2160:2163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2155:2158 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2154:2154 Coqtail.Arith.Nfinite_sum <> k:16 var
+R2159:2159 Coqtail.Arith.Nfinite_sum <> n:13 var
+R2167:2169 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2164:2164 Coqtail.Arith.Nfinite_sum <> f:14 var
+R2166:2166 Coqtail.Arith.Nfinite_sum <> k:16 var
+R2170:2170 Coqtail.Arith.Nfinite_sum <> g:15 var
+R2172:2172 Coqtail.Arith.Nfinite_sum <> k:16 var
+R2197:2199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2178:2192 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2194:2194 Coqtail.Arith.Nfinite_sum <> n:13 var
+R2196:2196 Coqtail.Arith.Nfinite_sum <> f:14 var
+R2200:2214 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2216:2216 Coqtail.Arith.Nfinite_sum <> n:13 var
+R2218:2218 Coqtail.Arith.Nfinite_sum <> g:15 var
+R2291:2305 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2313:2327 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2313:2327 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2361:2361 Coq.Init.Datatypes <> S constr
+R2361:2361 Coq.Init.Datatypes <> S constr
+R2361:2361 Coq.Init.Datatypes <> S constr
+R2361:2361 Coq.Init.Datatypes <> S constr
+prf 2492:2512 <> Nfinite_sum_eq_compat
+binder 2523:2523 <> n:17
+binder 2525:2525 <> f:18
+binder 2527:2527 <> g:19
+R2533:2533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2553:2557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2541:2541 <> k:20
+R2547:2549 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2544:2544 Coqtail.Arith.Nfinite_sum <> f:18 var
+R2546:2546 Coqtail.Arith.Nfinite_sum <> k:20 var
+R2550:2550 Coqtail.Arith.Nfinite_sum <> g:19 var
+R2552:2552 Coqtail.Arith.Nfinite_sum <> k:20 var
+R2577:2579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2558:2572 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2574:2574 Coqtail.Arith.Nfinite_sum <> n:17 var
+R2576:2576 Coqtail.Arith.Nfinite_sum <> f:18 var
+R2580:2594 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2596:2596 Coqtail.Arith.Nfinite_sum <> n:17 var
+R2598:2598 Coqtail.Arith.Nfinite_sum <> g:19 var
+R2622:2649 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_subtle_eq_compat thm
+R2622:2649 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_subtle_eq_compat thm
+prf 2728:2750 <> Nfinite_sum_split_lower
+binder 2761:2761 <> n:21
+binder 2763:2763 <> f:22
+R2791:2793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2768:2782 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2785:2785 Coq.Init.Datatypes <> S constr
+R2787:2787 Coqtail.Arith.Nfinite_sum <> n:21 var
+R2790:2790 Coqtail.Arith.Nfinite_sum <> f:22 var
+R2797:2799 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2794:2794 Coqtail.Arith.Nfinite_sum <> f:22 var
+R2800:2814 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2816:2816 Coqtail.Arith.Nfinite_sum <> n:21 var
+binder 2823:2823 <> k:23
+R2828:2828 Coqtail.Arith.Nfinite_sum <> f:22 var
+R2831:2831 Coq.Init.Datatypes <> S constr
+R2833:2833 Coqtail.Arith.Nfinite_sum <> k:23 var
+R2899:2913 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2921:2935 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2921:2935 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2945:2959 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2974:2988 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R2974:2988 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3019:3028 Coq.Arith.Plus <> plus_assoc syndef
+R3019:3028 Coq.Arith.Plus <> plus_assoc syndef
+R3019:3028 Coq.Arith.Plus <> plus_assoc syndef
+R3039:3048 Coq.Arith.Plus <> plus_assoc syndef
+R3039:3048 Coq.Arith.Plus <> plus_assoc syndef
+R3039:3048 Coq.Arith.Plus <> plus_assoc syndef
+prf 3127:3149 <> Nfinite_sum_split_upper
+binder 3160:3160 <> n:24
+binder 3162:3162 <> f:25
+R3190:3192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3167:3181 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3184:3184 Coq.Init.Datatypes <> S constr
+R3186:3186 Coqtail.Arith.Nfinite_sum <> n:24 var
+R3189:3189 Coqtail.Arith.Nfinite_sum <> f:25 var
+R3212:3214 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3193:3207 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3209:3209 Coqtail.Arith.Nfinite_sum <> n:24 var
+R3211:3211 Coqtail.Arith.Nfinite_sum <> f:25 var
+R3215:3215 Coqtail.Arith.Nfinite_sum <> f:25 var
+R3218:3218 Coq.Init.Datatypes <> S constr
+R3220:3220 Coqtail.Arith.Nfinite_sum <> n:24 var
+R3246:3260 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3268:3282 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3268:3282 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+prf 3353:3369 <> Nfinite_sum_split
+binder 3380:3380 <> n:26
+binder 3382:3382 <> p:27
+binder 3384:3384 <> q:28
+binder 3386:3386 <> f:29
+R3401:3404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3397:3399 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3393:3395 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3392:3392 Coqtail.Arith.Nfinite_sum <> p:27 var
+R3396:3396 Coqtail.Arith.Nfinite_sum <> q:28 var
+R3400:3400 Coqtail.Arith.Nfinite_sum <> n:26 var
+R3428:3430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3405:3419 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3422:3422 Coq.Init.Datatypes <> S constr
+R3424:3424 Coqtail.Arith.Nfinite_sum <> n:26 var
+R3427:3427 Coqtail.Arith.Nfinite_sum <> f:29 var
+R3450:3452 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3431:3445 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3447:3447 Coqtail.Arith.Nfinite_sum <> p:27 var
+R3449:3449 Coqtail.Arith.Nfinite_sum <> f:29 var
+R3453:3467 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3469:3469 Coqtail.Arith.Nfinite_sum <> q:28 var
+binder 3476:3476 <> k:30
+R3481:3481 Coqtail.Arith.Nfinite_sum <> f:29 var
+R3484:3488 Coqtail.Arith.Nk_ind <> kth_S def
+R3490:3490 Coqtail.Arith.Nfinite_sum <> p:27 var
+R3492:3492 Coqtail.Arith.Nfinite_sum <> k:30 var
+R3568:3582 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3592:3596 Coqtail.Arith.Nk_ind <> kth_S def
+R3721:3721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3702:3716 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3721:3721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3702:3716 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3778:3800 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_lower thm
+R3778:3800 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_lower thm
+R3778:3800 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_lower thm
+R3810:3814 Coqtail.Arith.Nk_ind <> kth_S def
+R3849:3849 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3847:3847 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3849:3849 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3847:3847 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3915:3915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3888:3902 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3905:3905 Coq.Init.Datatypes <> S constr
+R3908:3908 Coq.Init.Datatypes <> S constr
+R3925:3925 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3918:3918 Coq.Init.Datatypes <> S constr
+R3920:3920 Coq.Init.Datatypes <> S constr
+R3926:3940 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3943:3943 Coq.Init.Datatypes <> S constr
+R3915:3915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3888:3902 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3905:3905 Coq.Init.Datatypes <> S constr
+R3908:3908 Coq.Init.Datatypes <> S constr
+R3925:3925 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3918:3918 Coq.Init.Datatypes <> S constr
+R3920:3920 Coq.Init.Datatypes <> S constr
+R3926:3940 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R3943:3943 Coq.Init.Datatypes <> S constr
+R3960:3968 Coq.Arith.Plus <> plus_comm syndef
+R3960:3968 Coq.Arith.Plus <> plus_comm syndef
+R3960:3968 Coq.Arith.Plus <> plus_comm syndef
+R3977:3999 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R3977:3999 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R4049:4071 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R4049:4071 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R4049:4071 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R4144:4148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4089:4091 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4085:4085 Coq.Init.Datatypes <> S constr
+R4092:4106 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4119:4121 Coq.Init.Datatypes <> nat ind
+binder 4115:4115 <> k:31
+R4129:4133 Coqtail.Arith.Nk_ind <> kth_S def
+R4136:4136 Coq.Init.Datatypes <> S constr
+R4141:4141 Coqtail.Arith.Nfinite_sum <> k:31 var
+R4149:4163 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4166:4166 Coq.Init.Datatypes <> S constr
+binder 4176:4176 <> k:32
+R4181:4185 Coqtail.Arith.Nk_ind <> kth_S def
+R4189:4189 Coqtail.Arith.Nfinite_sum <> k:32 var
+R4144:4148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4089:4091 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4085:4085 Coq.Init.Datatypes <> S constr
+R4092:4106 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4119:4121 Coq.Init.Datatypes <> nat ind
+binder 4115:4115 <> k:33
+R4129:4133 Coqtail.Arith.Nk_ind <> kth_S def
+R4136:4136 Coq.Init.Datatypes <> S constr
+R4141:4141 Coqtail.Arith.Nfinite_sum <> k:33 var
+R4149:4163 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4166:4166 Coq.Init.Datatypes <> S constr
+binder 4176:4176 <> k:34
+R4181:4185 Coqtail.Arith.Nk_ind <> kth_S def
+R4189:4189 Coqtail.Arith.Nfinite_sum <> k:34 var
+R4203:4225 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_lower thm
+R4203:4225 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_lower thm
+R4203:4225 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_lower thm
+R4236:4248 Coqtail.Arith.Nk_ind <> kth_S_special thm
+R4236:4248 Coqtail.Arith.Nk_ind <> kth_S_special thm
+R4236:4248 Coqtail.Arith.Nk_ind <> kth_S_special thm
+R4258:4262 Coqtail.Arith.Nk_ind <> kth_S def
+R4270:4274 Coqtail.Arith.Nk_ind <> kth_S def
+R4270:4274 Coqtail.Arith.Nk_ind <> kth_S def
+R4294:4296 Coq.Init.Datatypes <> nat ind
+binder 4292:4292 <> k:35
+R4312:4312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4299:4303 Coqtail.Arith.Nk_ind <> kth_S def
+R4308:4308 Coq.Init.Datatypes <> S constr
+R4310:4310 Coqtail.Arith.Nfinite_sum <> k:35 var
+R4313:4313 Coq.Init.Datatypes <> S constr
+R4315:4319 Coqtail.Arith.Nk_ind <> kth_S def
+R4323:4323 Coqtail.Arith.Nfinite_sum <> k:35 var
+R4294:4296 Coq.Init.Datatypes <> nat ind
+binder 4292:4292 <> k:36
+R4312:4312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4299:4303 Coqtail.Arith.Nk_ind <> kth_S def
+R4308:4308 Coq.Init.Datatypes <> S constr
+R4310:4310 Coqtail.Arith.Nfinite_sum <> k:36 var
+R4313:4313 Coq.Init.Datatypes <> S constr
+R4315:4319 Coqtail.Arith.Nk_ind <> kth_S def
+R4323:4323 Coqtail.Arith.Nfinite_sum <> k:36 var
+R4343:4351 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R4343:4351 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R4343:4351 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R4361:4365 Coqtail.Arith.Nk_ind <> kth_S def
+R4373:4377 Coqtail.Arith.Nk_ind <> kth_S def
+R4373:4377 Coqtail.Arith.Nk_ind <> kth_S def
+R4388:4396 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R4388:4396 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R4388:4396 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R4472:4475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4420:4434 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4447:4449 Coq.Init.Datatypes <> nat ind
+binder 4443:4443 <> k:37
+R4457:4457 Coq.Init.Datatypes <> S constr
+R4460:4464 Coqtail.Arith.Nk_ind <> kth_S def
+R4468:4468 Coqtail.Arith.Nfinite_sum <> k:37 var
+R4476:4490 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4503:4505 Coq.Init.Datatypes <> nat ind
+binder 4499:4499 <> k:38
+R4513:4517 Coqtail.Arith.Nk_ind <> kth_S def
+R4522:4522 Coq.Init.Datatypes <> S constr
+R4524:4524 Coqtail.Arith.Nfinite_sum <> k:38 var
+R4472:4475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4420:4434 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4447:4449 Coq.Init.Datatypes <> nat ind
+binder 4443:4443 <> k:39
+R4457:4457 Coq.Init.Datatypes <> S constr
+R4460:4464 Coqtail.Arith.Nk_ind <> kth_S def
+R4468:4468 Coqtail.Arith.Nfinite_sum <> k:39 var
+R4476:4490 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4503:4505 Coq.Init.Datatypes <> nat ind
+binder 4499:4499 <> k:40
+R4513:4517 Coqtail.Arith.Nk_ind <> kth_S def
+R4522:4522 Coq.Init.Datatypes <> S constr
+R4524:4524 Coqtail.Arith.Nfinite_sum <> k:40 var
+R4537:4557 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_eq_compat thm
+R4537:4557 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_eq_compat thm
+R4714:4720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4657:4661 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4647:4649 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4628:4642 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4653:4653 Coq.Init.Datatypes <> S constr
+R4662:4676 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4689:4691 Coq.Init.Datatypes <> nat ind
+binder 4685:4685 <> k:41
+R4699:4703 Coqtail.Arith.Nk_ind <> kth_S def
+R4706:4706 Coq.Init.Datatypes <> S constr
+R4711:4711 Coqtail.Arith.Nfinite_sum <> k:41 var
+R4740:4743 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4808:4808 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4721:4735 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4751:4755 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4747:4747 Coq.Init.Datatypes <> S constr
+R4756:4770 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4783:4785 Coq.Init.Datatypes <> nat ind
+binder 4779:4779 <> k:42
+R4793:4797 Coqtail.Arith.Nk_ind <> kth_S def
+R4800:4800 Coq.Init.Datatypes <> S constr
+R4805:4805 Coqtail.Arith.Nfinite_sum <> k:42 var
+R4714:4720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4657:4661 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4647:4649 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4628:4642 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4653:4653 Coq.Init.Datatypes <> S constr
+R4662:4676 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4689:4691 Coq.Init.Datatypes <> nat ind
+binder 4685:4685 <> k:43
+R4699:4703 Coqtail.Arith.Nk_ind <> kth_S def
+R4706:4706 Coq.Init.Datatypes <> S constr
+R4711:4711 Coqtail.Arith.Nfinite_sum <> k:43 var
+R4740:4743 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4808:4808 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4721:4735 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4751:4755 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4747:4747 Coq.Init.Datatypes <> S constr
+R4756:4770 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4783:4785 Coq.Init.Datatypes <> nat ind
+binder 4779:4779 <> k:44
+R4793:4797 Coqtail.Arith.Nk_ind <> kth_S def
+R4800:4800 Coq.Init.Datatypes <> S constr
+R4805:4805 Coqtail.Arith.Nfinite_sum <> k:44 var
+R4967:4973 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4890:4895 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4966:4966 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4882:4882 Coq.Init.Datatypes <> S constr
+R4885:4885 Coq.Init.Datatypes <> S constr
+R4915:4917 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4896:4910 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4918:4932 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4945:4947 Coq.Init.Datatypes <> nat ind
+binder 4941:4941 <> k:45
+R4955:4959 Coqtail.Arith.Nk_ind <> kth_S def
+R4963:4963 Coqtail.Arith.Nfinite_sum <> k:45 var
+R4993:4996 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5057:5057 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4974:4988 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5045:5045 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4997:5011 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5024:5026 Coq.Init.Datatypes <> nat ind
+binder 5020:5020 <> k:46
+R5034:5038 Coqtail.Arith.Nk_ind <> kth_S def
+R5042:5042 Coqtail.Arith.Nfinite_sum <> k:46 var
+R5049:5049 Coq.Init.Datatypes <> S constr
+R5052:5052 Coq.Init.Datatypes <> S constr
+R4967:4973 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4890:4895 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4966:4966 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4882:4882 Coq.Init.Datatypes <> S constr
+R4885:4885 Coq.Init.Datatypes <> S constr
+R4915:4917 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4896:4910 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4918:4932 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R4945:4947 Coq.Init.Datatypes <> nat ind
+binder 4941:4941 <> k:47
+R4955:4959 Coqtail.Arith.Nk_ind <> kth_S def
+R4963:4963 Coqtail.Arith.Nfinite_sum <> k:47 var
+R4993:4996 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5057:5057 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4974:4988 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5045:5045 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R4997:5011 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5024:5026 Coq.Init.Datatypes <> nat ind
+binder 5020:5020 <> k:48
+R5034:5038 Coqtail.Arith.Nk_ind <> kth_S def
+R5042:5042 Coqtail.Arith.Nfinite_sum <> k:48 var
+R5049:5049 Coq.Init.Datatypes <> S constr
+R5052:5052 Coq.Init.Datatypes <> S constr
+R5069:5077 Coq.Arith.Plus <> plus_comm syndef
+R5069:5077 Coq.Arith.Plus <> plus_comm syndef
+R5069:5077 Coq.Arith.Plus <> plus_comm syndef
+R5177:5181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5125:5139 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5142:5142 Coq.Init.Datatypes <> S constr
+R5156:5158 Coq.Init.Datatypes <> nat ind
+binder 5152:5152 <> k:49
+R5166:5170 Coqtail.Arith.Nk_ind <> kth_S def
+R5174:5174 Coqtail.Arith.Nfinite_sum <> k:49 var
+R5230:5232 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5182:5196 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5209:5211 Coq.Init.Datatypes <> nat ind
+binder 5205:5205 <> k:50
+R5219:5223 Coqtail.Arith.Nk_ind <> kth_S def
+R5227:5227 Coqtail.Arith.Nfinite_sum <> k:50 var
+R5236:5236 Coq.Init.Datatypes <> S constr
+R5239:5239 Coq.Init.Datatypes <> S constr
+R5177:5181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5125:5139 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5142:5142 Coq.Init.Datatypes <> S constr
+R5156:5158 Coq.Init.Datatypes <> nat ind
+binder 5152:5152 <> k:51
+R5166:5170 Coqtail.Arith.Nk_ind <> kth_S def
+R5174:5174 Coqtail.Arith.Nfinite_sum <> k:51 var
+R5230:5232 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5182:5196 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5209:5211 Coq.Init.Datatypes <> nat ind
+binder 5205:5205 <> k:52
+R5219:5223 Coqtail.Arith.Nk_ind <> kth_S def
+R5227:5227 Coqtail.Arith.Nfinite_sum <> k:52 var
+R5236:5236 Coq.Init.Datatypes <> S constr
+R5239:5239 Coq.Init.Datatypes <> S constr
+R5255:5277 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R5255:5277 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R5255:5277 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R5301:5301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5288:5292 Coqtail.Arith.Nk_ind <> kth_S def
+R5297:5297 Coq.Init.Datatypes <> S constr
+R5302:5302 Coq.Init.Datatypes <> S constr
+R5304:5304 Coq.Init.Datatypes <> S constr
+R5301:5301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5288:5292 Coqtail.Arith.Nk_ind <> kth_S def
+R5297:5297 Coq.Init.Datatypes <> S constr
+R5302:5302 Coq.Init.Datatypes <> S constr
+R5304:5304 Coq.Init.Datatypes <> S constr
+R5319:5327 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R5319:5327 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R5319:5327 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R5337:5341 Coqtail.Arith.Nk_ind <> kth_S def
+R5349:5353 Coqtail.Arith.Nk_ind <> kth_S def
+R5349:5353 Coqtail.Arith.Nk_ind <> kth_S def
+R5364:5372 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R5364:5372 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R5364:5372 Coqtail.Arith.Nk_ind <> kth_S_sym thm
+R5383:5392 Coqtail.Arith.Nk_ind <> kth_S_plus thm
+R5383:5392 Coqtail.Arith.Nk_ind <> kth_S_plus thm
+R5383:5392 Coqtail.Arith.Nk_ind <> kth_S_plus thm
+R5408:5408 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5406:5406 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5404:5404 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5409:5409 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5413:5414 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5411:5411 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5408:5408 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5406:5406 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5404:5404 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5409:5409 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5413:5414 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5411:5411 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R5476:5483 Coqtail.Arith.Nk_ind <> plus_1_r thm
+R5476:5483 Coqtail.Arith.Nk_ind <> plus_1_r thm
+R5476:5483 Coqtail.Arith.Nk_ind <> plus_1_r thm
+prf 5611:5632 <> Nfinite_sum_div_compat
+binder 5643:5643 <> n:53
+binder 5645:5645 <> f:54
+binder 5647:5647 <> p:55
+R5652:5652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5682:5686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5660:5660 <> k:56
+R5669:5672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5664:5667 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5663:5663 Coqtail.Arith.Nfinite_sum <> k:56 var
+R5668:5668 Coqtail.Arith.Nfinite_sum <> n:53 var
+R5673:5673 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R5675:5677 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R5681:5681 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R5674:5674 Coqtail.Arith.Nfinite_sum <> p:55 var
+R5678:5678 Coqtail.Arith.Nfinite_sum <> f:54 var
+R5680:5680 Coqtail.Arith.Nfinite_sum <> k:56 var
+R5687:5687 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R5689:5691 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R5711:5711 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R5688:5688 Coqtail.Arith.Nfinite_sum <> p:55 var
+R5692:5706 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_0_n def
+R5708:5708 Coqtail.Arith.Nfinite_sum <> n:53 var
+R5710:5710 Coqtail.Arith.Nfinite_sum <> f:54 var
+R5780:5802 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R5780:5802 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R5780:5802 Coqtail.Arith.Nfinite_sum <> Nfinite_sum_split_upper thm
+R5811:5826 Coqtail.Arith.Ndiv <> Ndiv_plus_compat thm
+R5811:5826 Coqtail.Arith.Ndiv <> Ndiv_plus_compat thm

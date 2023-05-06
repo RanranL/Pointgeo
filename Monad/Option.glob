@@ -1,0 +1,147 @@
+DIGEST 27616b27d35046cec6cf0d45c5915a92
+FCoqtail.Monad.Option
+def 11:16 <> Return
+binder 19:19 <> A:1
+R32:35 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31:31 Coqtail.Monad.Option <> A:1 var
+R36:41 Coq.Init.Datatypes <> option ind
+R43:43 Coqtail.Monad.Option <> A:1 var
+R49:52 Coq.Init.Datatypes <> Some constr
+R54:54 Coqtail.Monad.Option <> A:1 var
+def 69:72 <> Bind
+binder 75:75 <> A:2
+binder 77:77 <> B:3
+R97:100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R89:94 Coq.Init.Datatypes <> option ind
+R96:96 Coqtail.Monad.Option <> A:2 var
+R101:101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R115:119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R103:106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R102:102 Coqtail.Monad.Option <> A:2 var
+R107:112 Coq.Init.Datatypes <> option ind
+R114:114 Coqtail.Monad.Option <> B:3 var
+R120:125 Coq.Init.Datatypes <> option ind
+R127:127 Coqtail.Monad.Option <> B:3 var
+binder 136:137 <> Oa:4
+binder 139:139 <> f:5
+R150:151 Coqtail.Monad.Option <> Oa:4 var
+R162:165 Coq.Init.Datatypes <> None constr
+R172:175 Coq.Init.Datatypes <> None constr
+R181:184 Coq.Init.Datatypes <> Some constr
+R191:191 Coqtail.Monad.Option <> f:5 var
+def 212:214 <> Map
+binder 217:217 <> A:7
+binder 219:219 <> B:8
+R235:238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R234:234 Coqtail.Monad.Option <> A:7 var
+R239:239 Coqtail.Monad.Option <> B:8 var
+binder 230:230 <> f:9
+R252:255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R244:249 Coq.Init.Datatypes <> option ind
+R251:251 Coqtail.Monad.Option <> A:7 var
+R256:261 Coq.Init.Datatypes <> option ind
+R263:263 Coqtail.Monad.Option <> B:8 var
+binder 272:273 <> Oa:10
+R284:285 Coqtail.Monad.Option <> Oa:10 var
+R296:299 Coq.Init.Datatypes <> None constr
+R306:309 Coq.Init.Datatypes <> None constr
+R315:318 Coq.Init.Datatypes <> Some constr
+R325:328 Coq.Init.Datatypes <> Some constr
+R331:331 Coqtail.Monad.Option <> f:9 var
+def 353:356 <> Join
+binder 359:359 <> A:12
+R388:391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R371:376 Coq.Init.Datatypes <> option ind
+R379:384 Coq.Init.Datatypes <> option ind
+R386:386 Coqtail.Monad.Option <> A:12 var
+R392:397 Coq.Init.Datatypes <> option ind
+R399:399 Coqtail.Monad.Option <> A:12 var
+binder 408:410 <> OOa:13
+R421:423 Coqtail.Monad.Option <> OOa:13 var
+R434:437 Coq.Init.Datatypes <> None constr
+R451:454 Coq.Init.Datatypes <> None constr
+R460:463 Coq.Init.Datatypes <> Some constr
+R465:468 Coq.Init.Datatypes <> None constr
+R477:480 Coq.Init.Datatypes <> None constr
+R486:489 Coq.Init.Datatypes <> Some constr
+R492:495 Coq.Init.Datatypes <> Some constr
+R503:506 Coq.Init.Datatypes <> Some constr
+sec 524:539 <> Monad_properties
+var 553:553 Monad_properties A
+var 555:555 Monad_properties B
+var 557:557 Monad_properties C
+var 576:576 Monad_properties a
+R580:580 Coqtail.Monad.Option <> Monad_properties.A var
+var 592:593 Monad_properties Oa
+R597:602 Coq.Init.Datatypes <> option ind
+R604:604 Coqtail.Monad.Option <> Monad_properties.A var
+var 616:618 Monad_properties OOa
+R622:627 Coq.Init.Datatypes <> option ind
+R630:635 Coq.Init.Datatypes <> option ind
+R637:637 Coqtail.Monad.Option <> Monad_properties.A var
+var 650:650 Monad_properties f
+R655:658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R654:654 Coqtail.Monad.Option <> Monad_properties.A var
+R659:664 Coq.Init.Datatypes <> option ind
+R666:666 Coqtail.Monad.Option <> Monad_properties.B var
+var 678:678 Monad_properties g
+R683:686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R682:682 Coqtail.Monad.Option <> Monad_properties.B var
+R687:692 Coq.Init.Datatypes <> option ind
+R694:694 Coqtail.Monad.Option <> Monad_properties.C var
+var 706:706 Monad_properties h
+R711:714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R710:710 Coqtail.Monad.Option <> Monad_properties.A var
+R715:715 Coqtail.Monad.Option <> Monad_properties.B var
+def 730:740 <> Return_Bind
+R761:763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R744:747 Coqtail.Monad.Option <> Bind def
+R760:760 Coqtail.Monad.Option <> Monad_properties.f var
+R750:755 Coqtail.Monad.Option <> Return def
+R757:757 Coqtail.Monad.Option <> Monad_properties.a var
+R764:764 Coqtail.Monad.Option <> Monad_properties.f var
+R766:766 Coqtail.Monad.Option <> Monad_properties.a var
+def 806:816 <> Bind_Return
+R839:841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R820:823 Coqtail.Monad.Option <> Bind def
+R830:835 Coqtail.Monad.Option <> Return def
+R837:837 Coqtail.Monad.Option <> Monad_properties.A var
+R825:826 Coqtail.Monad.Option <> Monad_properties.Oa var
+R842:843 Coqtail.Monad.Option <> Monad_properties.Oa var
+R862:863 Coqtail.Monad.Option <> Monad_properties.Oa var
+def 897:905 <> Bind_Bind
+R927:929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R909:912 Coqtail.Monad.Option <> Bind def
+R926:926 Coqtail.Monad.Option <> Monad_properties.g var
+R915:918 Coqtail.Monad.Option <> Bind def
+R923:923 Coqtail.Monad.Option <> Monad_properties.f var
+R920:921 Coqtail.Monad.Option <> Monad_properties.Oa var
+R930:933 Coqtail.Monad.Option <> Bind def
+binder 943:943 <> r:24
+R948:951 Coqtail.Monad.Option <> Bind def
+R959:959 Coqtail.Monad.Option <> Monad_properties.g var
+R954:954 Coqtail.Monad.Option <> Monad_properties.f var
+R956:956 Coqtail.Monad.Option <> r:24 var
+R935:936 Coqtail.Monad.Option <> Monad_properties.Oa var
+R979:980 Coqtail.Monad.Option <> Monad_properties.Oa var
+def 1014:1024 <> Map_is_Bind
+R1036:1038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1028:1030 Coqtail.Monad.Option <> Map def
+R1034:1035 Coqtail.Monad.Option <> Monad_properties.Oa var
+R1032:1032 Coqtail.Monad.Option <> Monad_properties.h var
+R1039:1042 Coqtail.Monad.Option <> Bind def
+binder 1052:1052 <> x:25
+R1057:1062 Coqtail.Monad.Option <> Return def
+R1065:1065 Coqtail.Monad.Option <> Monad_properties.h var
+R1067:1067 Coqtail.Monad.Option <> x:25 var
+R1044:1045 Coqtail.Monad.Option <> Monad_properties.Oa var
+def 1109:1120 <> Join_is_Bind
+R1132:1134 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1124:1127 Coqtail.Monad.Option <> Join def
+R1129:1131 Coqtail.Monad.Option <> Monad_properties.OOa var
+R1135:1138 Coqtail.Monad.Option <> Bind def
+binder 1149:1149 <> x:26
+R1154:1154 Coqtail.Monad.Option <> x:26 var
+R1140:1142 Coqtail.Monad.Option <> Monad_properties.OOa var
+R1174:1176 Coqtail.Monad.Option <> Monad_properties.OOa var
+R1231:1246 Coqtail.Monad.Option Monad_properties <> sec

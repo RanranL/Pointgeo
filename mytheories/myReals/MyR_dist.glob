@@ -1,0 +1,158 @@
+DIGEST 01bffa0396ef7604d16bf28b853248ad
+FCoqtail.mytheories.myReals.MyR_dist
+R15:19 Coq.Reals.Reals <> <> lib
+R21:33 Coqtail.Reals.Ranalysis.Ranalysis_def <> <> lib
+R35:43 Coqtail.Reals.Ranalysis.Rinterval <> <> lib
+R61:67 Coqtail.mytheories.myReals.MyRIneq <> <> lib
+R69:71 Coq.micromega.Lra <> <> lib
+prf 81:97 <> R_dist_opp_compat
+binder 107:107 <> x:1
+binder 109:109 <> y:2
+R132:134 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R114:119 Coq.Reals.Rfunctions <> R_dist def
+R122:123 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R124:124 Coqtail.mytheories.myReals.MyR_dist <> x:1 var
+R128:129 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R130:130 Coqtail.mytheories.myReals.MyR_dist <> y:2 var
+R135:140 Coq.Reals.Rfunctions <> R_dist def
+R142:142 Coqtail.mytheories.myReals.MyR_dist <> x:1 var
+R144:144 Coqtail.mytheories.myReals.MyR_dist <> y:2 var
+R170:175 Coq.Reals.Rfunctions <> R_dist def
+R187:196 Coqtail.mytheories.myReals.MyRIneq <> Rminus_opp thm
+R199:212 Coq.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R223:236 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+R187:196 Coqtail.mytheories.myReals.MyRIneq <> Rminus_opp thm
+R187:196 Coqtail.mytheories.myReals.MyRIneq <> Rminus_opp thm
+R199:212 Coq.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R199:212 Coq.Reals.Rbasic_fun <> Rabs_minus_sym thm
+R223:236 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+prf 258:275 <> R_dist_scal_compat
+binder 285:285 <> a:3
+binder 287:287 <> x:4
+binder 289:289 <> y:5
+R316:318 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R294:299 Coq.Reals.Rfunctions <> R_dist def
+R303:305 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R302:302 Coqtail.mytheories.myReals.MyR_dist <> a:3 var
+R306:306 Coqtail.mytheories.myReals.MyR_dist <> x:4 var
+R311:313 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R310:310 Coqtail.mytheories.myReals.MyR_dist <> a:3 var
+R314:314 Coqtail.mytheories.myReals.MyR_dist <> y:5 var
+R325:327 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R319:322 Coq.Reals.Rbasic_fun <> Rabs def
+R324:324 Coqtail.mytheories.myReals.MyR_dist <> a:3 var
+R328:333 Coq.Reals.Rfunctions <> R_dist def
+R335:335 Coqtail.mytheories.myReals.MyR_dist <> x:4 var
+R337:337 Coqtail.mytheories.myReals.MyR_dist <> y:5 var
+R363:368 Coq.Reals.Rfunctions <> R_dist def
+R383:391 Coq.Reals.Rbasic_fun <> Rabs_mult thm
+R402:415 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+R383:391 Coq.Reals.Rbasic_fun <> Rabs_mult thm
+R383:391 Coq.Reals.Rbasic_fun <> Rabs_mult thm
+R402:415 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+prf 437:455 <> R_dist_minus_compat
+binder 466:466 <> x:6
+binder 468:468 <> y:7
+binder 470:470 <> z:8
+R495:497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R473:478 Coq.Reals.Rfunctions <> R_dist def
+R482:484 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R481:481 Coqtail.mytheories.myReals.MyR_dist <> x:6 var
+R485:485 Coqtail.mytheories.myReals.MyR_dist <> z:8 var
+R490:492 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R489:489 Coqtail.mytheories.myReals.MyR_dist <> y:7 var
+R493:493 Coqtail.mytheories.myReals.MyR_dist <> z:8 var
+R498:503 Coq.Reals.Rfunctions <> R_dist def
+R505:505 Coqtail.mytheories.myReals.MyR_dist <> x:6 var
+R507:507 Coqtail.mytheories.myReals.MyR_dist <> y:7 var
+R532:545 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+R532:545 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+prf 567:585 <> R_dist_Rplus_compat
+binder 595:595 <> x:9
+binder 597:597 <> h:10
+R616:618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R600:605 Coq.Reals.Rfunctions <> R_dist def
+R609:611 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R608:608 Coqtail.mytheories.myReals.MyR_dist <> x:9 var
+R612:612 Coqtail.mytheories.myReals.MyR_dist <> h:10 var
+R615:615 Coqtail.mytheories.myReals.MyR_dist <> x:9 var
+R619:622 Coq.Reals.Rbasic_fun <> Rabs def
+R624:624 Coqtail.mytheories.myReals.MyR_dist <> h:10 var
+R649:662 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+R649:662 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+prf 684:703 <> R_dist_Rminus_compat
+binder 713:713 <> x:11
+binder 715:715 <> h:12
+R734:736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R718:723 Coq.Reals.Rfunctions <> R_dist def
+R727:729 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R726:726 Coqtail.mytheories.myReals.MyR_dist <> x:11 var
+R730:730 Coqtail.mytheories.myReals.MyR_dist <> h:12 var
+R733:733 Coqtail.mytheories.myReals.MyR_dist <> x:11 var
+R737:740 Coq.Reals.Rbasic_fun <> Rabs def
+R742:742 Coqtail.mytheories.myReals.MyR_dist <> h:12 var
+R772:780 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R790:803 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+R772:780 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R772:780 Coq.Reals.Rbasic_fun <> Rabs_Ropp thm
+R790:803 Coqtail.mytheories.myReals.MyRIneq <> Rabs_eq_compat thm
+prf 825:843 <> Rlt_le_Rdist_compat
+binder 854:854 <> a:13
+binder 856:856 <> b:14
+binder 858:858 <> c:15
+R866:869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R862:864 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R861:861 Coqtail.mytheories.myReals.MyR_dist <> a:13 var
+R865:865 Coqtail.mytheories.myReals.MyR_dist <> b:14 var
+R876:879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R871:874 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R870:870 Coqtail.mytheories.myReals.MyR_dist <> b:14 var
+R875:875 Coqtail.mytheories.myReals.MyR_dist <> c:15 var
+R890:892 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R880:885 Coq.Reals.Rfunctions <> R_dist def
+R887:887 Coqtail.mytheories.myReals.MyR_dist <> c:15 var
+R889:889 Coqtail.mytheories.myReals.MyR_dist <> b:14 var
+R893:898 Coq.Reals.Rfunctions <> R_dist def
+R900:900 Coqtail.mytheories.myReals.MyR_dist <> c:15 var
+R902:902 Coqtail.mytheories.myReals.MyR_dist <> a:13 var
+R944:949 Coq.Reals.Rfunctions <> R_dist def
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R967:976 Coq.Reals.Rbasic_fun <> Rabs_right thm
+prf 999:1017 <> Rle_lt_Rdist_compat
+binder 1028:1028 <> a:16
+binder 1030:1030 <> b:17
+binder 1032:1032 <> c:18
+R1041:1044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1036:1039 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1035:1035 Coqtail.mytheories.myReals.MyR_dist <> a:16 var
+R1040:1040 Coqtail.mytheories.myReals.MyR_dist <> b:17 var
+R1050:1053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1046:1048 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1045:1045 Coqtail.mytheories.myReals.MyR_dist <> b:17 var
+R1049:1049 Coqtail.mytheories.myReals.MyR_dist <> c:18 var
+R1064:1066 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1054:1059 Coq.Reals.Rfunctions <> R_dist def
+R1061:1061 Coqtail.mytheories.myReals.MyR_dist <> b:17 var
+R1063:1063 Coqtail.mytheories.myReals.MyR_dist <> a:16 var
+R1067:1072 Coq.Reals.Rfunctions <> R_dist def
+R1074:1074 Coqtail.mytheories.myReals.MyR_dist <> c:18 var
+R1076:1076 Coqtail.mytheories.myReals.MyR_dist <> a:16 var
+R1118:1123 Coq.Reals.Rfunctions <> R_dist def
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm
+R1141:1150 Coq.Reals.Rbasic_fun <> Rabs_right thm

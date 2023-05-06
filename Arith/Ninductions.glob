@@ -1,0 +1,71 @@
+DIGEST eb96c581b830ea4e460d4c6003aca933
+FCoqtail.Arith.Ninductions
+R16:20 Coq.Arith.Arith <> <> lib
+R22:26 Coqtail.mytheories.MyNat <> <> lib
+prf 36:45 <> nat_strong
+R64:67 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R61:63 Coq.Init.Datatypes <> nat ind
+binder 57:57 <> P:1
+R78:82 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R75:75 Coqtail.Arith.Ninductions <> P:1 var
+R77:77 Coq.Init.Datatypes <> O constr
+R83:83 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R136:140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 91:91 <> N:2
+R94:94 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R124:128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 102:102 <> n:3
+R117:120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R107:110 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R106:106 Coqtail.Arith.Ninductions <> n:3 var
+R111:111 Coqtail.Arith.Ninductions <> N:2 var
+R121:121 Coqtail.Arith.Ninductions <> P:1 var
+R123:123 Coqtail.Arith.Ninductions <> n:3 var
+R129:129 Coqtail.Arith.Ninductions <> P:1 var
+R132:132 Coq.Init.Datatypes <> S constr
+R134:134 Coqtail.Arith.Ninductions <> N:2 var
+binder 148:148 <> n:4
+R151:151 Coqtail.Arith.Ninductions <> P:1 var
+R153:153 Coqtail.Arith.Ninductions <> n:4 var
+binder 199:199 <> N:5
+binder 201:201 <> n:6
+R216:219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R206:209 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R205:205 Coqtail.Arith.Ninductions <> n:6 var
+R210:210 Coqtail.Arith.Ninductions <> N:5 var
+R222:222 Coqtail.Arith.Ninductions <> n:6 var
+binder 199:199 <> N:7
+binder 201:201 <> n:8
+R216:219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R206:209 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R205:205 Coqtail.Arith.Ninductions <> n:8 var
+R210:210 Coqtail.Arith.Ninductions <> N:7 var
+R222:222 Coqtail.Arith.Ninductions <> n:8 var
+prf 399:406 <> nat_ind2
+R425:428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R422:424 Coq.Init.Datatypes <> nat ind
+binder 418:418 <> P:9
+R442:445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R439:439 Coqtail.Arith.Ninductions <> P:9 var
+R441:441 Coq.Init.Datatypes <> O constr
+R453:456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R446:446 Coqtail.Arith.Ninductions <> P:9 var
+R449:449 Coq.Init.Datatypes <> S constr
+R451:451 Coq.Init.Datatypes <> O constr
+R457:457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R486:490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 465:465 <> m:10
+R471:474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R468:468 Coqtail.Arith.Ninductions <> P:9 var
+R470:470 Coqtail.Arith.Ninductions <> m:10 var
+R475:475 Coqtail.Arith.Ninductions <> P:9 var
+R478:478 Coq.Init.Datatypes <> S constr
+R481:481 Coq.Init.Datatypes <> S constr
+R483:483 Coqtail.Arith.Ninductions <> m:10 var
+binder 498:498 <> n:11
+R501:501 Coqtail.Arith.Ninductions <> P:9 var
+R503:503 Coqtail.Arith.Ninductions <> n:11 var
+R541:550 Coqtail.Arith.Ninductions <> nat_strong thm
+R541:550 Coqtail.Arith.Ninductions <> nat_strong thm
+R612:618 Coq.Arith.Le <> le_n_Sn syndef
+R612:618 Coq.Arith.Le <> le_n_Sn syndef

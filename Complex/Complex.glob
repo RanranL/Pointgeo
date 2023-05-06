@@ -1,0 +1,8 @@
+DIGEST ccaf1cb968026ca9aa019267ce79f055
+FCoqtail.Complex.Complex
+R904:908 Coqtail.Complex.Cbase <> <> lib
+R926:930 Coqtail.Complex.Cnorm <> <> lib
+R948:951 Coqtail.Complex.Cpow <> <> lib
+R969:978 Coqtail.Complex.Cfunctions <> <> lib
+R996:1005 Coqtail.Complex.Cprop_base <> <> lib
+R1023:1031 Coqtail.Complex.Ctacfield <> <> lib

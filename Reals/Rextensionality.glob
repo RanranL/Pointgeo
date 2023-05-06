@@ -1,0 +1,281 @@
+DIGEST b876e59f44abc2276f8b7bc266508cee
+FCoqtail.Reals.Rextensionality
+R15:19 Coq.Reals.Reals <> <> lib
+R37:49 Coqtail.Reals.Rsequence.Rsequence_def <> <> lib
+R67:75 Coqtail.Reals.Rpser.Rpser_def <> <> lib
+R77:91 Coqtail.Reals.Rpser.Rpser_def_simpl <> <> lib
+R93:108 Coqtail.Reals.Rpser.Rpser_base_facts <> <> lib
+R110:119 Coqtail.Reals.Rpser.Rpser_sums <> <> lib
+R121:134 Coqtail.Reals.Rpser.Rpser_cv_facts <> <> lib
+R152:160 Coqtail.Reals.Ranalysis.Rinterval <> <> lib
+R162:174 Coqtail.Reals.Ranalysis.Ranalysis_def <> <> lib
+R176:190 Coqtail.Reals.Ranalysis.Rfunction_facts <> <> lib
+R208:214 Coqtail.Reals.Tactics <> <> lib
+sec 316:339 <> Functions_extensionality
+var 353:353 Functions_extensionality f
+var 355:355 Functions_extensionality g
+R360:363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R359:359 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R364:364 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 378:383 Functions_extensionality fg_ext
+R388:391 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R387:387 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R392:392 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+prf 402:415 <> continuity_ext
+R431:434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R419:428 Coq.Reals.Ranalysis1 <> continuity def
+R430:430 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R435:444 Coq.Reals.Ranalysis1 <> continuity def
+R446:446 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+R613:618 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R613:618 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R613:618 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R613:618 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R613:618 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+prf 640:659 <> derivable_pt_lim_ext
+binder 670:670 <> x:4
+binder 672:672 <> l:5
+R697:702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R675:690 Coq.Reals.Ranalysis1 <> derivable_pt_lim def
+R692:692 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R694:694 Coqtail.Reals.Rextensionality <> x:4 var
+R696:696 Coqtail.Reals.Rextensionality <> l:5 var
+R703:718 Coq.Reals.Ranalysis1 <> derivable_pt_lim def
+R720:720 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+R722:722 Coqtail.Reals.Rextensionality <> x:4 var
+R724:724 Coqtail.Reals.Rextensionality <> l:5 var
+R847:852 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R847:852 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R847:852 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R847:852 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+R847:852 Coqtail.Reals.Rextensionality <> Functions_extensionality.fg_ext var
+prf 874:889 <> derivable_pt_ext
+binder 900:900 <> x:6
+R919:924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R903:914 Coq.Reals.Ranalysis1 <> derivable_pt def
+R916:916 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R918:918 Coqtail.Reals.Rextensionality <> x:6 var
+R925:936 Coq.Reals.Ranalysis1 <> derivable_pt def
+R938:938 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+R940:940 Coqtail.Reals.Rextensionality <> x:6 var
+R988:1007 Coqtail.Reals.Rextensionality <> derivable_pt_lim_ext thm
+R988:1007 Coqtail.Reals.Rextensionality <> derivable_pt_lim_ext thm
+prf 1032:1044 <> derivable_ext
+R1059:1062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1048:1056 Coq.Reals.Ranalysis1 <> derivable def
+R1058:1058 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R1063:1071 Coq.Reals.Ranalysis1 <> derivable def
+R1073:1073 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+R1108:1123 Coqtail.Reals.Rextensionality <> derivable_pt_ext thm
+R1108:1123 Coqtail.Reals.Rextensionality <> derivable_pt_ext thm
+prf 1145:1157 <> derive_pt_ext
+R1164:1164 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1160:1160 <> x:7
+R1174:1185 Coq.Reals.Ranalysis1 <> derivable_pt def
+R1187:1187 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R1189:1189 Coqtail.Reals.Rextensionality <> x:7 var
+binder 1168:1170 <> prf:8
+R1199:1210 Coq.Reals.Ranalysis1 <> derivable_pt def
+R1212:1212 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+R1214:1214 Coqtail.Reals.Rextensionality <> x:7 var
+binder 1193:1195 <> prg:9
+R1238:1240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1221:1229 Coq.Reals.Ranalysis1 <> derive_pt def
+R1231:1231 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R1233:1233 Coqtail.Reals.Rextensionality <> x:7 var
+R1235:1237 Coqtail.Reals.Rextensionality <> prf:8 var
+R1241:1249 Coq.Reals.Ranalysis1 <> derive_pt def
+R1251:1251 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+R1253:1253 Coqtail.Reals.Rextensionality <> x:7 var
+R1255:1257 Coqtail.Reals.Rextensionality <> prg:9 var
+R1273:1282 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+R1273:1282 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+prf 1310:1319 <> derive_ext
+R1328:1336 Coq.Reals.Ranalysis1 <> derivable def
+R1338:1338 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+binder 1322:1324 <> prf:10
+R1348:1356 Coq.Reals.Ranalysis1 <> derivable def
+R1358:1358 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+binder 1342:1344 <> prg:11
+R1377:1380 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R1365:1370 Coq.Reals.Ranalysis1 <> derive def
+R1372:1372 Coqtail.Reals.Rextensionality <> Functions_extensionality.f var
+R1374:1376 Coqtail.Reals.Rextensionality <> prf:10 var
+R1381:1386 Coq.Reals.Ranalysis1 <> derive def
+R1388:1388 Coqtail.Reals.Rextensionality <> Functions_extensionality.g var
+R1390:1392 Coqtail.Reals.Rextensionality <> prg:11 var
+R1419:1424 Coq.Reals.Ranalysis1 <> derive def
+R1434:1446 Coqtail.Reals.Rextensionality <> derive_pt_ext thm
+R1434:1446 Coqtail.Reals.Rextensionality <> derive_pt_ext thm
+R1459:1482 Coqtail.Reals.Rextensionality Functions_extensionality <> sec
+sec 1552:1571 <> Rpser_extensionality
+var 1585:1586 Rpser_extensionality An
+var 1588:1589 Rpser_extensionality Bn
+R1593:1596 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq def
+var 1610:1617 Rpser_extensionality AnBn_ext
+R1624:1627 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'=='_x not
+R1622:1623 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R1628:1629 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+prf 1645:1656 <> sum_f_R0_ext
+R1672:1675 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'=='_x not
+R1661:1668 Coq.Reals.Rfunctions <> sum_f_R0 def
+R1670:1671 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R1676:1683 Coq.Reals.Rfunctions <> sum_f_R0 def
+R1685:1686 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R1742:1749 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R1742:1749 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R1742:1749 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R1742:1749 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R1742:1749 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+prf 1797:1804 <> Pser_ext
+binder 1815:1815 <> x:15
+binder 1817:1817 <> l:16
+R1831:1835 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1820:1823 Coq.Reals.Rseries <> Pser def
+R1828:1828 Coqtail.Reals.Rextensionality <> x:15 var
+R1830:1830 Coqtail.Reals.Rextensionality <> l:16 var
+R1825:1826 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R1836:1839 Coq.Reals.Rseries <> Pser def
+R1844:1844 Coqtail.Reals.Rextensionality <> x:15 var
+R1846:1846 Coqtail.Reals.Rextensionality <> l:16 var
+R1841:1842 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R1976:1981 Coq.Reals.PartSum <> sum_eq thm
+binder 1990:1990 <> n:17
+R1999:2001 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1995:1996 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R1998:1998 Coqtail.Reals.Rextensionality <> n:17 var
+R2003:2005 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2006:2006 Coqtail.Reals.Rextensionality <> n:17 var
+R2024:2029 Coq.Reals.PartSum <> sum_eq thm
+binder 2038:2038 <> n:18
+R2047:2049 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2043:2044 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2046:2046 Coqtail.Reals.Rextensionality <> n:18 var
+R2051:2053 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2054:2054 Coqtail.Reals.Rextensionality <> n:18 var
+R2110:2117 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R1976:1981 Coq.Reals.PartSum <> sum_eq thm
+binder 1990:1990 <> n:19
+R1999:2001 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1995:1996 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R1998:1998 Coqtail.Reals.Rextensionality <> n:19 var
+R2003:2005 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2006:2006 Coqtail.Reals.Rextensionality <> n:19 var
+R1976:1981 Coq.Reals.PartSum <> sum_eq thm
+binder 1990:1990 <> n:20
+R1999:2001 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1995:1996 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R1998:1998 Coqtail.Reals.Rextensionality <> n:20 var
+R2003:2005 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2006:2006 Coqtail.Reals.Rextensionality <> n:20 var
+R1976:1981 Coq.Reals.PartSum <> sum_eq thm
+binder 1990:1990 <> n:21
+R1999:2001 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1995:1996 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R1998:1998 Coqtail.Reals.Rextensionality <> n:21 var
+R2003:2005 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2006:2006 Coqtail.Reals.Rextensionality <> n:21 var
+R2024:2029 Coq.Reals.PartSum <> sum_eq thm
+binder 2038:2038 <> n:22
+R2047:2049 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2043:2044 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2046:2046 Coqtail.Reals.Rextensionality <> n:22 var
+R2051:2053 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2054:2054 Coqtail.Reals.Rextensionality <> n:22 var
+R2024:2029 Coq.Reals.PartSum <> sum_eq thm
+binder 2038:2038 <> n:23
+R2047:2049 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2043:2044 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2046:2046 Coqtail.Reals.Rextensionality <> n:23 var
+R2051:2053 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2054:2054 Coqtail.Reals.Rextensionality <> n:23 var
+R2024:2029 Coq.Reals.PartSum <> sum_eq thm
+binder 2038:2038 <> n:24
+R2047:2049 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2043:2044 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2046:2046 Coqtail.Reals.Rextensionality <> n:24 var
+R2051:2053 Coq.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R2054:2054 Coqtail.Reals.Rextensionality <> n:24 var
+R2110:2117 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R2110:2117 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R2110:2117 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+R2110:2117 Coqtail.Reals.Rextensionality <> Rpser_extensionality.AnBn_ext var
+prf 2148:2160 <> weaksum_r_ext
+R2176:2176 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2172:2172 <> r:25
+R2186:2199 Coqtail.Reals.Rpser.Rpser_def <> Cv_radius_weak def
+R2201:2202 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R2204:2204 Coqtail.Reals.Rextensionality <> r:25 var
+binder 2180:2182 <> rAn:26
+R2215:2228 Coqtail.Reals.Rpser.Rpser_def <> Cv_radius_weak def
+R2230:2231 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2233:2233 Coqtail.Reals.Rextensionality <> r:25 var
+binder 2209:2211 <> rBn:27
+R2256:2259 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R2238:2246 Coqtail.Reals.Rpser.Rpser_sums <> weaksum_r def
+R2248:2249 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R2251:2251 Coqtail.Reals.Rextensionality <> r:25 var
+R2253:2255 Coqtail.Reals.Rextensionality <> rAn:26 var
+R2260:2268 Coqtail.Reals.Rpser.Rpser_sums <> weaksum_r def
+R2270:2271 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2273:2273 Coqtail.Reals.Rextensionality <> r:25 var
+R2275:2277 Coqtail.Reals.Rextensionality <> rBn:27 var
+R2315:2323 Coqtail.Reals.Rpser.Rpser_sums <> weaksum_r def
+R2337:2346 Coq.Reals.RIneq <> Rlt_le_dec thm
+R2349:2352 Coq.Reals.Rbasic_fun <> Rabs def
+R2337:2346 Coq.Reals.RIneq <> Rlt_le_dec thm
+R2349:2352 Coq.Reals.Rbasic_fun <> Rabs def
+R2382:2391 Coqtail.Reals.Rpser.Rpser_cv_facts <> Rpser_abel thm
+R2382:2391 Coqtail.Reals.Rpser.Rpser_cv_facts <> Rpser_abel thm
+R2454:2461 Coqtail.Reals.Rextensionality <> Pser_ext thm
+R2454:2461 Coqtail.Reals.Rextensionality <> Pser_ext thm
+R2454:2461 Coqtail.Reals.Rextensionality <> Pser_ext thm
+R2482:2491 Coqtail.Reals.Rpser.Rpser_cv_facts <> Rpser_abel thm
+R2482:2491 Coqtail.Reals.Rpser.Rpser_cv_facts <> Rpser_abel thm
+R2536:2547 Coqtail.Reals.Rpser.Rpser_base_facts <> Rpser_unique thm
+R2536:2547 Coqtail.Reals.Rpser.Rpser_base_facts <> Rpser_unique thm
+prf 2576:2584 <> sum_r_ext
+R2600:2600 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2596:2596 <> r:28
+R2610:2625 Coqtail.Reals.Rpser.Rpser_def <> finite_cv_radius def
+R2627:2628 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R2630:2630 Coqtail.Reals.Rextensionality <> r:28 var
+binder 2604:2606 <> rAn:29
+R2641:2656 Coqtail.Reals.Rpser.Rpser_def <> finite_cv_radius def
+R2658:2659 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2661:2661 Coqtail.Reals.Rextensionality <> r:28 var
+binder 2635:2637 <> rBn:30
+R2680:2683 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R2666:2670 Coqtail.Reals.Rpser.Rpser_sums <> sum_r def
+R2672:2673 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R2675:2675 Coqtail.Reals.Rextensionality <> r:28 var
+R2677:2679 Coqtail.Reals.Rextensionality <> rAn:29 var
+R2684:2688 Coqtail.Reals.Rpser.Rpser_sums <> sum_r def
+R2690:2691 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2693:2693 Coqtail.Reals.Rextensionality <> r:28 var
+R2695:2697 Coqtail.Reals.Rextensionality <> rBn:30 var
+R2735:2739 Coqtail.Reals.Rpser.Rpser_sums <> sum_r def
+R2753:2762 Coq.Reals.RIneq <> Rlt_le_dec thm
+R2765:2768 Coq.Reals.Rbasic_fun <> Rabs def
+R2796:2808 Coqtail.Reals.Rextensionality <> weaksum_r_ext thm
+R2753:2762 Coq.Reals.RIneq <> Rlt_le_dec thm
+R2765:2768 Coq.Reals.Rbasic_fun <> Rabs def
+R2796:2808 Coqtail.Reals.Rextensionality <> weaksum_r_ext thm
+prf 2823:2829 <> sum_ext
+R2847:2864 Coqtail.Reals.Rpser.Rpser_def <> infinite_cv_radius def
+R2866:2867 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+binder 2841:2843 <> rAn:31
+R2879:2896 Coqtail.Reals.Rpser.Rpser_def <> infinite_cv_radius def
+R2898:2899 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+binder 2873:2875 <> rBn:32
+R2915:2918 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R2905:2907 Coqtail.Reals.Rpser.Rpser_sums <> sum def
+R2909:2910 Coqtail.Reals.Rextensionality <> Rpser_extensionality.An var
+R2912:2914 Coqtail.Reals.Rextensionality <> rAn:31 var
+R2919:2921 Coqtail.Reals.Rpser.Rpser_sums <> sum def
+R2923:2924 Coqtail.Reals.Rextensionality <> Rpser_extensionality.Bn var
+R2926:2928 Coqtail.Reals.Rextensionality <> rBn:32 var
+R2957:2959 Coqtail.Reals.Rpser.Rpser_sums <> sum def
+R2969:2981 Coqtail.Reals.Rextensionality <> weaksum_r_ext thm
+R2969:2981 Coqtail.Reals.Rextensionality <> weaksum_r_ext thm
+R2994:3013 Coqtail.Reals.Rextensionality Rpser_extensionality <> sec

@@ -1,0 +1,968 @@
+DIGEST 7a40961ecdcb61ba8336c96552f2f996
+FCoqtail.Hierarchy.Type_class_definition
+R816:849 Coq.Relations.Relation_Definitions <> <> lib
+R867:877 Coq.Classes.SetoidClass <> <> lib
+R895:899 Coq.Reals.Reals <> <> lib
+def 935:943 <> operation
+binder 945:945 <> A:1
+R951:954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R950:950 Coqtail.Hierarchy.Type_class_definition <> A:1 var
+R956:959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R955:955 Coqtail.Hierarchy.Type_class_definition <> A:1 var
+R960:960 Coqtail.Hierarchy.Type_class_definition <> A:1 var
+ind 970:980 <> Associative
+constr 1034:1041 <> op_assoc
+rec 970:980 <> Associative
+proj 1034:1041 <> op_assoc
+binder 983:983 <> A:2
+R1000:1007 Coq.Relations.Relation_Definitions <> relation def
+R1009:1009 Coqtail.Hierarchy.Type_class_definition <> A:2 var
+binder 994:996 <> rel:3
+R1017:1025 Coqtail.Hierarchy.Type_class_definition <> operation def
+R1027:1027 Coqtail.Hierarchy.Type_class_definition <> A:2 var
+binder 1013:1013 <> O:4
+binder 1052:1052 <> x:6
+binder 1054:1054 <> y:7
+binder 1056:1056 <> z:8
+R1059:1061 Coqtail.Hierarchy.Type_class_definition <> rel:3 var
+R1064:1064 Coqtail.Hierarchy.Type_class_definition <> O:4 var
+R1066:1066 Coqtail.Hierarchy.Type_class_definition <> x:6 var
+R1069:1069 Coqtail.Hierarchy.Type_class_definition <> O:4 var
+R1071:1071 Coqtail.Hierarchy.Type_class_definition <> y:7 var
+R1073:1073 Coqtail.Hierarchy.Type_class_definition <> z:8 var
+R1078:1078 Coqtail.Hierarchy.Type_class_definition <> O:4 var
+R1081:1081 Coqtail.Hierarchy.Type_class_definition <> O:4 var
+R1083:1083 Coqtail.Hierarchy.Type_class_definition <> x:6 var
+R1085:1085 Coqtail.Hierarchy.Type_class_definition <> y:7 var
+R1088:1088 Coqtail.Hierarchy.Type_class_definition <> z:8 var
+ind 1099:1109 <> Commutative
+constr 1163:1169 <> op_comm
+rec 1099:1109 <> Commutative
+proj 1163:1169 <> op_comm
+binder 1112:1112 <> A:10
+R1129:1136 Coq.Relations.Relation_Definitions <> relation def
+R1138:1138 Coqtail.Hierarchy.Type_class_definition <> A:10 var
+binder 1123:1125 <> rel:11
+R1146:1154 Coqtail.Hierarchy.Type_class_definition <> operation def
+R1156:1156 Coqtail.Hierarchy.Type_class_definition <> A:10 var
+binder 1142:1142 <> O:12
+binder 1180:1180 <> x:14
+binder 1182:1182 <> y:15
+R1185:1187 Coqtail.Hierarchy.Type_class_definition <> rel:11 var
+R1190:1190 Coqtail.Hierarchy.Type_class_definition <> O:12 var
+R1192:1192 Coqtail.Hierarchy.Type_class_definition <> x:14 var
+R1194:1194 Coqtail.Hierarchy.Type_class_definition <> y:15 var
+R1198:1198 Coqtail.Hierarchy.Type_class_definition <> O:12 var
+R1200:1200 Coqtail.Hierarchy.Type_class_definition <> y:15 var
+R1202:1202 Coqtail.Hierarchy.Type_class_definition <> x:14 var
+def 1218:1223 <> scalar
+binder 1225:1225 <> A:17
+binder 1227:1227 <> B:18
+R1233:1236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1232:1232 Coqtail.Hierarchy.Type_class_definition <> A:17 var
+R1238:1241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1237:1237 Coqtail.Hierarchy.Type_class_definition <> B:18 var
+R1242:1242 Coqtail.Hierarchy.Type_class_definition <> B:18 var
+def 1257:1261 <> value
+binder 1263:1263 <> A:19
+R1269:1272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1268:1268 Coqtail.Hierarchy.Type_class_definition <> A:19 var
+R1273:1273 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+rec 1283:1294 <> Metric_Space
+proj 1351:1369 <> metric_space_setoid
+proj 1394:1414 <> metric_space_positive
+proj 1449:1469 <> metric_space_symmetry
+proj 1507:1529 <> metric_space_separation
+proj 1601:1634 <> metric_space_triangular_inequality
+binder 1297:1297 <> A:20
+R1314:1321 Coq.Relations.Relation_Definitions <> relation def
+R1323:1323 Coqtail.Hierarchy.Type_class_definition <> A:20 var
+binder 1308:1310 <> eqA:21
+R1332:1335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1331:1331 Coqtail.Hierarchy.Type_class_definition <> A:20 var
+R1337:1340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1336:1336 Coqtail.Hierarchy.Type_class_definition <> A:20 var
+R1341:1341 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1327:1327 <> d:22
+R1374:1384 Coq.Classes.RelationClasses <> Equivalence class
+R1386:1388 Coqtail.Hierarchy.Type_class_definition <> eqA:21 var
+R1431:1431 Coqtail.Hierarchy.Type_class_definition <> A:20 var
+binder 1425:1425 <> x:25
+binder 1427:1427 <> y:26
+R1435:1438 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1439:1439 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1443:1443 Coqtail.Hierarchy.Type_class_definition <> y:26 var
+R1441:1441 Coqtail.Hierarchy.Type_class_definition <> x:25 var
+R1486:1486 Coqtail.Hierarchy.Type_class_definition <> A:20 var
+binder 1480:1480 <> x:28
+binder 1482:1482 <> y:29
+R1494:1496 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1489:1489 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1493:1493 Coqtail.Hierarchy.Type_class_definition <> y:29 var
+R1491:1491 Coqtail.Hierarchy.Type_class_definition <> x:28 var
+R1497:1497 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1501:1501 Coqtail.Hierarchy.Type_class_definition <> x:28 var
+R1499:1499 Coqtail.Hierarchy.Type_class_definition <> y:29 var
+R1546:1546 Coqtail.Hierarchy.Type_class_definition <> A:20 var
+binder 1540:1540 <> x:31
+binder 1542:1542 <> y:32
+R1549:1549 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1570:1575 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1596:1596 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1559:1562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1551:1553 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1554:1554 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1558:1558 Coqtail.Hierarchy.Type_class_definition <> y:32 var
+R1556:1556 Coqtail.Hierarchy.Type_class_definition <> x:31 var
+R1563:1565 Coqtail.Hierarchy.Type_class_definition <> eqA:21 var
+R1567:1567 Coqtail.Hierarchy.Type_class_definition <> x:31 var
+R1569:1569 Coqtail.Hierarchy.Type_class_definition <> y:32 var
+R1583:1586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1576:1578 Coqtail.Hierarchy.Type_class_definition <> eqA:21 var
+R1580:1580 Coqtail.Hierarchy.Type_class_definition <> x:31 var
+R1582:1582 Coqtail.Hierarchy.Type_class_definition <> y:32 var
+R1588:1590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1591:1591 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1595:1595 Coqtail.Hierarchy.Type_class_definition <> y:32 var
+R1593:1593 Coqtail.Hierarchy.Type_class_definition <> x:31 var
+R1653:1653 Coqtail.Hierarchy.Type_class_definition <> A:20 var
+binder 1645:1645 <> x:34
+binder 1647:1647 <> y:35
+binder 1649:1649 <> z:36
+R1661:1664 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1656:1656 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1660:1660 Coqtail.Hierarchy.Type_class_definition <> z:36 var
+R1658:1658 Coqtail.Hierarchy.Type_class_definition <> x:34 var
+R1665:1665 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1671:1675 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1681:1681 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1666:1666 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1670:1670 Coqtail.Hierarchy.Type_class_definition <> y:35 var
+R1668:1668 Coqtail.Hierarchy.Type_class_definition <> x:34 var
+R1676:1676 Coqtail.Hierarchy.Type_class_definition <> d:22 var
+R1680:1680 Coqtail.Hierarchy.Type_class_definition <> z:36 var
+R1678:1678 Coqtail.Hierarchy.Type_class_definition <> y:35 var
+rec 1693:1698 <> Monoid
+proj 1765:1777 <> monoid_setoid
+proj 1802:1814 <> monoid_iden_l
+proj 1852:1864 <> monoid_iden_r
+proj 1902:1913 <> monoid_assoc
+proj 1939:1956 <> monoid_eq_compat_l
+proj 2012:2029 <> monoid_eq_compat_r
+binder 1701:1701 <> M:38
+R1718:1725 Coq.Relations.Relation_Definitions <> relation def
+R1727:1727 Coqtail.Hierarchy.Type_class_definition <> M:38 var
+binder 1712:1714 <> eqM:39
+R1735:1743 Coqtail.Hierarchy.Type_class_definition <> operation def
+R1745:1745 Coqtail.Hierarchy.Type_class_definition <> M:38 var
+binder 1731:1731 <> f:40
+R1755:1755 Coqtail.Hierarchy.Type_class_definition <> M:38 var
+binder 1749:1751 <> eps:41
+R1782:1792 Coq.Classes.RelationClasses <> Equivalence class
+R1794:1796 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R1829:1829 Coqtail.Hierarchy.Type_class_definition <> M:38 var
+binder 1825:1825 <> x:44
+R1832:1834 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R1837:1837 Coqtail.Hierarchy.Type_class_definition <> f:40 var
+R1839:1841 Coqtail.Hierarchy.Type_class_definition <> eps:41 var
+R1843:1843 Coqtail.Hierarchy.Type_class_definition <> x:44 var
+R1846:1846 Coqtail.Hierarchy.Type_class_definition <> x:44 var
+R1879:1879 Coqtail.Hierarchy.Type_class_definition <> M:38 var
+binder 1875:1875 <> x:46
+R1882:1884 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R1887:1887 Coqtail.Hierarchy.Type_class_definition <> f:40 var
+R1889:1889 Coqtail.Hierarchy.Type_class_definition <> x:46 var
+R1891:1893 Coqtail.Hierarchy.Type_class_definition <> eps:41 var
+R1896:1896 Coqtail.Hierarchy.Type_class_definition <> x:46 var
+R1918:1928 Coqtail.Hierarchy.Type_class_definition <> Associative class
+R1934:1934 Coqtail.Hierarchy.Type_class_definition <> f:40 var
+R1930:1932 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R1975:1975 Coqtail.Hierarchy.Type_class_definition <> M:38 var
+binder 1967:1967 <> x:49
+binder 1969:1969 <> y:50
+binder 1971:1971 <> z:51
+R1985:1988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1978:1980 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R1982:1982 Coqtail.Hierarchy.Type_class_definition <> y:50 var
+R1984:1984 Coqtail.Hierarchy.Type_class_definition <> z:51 var
+R1989:1991 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R1994:1994 Coqtail.Hierarchy.Type_class_definition <> f:40 var
+R1996:1996 Coqtail.Hierarchy.Type_class_definition <> x:49 var
+R1998:1998 Coqtail.Hierarchy.Type_class_definition <> y:50 var
+R2002:2002 Coqtail.Hierarchy.Type_class_definition <> f:40 var
+R2004:2004 Coqtail.Hierarchy.Type_class_definition <> x:49 var
+R2006:2006 Coqtail.Hierarchy.Type_class_definition <> z:51 var
+R2047:2047 Coqtail.Hierarchy.Type_class_definition <> M:38 var
+binder 2039:2039 <> x:53
+binder 2041:2041 <> y:54
+binder 2043:2043 <> z:55
+R2057:2060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2050:2052 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R2054:2054 Coqtail.Hierarchy.Type_class_definition <> x:53 var
+R2056:2056 Coqtail.Hierarchy.Type_class_definition <> y:54 var
+R2061:2063 Coqtail.Hierarchy.Type_class_definition <> eqM:39 var
+R2066:2066 Coqtail.Hierarchy.Type_class_definition <> f:40 var
+R2068:2068 Coqtail.Hierarchy.Type_class_definition <> x:53 var
+R2070:2070 Coqtail.Hierarchy.Type_class_definition <> z:55 var
+R2074:2074 Coqtail.Hierarchy.Type_class_definition <> f:40 var
+R2076:2076 Coqtail.Hierarchy.Type_class_definition <> y:54 var
+R2078:2078 Coqtail.Hierarchy.Type_class_definition <> z:55 var
+rec 2091:2108 <> Monoid_Commutative
+proj 2175:2192 <> monoid_comm_monoid
+proj 2220:2230 <> monoid_comm
+binder 2111:2111 <> M:57
+R2128:2135 Coq.Relations.Relation_Definitions <> relation def
+R2137:2137 Coqtail.Hierarchy.Type_class_definition <> M:57 var
+binder 2122:2124 <> eqM:58
+R2145:2153 Coqtail.Hierarchy.Type_class_definition <> operation def
+R2155:2155 Coqtail.Hierarchy.Type_class_definition <> M:57 var
+binder 2141:2141 <> f:59
+R2165:2165 Coqtail.Hierarchy.Type_class_definition <> M:57 var
+binder 2159:2161 <> eps:60
+R2197:2202 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R2204:2204 Coqtail.Hierarchy.Type_class_definition <> M:57 var
+R2206:2208 Coqtail.Hierarchy.Type_class_definition <> eqM:58 var
+R2210:2210 Coqtail.Hierarchy.Type_class_definition <> f:59 var
+R2212:2214 Coqtail.Hierarchy.Type_class_definition <> eps:60 var
+R2235:2245 Coqtail.Hierarchy.Type_class_definition <> Commutative class
+R2251:2251 Coqtail.Hierarchy.Type_class_definition <> f:59 var
+R2247:2249 Coqtail.Hierarchy.Type_class_definition <> eqM:58 var
+rec 2263:2267 <> Group
+proj 2334:2345 <> group_monoid
+proj 2372:2384 <> group_reverse
+binder 2270:2270 <> G:64
+R2287:2294 Coq.Relations.Relation_Definitions <> relation def
+R2296:2296 Coqtail.Hierarchy.Type_class_definition <> G:64 var
+binder 2281:2283 <> eqG:65
+R2304:2312 Coqtail.Hierarchy.Type_class_definition <> operation def
+R2314:2314 Coqtail.Hierarchy.Type_class_definition <> G:64 var
+binder 2300:2300 <> f:66
+R2324:2324 Coqtail.Hierarchy.Type_class_definition <> G:64 var
+binder 2318:2320 <> eps:67
+R2350:2355 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R2357:2357 Coqtail.Hierarchy.Type_class_definition <> G:64 var
+R2359:2361 Coqtail.Hierarchy.Type_class_definition <> eqG:65 var
+R2363:2363 Coqtail.Hierarchy.Type_class_definition <> f:66 var
+R2365:2367 Coqtail.Hierarchy.Type_class_definition <> eps:67 var
+R2399:2399 Coqtail.Hierarchy.Type_class_definition <> G:64 var
+binder 2395:2395 <> x:70
+R2402:2404 Coq.Init.Specif <> sig ind
+binder 2411:2411 <> y:71
+R2416:2418 Coqtail.Hierarchy.Type_class_definition <> eqG:65 var
+R2421:2421 Coqtail.Hierarchy.Type_class_definition <> f:66 var
+R2423:2423 Coqtail.Hierarchy.Type_class_definition <> x:70 var
+R2425:2425 Coqtail.Hierarchy.Type_class_definition <> y:71 var
+R2428:2430 Coqtail.Hierarchy.Type_class_definition <> eps:67 var
+rec 2443:2459 <> Group_Commutative
+proj 2526:2541 <> group_comm_group
+proj 2568:2577 <> group_comm
+binder 2462:2462 <> G:73
+R2479:2486 Coq.Relations.Relation_Definitions <> relation def
+R2488:2488 Coqtail.Hierarchy.Type_class_definition <> G:73 var
+binder 2473:2475 <> eqG:74
+R2496:2504 Coqtail.Hierarchy.Type_class_definition <> operation def
+R2506:2506 Coqtail.Hierarchy.Type_class_definition <> G:73 var
+binder 2492:2492 <> f:75
+R2516:2516 Coqtail.Hierarchy.Type_class_definition <> G:73 var
+binder 2510:2512 <> eps:76
+R2546:2550 Coqtail.Hierarchy.Type_class_definition <> Group class
+R2552:2552 Coqtail.Hierarchy.Type_class_definition <> G:73 var
+R2554:2556 Coqtail.Hierarchy.Type_class_definition <> eqG:74 var
+R2558:2558 Coqtail.Hierarchy.Type_class_definition <> f:75 var
+R2560:2562 Coqtail.Hierarchy.Type_class_definition <> eps:76 var
+R2582:2592 Coqtail.Hierarchy.Type_class_definition <> Commutative class
+R2598:2598 Coqtail.Hierarchy.Type_class_definition <> f:75 var
+R2594:2596 Coqtail.Hierarchy.Type_class_definition <> eqG:74 var
+rec 2610:2629 <> Group_Multiplicative
+proj 2711:2722 <> group_setoid
+proj 2747:2773 <> group_multiplicative_iden_l
+proj 2815:2841 <> group_multiplicative_iden_r
+proj 2883:2910 <> group_multiplicative_reverse
+proj 2983:3008 <> group_multiplicative_assoc
+proj 3037:3068 <> group_multiplicative_eq_compat_l
+proj 3130:3161 <> group_multiplicative_eq_compat_r
+binder 2632:2632 <> G:80
+R2649:2656 Coq.Relations.Relation_Definitions <> relation def
+R2658:2658 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 2643:2645 <> eqG:81
+R2669:2677 Coqtail.Hierarchy.Type_class_definition <> operation def
+R2679:2679 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 2662:2665 <> mult:82
+R2690:2690 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 2683:2686 <> eps0:83
+R2701:2701 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 2694:2697 <> eps1:84
+R2727:2737 Coq.Classes.RelationClasses <> Equivalence class
+R2739:2741 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R2788:2788 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 2784:2784 <> x:87
+R2791:2793 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R2796:2799 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R2801:2804 Coqtail.Hierarchy.Type_class_definition <> eps1:84 var
+R2806:2806 Coqtail.Hierarchy.Type_class_definition <> x:87 var
+R2809:2809 Coqtail.Hierarchy.Type_class_definition <> x:87 var
+R2856:2856 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 2852:2852 <> x:89
+R2859:2861 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R2864:2867 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R2869:2869 Coqtail.Hierarchy.Type_class_definition <> x:89 var
+R2871:2874 Coqtail.Hierarchy.Type_class_definition <> eps1:84 var
+R2877:2877 Coqtail.Hierarchy.Type_class_definition <> x:89 var
+R2925:2925 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 2921:2921 <> x:91
+R2941:2944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2928:2929 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2940:2940 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2930:2932 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R2934:2934 Coqtail.Hierarchy.Type_class_definition <> x:91 var
+R2936:2939 Coqtail.Hierarchy.Type_class_definition <> eps0:83 var
+R2945:2947 Coq.Init.Specif <> sig ind
+binder 2954:2954 <> y:92
+R2959:2961 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R2964:2967 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R2969:2969 Coqtail.Hierarchy.Type_class_definition <> x:91 var
+R2971:2971 Coqtail.Hierarchy.Type_class_definition <> y:92 var
+R2974:2977 Coqtail.Hierarchy.Type_class_definition <> eps1:84 var
+R3013:3023 Coqtail.Hierarchy.Type_class_definition <> Associative class
+R3029:3032 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R3025:3027 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R3087:3087 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 3079:3079 <> x:95
+binder 3081:3081 <> y:96
+binder 3083:3083 <> z:97
+R3097:3100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3090:3092 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R3094:3094 Coqtail.Hierarchy.Type_class_definition <> y:96 var
+R3096:3096 Coqtail.Hierarchy.Type_class_definition <> z:97 var
+R3101:3103 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R3106:3109 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R3111:3111 Coqtail.Hierarchy.Type_class_definition <> x:95 var
+R3113:3113 Coqtail.Hierarchy.Type_class_definition <> y:96 var
+R3117:3120 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R3122:3122 Coqtail.Hierarchy.Type_class_definition <> x:95 var
+R3124:3124 Coqtail.Hierarchy.Type_class_definition <> z:97 var
+R3179:3179 Coqtail.Hierarchy.Type_class_definition <> G:80 var
+binder 3171:3171 <> x:99
+binder 3173:3173 <> y:100
+binder 3175:3175 <> z:101
+R3189:3192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3182:3184 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R3186:3186 Coqtail.Hierarchy.Type_class_definition <> x:99 var
+R3188:3188 Coqtail.Hierarchy.Type_class_definition <> y:100 var
+R3193:3195 Coqtail.Hierarchy.Type_class_definition <> eqG:81 var
+R3198:3201 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R3203:3203 Coqtail.Hierarchy.Type_class_definition <> x:99 var
+R3205:3205 Coqtail.Hierarchy.Type_class_definition <> z:101 var
+R3209:3212 Coqtail.Hierarchy.Type_class_definition <> mult:82 var
+R3214:3214 Coqtail.Hierarchy.Type_class_definition <> y:100 var
+R3216:3216 Coqtail.Hierarchy.Type_class_definition <> z:101 var
+rec 3229:3236 <> SemiRing
+proj 3338:3357 <> semiring_monoid_comm
+proj 3400:3414 <> semiring_monoid
+proj 3446:3468 <> semiring_distributive_r
+proj 3545:3567 <> semiring_distributive_l
+proj 3644:3664 <> semiring_absorption_r
+proj 3709:3729 <> semiring_absorption_l
+binder 3239:3239 <> S:103
+R3256:3263 Coq.Relations.Relation_Definitions <> relation def
+R3265:3265 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3250:3252 <> eqS:104
+R3275:3283 Coqtail.Hierarchy.Type_class_definition <> operation def
+R3285:3285 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3269:3271 <> add:105
+R3296:3304 Coqtail.Hierarchy.Type_class_definition <> operation def
+R3306:3306 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3289:3292 <> mult:106
+R3317:3317 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3310:3313 <> eps0:107
+R3328:3328 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3321:3324 <> eps1:108
+R3362:3379 Coqtail.Hierarchy.Type_class_definition <> Monoid_Commutative class
+R3381:3381 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+R3383:3385 Coqtail.Hierarchy.Type_class_definition <> eqS:104 var
+R3387:3389 Coqtail.Hierarchy.Type_class_definition <> add:105 var
+R3391:3394 Coqtail.Hierarchy.Type_class_definition <> eps0:107 var
+R3419:3424 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R3426:3426 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+R3428:3430 Coqtail.Hierarchy.Type_class_definition <> eqS:104 var
+R3432:3435 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3437:3440 Coqtail.Hierarchy.Type_class_definition <> eps1:108 var
+R3487:3487 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3479:3479 <> x:112
+binder 3481:3481 <> y:113
+binder 3483:3483 <> z:114
+R3490:3492 Coqtail.Hierarchy.Type_class_definition <> eqS:104 var
+R3495:3498 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3500:3500 Coqtail.Hierarchy.Type_class_definition <> x:112 var
+R3503:3505 Coqtail.Hierarchy.Type_class_definition <> add:105 var
+R3507:3507 Coqtail.Hierarchy.Type_class_definition <> y:113 var
+R3509:3509 Coqtail.Hierarchy.Type_class_definition <> z:114 var
+R3514:3516 Coqtail.Hierarchy.Type_class_definition <> add:105 var
+R3519:3522 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3524:3524 Coqtail.Hierarchy.Type_class_definition <> x:112 var
+R3526:3526 Coqtail.Hierarchy.Type_class_definition <> y:113 var
+R3530:3533 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3535:3535 Coqtail.Hierarchy.Type_class_definition <> x:112 var
+R3537:3537 Coqtail.Hierarchy.Type_class_definition <> z:114 var
+R3586:3586 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3578:3578 <> x:116
+binder 3580:3580 <> y:117
+binder 3582:3582 <> z:118
+R3589:3591 Coqtail.Hierarchy.Type_class_definition <> eqS:104 var
+R3594:3597 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3600:3602 Coqtail.Hierarchy.Type_class_definition <> add:105 var
+R3604:3604 Coqtail.Hierarchy.Type_class_definition <> x:116 var
+R3606:3606 Coqtail.Hierarchy.Type_class_definition <> y:117 var
+R3609:3609 Coqtail.Hierarchy.Type_class_definition <> z:118 var
+R3613:3615 Coqtail.Hierarchy.Type_class_definition <> add:105 var
+R3618:3621 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3623:3623 Coqtail.Hierarchy.Type_class_definition <> x:116 var
+R3625:3625 Coqtail.Hierarchy.Type_class_definition <> z:118 var
+R3629:3632 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3634:3634 Coqtail.Hierarchy.Type_class_definition <> y:117 var
+R3636:3636 Coqtail.Hierarchy.Type_class_definition <> z:118 var
+R3679:3679 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3675:3675 <> x:120
+R3682:3684 Coqtail.Hierarchy.Type_class_definition <> eqS:104 var
+R3687:3690 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3692:3692 Coqtail.Hierarchy.Type_class_definition <> x:120 var
+R3694:3697 Coqtail.Hierarchy.Type_class_definition <> eps0:107 var
+R3700:3703 Coqtail.Hierarchy.Type_class_definition <> eps0:107 var
+R3744:3744 Coqtail.Hierarchy.Type_class_definition <> S:103 var
+binder 3740:3740 <> x:122
+R3747:3749 Coqtail.Hierarchy.Type_class_definition <> eqS:104 var
+R3752:3755 Coqtail.Hierarchy.Type_class_definition <> mult:106 var
+R3757:3760 Coqtail.Hierarchy.Type_class_definition <> eps0:107 var
+R3762:3762 Coqtail.Hierarchy.Type_class_definition <> x:122 var
+R3765:3768 Coqtail.Hierarchy.Type_class_definition <> eps0:107 var
+rec 3780:3799 <> SemiRing_Commutative
+proj 3901:3922 <> semiring_comm_semiring
+proj 3965:3977 <> semiring_comm
+binder 3802:3802 <> S:124
+R3819:3826 Coq.Relations.Relation_Definitions <> relation def
+R3828:3828 Coqtail.Hierarchy.Type_class_definition <> S:124 var
+binder 3813:3815 <> eqS:125
+R3838:3846 Coqtail.Hierarchy.Type_class_definition <> operation def
+R3848:3848 Coqtail.Hierarchy.Type_class_definition <> S:124 var
+binder 3832:3834 <> add:126
+R3859:3867 Coqtail.Hierarchy.Type_class_definition <> operation def
+R3869:3869 Coqtail.Hierarchy.Type_class_definition <> S:124 var
+binder 3852:3855 <> mult:127
+R3880:3880 Coqtail.Hierarchy.Type_class_definition <> S:124 var
+binder 3873:3876 <> eps0:128
+R3891:3891 Coqtail.Hierarchy.Type_class_definition <> S:124 var
+binder 3884:3887 <> eps1:129
+R3927:3934 Coqtail.Hierarchy.Type_class_definition <> SemiRing class
+R3936:3936 Coqtail.Hierarchy.Type_class_definition <> S:124 var
+R3938:3940 Coqtail.Hierarchy.Type_class_definition <> eqS:125 var
+R3942:3944 Coqtail.Hierarchy.Type_class_definition <> add:126 var
+R3946:3949 Coqtail.Hierarchy.Type_class_definition <> mult:127 var
+R3951:3954 Coqtail.Hierarchy.Type_class_definition <> eps0:128 var
+R3956:3959 Coqtail.Hierarchy.Type_class_definition <> eps1:129 var
+R3982:3992 Coqtail.Hierarchy.Type_class_definition <> Commutative class
+R3998:4001 Coqtail.Hierarchy.Type_class_definition <> mult:127 var
+R3994:3996 Coqtail.Hierarchy.Type_class_definition <> eqS:125 var
+rec 4013:4016 <> Ring
+proj 4118:4132 <> ring_group_comm
+proj 4174:4184 <> ring_monoid
+proj 4216:4234 <> ring_distributive_r
+proj 4311:4329 <> ring_distributive_l
+binder 4019:4019 <> R:133
+R4036:4043 Coq.Relations.Relation_Definitions <> relation def
+R4045:4045 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+binder 4030:4032 <> eqR:134
+R4055:4063 Coqtail.Hierarchy.Type_class_definition <> operation def
+R4065:4065 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+binder 4049:4051 <> add:135
+R4076:4084 Coqtail.Hierarchy.Type_class_definition <> operation def
+R4086:4086 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+binder 4069:4072 <> mult:136
+R4097:4097 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+binder 4090:4093 <> eps0:137
+R4108:4108 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+binder 4101:4104 <> eps1:138
+R4137:4153 Coqtail.Hierarchy.Type_class_definition <> Group_Commutative class
+R4155:4155 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+R4157:4159 Coqtail.Hierarchy.Type_class_definition <> eqR:134 var
+R4161:4163 Coqtail.Hierarchy.Type_class_definition <> add:135 var
+R4165:4168 Coqtail.Hierarchy.Type_class_definition <> eps0:137 var
+R4189:4194 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R4196:4196 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+R4198:4200 Coqtail.Hierarchy.Type_class_definition <> eqR:134 var
+R4202:4205 Coqtail.Hierarchy.Type_class_definition <> mult:136 var
+R4207:4210 Coqtail.Hierarchy.Type_class_definition <> eps1:138 var
+R4253:4253 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+binder 4245:4245 <> x:142
+binder 4247:4247 <> y:143
+binder 4249:4249 <> z:144
+R4256:4258 Coqtail.Hierarchy.Type_class_definition <> eqR:134 var
+R4261:4264 Coqtail.Hierarchy.Type_class_definition <> mult:136 var
+R4266:4266 Coqtail.Hierarchy.Type_class_definition <> x:142 var
+R4269:4271 Coqtail.Hierarchy.Type_class_definition <> add:135 var
+R4273:4273 Coqtail.Hierarchy.Type_class_definition <> y:143 var
+R4275:4275 Coqtail.Hierarchy.Type_class_definition <> z:144 var
+R4280:4282 Coqtail.Hierarchy.Type_class_definition <> add:135 var
+R4285:4288 Coqtail.Hierarchy.Type_class_definition <> mult:136 var
+R4290:4290 Coqtail.Hierarchy.Type_class_definition <> x:142 var
+R4292:4292 Coqtail.Hierarchy.Type_class_definition <> y:143 var
+R4296:4299 Coqtail.Hierarchy.Type_class_definition <> mult:136 var
+R4301:4301 Coqtail.Hierarchy.Type_class_definition <> x:142 var
+R4303:4303 Coqtail.Hierarchy.Type_class_definition <> z:144 var
+R4348:4348 Coqtail.Hierarchy.Type_class_definition <> R:133 var
+binder 4340:4340 <> x:146
+binder 4342:4342 <> y:147
+binder 4344:4344 <> z:148
+R4351:4353 Coqtail.Hierarchy.Type_class_definition <> eqR:134 var
+R4356:4359 Coqtail.Hierarchy.Type_class_definition <> mult:136 var
+R4362:4364 Coqtail.Hierarchy.Type_class_definition <> add:135 var
+R4366:4366 Coqtail.Hierarchy.Type_class_definition <> x:146 var
+R4368:4368 Coqtail.Hierarchy.Type_class_definition <> y:147 var
+R4371:4371 Coqtail.Hierarchy.Type_class_definition <> z:148 var
+R4375:4377 Coqtail.Hierarchy.Type_class_definition <> add:135 var
+R4380:4383 Coqtail.Hierarchy.Type_class_definition <> mult:136 var
+R4385:4385 Coqtail.Hierarchy.Type_class_definition <> x:146 var
+R4387:4387 Coqtail.Hierarchy.Type_class_definition <> z:148 var
+R4391:4394 Coqtail.Hierarchy.Type_class_definition <> mult:136 var
+R4396:4396 Coqtail.Hierarchy.Type_class_definition <> y:147 var
+R4398:4398 Coqtail.Hierarchy.Type_class_definition <> z:148 var
+rec 4412:4427 <> Ring_Commutative
+proj 4529:4542 <> ring_comm_ring
+proj 4581:4589 <> ring_comm
+binder 4430:4430 <> R:150
+R4447:4454 Coq.Relations.Relation_Definitions <> relation def
+R4456:4456 Coqtail.Hierarchy.Type_class_definition <> R:150 var
+binder 4441:4443 <> eqR:151
+R4466:4474 Coqtail.Hierarchy.Type_class_definition <> operation def
+R4476:4476 Coqtail.Hierarchy.Type_class_definition <> R:150 var
+binder 4460:4462 <> add:152
+R4487:4495 Coqtail.Hierarchy.Type_class_definition <> operation def
+R4497:4497 Coqtail.Hierarchy.Type_class_definition <> R:150 var
+binder 4480:4483 <> mult:153
+R4508:4508 Coqtail.Hierarchy.Type_class_definition <> R:150 var
+binder 4501:4504 <> eps0:154
+R4519:4519 Coqtail.Hierarchy.Type_class_definition <> R:150 var
+binder 4512:4515 <> eps1:155
+R4547:4550 Coqtail.Hierarchy.Type_class_definition <> Ring class
+R4552:4552 Coqtail.Hierarchy.Type_class_definition <> R:150 var
+R4554:4556 Coqtail.Hierarchy.Type_class_definition <> eqR:151 var
+R4558:4560 Coqtail.Hierarchy.Type_class_definition <> add:152 var
+R4562:4565 Coqtail.Hierarchy.Type_class_definition <> mult:153 var
+R4567:4570 Coqtail.Hierarchy.Type_class_definition <> eps0:154 var
+R4572:4575 Coqtail.Hierarchy.Type_class_definition <> eps1:155 var
+R4594:4604 Coqtail.Hierarchy.Type_class_definition <> Commutative class
+R4610:4613 Coqtail.Hierarchy.Type_class_definition <> mult:153 var
+R4606:4608 Coqtail.Hierarchy.Type_class_definition <> eqR:151 var
+rec 4625:4629 <> Field
+proj 4731:4746 <> field_group_comm
+proj 4788:4813 <> field_group_multiplicative
+proj 4864:4883 <> field_distributive_r
+proj 4960:4979 <> field_distributive_l
+binder 4632:4632 <> F:159
+R4649:4656 Coq.Relations.Relation_Definitions <> relation def
+R4658:4658 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+binder 4643:4645 <> eqF:160
+R4668:4676 Coqtail.Hierarchy.Type_class_definition <> operation def
+R4678:4678 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+binder 4662:4664 <> add:161
+R4689:4697 Coqtail.Hierarchy.Type_class_definition <> operation def
+R4699:4699 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+binder 4682:4685 <> mult:162
+R4710:4710 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+binder 4703:4706 <> eps0:163
+R4721:4721 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+binder 4714:4717 <> eps1:164
+R4751:4767 Coqtail.Hierarchy.Type_class_definition <> Group_Commutative class
+R4769:4769 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+R4771:4773 Coqtail.Hierarchy.Type_class_definition <> eqF:160 var
+R4775:4777 Coqtail.Hierarchy.Type_class_definition <> add:161 var
+R4779:4782 Coqtail.Hierarchy.Type_class_definition <> eps0:163 var
+R4818:4837 Coqtail.Hierarchy.Type_class_definition <> Group_Multiplicative class
+R4839:4839 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+R4841:4843 Coqtail.Hierarchy.Type_class_definition <> eqF:160 var
+R4845:4848 Coqtail.Hierarchy.Type_class_definition <> mult:162 var
+R4850:4853 Coqtail.Hierarchy.Type_class_definition <> eps0:163 var
+R4855:4858 Coqtail.Hierarchy.Type_class_definition <> eps1:164 var
+R4902:4902 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+binder 4894:4894 <> x:168
+binder 4896:4896 <> y:169
+binder 4898:4898 <> z:170
+R4905:4907 Coqtail.Hierarchy.Type_class_definition <> eqF:160 var
+R4910:4913 Coqtail.Hierarchy.Type_class_definition <> mult:162 var
+R4915:4915 Coqtail.Hierarchy.Type_class_definition <> x:168 var
+R4918:4920 Coqtail.Hierarchy.Type_class_definition <> add:161 var
+R4922:4922 Coqtail.Hierarchy.Type_class_definition <> y:169 var
+R4924:4924 Coqtail.Hierarchy.Type_class_definition <> z:170 var
+R4929:4931 Coqtail.Hierarchy.Type_class_definition <> add:161 var
+R4934:4937 Coqtail.Hierarchy.Type_class_definition <> mult:162 var
+R4939:4939 Coqtail.Hierarchy.Type_class_definition <> x:168 var
+R4941:4941 Coqtail.Hierarchy.Type_class_definition <> y:169 var
+R4945:4948 Coqtail.Hierarchy.Type_class_definition <> mult:162 var
+R4950:4950 Coqtail.Hierarchy.Type_class_definition <> x:168 var
+R4952:4952 Coqtail.Hierarchy.Type_class_definition <> z:170 var
+R4998:4998 Coqtail.Hierarchy.Type_class_definition <> F:159 var
+binder 4990:4990 <> x:172
+binder 4992:4992 <> y:173
+binder 4994:4994 <> z:174
+R5001:5003 Coqtail.Hierarchy.Type_class_definition <> eqF:160 var
+R5006:5009 Coqtail.Hierarchy.Type_class_definition <> mult:162 var
+R5012:5014 Coqtail.Hierarchy.Type_class_definition <> add:161 var
+R5016:5016 Coqtail.Hierarchy.Type_class_definition <> x:172 var
+R5018:5018 Coqtail.Hierarchy.Type_class_definition <> y:173 var
+R5021:5021 Coqtail.Hierarchy.Type_class_definition <> z:174 var
+R5025:5027 Coqtail.Hierarchy.Type_class_definition <> add:161 var
+R5030:5033 Coqtail.Hierarchy.Type_class_definition <> mult:162 var
+R5035:5035 Coqtail.Hierarchy.Type_class_definition <> x:172 var
+R5037:5037 Coqtail.Hierarchy.Type_class_definition <> z:174 var
+R5041:5044 Coqtail.Hierarchy.Type_class_definition <> mult:162 var
+R5046:5046 Coqtail.Hierarchy.Type_class_definition <> y:173 var
+R5048:5048 Coqtail.Hierarchy.Type_class_definition <> z:174 var
+rec 5062:5078 <> Field_Commutative
+proj 5180:5195 <> field_comm_field
+proj 5235:5244 <> field_comm
+binder 5081:5081 <> F:176
+R5098:5105 Coq.Relations.Relation_Definitions <> relation def
+R5107:5107 Coqtail.Hierarchy.Type_class_definition <> F:176 var
+binder 5092:5094 <> eqF:177
+R5117:5125 Coqtail.Hierarchy.Type_class_definition <> operation def
+R5127:5127 Coqtail.Hierarchy.Type_class_definition <> F:176 var
+binder 5111:5113 <> add:178
+R5138:5146 Coqtail.Hierarchy.Type_class_definition <> operation def
+R5148:5148 Coqtail.Hierarchy.Type_class_definition <> F:176 var
+binder 5131:5134 <> mult:179
+R5159:5159 Coqtail.Hierarchy.Type_class_definition <> F:176 var
+binder 5152:5155 <> eps0:180
+R5170:5170 Coqtail.Hierarchy.Type_class_definition <> F:176 var
+binder 5163:5166 <> eps1:181
+R5200:5204 Coqtail.Hierarchy.Type_class_definition <> Field class
+R5206:5206 Coqtail.Hierarchy.Type_class_definition <> F:176 var
+R5208:5210 Coqtail.Hierarchy.Type_class_definition <> eqF:177 var
+R5212:5214 Coqtail.Hierarchy.Type_class_definition <> add:178 var
+R5216:5219 Coqtail.Hierarchy.Type_class_definition <> mult:179 var
+R5221:5224 Coqtail.Hierarchy.Type_class_definition <> eps0:180 var
+R5226:5229 Coqtail.Hierarchy.Type_class_definition <> eps1:181 var
+R5249:5259 Coqtail.Hierarchy.Type_class_definition <> Commutative class
+R5265:5268 Coqtail.Hierarchy.Type_class_definition <> mult:179 var
+R5261:5263 Coqtail.Hierarchy.Type_class_definition <> eqF:177 var
+rec 5280:5291 <> Field_Valued
+proj 5409:5438 <> field_valued_field_commutative
+proj 5490:5510 <> field_valued_positive
+proj 5545:5567 <> field_valued_separation
+proj 5633:5666 <> field_valued_triangular_inequality
+proj 5724:5747 <> field_valued_homogeneity
+binder 5294:5294 <> F:185
+R5311:5318 Coq.Relations.Relation_Definitions <> relation def
+R5320:5320 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5305:5307 <> eqF:186
+R5330:5338 Coqtail.Hierarchy.Type_class_definition <> operation def
+R5340:5340 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5324:5326 <> add:187
+R5351:5359 Coqtail.Hierarchy.Type_class_definition <> operation def
+R5361:5361 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5344:5347 <> mult:188
+R5372:5372 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5365:5368 <> eps0:189
+R5383:5383 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5376:5379 <> eps1:190
+R5393:5397 Coqtail.Hierarchy.Type_class_definition <> value def
+R5399:5399 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5387:5389 <> abs:191
+R5443:5459 Coqtail.Hierarchy.Type_class_definition <> Field_Commutative class
+R5461:5461 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+R5463:5465 Coqtail.Hierarchy.Type_class_definition <> eqF:186 var
+R5467:5469 Coqtail.Hierarchy.Type_class_definition <> add:187 var
+R5471:5474 Coqtail.Hierarchy.Type_class_definition <> mult:188 var
+R5476:5479 Coqtail.Hierarchy.Type_class_definition <> eps0:189 var
+R5481:5484 Coqtail.Hierarchy.Type_class_definition <> eps1:190 var
+R5525:5525 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5521:5521 <> x:194
+R5529:5533 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5539:5539 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5534:5536 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5538:5538 Coqtail.Hierarchy.Type_class_definition <> x:194 var
+R5585:5588 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5571:5571 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5580:5583 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5572:5574 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5576:5579 Coqtail.Hierarchy.Type_class_definition <> eps0:189 var
+R5600:5600 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5596:5596 <> x:196
+R5614:5617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5603:5603 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5609:5612 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5604:5606 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5608:5608 Coqtail.Hierarchy.Type_class_definition <> x:196 var
+R5618:5620 Coqtail.Hierarchy.Type_class_definition <> eqF:186 var
+R5622:5622 Coqtail.Hierarchy.Type_class_definition <> x:196 var
+R5624:5627 Coqtail.Hierarchy.Type_class_definition <> eps0:189 var
+R5683:5683 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5677:5677 <> x:198
+binder 5679:5679 <> y:199
+R5699:5702 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5686:5688 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5691:5693 Coqtail.Hierarchy.Type_class_definition <> add:187 var
+R5695:5695 Coqtail.Hierarchy.Type_class_definition <> x:198 var
+R5697:5697 Coqtail.Hierarchy.Type_class_definition <> y:199 var
+R5703:5703 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5709:5713 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5719:5719 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5704:5706 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5708:5708 Coqtail.Hierarchy.Type_class_definition <> x:198 var
+R5714:5716 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5718:5718 Coqtail.Hierarchy.Type_class_definition <> y:199 var
+R5764:5764 Coqtail.Hierarchy.Type_class_definition <> F:185 var
+binder 5758:5758 <> x:201
+binder 5760:5760 <> y:202
+R5781:5783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5767:5769 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5772:5775 Coqtail.Hierarchy.Type_class_definition <> mult:188 var
+R5777:5777 Coqtail.Hierarchy.Type_class_definition <> x:201 var
+R5779:5779 Coqtail.Hierarchy.Type_class_definition <> y:202 var
+R5784:5784 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R5790:5794 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R5800:5800 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R5785:5787 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5789:5789 Coqtail.Hierarchy.Type_class_definition <> x:201 var
+R5795:5797 Coqtail.Hierarchy.Type_class_definition <> abs:191 var
+R5799:5799 Coqtail.Hierarchy.Type_class_definition <> y:202 var
+rec 5812:5823 <> Vector_Space
+proj 6143:6160 <> vector_space_field
+proj 6212:6234 <> vector_space_group_comm
+proj 6280:6306 <> vector_space_distributive_r
+proj 6405:6431 <> vector_space_distributive_l
+proj 6528:6545 <> vector_space_assoc
+proj 6633:6651 <> vector_space_iden_l
+proj 6708:6731 <> vector_space_eq_compat_l
+proj 6808:6831 <> vector_space_eq_compat_r
+binder 5826:5826 <> E:204
+R5843:5850 Coq.Relations.Relation_Definitions <> relation def
+R5852:5852 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 5837:5839 <> eqE:205
+binder 5856:5856 <> F:206
+R5873:5880 Coq.Relations.Relation_Definitions <> relation def
+R5882:5882 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 5867:5869 <> eqF:207
+R5927:5935 Coqtail.Hierarchy.Type_class_definition <> operation def
+R5937:5937 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 5919:5923 <> v_add:208
+R5950:5955 Coqtail.Hierarchy.Type_class_definition <> scalar def
+R5957:5957 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+R5959:5959 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 5941:5946 <> v_mult:209
+R6002:6010 Coqtail.Hierarchy.Type_class_definition <> operation def
+R6012:6012 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 5996:5998 <> add:210
+R6023:6031 Coqtail.Hierarchy.Type_class_definition <> operation def
+R6033:6033 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6016:6019 <> mult:211
+R6079:6079 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 6070:6075 <> v_null:212
+R6123:6123 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6116:6119 <> eps0:213
+R6134:6134 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6127:6130 <> eps1:214
+R6165:6181 Coqtail.Hierarchy.Type_class_definition <> Field_Commutative class
+R6183:6183 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+R6185:6187 Coqtail.Hierarchy.Type_class_definition <> eqF:207 var
+R6189:6191 Coqtail.Hierarchy.Type_class_definition <> add:210 var
+R6193:6196 Coqtail.Hierarchy.Type_class_definition <> mult:211 var
+R6198:6201 Coqtail.Hierarchy.Type_class_definition <> eps0:213 var
+R6203:6206 Coqtail.Hierarchy.Type_class_definition <> eps1:214 var
+R6239:6255 Coqtail.Hierarchy.Type_class_definition <> Group_Commutative class
+R6257:6257 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+R6259:6261 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6263:6267 Coqtail.Hierarchy.Type_class_definition <> v_add:208 var
+R6269:6274 Coqtail.Hierarchy.Type_class_definition <> v_null:212 var
+R6321:6321 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6317:6317 <> a:218
+R6337:6337 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 6331:6331 <> x:219
+binder 6333:6333 <> y:220
+R6340:6342 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6345:6350 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6352:6352 Coqtail.Hierarchy.Type_class_definition <> a:218 var
+R6355:6359 Coqtail.Hierarchy.Type_class_definition <> v_add:208 var
+R6361:6361 Coqtail.Hierarchy.Type_class_definition <> x:219 var
+R6363:6363 Coqtail.Hierarchy.Type_class_definition <> y:220 var
+R6368:6372 Coqtail.Hierarchy.Type_class_definition <> v_add:208 var
+R6375:6380 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6382:6382 Coqtail.Hierarchy.Type_class_definition <> a:218 var
+R6384:6384 Coqtail.Hierarchy.Type_class_definition <> x:219 var
+R6388:6393 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6395:6395 Coqtail.Hierarchy.Type_class_definition <> a:218 var
+R6397:6397 Coqtail.Hierarchy.Type_class_definition <> y:220 var
+R6448:6448 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6442:6442 <> a:222
+binder 6444:6444 <> b:223
+R6462:6462 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 6458:6458 <> x:224
+R6465:6467 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6470:6475 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6478:6480 Coqtail.Hierarchy.Type_class_definition <> add:210 var
+R6482:6482 Coqtail.Hierarchy.Type_class_definition <> a:222 var
+R6484:6484 Coqtail.Hierarchy.Type_class_definition <> b:223 var
+R6487:6487 Coqtail.Hierarchy.Type_class_definition <> x:224 var
+R6491:6495 Coqtail.Hierarchy.Type_class_definition <> v_add:208 var
+R6498:6503 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6505:6505 Coqtail.Hierarchy.Type_class_definition <> a:222 var
+R6507:6507 Coqtail.Hierarchy.Type_class_definition <> x:224 var
+R6511:6516 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6518:6518 Coqtail.Hierarchy.Type_class_definition <> b:223 var
+R6520:6520 Coqtail.Hierarchy.Type_class_definition <> x:224 var
+R6562:6562 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6556:6556 <> a:226
+binder 6558:6558 <> b:227
+R6576:6576 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 6572:6572 <> x:228
+R6579:6581 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6584:6589 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6592:6595 Coqtail.Hierarchy.Type_class_definition <> mult:211 var
+R6597:6597 Coqtail.Hierarchy.Type_class_definition <> a:226 var
+R6599:6599 Coqtail.Hierarchy.Type_class_definition <> b:227 var
+R6602:6602 Coqtail.Hierarchy.Type_class_definition <> x:228 var
+R6606:6611 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6613:6613 Coqtail.Hierarchy.Type_class_definition <> a:226 var
+R6616:6621 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6623:6623 Coqtail.Hierarchy.Type_class_definition <> b:227 var
+R6625:6625 Coqtail.Hierarchy.Type_class_definition <> x:228 var
+R6666:6666 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6662:6662 <> a:230
+R6680:6680 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 6676:6676 <> x:231
+R6683:6685 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6688:6693 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6695:6698 Coqtail.Hierarchy.Type_class_definition <> eps1:214 var
+R6700:6700 Coqtail.Hierarchy.Type_class_definition <> x:231 var
+R6703:6703 Coqtail.Hierarchy.Type_class_definition <> x:231 var
+R6746:6746 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6742:6742 <> a:233
+R6761:6761 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 6756:6756 <> x:234
+binder 6758:6758 <> y:235
+R6771:6774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6764:6766 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6768:6768 Coqtail.Hierarchy.Type_class_definition <> x:234 var
+R6770:6770 Coqtail.Hierarchy.Type_class_definition <> y:235 var
+R6775:6777 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6780:6785 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6787:6787 Coqtail.Hierarchy.Type_class_definition <> a:233 var
+R6789:6789 Coqtail.Hierarchy.Type_class_definition <> x:234 var
+R6793:6798 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6800:6800 Coqtail.Hierarchy.Type_class_definition <> a:233 var
+R6802:6802 Coqtail.Hierarchy.Type_class_definition <> y:235 var
+R6848:6848 Coqtail.Hierarchy.Type_class_definition <> F:206 var
+binder 6842:6842 <> a:237
+binder 6844:6844 <> b:238
+R6862:6862 Coqtail.Hierarchy.Type_class_definition <> E:204 var
+binder 6858:6858 <> x:239
+R6872:6876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6906:6906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6865:6867 Coqtail.Hierarchy.Type_class_definition <> eqF:207 var
+R6869:6869 Coqtail.Hierarchy.Type_class_definition <> a:237 var
+R6871:6871 Coqtail.Hierarchy.Type_class_definition <> b:238 var
+R6877:6879 Coqtail.Hierarchy.Type_class_definition <> eqE:205 var
+R6882:6887 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6889:6889 Coqtail.Hierarchy.Type_class_definition <> a:237 var
+R6891:6891 Coqtail.Hierarchy.Type_class_definition <> x:239 var
+R6895:6900 Coqtail.Hierarchy.Type_class_definition <> v_mult:209 var
+R6902:6902 Coqtail.Hierarchy.Type_class_definition <> b:238 var
+R6904:6904 Coqtail.Hierarchy.Type_class_definition <> x:239 var
+rec 6918:6936 <> Vector_Space_Normed
+proj 7322:7353 <> vector_space_normed_field_valued
+proj 7404:7435 <> vector_space_normed_vector_space
+proj 7508:7537 <> vector_space_normed_separation
+proj 7588:7628 <> vector_space_normed_triangular_inequality
+proj 7692:7722 <> vector_space_normed_homogeneity
+binder 6939:6939 <> E:241
+R6956:6963 Coq.Relations.Relation_Definitions <> relation def
+R6965:6965 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 6950:6952 <> eqE:242
+binder 6969:6969 <> F:243
+R6986:6993 Coq.Relations.Relation_Definitions <> relation def
+R6995:6995 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+binder 6980:6982 <> eqF:244
+R7040:7048 Coqtail.Hierarchy.Type_class_definition <> operation def
+R7050:7050 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 7032:7036 <> v_add:245
+R7063:7068 Coqtail.Hierarchy.Type_class_definition <> scalar def
+R7070:7070 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+R7072:7072 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 7054:7059 <> v_mult:246
+R7115:7123 Coqtail.Hierarchy.Type_class_definition <> operation def
+R7125:7125 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+binder 7109:7111 <> add:247
+R7136:7144 Coqtail.Hierarchy.Type_class_definition <> operation def
+R7146:7146 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+binder 7129:7132 <> mult:248
+R7192:7192 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 7183:7188 <> v_null:249
+R7236:7236 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+binder 7229:7232 <> eps0:250
+R7247:7247 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+binder 7240:7243 <> eps1:251
+R7290:7294 Coqtail.Hierarchy.Type_class_definition <> value def
+R7296:7296 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 7284:7287 <> norm:252
+R7306:7310 Coqtail.Hierarchy.Type_class_definition <> value def
+R7312:7312 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+binder 7300:7302 <> abs:253
+R7358:7369 Coqtail.Hierarchy.Type_class_definition <> Field_Valued class
+R7371:7371 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+R7373:7375 Coqtail.Hierarchy.Type_class_definition <> eqF:244 var
+R7377:7379 Coqtail.Hierarchy.Type_class_definition <> add:247 var
+R7381:7384 Coqtail.Hierarchy.Type_class_definition <> mult:248 var
+R7386:7389 Coqtail.Hierarchy.Type_class_definition <> eps0:250 var
+R7391:7394 Coqtail.Hierarchy.Type_class_definition <> eps1:251 var
+R7396:7398 Coqtail.Hierarchy.Type_class_definition <> abs:253 var
+R7440:7451 Coqtail.Hierarchy.Type_class_definition <> Vector_Space class
+R7453:7453 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+R7455:7457 Coqtail.Hierarchy.Type_class_definition <> eqE:242 var
+R7459:7459 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+R7461:7463 Coqtail.Hierarchy.Type_class_definition <> eqF:244 var
+R7465:7469 Coqtail.Hierarchy.Type_class_definition <> v_add:245 var
+R7471:7476 Coqtail.Hierarchy.Type_class_definition <> v_mult:246 var
+R7478:7480 Coqtail.Hierarchy.Type_class_definition <> add:247 var
+R7482:7485 Coqtail.Hierarchy.Type_class_definition <> mult:248 var
+R7487:7492 Coqtail.Hierarchy.Type_class_definition <> v_null:249 var
+R7494:7497 Coqtail.Hierarchy.Type_class_definition <> eps0:250 var
+R7499:7502 Coqtail.Hierarchy.Type_class_definition <> eps1:251 var
+R7552:7552 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 7548:7548 <> v:257
+R7567:7570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7555:7555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7562:7565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7556:7559 Coqtail.Hierarchy.Type_class_definition <> norm:252 var
+R7561:7561 Coqtail.Hierarchy.Type_class_definition <> v:257 var
+R7571:7573 Coqtail.Hierarchy.Type_class_definition <> eqE:242 var
+R7575:7575 Coqtail.Hierarchy.Type_class_definition <> v:257 var
+R7577:7582 Coqtail.Hierarchy.Type_class_definition <> v_null:249 var
+R7645:7645 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 7639:7639 <> v:259
+binder 7641:7641 <> w:260
+R7664:7667 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7648:7651 Coqtail.Hierarchy.Type_class_definition <> norm:252 var
+R7654:7658 Coqtail.Hierarchy.Type_class_definition <> v_add:245 var
+R7660:7660 Coqtail.Hierarchy.Type_class_definition <> v:259 var
+R7662:7662 Coqtail.Hierarchy.Type_class_definition <> w:260 var
+R7668:7668 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7675:7679 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7686:7686 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7669:7672 Coqtail.Hierarchy.Type_class_definition <> norm:252 var
+R7674:7674 Coqtail.Hierarchy.Type_class_definition <> v:259 var
+R7680:7683 Coqtail.Hierarchy.Type_class_definition <> norm:252 var
+R7685:7685 Coqtail.Hierarchy.Type_class_definition <> w:260 var
+R7737:7737 Coqtail.Hierarchy.Type_class_definition <> F:243 var
+binder 7733:7733 <> x:262
+R7751:7751 Coqtail.Hierarchy.Type_class_definition <> E:241 var
+binder 7747:7747 <> v:263
+R7771:7773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7754:7757 Coqtail.Hierarchy.Type_class_definition <> norm:252 var
+R7760:7765 Coqtail.Hierarchy.Type_class_definition <> v_mult:246 var
+R7767:7767 Coqtail.Hierarchy.Type_class_definition <> x:262 var
+R7769:7769 Coqtail.Hierarchy.Type_class_definition <> v:263 var
+R7774:7774 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7780:7784 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7791:7791 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7775:7777 Coqtail.Hierarchy.Type_class_definition <> abs:253 var
+R7779:7779 Coqtail.Hierarchy.Type_class_definition <> x:262 var
+R7785:7788 Coqtail.Hierarchy.Type_class_definition <> norm:252 var
+R7790:7790 Coqtail.Hierarchy.Type_class_definition <> v:263 var

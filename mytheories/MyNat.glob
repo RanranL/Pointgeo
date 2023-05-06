@@ -1,0 +1,99 @@
+DIGEST 216061a7323a8cddedd39a91fb47cf50
+FCoqtail.mytheories.MyNat
+R15:19 Coq.Arith.Arith <> <> lib
+R21:23 Coq.micromega.Lia <> <> lib
+prf 33:46 <> lt_S_lt_eq_dec
+binder 57:57 <> m:1
+binder 59:59 <> n:2
+R69:74 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R65:67 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R62:62 Coq.Init.Datatypes <> S constr
+R64:64 Coqtail.mytheories.MyNat <> m:1 var
+R68:68 Coqtail.mytheories.MyNat <> n:2 var
+R75:76 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R82:88 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R94:95 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R78:80 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R77:77 Coqtail.mytheories.MyNat <> m:1 var
+R81:81 Coqtail.mytheories.MyNat <> n:2 var
+R90:92 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R89:89 Coqtail.mytheories.MyNat <> m:1 var
+R93:93 Coqtail.mytheories.MyNat <> n:2 var
+R130:141 Coq.Arith.Compare_dec <> lt_eq_lt_dec def
+R130:141 Coq.Arith.Compare_dec <> lt_eq_lt_dec def
+prf 232:238 <> ge_refl
+binder 249:249 <> m:3
+R252:253 Coq.Init.Peano <> ge def
+R255:255 Coqtail.mytheories.MyNat <> m:3 var
+R257:257 Coqtail.mytheories.MyNat <> m:3 var
+prf 299:306 <> ge_trans
+binder 317:317 <> a:4
+binder 319:319 <> b:5
+binder 321:321 <> c:6
+R330:333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R324:325 Coq.Init.Peano <> ge def
+R327:327 Coqtail.mytheories.MyNat <> a:4 var
+R329:329 Coqtail.mytheories.MyNat <> b:5 var
+R340:343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R334:335 Coq.Init.Peano <> ge def
+R337:337 Coqtail.mytheories.MyNat <> b:5 var
+R339:339 Coqtail.mytheories.MyNat <> c:6 var
+R344:345 Coq.Init.Peano <> ge def
+R347:347 Coqtail.mytheories.MyNat <> a:4 var
+R349:349 Coqtail.mytheories.MyNat <> c:6 var
+R368:369 Coq.Init.Peano <> ge def
+R387:394 Coq.Arith.Le <> le_trans syndef
+R387:394 Coq.Arith.Le <> le_trans syndef
+prf 422:429 <> lt_exist
+binder 440:440 <> m:7
+binder 442:442 <> n:8
+R450:455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R446:448 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R445:445 Coqtail.mytheories.MyNat <> m:7 var
+R449:449 Coqtail.mytheories.MyNat <> n:8 var
+R456:457 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R459:461 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R471:472 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 458:458 <> p:9
+R467:469 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R463:465 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R462:462 Coqtail.mytheories.MyNat <> m:7 var
+R466:466 Coqtail.mytheories.MyNat <> p:9 var
+R470:470 Coqtail.mytheories.MyNat <> n:8 var
+R603:608 Coq.Arith.Lt <> lt_S_n thm
+R603:608 Coq.Arith.Lt <> lt_S_n thm
+R674:679 Coq.Setoids.Setoid <> <> lib
+R709:711 Coq.Init.Datatypes <> nat ind
+R713:714 Coq.Init.Peano <> le ind
+R709:711 Coq.Init.Datatypes <> nat ind
+R713:714 Coq.Init.Peano <> le ind
+R738:744 Coq.Arith.Le <> le_refl syndef
+R709:711 Coq.Init.Datatypes <> nat ind
+R713:714 Coq.Init.Peano <> le ind
+R769:776 Coq.Arith.Le <> le_trans syndef
+R709:711 Coq.Init.Datatypes <> nat ind
+R713:714 Coq.Init.Peano <> le ind
+R738:744 Coq.Arith.Le <> le_refl syndef
+R769:776 Coq.Arith.Le <> le_trans syndef
+R812:814 Coq.Init.Datatypes <> nat ind
+R816:817 Coq.Init.Peano <> lt def
+R812:814 Coq.Init.Datatypes <> nat ind
+R816:817 Coq.Init.Peano <> lt def
+R842:849 Coq.Arith.Lt <> lt_trans syndef
+R885:887 Coq.Init.Datatypes <> nat ind
+R889:890 Coq.Init.Peano <> gt def
+R885:887 Coq.Init.Datatypes <> nat ind
+R889:890 Coq.Init.Peano <> gt def
+R915:922 Coq.Arith.Gt <> gt_trans thm
+R958:960 Coq.Init.Datatypes <> nat ind
+R962:963 Coq.Init.Peano <> ge def
+R958:960 Coq.Init.Datatypes <> nat ind
+R962:963 Coq.Init.Peano <> ge def
+R987:993 Coqtail.mytheories.MyNat <> ge_refl thm
+R958:960 Coq.Init.Datatypes <> nat ind
+R962:963 Coq.Init.Peano <> ge def
+R1018:1025 Coqtail.mytheories.MyNat <> ge_trans thm
+R958:960 Coq.Init.Datatypes <> nat ind
+R962:963 Coq.Init.Peano <> ge def
+R987:993 Coqtail.mytheories.MyNat <> ge_refl thm
+R1018:1025 Coqtail.mytheories.MyNat <> ge_trans thm

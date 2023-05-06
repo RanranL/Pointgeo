@@ -1,0 +1,235 @@
+DIGEST 606bcf2e802dce5058a0e7d6c62e31b6
+FCoqtail.Arith.Zeqm
+R15:20 Coq.ZArith.ZArith <> <> lib
+R22:31 Coq.ZArith.Znumtheory <> <> lib
+R49:53 Coqtail.mytheories.MyNat <> <> lib
+R55:60 Coqtail.Arith.Ztools <> <> lib
+R158:160 Coq.ZArith.Zdiv <> eqm def
+not 135:135 <> :::x_'≡'_x_'['_x_']'
+prf 255:262 <> mod0_eqm
+binder 273:273 <> x:1
+binder 275:275 <> m:2
+R289:293 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R279:283 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R285:286 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R288:288 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R287:287 Coqtail.Arith.Zeqm <> m:2 var
+R278:278 Coqtail.Arith.Zeqm <> x:1 var
+R301:303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R295:299 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R294:294 Coqtail.Arith.Zeqm <> x:1 var
+R300:300 Coqtail.Arith.Zeqm <> m:2 var
+R341:348 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R341:348 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R341:348 Coq.ZArith.Zdiv <> Zmod_0_l thm
+prf 383:392 <> divide_eqm
+binder 403:403 <> x:3
+binder 405:405 <> m:4
+R414:418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R442:442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R409:412 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R408:408 Coqtail.Arith.Zeqm <> m:4 var
+R430:434 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R420:424 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R426:427 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R429:429 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R428:428 Coqtail.Arith.Zeqm <> m:4 var
+R419:419 Coqtail.Arith.Zeqm <> x:3 var
+R435:435 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R437:439 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R441:441 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R436:436 Coqtail.Arith.Zeqm <> m:4 var
+R440:440 Coqtail.Arith.Zeqm <> x:3 var
+R484:491 Coqtail.Arith.Zeqm <> mod0_eqm thm
+R484:491 Coqtail.Arith.Zeqm <> mod0_eqm thm
+R484:491 Coqtail.Arith.Zeqm <> mod0_eqm thm
+R484:491 Coqtail.Arith.Zeqm <> mod0_eqm thm
+R484:491 Coqtail.Arith.Zeqm <> mod0_eqm thm
+R514:524 Coq.ZArith.Znumtheory <> Zmod_divide thm
+R514:524 Coq.ZArith.Znumtheory <> Zmod_divide thm
+R543:553 Coq.ZArith.Znumtheory <> Zdivide_mod thm
+R543:553 Coq.ZArith.Znumtheory <> Zdivide_mod thm
+prf 574:579 <> eq_eqm
+binder 590:590 <> m:5
+binder 592:592 <> a:6
+binder 594:594 <> b:7
+R602:605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R598:600 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R597:597 Coqtail.Arith.Zeqm <> a:6 var
+R601:601 Coqtail.Arith.Zeqm <> b:7 var
+R607:611 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R613:614 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R616:616 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R615:615 Coqtail.Arith.Zeqm <> m:5 var
+R606:606 Coqtail.Arith.Zeqm <> a:6 var
+R612:612 Coqtail.Arith.Zeqm <> b:7 var
+prf 668:675 <> eqm_diag
+binder 686:686 <> m:8
+R690:694 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R696:697 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R699:699 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R698:698 Coqtail.Arith.Zeqm <> m:8 var
+R689:689 Coqtail.Arith.Zeqm <> m:8 var
+R732:746 Coq.ZArith.Zdiv <> Z_mod_same_full thm
+R732:746 Coq.ZArith.Zdiv <> Z_mod_same_full thm
+R732:746 Coq.ZArith.Zdiv <> Z_mod_same_full thm
+prf 774:784 <> eqm_minus_0
+binder 795:795 <> a:9
+binder 797:797 <> b:10
+binder 799:799 <> m:11
+R813:817 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R803:807 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R809:810 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R812:812 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R811:811 Coqtail.Arith.Zeqm <> m:11 var
+R802:802 Coqtail.Arith.Zeqm <> a:9 var
+R808:808 Coqtail.Arith.Zeqm <> b:10 var
+R823:827 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R829:830 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R832:832 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R831:831 Coqtail.Arith.Zeqm <> m:11 var
+R819:821 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R818:818 Coqtail.Arith.Zeqm <> a:9 var
+R822:822 Coqtail.Arith.Zeqm <> b:10 var
+R926:935 Coq.ZArith.BinInt <> Zminus_0_r syndef
+R926:935 Coq.ZArith.BinInt <> Zminus_0_r syndef
+R926:935 Coq.ZArith.BinInt <> Zminus_0_r syndef
+prf 979:988 <> eqm_divide
+binder 990:990 <> m:12
+binder 992:992 <> a:13
+binder 994:994 <> b:14
+R1004:1007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R999:1002 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R998:998 Coqtail.Arith.Zeqm <> m:12 var
+R1021:1025 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1009:1013 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1015:1017 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1019:1020 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1018:1018 Coqtail.Arith.Zeqm <> m:12 var
+R1008:1008 Coqtail.Arith.Zeqm <> a:13 var
+R1014:1014 Coqtail.Arith.Zeqm <> b:14 var
+R1026:1026 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1028:1030 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1036:1036 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1027:1027 Coqtail.Arith.Zeqm <> m:12 var
+R1032:1034 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1031:1031 Coqtail.Arith.Zeqm <> a:13 var
+R1035:1035 Coqtail.Arith.Zeqm <> b:14 var
+R1069:1079 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1069:1079 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1069:1079 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1094:1105 Coq.ZArith.BinInt Z mod_divide thm
+R1094:1105 Coq.ZArith.BinInt Z mod_divide thm
+R1094:1105 Coq.ZArith.BinInt Z mod_divide thm
+R1094:1105 Coq.ZArith.BinInt Z mod_divide thm
+prf 1127:1143 <> eqm_mult_compat_l
+binder 1154:1154 <> k:15
+binder 1156:1156 <> a:16
+binder 1158:1158 <> b:17
+binder 1160:1160 <> m:18
+R1174:1177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1164:1168 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1170:1171 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1173:1173 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1172:1172 Coqtail.Arith.Zeqm <> m:18 var
+R1163:1163 Coqtail.Arith.Zeqm <> a:16 var
+R1169:1169 Coqtail.Arith.Zeqm <> b:17 var
+R1183:1187 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1193:1194 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1200:1200 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1196:1198 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1195:1195 Coqtail.Arith.Zeqm <> k:15 var
+R1199:1199 Coqtail.Arith.Zeqm <> m:18 var
+R1179:1181 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1178:1178 Coqtail.Arith.Zeqm <> k:15 var
+R1182:1182 Coqtail.Arith.Zeqm <> a:16 var
+R1189:1191 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1188:1188 Coqtail.Arith.Zeqm <> k:15 var
+R1192:1192 Coqtail.Arith.Zeqm <> b:17 var
+R1254:1270 Coq.ZArith.Zdiv <> Zmult_mod_distr_l thm
+R1254:1270 Coq.ZArith.Zdiv <> Zmult_mod_distr_l thm
+R1254:1270 Coq.ZArith.Zdiv <> Zmult_mod_distr_l thm
+R1254:1270 Coq.ZArith.Zdiv <> Zmult_mod_distr_l thm
+R1254:1270 Coq.ZArith.Zdiv <> Zmult_mod_distr_l thm
+R1254:1270 Coq.ZArith.Zdiv <> Zmult_mod_distr_l thm
+prf 1306:1322 <> eqm_mult_compat_r
+binder 1333:1333 <> k:19
+binder 1335:1335 <> a:20
+binder 1337:1337 <> b:21
+binder 1339:1339 <> m:22
+R1353:1356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1343:1347 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1349:1350 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1352:1352 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1351:1351 Coqtail.Arith.Zeqm <> m:22 var
+R1342:1342 Coqtail.Arith.Zeqm <> a:20 var
+R1348:1348 Coqtail.Arith.Zeqm <> b:21 var
+R1362:1366 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1372:1373 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1379:1379 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1375:1377 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1374:1374 Coqtail.Arith.Zeqm <> k:19 var
+R1378:1378 Coqtail.Arith.Zeqm <> m:22 var
+R1358:1360 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1357:1357 Coqtail.Arith.Zeqm <> a:20 var
+R1361:1361 Coqtail.Arith.Zeqm <> k:19 var
+R1368:1370 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1367:1367 Coqtail.Arith.Zeqm <> b:21 var
+R1371:1371 Coqtail.Arith.Zeqm <> k:19 var
+R1428:1437 Coq.ZArith.BinInt <> Zmult_comm syndef
+R1428:1437 Coq.ZArith.BinInt <> Zmult_comm syndef
+R1428:1437 Coq.ZArith.BinInt <> Zmult_comm syndef
+R1428:1437 Coq.ZArith.BinInt <> Zmult_comm syndef
+R1428:1437 Coq.ZArith.BinInt <> Zmult_comm syndef
+R1428:1437 Coq.ZArith.BinInt <> Zmult_comm syndef
+R1451:1467 Coqtail.Arith.Zeqm <> eqm_mult_compat_l thm
+R1451:1467 Coqtail.Arith.Zeqm <> eqm_mult_compat_l thm
+prf 1528:1542 <> eqm_square_half
+binder 1553:1553 <> x:23
+binder 1555:1555 <> m:24
+R1564:1569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1559:1562 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1563:1563 Coqtail.Arith.Zeqm <> m:24 var
+R1585:1588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1571:1575 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1577:1578 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1584:1584 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1580:1582 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1583:1583 Coqtail.Arith.Zeqm <> m:24 var
+R1570:1570 Coqtail.Arith.Zeqm <> x:23 var
+R1576:1576 Coqtail.Arith.Zeqm <> m:24 var
+R1594:1598 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1604:1605 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1617:1617 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R1607:1610 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1616:1616 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1612:1614 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1611:1611 Coqtail.Arith.Zeqm <> m:24 var
+R1615:1615 Coqtail.Arith.Zeqm <> m:24 var
+R1590:1592 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1589:1589 Coqtail.Arith.Zeqm <> x:23 var
+R1593:1593 Coqtail.Arith.Zeqm <> x:23 var
+R1600:1602 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1599:1599 Coqtail.Arith.Zeqm <> m:24 var
+R1603:1603 Coqtail.Arith.Zeqm <> m:24 var
+R1656:1666 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1656:1666 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1656:1666 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1684:1693 Coqtail.Arith.Zeqm <> divide_eqm thm
+R1684:1693 Coqtail.Arith.Zeqm <> divide_eqm thm
+R1684:1693 Coqtail.Arith.Zeqm <> divide_eqm thm
+R1684:1693 Coqtail.Arith.Zeqm <> divide_eqm thm
+R1722:1732 Coqtail.Arith.Ztools <> Zdivide_inf thm
+R1722:1732 Coqtail.Arith.Ztools <> Zdivide_inf thm
+R1776:1778 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1772:1774 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1776:1778 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1772:1774 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1813:1823 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1813:1823 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R1851:1860 Coqtail.Arith.Zeqm <> divide_eqm thm
+R1851:1860 Coqtail.Arith.Zeqm <> divide_eqm thm
+R1883:1885 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1887:1889 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+R1883:1885 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1887:1889 Coq.ZArith.BinInt <> ::Z_scope:x_'^'_x not

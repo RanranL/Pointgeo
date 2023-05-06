@@ -1,0 +1,96 @@
+DIGEST 263cc211f5de7ab431a0b1bd2f6a4b76
+FCoqtail.Complex.Cpser_def
+R816:828 Coqtail.Complex.Csequence_def <> <> lib
+R846:849 Coqtail.Complex.Cpow <> <> lib
+def 1002:1008 <> gt_pser
+binder 1010:1011 <> An:1
+binder 1013:1013 <> z:2
+R1018:1026 Coqtail.Complex.Csequence_def <> Cseq_mult def
+R1028:1029 Coqtail.Complex.Cpser_def <> An:1 var
+R1032:1035 Coqtail.Complex.Cpow <> Cpow def
+R1037:1037 Coqtail.Complex.Cpser_def <> z:2 var
+def 1052:1063 <> gt_norm_pser
+binder 1065:1066 <> An:3
+binder 1068:1068 <> z:4
+R1073:1074 Coqtail.Complex.Csequence_def <> ::Cseq_scope:'|'_x_'|' not
+R1087:1088 Coqtail.Complex.Csequence_def <> ::Cseq_scope:'|'_x_'|' not
+R1075:1081 Coqtail.Complex.Cpser_def <> gt_pser def
+R1083:1084 Coqtail.Complex.Cpser_def <> An:3 var
+R1086:1086 Coqtail.Complex.Cpser_def <> z:4 var
+def 1128:1135 <> An_deriv
+binder 1137:1138 <> An:5
+R1143:1152 Coqtail.Complex.Csequence_def <> Cseq_shift def
+R1158:1160 Coqtail.Complex.Csequence_def <> ::Cseq_scope:x_'*'_x not
+R1155:1157 Coqtail.Complex.Cdefinitions <> INC def
+R1161:1162 Coqtail.Complex.Cpser_def <> An:5 var
+def 1177:1189 <> gt_deriv_pser
+binder 1191:1192 <> An:6
+binder 1194:1194 <> z:7
+R1199:1205 Coqtail.Complex.Cpser_def <> gt_pser def
+R1208:1215 Coqtail.Complex.Cpser_def <> An_deriv def
+R1217:1218 Coqtail.Complex.Cpser_def <> An:6 var
+R1221:1221 Coqtail.Complex.Cpser_def <> z:7 var
+def 1236:1240 <> Cpser
+binder 1242:1243 <> An:8
+binder 1245:1245 <> z:9
+binder 1247:1247 <> l:10
+R1252:1258 Coqtail.Complex.Csequence_def <> Cseq_cv def
+R1261:1268 Coqtail.Complex.Csequence_def <> Cseq_sum def
+R1271:1277 Coqtail.Complex.Cpser_def <> gt_pser def
+R1279:1280 Coqtail.Complex.Cpser_def <> An:8 var
+R1282:1282 Coqtail.Complex.Cpser_def <> z:9 var
+R1286:1286 Coqtail.Complex.Cpser_def <> l:10 var
+def 1300:1309 <> Cpser_norm
+binder 1311:1312 <> An:11
+binder 1314:1314 <> z:12
+binder 1316:1316 <> l:13
+R1321:1327 Coqtail.Complex.Csequence_def <> Cseq_cv def
+R1330:1337 Coqtail.Complex.Csequence_def <> Cseq_sum def
+R1340:1351 Coqtail.Complex.Cpser_def <> gt_norm_pser def
+R1353:1354 Coqtail.Complex.Cpser_def <> An:11 var
+R1356:1356 Coqtail.Complex.Cpser_def <> z:12 var
+R1360:1360 Coqtail.Complex.Cpser_def <> l:13 var
+def 1412:1425 <> Cv_radius_weak
+binder 1427:1428 <> An:14
+binder 1430:1430 <> r:15
+R1435:1440 Coq.Reals.SeqProp <> has_ub def
+R1443:1454 Coqtail.Complex.Cpser_def <> gt_norm_pser def
+R1456:1457 Coqtail.Complex.Cpser_def <> An:14 var
+R1460:1462 Coqtail.Complex.Cdefinitions <> IRC def
+R1464:1464 Coqtail.Complex.Cpser_def <> r:15 var
+def 1510:1525 <> finite_cv_radius
+binder 1527:1528 <> An:16
+binder 1530:1530 <> r:17
+R1540:1540 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1587:1596 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1642:1642 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 1548:1549 <> r':18
+R1563:1566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1553:1556 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1559:1561 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R1557:1558 Coqtail.Complex.Cpser_def <> r':18 var
+R1557:1558 Coqtail.Complex.Cpser_def <> r':18 var
+R1562:1562 Coqtail.Complex.Cpser_def <> r:17 var
+R1567:1580 Coqtail.Complex.Cpser_def <> Cv_radius_weak def
+R1582:1583 Coqtail.Complex.Cpser_def <> An:16 var
+R1585:1586 Coqtail.Complex.Cpser_def <> r':18 var
+binder 1604:1605 <> r':19
+R1614:1617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1609:1611 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1608:1608 Coqtail.Complex.Cpser_def <> r:17 var
+R1612:1613 Coqtail.Complex.Cpser_def <> r':19 var
+R1618:1620 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1641:1641 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1621:1634 Coqtail.Complex.Cpser_def <> Cv_radius_weak def
+R1636:1637 Coqtail.Complex.Cpser_def <> An:16 var
+R1639:1640 Coqtail.Complex.Cpser_def <> r':19 var
+def 1657:1674 <> infinite_cv_radius
+binder 1676:1677 <> An:20
+binder 1689:1689 <> r:21
+R1692:1705 Coqtail.Complex.Cpser_def <> Cv_radius_weak def
+R1707:1708 Coqtail.Complex.Cpser_def <> An:20 var
+R1710:1710 Coqtail.Complex.Cpser_def <> r:21 var
+R1740:1751 Coqtail.Complex.Cpser_def <> gt_norm_pser def
+R1754:1760 Coqtail.Complex.Cpser_def <> gt_pser def
+R1763:1771 Coqtail.Complex.Csequence_def <> Cseq_norm def
+R1774:1782 Coqtail.Complex.Csequence_def <> Cseq_mult def

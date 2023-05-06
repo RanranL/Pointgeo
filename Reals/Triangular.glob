@@ -1,0 +1,257 @@
+DIGEST 2cdef0201d077f28872f83c6fc5aa5a8
+FCoqtail.Reals.Triangular
+R817:821 Coq.Reals.Reals <> <> lib
+R839:856 Coqtail.Reals.Rseries.Rseries_RiemannInt <> <> lib
+R874:886 Coqtail.Reals.Rseries.Rseries_facts <> <> lib
+R904:910 Coqtail.Reals.Rtactic <> <> lib
+R928:942 Coqtail.Reals.Rsequence.Rsequence_facts <> <> lib
+R960:962 Coq.micromega.Lra <> <> lib
+def 977:984 <> triangle
+binder 986:986 <> n:1
+R1004:1006 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R991:993 Coq.Reals.Raxioms <> INR def
+R997:999 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R996:996 Coqtail.Reals.Triangular <> n:1 var
+R1000:1000 Coq.Init.Datatypes <> S constr
+R1002:1002 Coqtail.Reals.Triangular <> n:1 var
+prf 1017:1028 <> triangle_sum
+binder 1030:1030 <> n:2
+R1048:1050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1034:1041 Coq.Reals.Rfunctions <> sum_f_R0 def
+R1043:1045 Coq.Reals.Raxioms <> INR def
+R1047:1047 Coqtail.Reals.Triangular <> n:2 var
+R1051:1058 Coqtail.Reals.Triangular <> triangle def
+R1060:1060 Coqtail.Reals.Triangular <> n:2 var
+R1078:1085 Coqtail.Reals.Triangular <> triangle def
+R1131:1135 Coq.Reals.PartSum <> tech5 thm
+R1131:1135 Coq.Reals.PartSum <> tech5 thm
+R1131:1135 Coq.Reals.PartSum <> tech5 thm
+prf 1188:1208 <> triangle_non_negative
+binder 1210:1210 <> n:3
+R1215:1218 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1219:1226 Coqtail.Reals.Triangular <> triangle def
+R1228:1228 Coqtail.Reals.Triangular <> n:3 var
+R1255:1262 Coqtail.Reals.Triangular <> triangle def
+prf 1289:1305 <> triangle_positive
+binder 1307:1307 <> n:4
+R1312:1314 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1315:1322 Coqtail.Reals.Triangular <> triangle def
+R1325:1325 Coq.Init.Datatypes <> S constr
+R1327:1327 Coqtail.Reals.Triangular <> n:4 var
+R1355:1362 Coqtail.Reals.Triangular <> triangle def
+prf 1389:1412 <> sum_consecutive_triangle
+binder 1414:1414 <> n:5
+R1445:1447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1432:1434 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1418:1425 Coqtail.Reals.Triangular <> triangle def
+R1428:1428 Coq.Init.Datatypes <> S constr
+R1430:1430 Coqtail.Reals.Triangular <> n:5 var
+R1435:1442 Coqtail.Reals.Triangular <> triangle def
+R1444:1444 Coqtail.Reals.Triangular <> n:5 var
+R1457:1459 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1448:1450 Coq.Reals.Raxioms <> INR def
+R1453:1453 Coq.Init.Datatypes <> S constr
+R1455:1455 Coqtail.Reals.Triangular <> n:5 var
+R1460:1462 Coq.Reals.Raxioms <> INR def
+R1465:1465 Coq.Init.Datatypes <> S constr
+R1467:1467 Coqtail.Reals.Triangular <> n:5 var
+R1495:1502 Coqtail.Reals.Triangular <> triangle def
+prf 1538:1568 <> difference_consecutive_triangle
+binder 1570:1570 <> n:6
+R1605:1607 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1574:1574 Coq.Reals.RIneq <> ::R_scope:x_'²' not
+R1602:1604 Coq.Reals.RIneq <> ::R_scope:x_'²' not
+R1589:1591 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1575:1582 Coqtail.Reals.Triangular <> triangle def
+R1585:1585 Coq.Init.Datatypes <> S constr
+R1587:1587 Coqtail.Reals.Triangular <> n:6 var
+R1592:1599 Coqtail.Reals.Triangular <> triangle def
+R1601:1601 Coqtail.Reals.Triangular <> n:6 var
+R1617:1619 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1608:1610 Coq.Reals.Raxioms <> INR def
+R1613:1613 Coq.Init.Datatypes <> S constr
+R1615:1615 Coqtail.Reals.Triangular <> n:6 var
+R1620:1622 Coq.Reals.Raxioms <> INR def
+R1625:1625 Coq.Init.Datatypes <> S constr
+R1627:1627 Coqtail.Reals.Triangular <> n:6 var
+R1655:1658 Coq.Reals.RIneq <> Rsqr def
+R1661:1668 Coqtail.Reals.Triangular <> triangle def
+prf 1704:1729 <> sum_triangular_tetrahedral
+binder 1731:1731 <> n:7
+R1754:1756 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1735:1742 Coq.Reals.Rfunctions <> sum_f_R0 def
+R1744:1751 Coqtail.Reals.Triangular <> triangle def
+R1753:1753 Coqtail.Reals.Triangular <> n:7 var
+R1780:1782 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R1757:1759 Coq.Reals.Raxioms <> INR def
+R1769:1771 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1763:1765 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1762:1762 Coqtail.Reals.Triangular <> n:7 var
+R1766:1766 Coq.Init.Datatypes <> S constr
+R1768:1768 Coqtail.Reals.Triangular <> n:7 var
+R1772:1772 Coq.Init.Datatypes <> S constr
+R1775:1775 Coq.Init.Datatypes <> S constr
+R1777:1777 Coqtail.Reals.Triangular <> n:7 var
+R1801:1808 Coqtail.Reals.Triangular <> triangle def
+R1856:1860 Coq.Reals.PartSum <> tech5 thm
+R1856:1860 Coq.Reals.PartSum <> tech5 thm
+R1856:1860 Coq.Reals.PartSum <> tech5 thm
+def 1908:1916 <> inv_snssn
+binder 1918:1918 <> n:8
+R1923:1924 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R1925:1927 Coq.Reals.Raxioms <> INR def
+R1933:1935 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1930:1930 Coq.Init.Datatypes <> S constr
+R1932:1932 Coqtail.Reals.Triangular <> n:8 var
+R1936:1936 Coq.Init.Datatypes <> S constr
+R1939:1939 Coq.Init.Datatypes <> S constr
+R1941:1941 Coqtail.Reals.Triangular <> n:8 var
+def 1958:1963 <> inv_sn
+binder 1965:1965 <> n:9
+R1970:1971 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R1972:1974 Coq.Reals.Raxioms <> INR def
+R1977:1977 Coq.Init.Datatypes <> S constr
+R1979:1979 Coqtail.Reals.Triangular <> n:9 var
+prf 1990:2003 <> diff_inv_snssn
+binder 2005:2005 <> n:10
+R2020:2022 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2009:2017 Coqtail.Reals.Triangular <> inv_snssn def
+R2019:2019 Coqtail.Reals.Triangular <> n:10 var
+R2031:2033 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2023:2028 Coqtail.Reals.Triangular <> inv_sn def
+R2030:2030 Coqtail.Reals.Triangular <> n:10 var
+R2034:2039 Coqtail.Reals.Triangular <> inv_sn def
+R2042:2042 Coq.Init.Datatypes <> S constr
+R2044:2044 Coqtail.Reals.Triangular <> n:10 var
+R2072:2077 Coqtail.Reals.Triangular <> inv_sn def
+R2080:2088 Coqtail.Reals.Triangular <> inv_snssn def
+prf 2136:2148 <> sum_inv_snssn
+binder 2150:2150 <> n:11
+R2174:2176 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2154:2161 Coq.Reals.Rfunctions <> sum_f_R0 def
+R2163:2171 Coqtail.Reals.Triangular <> inv_snssn def
+R2173:2173 Coqtail.Reals.Triangular <> n:11 var
+R2178:2180 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2181:2186 Coqtail.Reals.Triangular <> inv_sn def
+R2189:2189 Coq.Init.Datatypes <> S constr
+R2191:2191 Coqtail.Reals.Triangular <> n:11 var
+R2271:2284 Coqtail.Reals.Triangular <> diff_inv_snssn thm
+R2271:2284 Coqtail.Reals.Triangular <> diff_inv_snssn thm
+R2271:2284 Coqtail.Reals.Triangular <> diff_inv_snssn thm
+prf 2307:2317 <> inv_sn_cv_0
+R2321:2327 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+R2329:2334 Coqtail.Reals.Triangular <> inv_sn def
+R2382:2384 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2385:2386 Coq.Reals.Rdefinitions <> up def
+R2389:2390 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2382:2384 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R2385:2386 Coq.Reals.Rdefinitions <> up def
+R2389:2390 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2407:2412 Coq.Reals.RIneq <> lt_IZR thm
+R2407:2412 Coq.Reals.RIneq <> lt_IZR thm
+R2424:2432 Coq.Reals.Raxioms <> Rlt_trans thm
+R2424:2432 Coq.Reals.Raxioms <> Rlt_trans thm
+R2447:2454 Coq.Reals.Raxioms <> archimed thm
+R2457:2457 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2447:2454 Coq.Reals.Raxioms <> archimed thm
+R2457:2457 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2500:2503 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2504:2505 Coq.Reals.Rdefinitions <> up def
+R2508:2509 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2500:2503 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2504:2505 Coq.Reals.Rdefinitions <> up def
+R2508:2509 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2544:2546 Coq.Reals.RIneq <> IZN thm
+R2544:2546 Coq.Reals.RIneq <> IZN thm
+R2604:2609 Coq.Reals.Rfunctions <> R_dist def
+R2612:2617 Coqtail.Reals.Triangular <> inv_sn def
+R2629:2638 Coq.Reals.RIneq <> Rminus_0_r thm
+R2629:2638 Coq.Reals.RIneq <> Rminus_0_r thm
+R2629:2638 Coq.Reals.RIneq <> Rminus_0_r thm
+R2650:2662 Coqtail.Reals.Rtactic <> Rabs_Rinv_pos thm
+R2650:2662 Coqtail.Reals.Rtactic <> Rabs_Rinv_pos thm
+R2650:2662 Coqtail.Reals.Rtactic <> Rabs_Rinv_pos thm
+R2650:2662 Coqtail.Reals.Rtactic <> Rabs_Rinv_pos thm
+R2695:2709 Coq.Reals.RIneq <> Rinv_involutive thm
+R2695:2709 Coq.Reals.RIneq <> Rinv_involutive thm
+R2695:2709 Coq.Reals.RIneq <> Rinv_involutive thm
+R2695:2709 Coq.Reals.RIneq <> Rinv_involutive thm
+R2735:2751 Coq.Reals.RIneq <> Rinv_lt_contravar thm
+R2735:2751 Coq.Reals.RIneq <> Rinv_lt_contravar thm
+R2762:2778 Coq.Reals.RIneq <> Rmult_lt_0_compat thm
+R2762:2778 Coq.Reals.RIneq <> Rmult_lt_0_compat thm
+R2825:2827 Coq.Reals.Raxioms <> INR def
+R2806:2817 Coq.Reals.RIneq <> Rle_lt_trans thm
+R2825:2827 Coq.Reals.Raxioms <> INR def
+R2806:2817 Coq.Reals.RIneq <> Rle_lt_trans thm
+R2875:2877 Coq.Reals.Rdefinitions <> IZR def
+R2880:2881 Coq.Reals.Rdefinitions <> up def
+R2884:2885 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2859:2867 Coq.Reals.RIneq <> Rle_trans thm
+R2875:2877 Coq.Reals.Rdefinitions <> IZR def
+R2880:2881 Coq.Reals.Rdefinitions <> up def
+R2884:2885 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2859:2867 Coq.Reals.RIneq <> Rle_trans thm
+R2911:2918 Coq.Reals.Raxioms <> archimed thm
+R2921:2922 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2911:2918 Coq.Reals.Raxioms <> archimed thm
+R2921:2922 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R2961:2971 Coq.Reals.RIneq <> INR_IZR_INZ thm
+R2961:2971 Coq.Reals.RIneq <> INR_IZR_INZ thm
+R2961:2971 Coq.Reals.RIneq <> INR_IZR_INZ thm
+prf 3000:3015 <> ser_cv_inv_snssn
+R3019:3025 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R3027:3035 Coqtail.Reals.Triangular <> inv_snssn def
+R3065:3067 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3065:3067 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R3088:3104 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_eq_compat thm
+R3088:3104 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_eq_compat thm
+R3118:3137 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_minus_compat thm
+R3153:3162 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_shift def
+R3164:3169 Coqtail.Reals.Triangular <> inv_sn def
+R3118:3137 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_minus_compat thm
+R3153:3162 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_shift def
+R3164:3169 Coqtail.Reals.Triangular <> inv_sn def
+R3196:3205 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_minus def
+R3218:3227 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_shift def
+R3239:3251 Coqtail.Reals.Triangular <> sum_inv_snssn thm
+R3239:3251 Coqtail.Reals.Triangular <> sum_inv_snssn thm
+R3267:3282 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_constant_cv thm
+R3267:3282 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_constant_cv thm
+R3298:3328 Coqtail.Reals.Rsequence.Rsequence_facts <> Rseq_cv_shift_compat_reciprocal thm
+R3298:3328 Coqtail.Reals.Rsequence.Rsequence_facts <> Rseq_cv_shift_compat_reciprocal thm
+R3340:3350 Coqtail.Reals.Triangular <> inv_sn_cv_0 thm
+R3340:3350 Coqtail.Reals.Triangular <> inv_sn_cv_0 thm
+prf 3365:3389 <> sum_reciprocal_triangular
+R3393:3399 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+binder 3406:3406 <> n:12
+R3411:3412 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R3413:3420 Coqtail.Reals.Triangular <> triangle def
+R3423:3423 Coq.Init.Datatypes <> S constr
+R3425:3425 Coqtail.Reals.Triangular <> n:12 var
+R3457:3459 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3457:3459 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R3515:3523 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_mult def
+R3526:3538 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_constant def
+R3544:3551 Coq.Reals.Rfunctions <> sum_f_R0 def
+R3553:3561 Coqtail.Reals.Triangular <> inv_snssn def
+R3491:3507 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_eq_compat thm
+R3515:3523 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_mult def
+R3526:3538 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_constant def
+R3544:3551 Coq.Reals.Rfunctions <> sum_f_R0 def
+R3553:3561 Coqtail.Reals.Triangular <> inv_snssn def
+R3491:3507 Coqtail.Reals.Rsequence.Rsequence_base_facts <> Rseq_cv_eq_compat thm
+R3586:3594 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_mult def
+R3597:3604 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_inv def
+R3607:3619 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_constant def
+R3622:3630 Coqtail.Reals.Triangular <> inv_snssn def
+R3633:3640 Coqtail.Reals.Triangular <> triangle def
+R3653:3660 Coq.Reals.PartSum <> scal_sum thm
+R3653:3660 Coq.Reals.PartSum <> scal_sum thm
+R3653:3660 Coq.Reals.PartSum <> scal_sum thm
+R3671:3682 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_ext thm
+R3671:3682 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_ext thm
+R3739:3757 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_mult_compat thm
+R3739:3757 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> Rseq_cv_mult_compat thm
+R3785:3800 Coqtail.Reals.Triangular <> ser_cv_inv_snssn thm
+R3785:3800 Coqtail.Reals.Triangular <> ser_cv_inv_snssn thm

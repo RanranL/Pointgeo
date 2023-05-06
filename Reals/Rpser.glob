@@ -1,0 +1,13 @@
+DIGEST b661fea7680de332b68aa67d4ec9504c
+FCoqtail.Reals.Rpser
+R15:23 Coqtail.Reals.Rpser.Rpser_def <> <> lib
+R41:55 Coqtail.Reals.Rpser.Rpser_def_simpl <> <> lib
+R74:89 Coqtail.Reals.Rpser.Rpser_base_facts <> <> lib
+R107:120 Coqtail.Reals.Rpser.Rpser_cv_facts <> <> lib
+R139:148 Coqtail.Reals.Rpser.Rpser_sums <> <> lib
+R166:181 Coqtail.Reals.Rpser.Rpser_sums_facts <> <> lib
+R200:217 Coqtail.Reals.Rpser.Rpser_radius_facts <> <> lib
+R236:251 Coqtail.Reals.Rpser.Rpser_derivative <> <> lib
+R269:290 Coqtail.Reals.Rpser.Rpser_derivative_facts <> <> lib
+R309:319 Coqtail.Reals.Rpser.Rpser_usual <> <> lib
+R337:348 Coqtail.Reals.Rpser.Rpser_taylor <> <> lib

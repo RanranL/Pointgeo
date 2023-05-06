@@ -1,0 +1,785 @@
+DIGEST e5f337eac6fea5bfeed1a8db283d7f52
+FCoqtail.Reals.Ediff.Evect
+R15:19 Coq.Reals.Reals <> <> lib
+sec 78:98 <> R_normed_vector_space
+var 111:111 R_normed_vector_space V
+var 130:130 R_normed_vector_space N
+R135:138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R134:134 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+R139:139 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 152:153 R_normed_vector_space vO
+R155:155 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+var 168:171 R_normed_vector_space vadd
+R176:177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R175:175 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+R179:180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R178:178 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+R181:181 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+var 193:196 R_normed_vector_space smul
+R201:202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R200:200 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R204:205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R203:203 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+R206:206 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+var 241:243 R_normed_vector_space dim
+R247:249 Coq.Init.Datatypes <> nat ind
+var 261:264 R_normed_vector_space base
+R271:274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R268:270 Coq.Init.Datatypes <> nat ind
+R275:275 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+var 288:288 R_normed_vector_space p
+R295:298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R292:294 Coq.Init.Datatypes <> nat ind
+R300:303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R299:299 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+R304:304 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 347:356 <> finite_sum
+R361:363 Coq.Init.Datatypes <> nat ind
+binder 359:359 <> n:9
+R372:373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R369:371 Coq.Init.Datatypes <> nat ind
+R374:374 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+binder 367:367 <> v:10
+R397:397 Coqtail.Reals.Ediff.Evect <> n:9 var
+R413:414 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vO var
+R420:420 Coq.Init.Datatypes <> S constr
+R427:430 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R439:448 Coqtail.Reals.Ediff.Evect <> finite_sum:11 def
+R452:452 Coqtail.Reals.Ediff.Evect <> v:10 var
+R433:433 Coqtail.Reals.Ediff.Evect <> v:10 var
+R435:435 Coqtail.Reals.Ediff.Evect <> n:9 var
+rec 469:482 <> R_vector_space
+proj 500:508 <> vadd_comm
+proj 549:558 <> vadd_assoc
+proj 619:631 <> vadd_identity
+proj 664:675 <> vadd_inverse
+proj 718:732 <> smul_distr_vadd
+proj 802:816 <> smul_distr_radd
+proj 883:898 <> smul_compat_rmul
+proj 956:968 <> smul_identity
+proj 1006:1010 <> Nzero
+proj 1047:1050 <> Nmul
+proj 1116:1122 <> Ntriang
+proj 1170:1174 <> basis
+binder 519:519 <> x:14
+binder 521:521 <> y:15
+R532:534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R524:527 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R531:531 Coqtail.Reals.Ediff.Evect <> y:15 var
+R529:529 Coqtail.Reals.Ediff.Evect <> x:14 var
+R535:538 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R542:542 Coqtail.Reals.Ediff.Evect <> x:14 var
+R540:540 Coqtail.Reals.Ediff.Evect <> y:15 var
+binder 569:569 <> x:17
+binder 571:571 <> y:18
+binder 573:573 <> z:19
+R593:595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R576:579 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R592:592 Coqtail.Reals.Ediff.Evect <> z:19 var
+R582:585 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R589:589 Coqtail.Reals.Ediff.Evect <> y:18 var
+R587:587 Coqtail.Reals.Ediff.Evect <> x:17 var
+R596:599 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R604:607 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R611:611 Coqtail.Reals.Ediff.Evect <> z:19 var
+R609:609 Coqtail.Reals.Ediff.Evect <> y:18 var
+R601:601 Coqtail.Reals.Ediff.Evect <> x:17 var
+binder 642:642 <> x:21
+R654:656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R645:648 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R653:653 Coqtail.Reals.Ediff.Evect <> x:21 var
+R650:651 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vO var
+R657:657 Coqtail.Reals.Ediff.Evect <> x:21 var
+binder 686:686 <> x:23
+R689:689 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R691:693 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R707:707 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 690:690 <> y:24
+R702:704 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R694:697 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R701:701 Coqtail.Reals.Ediff.Evect <> y:24 var
+R699:699 Coqtail.Reals.Ediff.Evect <> x:23 var
+R705:706 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vO var
+binder 743:743 <> a:26
+binder 745:745 <> x:27
+binder 747:747 <> y:28
+R767:769 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R750:753 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R758:761 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R765:765 Coqtail.Reals.Ediff.Evect <> y:28 var
+R763:763 Coqtail.Reals.Ediff.Evect <> x:27 var
+R755:755 Coqtail.Reals.Ediff.Evect <> a:26 var
+R770:773 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R787:790 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R794:794 Coqtail.Reals.Ediff.Evect <> y:28 var
+R792:792 Coqtail.Reals.Ediff.Evect <> a:26 var
+R776:779 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R783:783 Coqtail.Reals.Ediff.Evect <> x:27 var
+R781:781 Coqtail.Reals.Ediff.Evect <> a:26 var
+binder 827:827 <> a:30
+binder 829:829 <> b:31
+binder 831:831 <> x:32
+R848:850 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R834:837 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R847:847 Coqtail.Reals.Ediff.Evect <> x:32 var
+R841:843 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R840:840 Coqtail.Reals.Ediff.Evect <> a:30 var
+R844:844 Coqtail.Reals.Ediff.Evect <> b:31 var
+R851:854 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R868:871 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R875:875 Coqtail.Reals.Ediff.Evect <> x:32 var
+R873:873 Coqtail.Reals.Ediff.Evect <> b:31 var
+R857:860 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R864:864 Coqtail.Reals.Ediff.Evect <> x:32 var
+R862:862 Coqtail.Reals.Ediff.Evect <> a:30 var
+binder 909:909 <> a:34
+binder 911:911 <> b:35
+binder 913:913 <> x:36
+R933:935 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R916:919 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R924:927 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R931:931 Coqtail.Reals.Ediff.Evect <> x:36 var
+R929:929 Coqtail.Reals.Ediff.Evect <> b:35 var
+R921:921 Coqtail.Reals.Ediff.Evect <> a:34 var
+R936:939 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R949:949 Coqtail.Reals.Ediff.Evect <> x:36 var
+R943:945 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R942:942 Coqtail.Reals.Ediff.Evect <> a:34 var
+R946:946 Coqtail.Reals.Ediff.Evect <> b:35 var
+binder 979:979 <> x:38
+R991:993 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R982:985 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R990:990 Coqtail.Reals.Ediff.Evect <> x:38 var
+R987:988 Coq.Reals.Rdefinitions RbaseSymbolsImpl R1 defax
+R994:994 Coqtail.Reals.Ediff.Evect <> x:38 var
+binder 1021:1021 <> x:40
+R1031:1034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1027:1029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1024:1024 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.N var
+R1026:1026 Coqtail.Reals.Ediff.Evect <> x:40 var
+R1036:1038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1035:1035 Coqtail.Reals.Ediff.Evect <> x:40 var
+R1039:1040 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vO var
+binder 1061:1066 <> lambda:42
+binder 1068:1068 <> x:43
+R1088:1090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1071:1071 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.N var
+R1074:1077 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R1086:1086 Coqtail.Reals.Ediff.Evect <> x:43 var
+R1079:1084 Coqtail.Reals.Ediff.Evect <> lambda:42 var
+R1104:1106 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1091:1094 Coq.Reals.Rbasic_fun <> Rabs def
+R1097:1102 Coqtail.Reals.Ediff.Evect <> lambda:42 var
+R1107:1107 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.N var
+R1109:1109 Coqtail.Reals.Ediff.Evect <> x:43 var
+binder 1133:1133 <> x:45
+binder 1135:1135 <> y:46
+R1150:1153 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1138:1138 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.N var
+R1141:1144 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.vadd var
+R1148:1148 Coqtail.Reals.Ediff.Evect <> y:46 var
+R1146:1146 Coqtail.Reals.Ediff.Evect <> x:45 var
+R1157:1159 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1154:1154 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.N var
+R1156:1156 Coqtail.Reals.Ediff.Evect <> x:45 var
+R1160:1160 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.N var
+R1162:1162 Coqtail.Reals.Ediff.Evect <> y:46 var
+R1190:1190 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.V var
+binder 1186:1186 <> v:48
+R1195:1197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1194:1194 Coqtail.Reals.Ediff.Evect <> v:48 var
+R1198:1207 Coqtail.Reals.Ediff.Evect <> finite_sum def
+binder 1218:1218 <> n:49
+R1223:1226 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.smul var
+R1237:1240 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.base var
+R1242:1242 Coqtail.Reals.Ediff.Evect <> n:49 var
+R1229:1229 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.p var
+R1233:1233 Coqtail.Reals.Ediff.Evect <> v:48 var
+R1231:1231 Coqtail.Reals.Ediff.Evect <> n:49 var
+R1209:1211 Coqtail.Reals.Ediff.Evect <> R_normed_vector_space.dim var
+R1256:1276 Coqtail.Reals.Ediff.Evect R_normed_vector_space <> sec
+R1295:1304 Coqtail.Reals.Ediff.integrales <> <> lib
+R1343:1351 Coqtail.Reals.Ediff.integrales Integrals <> mod
+mod 1315:1329 <> integral_vector
+ax 1366:1366 integral_vector V
+ax 1386:1386 integral_vector N
+R1391:1394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1390 Coqtail.Reals.Ediff.Evect integral_vector V defax
+R1395:1395 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 1409:1410 integral_vector vO
+R1412:1412 Coqtail.Reals.Ediff.Evect integral_vector V defax
+ax 1426:1429 integral_vector vadd
+R1434:1435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1433:1433 Coqtail.Reals.Ediff.Evect integral_vector V defax
+R1437:1438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1436:1436 Coqtail.Reals.Ediff.Evect integral_vector V defax
+R1439:1439 Coqtail.Reals.Ediff.Evect integral_vector V defax
+ax 1452:1455 integral_vector smul
+R1460:1461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1459:1459 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1463:1464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1462:1462 Coqtail.Reals.Ediff.Evect integral_vector V defax
+R1465:1465 Coqtail.Reals.Ediff.Evect integral_vector V defax
+ax 1478:1480 integral_vector dim
+R1484:1486 Coq.Init.Datatypes <> nat ind
+ax 1499:1502 integral_vector base
+R1509:1512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1506:1508 Coq.Init.Datatypes <> nat ind
+R1513:1513 Coqtail.Reals.Ediff.Evect integral_vector V defax
+ax 1526:1526 integral_vector p
+R1533:1536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1530:1532 Coq.Init.Datatypes <> nat ind
+R1538:1541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1537:1537 Coqtail.Reals.Ediff.Evect integral_vector V defax
+R1542:1542 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 1556:1565 integral_vector vect_space
+R1569:1582 Coqtail.Reals.Ediff.Evect <> R_vector_space rec
+R1608:1608 Coqtail.Reals.Ediff.Evect integral_vector p defax
+R1603:1606 Coqtail.Reals.Ediff.Evect integral_vector base defax
+R1599:1601 Coqtail.Reals.Ediff.Evect integral_vector dim defax
+R1594:1597 Coqtail.Reals.Ediff.Evect integral_vector smul defax
+R1589:1592 Coqtail.Reals.Ediff.Evect integral_vector vadd defax
+R1586:1587 Coqtail.Reals.Ediff.Evect integral_vector vO defax
+R1584:1584 Coqtail.Reals.Ediff.Evect integral_vector N defax
+def 1623:1645 integral_vector vect_Riemann_integrable
+R1653:1656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1652:1652 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1657:1657 Coqtail.Reals.Ediff.Evect integral_vector V defax
+binder 1648:1648 <> f:60
+R1667:1667 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1661:1661 <> a:61
+binder 1663:1663 <> b:62
+binder 1680:1680 <> n:63
+R1683:1700 Coqtail.Reals.Ediff.Evect I Riemann_integrable prfax
+R1725:1725 Coqtail.Reals.Ediff.Evect <> b:62 var
+R1723:1723 Coqtail.Reals.Ediff.Evect <> a:61 var
+binder 1707:1707 <> x:64
+R1712:1712 Coqtail.Reals.Ediff.Evect integral_vector p defax
+R1717:1717 Coqtail.Reals.Ediff.Evect <> f:60 var
+R1719:1719 Coqtail.Reals.Ediff.Evect <> x:64 var
+R1714:1714 Coqtail.Reals.Ediff.Evect <> n:63 var
+def 1740:1754 integral_vector vect_RiemannInt
+R1762:1765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1761:1761 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1766:1766 Coqtail.Reals.Ediff.Evect integral_vector V defax
+binder 1757:1757 <> f:65
+R1776:1776 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1770:1770 <> a:66
+binder 1772:1772 <> b:67
+R1785:1807 Coqtail.Reals.Ediff.Evect integral_vector vect_Riemann_integrable def
+R1813:1813 Coqtail.Reals.Ediff.Evect <> b:67 var
+R1811:1811 Coqtail.Reals.Ediff.Evect <> a:66 var
+R1809:1809 Coqtail.Reals.Ediff.Evect <> f:65 var
+binder 1780:1781 <> pr:68
+R1818:1818 Coqtail.Reals.Ediff.Evect integral_vector V defax
+R1826:1835 Coqtail.Reals.Ediff.Evect <> finite_sum def
+binder 1856:1856 <> n:69
+R1862:1865 Coqtail.Reals.Ediff.Evect integral_vector smul defax
+R1888:1891 Coqtail.Reals.Ediff.Evect integral_vector base defax
+R1893:1893 Coqtail.Reals.Ediff.Evect <> n:69 var
+R1868:1877 Coqtail.Reals.Ediff.Evect I RiemannInt prfax
+R1880:1881 Coqtail.Reals.Ediff.Evect <> pr:68 var
+R1883:1883 Coqtail.Reals.Ediff.Evect <> n:69 var
+R1845:1847 Coqtail.Reals.Ediff.Evect integral_vector dim defax
+R1840:1843 Coqtail.Reals.Ediff.Evect integral_vector vadd defax
+R1837:1838 Coqtail.Reals.Ediff.Evect integral_vector vO defax
+R1904:1918 Coqtail.Reals.Ediff.Evect integral_vector <> mod
+sec 1930:1947 <> Useful_definitions
+var 1960:1960 Useful_definitions V
+var 1979:1979 Useful_definitions N
+R1984:1987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1983:1983 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R1988:1988 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 2001:2002 Useful_definitions vO
+R2004:2004 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+var 2017:2020 Useful_definitions vadd
+R2025:2026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2024:2024 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R2028:2029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2027:2027 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R2030:2030 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+var 2042:2045 Useful_definitions smul
+R2050:2051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2049:2049 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2053:2054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2052:2052 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R2055:2055 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+var 2067:2069 Useful_definitions dim
+R2073:2075 Coq.Init.Datatypes <> nat ind
+var 2087:2090 Useful_definitions base
+R2097:2100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2094:2096 Coq.Init.Datatypes <> nat ind
+R2101:2101 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+var 2113:2113 Useful_definitions p
+R2120:2123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2117:2119 Coq.Init.Datatypes <> nat ind
+R2125:2128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2124:2124 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R2129:2129 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 2144:2153 Useful_definitions vect_space
+R2157:2170 Coqtail.Reals.Ediff.Evect <> R_vector_space rec
+R2196:2196 Coqtail.Reals.Ediff.Evect <> Useful_definitions.p var
+R2191:2194 Coqtail.Reals.Ediff.Evect <> Useful_definitions.base var
+R2187:2189 Coqtail.Reals.Ediff.Evect <> Useful_definitions.dim var
+R2182:2185 Coqtail.Reals.Ediff.Evect <> Useful_definitions.smul var
+R2177:2180 Coqtail.Reals.Ediff.Evect <> Useful_definitions.vadd var
+R2174:2175 Coqtail.Reals.Ediff.Evect <> Useful_definitions.vO var
+R2172:2172 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+def 2211:2214 <> vsub
+R2219:2222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2218:2218 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R2224:2227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2223:2223 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R2228:2228 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R2255:2264 Coqtail.Reals.Ediff.Evect <> Useful_definitions.vect_space var
+R2303:2306 Coqtail.Reals.Ediff.Evect <> Useful_definitions.vadd var
+R2303:2306 Coqtail.Reals.Ediff.Evect <> Useful_definitions.vadd var
+def 2387:2399 <> being_in_ball
+R2406:2406 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 2402:2402 <> x:79
+R2414:2414 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2410:2410 <> r:80
+R2422:2422 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 2418:2418 <> y:81
+R2440:2442 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2428:2428 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+R2431:2434 Coqtail.Reals.Ediff.Evect <> vsub def
+R2438:2438 Coqtail.Reals.Ediff.Evect <> y:81 var
+R2436:2436 Coqtail.Reals.Ediff.Evect <> x:79 var
+R2443:2443 Coqtail.Reals.Ediff.Evect <> r:80 var
+def 2494:2503 <> Open_space
+R2511:2514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2510:2510 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 2506:2506 <> I:82
+binder 2531:2531 <> x:83
+R2537:2540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2534:2534 Coqtail.Reals.Ediff.Evect <> I:82 var
+R2536:2536 Coqtail.Reals.Ediff.Evect <> x:83 var
+R2541:2541 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2543:2545 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2547:2549 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2597:2597 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2546:2546 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2542:2542 <> r:84
+R2555:2559 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2596:2596 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2551:2553 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R2550:2550 Coqtail.Reals.Ediff.Evect <> r:84 var
+binder 2567:2567 <> y:85
+R2589:2592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2570:2582 Coqtail.Reals.Ediff.Evect <> being_in_ball def
+R2588:2588 Coqtail.Reals.Ediff.Evect <> y:85 var
+R2586:2586 Coqtail.Reals.Ediff.Evect <> r:84 var
+R2584:2584 Coqtail.Reals.Ediff.Evect <> x:83 var
+R2593:2593 Coqtail.Reals.Ediff.Evect <> I:82 var
+R2595:2595 Coqtail.Reals.Ediff.Evect <> y:85 var
+def 2696:2709 <> Vcontinuity_pt
+R2717:2720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2716:2716 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2721:2721 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 2712:2712 <> f:86
+R2730:2733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2729:2729 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2725:2725 <> I:87
+R2745:2745 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2741:2741 <> x:88
+R2754:2757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2751:2751 Coqtail.Reals.Ediff.Evect <> I:87 var
+R2753:2753 Coqtail.Reals.Ediff.Evect <> x:88 var
+R2771:2771 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2765:2767 <> eps:89
+R2781:2787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2777:2779 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R2774:2776 Coqtail.Reals.Ediff.Evect <> eps:89 var
+R2788:2788 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2792:2794 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2796:2798 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2881:2881 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2795:2795 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2789:2791 <> alp:90
+R2806:2810 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2880:2880 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2802:2804 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R2799:2801 Coqtail.Reals.Ediff.Evect <> alp:90 var
+binder 2818:2818 <> y:91
+R2824:2828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2879:2879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2821:2821 Coqtail.Reals.Ediff.Evect <> I:87 var
+R2823:2823 Coqtail.Reals.Ediff.Evect <> y:91 var
+R2848:2851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2841:2844 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2829:2832 Coq.Reals.Rbasic_fun <> Rabs def
+R2836:2838 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2835:2835 Coqtail.Reals.Ediff.Evect <> x:88 var
+R2839:2839 Coqtail.Reals.Ediff.Evect <> y:91 var
+R2845:2847 Coqtail.Reals.Ediff.Evect <> alp:90 var
+R2872:2875 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2852:2852 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+R2855:2858 Coqtail.Reals.Ediff.Evect <> vsub def
+R2867:2867 Coqtail.Reals.Ediff.Evect <> f:86 var
+R2869:2869 Coqtail.Reals.Ediff.Evect <> x:88 var
+R2861:2861 Coqtail.Reals.Ediff.Evect <> f:86 var
+R2863:2863 Coqtail.Reals.Ediff.Evect <> y:91 var
+R2876:2878 Coqtail.Reals.Ediff.Evect <> eps:89 var
+def 2896:2906 <> Vcontinuity
+R2914:2917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2913:2913 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2918:2918 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 2909:2909 <> f:92
+R2927:2930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2926:2926 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2922:2922 <> I:93
+R2951:2951 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2947:2947 <> x:94
+R2954:2967 Coqtail.Reals.Ediff.Evect <> Vcontinuity_pt def
+R2973:2973 Coqtail.Reals.Ediff.Evect <> x:94 var
+R2971:2971 Coqtail.Reals.Ediff.Evect <> I:93 var
+R2969:2969 Coqtail.Reals.Ediff.Evect <> f:92 var
+def 3032:3048 <> Vderivable_pt_lim
+R3056:3059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3055:3055 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3060:3060 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3051:3051 <> f:95
+R3069:3072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3068:3068 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3064:3064 <> I:96
+R3084:3084 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3080:3080 <> x:97
+R3092:3092 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3088:3088 <> l:98
+R3101:3104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3098:3098 Coqtail.Reals.Ediff.Evect <> I:96 var
+R3100:3100 Coqtail.Reals.Ediff.Evect <> x:97 var
+R3118:3118 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3112:3114 <> eps:99
+R3128:3132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3122:3124 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3125:3127 Coqtail.Reals.Ediff.Evect <> eps:99 var
+R3133:3133 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3139:3141 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3143:3145 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3276:3276 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3142:3142 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3134:3138 <> delta:100
+R3155:3160 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3275:3275 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3151:3153 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R3146:3150 Coqtail.Reals.Ediff.Evect <> delta:100 var
+R3172:3172 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3168:3168 <> h:101
+R3183:3186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3178:3181 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3177:3177 Coqtail.Reals.Ediff.Evect <> h:101 var
+R3201:3204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3193:3195 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3187:3190 Coq.Reals.Rbasic_fun <> Rabs def
+R3192:3192 Coqtail.Reals.Ediff.Evect <> h:101 var
+R3196:3200 Coqtail.Reals.Ediff.Evect <> delta:100 var
+R3214:3217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3205:3205 Coqtail.Reals.Ediff.Evect <> I:96 var
+R3209:3211 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3208:3208 Coqtail.Reals.Ediff.Evect <> x:97 var
+R3212:3212 Coqtail.Reals.Ediff.Evect <> h:101 var
+R3218:3218 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3268:3271 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3219:3219 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+R3222:3225 Coqtail.Reals.Ediff.Evect <> vsub def
+R3265:3265 Coqtail.Reals.Ediff.Evect <> l:98 var
+R3228:3231 Coqtail.Reals.Ediff.Evect <> Useful_definitions.smul var
+R3239:3242 Coqtail.Reals.Ediff.Evect <> vsub def
+R3257:3257 Coqtail.Reals.Ediff.Evect <> f:95 var
+R3259:3259 Coqtail.Reals.Ediff.Evect <> x:97 var
+R3245:3245 Coqtail.Reals.Ediff.Evect <> f:95 var
+R3249:3251 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R3248:3248 Coqtail.Reals.Ediff.Evect <> x:97 var
+R3252:3252 Coqtail.Reals.Ediff.Evect <> h:101 var
+R3234:3234 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R3235:3235 Coqtail.Reals.Ediff.Evect <> h:101 var
+R3272:3274 Coqtail.Reals.Ediff.Evect <> eps:99 var
+def 3291:3307 <> Vderivable_pt_abs
+R3315:3318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3314:3314 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3319:3319 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3310:3310 <> f:102
+R3328:3331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3327:3327 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3323:3323 <> I:103
+R3343:3343 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3339:3339 <> x:104
+R3351:3351 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3347:3347 <> l:105
+R3357:3373 Coqtail.Reals.Ediff.Evect <> Vderivable_pt_lim def
+R3381:3381 Coqtail.Reals.Ediff.Evect <> l:105 var
+R3379:3379 Coqtail.Reals.Ediff.Evect <> x:104 var
+R3377:3377 Coqtail.Reals.Ediff.Evect <> I:103 var
+R3375:3375 Coqtail.Reals.Ediff.Evect <> f:102 var
+def 3396:3408 <> Vderivable_pt
+R3416:3419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3415:3415 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3420:3420 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3411:3411 <> f:106
+R3429:3432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3428:3428 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3424:3424 <> I:107
+R3444:3444 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3440:3440 <> x:108
+R3450:3450 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3452:3454 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3456:3459 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3485:3486 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R3455:3455 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3451:3451 <> l:109
+R3460:3476 Coqtail.Reals.Ediff.Evect <> Vderivable_pt_abs def
+R3484:3484 Coqtail.Reals.Ediff.Evect <> l:109 var
+R3482:3482 Coqtail.Reals.Ediff.Evect <> x:108 var
+R3480:3480 Coqtail.Reals.Ediff.Evect <> I:107 var
+R3478:3478 Coqtail.Reals.Ediff.Evect <> f:106 var
+def 3501:3510 <> Vderivable
+R3518:3521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3517:3517 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3522:3522 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3513:3513 <> f:110
+R3531:3534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3530:3530 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3526:3526 <> I:111
+R3555:3555 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3551:3551 <> x:112
+R3558:3570 Coqtail.Reals.Ediff.Evect <> Vderivable_pt def
+R3576:3576 Coqtail.Reals.Ediff.Evect <> x:112 var
+R3574:3574 Coqtail.Reals.Ediff.Evect <> I:111 var
+R3572:3572 Coqtail.Reals.Ediff.Evect <> f:110 var
+def 3591:3600 <> Vderive_pt
+R3608:3611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3607:3607 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3612:3612 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3603:3603 <> f:113
+R3621:3624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3620:3620 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3616:3616 <> I:114
+R3636:3636 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3632:3632 <> x:115
+R3645:3657 Coqtail.Reals.Ediff.Evect <> Vderivable_pt def
+R3663:3663 Coqtail.Reals.Ediff.Evect <> x:115 var
+R3661:3661 Coqtail.Reals.Ediff.Evect <> I:114 var
+R3659:3659 Coqtail.Reals.Ediff.Evect <> f:113 var
+binder 3640:3641 <> pr:116
+R3672:3677 Coq.Init.Specif <> projT1 def
+R3679:3680 Coqtail.Reals.Ediff.Evect <> pr:116 var
+def 3695:3701 <> Vderive
+R3709:3712 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3708:3708 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3713:3713 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3704:3704 <> f:117
+R3722:3725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3721:3721 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3717:3717 <> I:118
+R3738:3747 Coqtail.Reals.Ediff.Evect <> Vderivable def
+R3751:3751 Coqtail.Reals.Ediff.Evect <> I:118 var
+R3749:3749 Coqtail.Reals.Ediff.Evect <> f:117 var
+binder 3733:3734 <> pr:119
+R3759:3759 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3755:3755 <> x:120
+R3765:3774 Coqtail.Reals.Ediff.Evect <> Vderive_pt def
+R3777:3778 Coqtail.Reals.Ediff.Evect <> pr:119 var
+R3780:3780 Coqtail.Reals.Ediff.Evect <> x:120 var
+ind 3823:3828 <> VClass
+constr 3880:3882 <> C_0
+constr 3922:3925 <> C_Sn
+R3836:3839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3835:3835 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3840:3840 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 3831:3831 <> f:121
+R3849:3852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3848:3848 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3844:3844 <> I:122
+R3864:3867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3861:3863 Coq.Init.Datatypes <> nat ind
+R3901:3904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3886:3896 Coqtail.Reals.Ediff.Evect <> Vcontinuity def
+R3900:3900 Coqtail.Reals.Ediff.Evect <> I:122 var
+R3898:3898 Coqtail.Reals.Ediff.Evect <> f:121 var
+R3905:3910 Coqtail.Reals.Ediff.Evect <> VClass:123 ind
+R3914:3914 Coqtail.Reals.Ediff.Evect <> I:122 var
+R3912:3912 Coqtail.Reals.Ediff.Evect <> f:121 var
+binder 3936:3936 <> n:125
+R3944:3953 Coqtail.Reals.Ediff.Evect <> Vderivable def
+R3957:3957 Coqtail.Reals.Ediff.Evect <> I:122 var
+R3955:3955 Coqtail.Reals.Ediff.Evect <> f:121 var
+binder 3939:3940 <> pr:126
+R3984:3987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3961:3966 Coqtail.Reals.Ediff.Evect <> VClass:123 ind
+R3983:3983 Coqtail.Reals.Ediff.Evect <> n:125 var
+R3981:3981 Coqtail.Reals.Ediff.Evect <> I:122 var
+R3969:3975 Coqtail.Reals.Ediff.Evect <> Vderive def
+R3977:3978 Coqtail.Reals.Ediff.Evect <> pr:126 var
+R3988:3993 Coqtail.Reals.Ediff.Evect <> VClass:123 ind
+R4000:4000 Coq.Init.Datatypes <> S constr
+R4002:4002 Coqtail.Reals.Ediff.Evect <> n:125 var
+R3997:3997 Coqtail.Reals.Ediff.Evect <> I:122 var
+R3995:3995 Coqtail.Reals.Ediff.Evect <> f:121 var
+def 4018:4019 <> VC
+binder 4021:4021 <> n:127
+R4029:4032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4028:4028 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4024:4024 <> I:128
+R4045:4048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4044:4044 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4049:4049 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4040:4040 <> f:129
+R4056:4061 Coqtail.Reals.Ediff.Evect <> VClass ind
+R4067:4067 Coqtail.Reals.Ediff.Evect <> n:127 var
+R4065:4065 Coqtail.Reals.Ediff.Evect <> I:128 var
+R4063:4063 Coqtail.Reals.Ediff.Evect <> f:129 var
+def 4105:4112 <> VC_infty
+R4120:4123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4119:4119 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4115:4115 <> I:130
+R4136:4139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4135:4135 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4140:4140 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4131:4131 <> f:131
+binder 4153:4153 <> n:132
+R4156:4157 Coqtail.Reals.Ediff.Evect <> VC def
+R4163:4163 Coqtail.Reals.Ediff.Evect <> f:131 var
+R4161:4161 Coqtail.Reals.Ediff.Evect <> I:130 var
+R4159:4159 Coqtail.Reals.Ediff.Evect <> n:132 var
+def 4178:4180 <> VCn
+R4187:4189 Coq.Init.Datatypes <> nat ind
+binder 4183:4183 <> n:133
+R4198:4201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4197:4197 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4193:4193 <> I:134
+R4211:4214 Coq.Init.Specif <> sigT ind
+R4217:4218 Coqtail.Reals.Ediff.Evect <> VC def
+R4222:4222 Coqtail.Reals.Ediff.Evect <> I:134 var
+R4220:4220 Coqtail.Reals.Ediff.Evect <> n:133 var
+def 4237:4243 <> VCinfty
+R4251:4254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4250:4250 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4246:4246 <> I:135
+R4264:4267 Coq.Init.Specif <> sigT ind
+R4270:4277 Coqtail.Reals.Ediff.Evect <> VC_infty def
+R4279:4279 Coqtail.Reals.Ediff.Evect <> I:135 var
+prf 4290:4301 <> VC_derivable
+R4318:4321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4317:4317 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4322:4322 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4313:4313 <> f:136
+R4331:4334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4330:4330 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4326:4326 <> I:137
+R4350:4353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4342:4343 Coqtail.Reals.Ediff.Evect <> VC def
+R4349:4349 Coqtail.Reals.Ediff.Evect <> f:136 var
+R4347:4347 Coqtail.Reals.Ediff.Evect <> I:137 var
+R4354:4363 Coqtail.Reals.Ediff.Evect <> Vderivable def
+R4367:4367 Coqtail.Reals.Ediff.Evect <> I:137 var
+R4365:4365 Coqtail.Reals.Ediff.Evect <> f:136 var
+def 4457:4471 <> VVcontinuity_pt
+R4479:4482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4478:4478 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R4483:4483 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4474:4474 <> f:138
+R4492:4495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4491:4491 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4487:4487 <> K:139
+R4510:4519 Coqtail.Reals.Ediff.Evect <> Open_space def
+R4521:4521 Coqtail.Reals.Ediff.Evect <> K:139 var
+binder 4503:4506 <> open:140
+R4529:4529 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4525:4525 <> x:141
+R4538:4541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4535:4535 Coqtail.Reals.Ediff.Evect <> K:139 var
+R4537:4537 Coqtail.Reals.Ediff.Evect <> x:141 var
+R4555:4555 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4549:4551 <> eps:142
+R4565:4571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4561:4563 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R4558:4560 Coqtail.Reals.Ediff.Evect <> eps:142 var
+R4572:4572 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4576:4578 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4580:4582 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4663:4663 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R4579:4579 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4573:4575 <> alp:143
+R4590:4594 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4662:4662 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4586:4588 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R4583:4585 Coqtail.Reals.Ediff.Evect <> alp:143 var
+binder 4602:4602 <> y:144
+R4608:4611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4605:4605 Coqtail.Reals.Ediff.Evect <> K:139 var
+R4607:4607 Coqtail.Reals.Ediff.Evect <> y:144 var
+R4631:4634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4624:4627 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4612:4612 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+R4615:4618 Coqtail.Reals.Ediff.Evect <> vsub def
+R4622:4622 Coqtail.Reals.Ediff.Evect <> y:144 var
+R4620:4620 Coqtail.Reals.Ediff.Evect <> x:141 var
+R4628:4630 Coqtail.Reals.Ediff.Evect <> alp:143 var
+R4655:4658 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4635:4635 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+R4638:4641 Coqtail.Reals.Ediff.Evect <> vsub def
+R4650:4650 Coqtail.Reals.Ediff.Evect <> f:138 var
+R4652:4652 Coqtail.Reals.Ediff.Evect <> x:141 var
+R4644:4644 Coqtail.Reals.Ediff.Evect <> f:138 var
+R4646:4646 Coqtail.Reals.Ediff.Evect <> y:144 var
+R4659:4661 Coqtail.Reals.Ediff.Evect <> eps:142 var
+def 4678:4689 <> VVcontinuity
+R4697:4700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4696:4696 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R4701:4701 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4692:4692 <> f:145
+R4710:4713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4709:4709 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4705:4705 <> K:146
+R4728:4737 Coqtail.Reals.Ediff.Evect <> Open_space def
+R4739:4739 Coqtail.Reals.Ediff.Evect <> K:146 var
+binder 4721:4724 <> open:147
+R4757:4757 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4753:4753 <> x:148
+R4761:4775 Coqtail.Reals.Ediff.Evect <> VVcontinuity_pt def
+R4784:4784 Coqtail.Reals.Ediff.Evect <> x:148 var
+R4779:4782 Coqtail.Reals.Ediff.Evect <> open:147 var
+R4777:4777 Coqtail.Reals.Ediff.Evect <> f:145 var
+def 4851:4859 <> lipschitz
+R4867:4870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4866:4866 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+R4871:4871 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4862:4862 <> f:149
+R4880:4883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4879:4879 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4875:4875 <> K:150
+R4898:4907 Coqtail.Reals.Ediff.Evect <> Open_space def
+R4909:4909 Coqtail.Reals.Ediff.Evect <> K:150 var
+binder 4891:4894 <> open:151
+R4915:4915 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R4917:4919 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R5004:5004 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 4916:4916 <> k:152
+R4925:4928 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4921:4923 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R4920:4920 Coqtail.Reals.Ediff.Evect <> k:152 var
+R4944:4944 Coqtail.Reals.Ediff.Evect <> Useful_definitions.V var
+binder 4937:4937 <> x:153
+binder 4939:4940 <> x':154
+R4951:4954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4948:4948 Coqtail.Reals.Ediff.Evect <> K:150 var
+R4950:4950 Coqtail.Reals.Ediff.Evect <> x:153 var
+R4959:4962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4955:4955 Coqtail.Reals.Ediff.Evect <> K:150 var
+R4957:4958 Coqtail.Reals.Ediff.Evect <> x':154 var
+R4976:4978 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4963:4963 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+R4966:4969 Coqtail.Reals.Ediff.Evect <> vsub def
+R4973:4974 Coqtail.Reals.Ediff.Evect <> x':154 var
+R4971:4971 Coqtail.Reals.Ediff.Evect <> x:153 var
+R4980:4982 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4979:4979 Coqtail.Reals.Ediff.Evect <> k:152 var
+R4983:4983 Coqtail.Reals.Ediff.Evect <> Useful_definitions.N var
+R4986:4989 Coqtail.Reals.Ediff.Evect <> vsub def
+R4998:4998 Coqtail.Reals.Ediff.Evect <> f:149 var
+R5000:5001 Coqtail.Reals.Ediff.Evect <> x':154 var
+R4992:4992 Coqtail.Reals.Ediff.Evect <> f:149 var
+R4994:4994 Coqtail.Reals.Ediff.Evect <> x:153 var
+R5012:5029 Coqtail.Reals.Ediff.Evect Useful_definitions <> sec

@@ -1,0 +1,18 @@
+DIGEST 841cdc55d0c8962b2dbf95c0e4fac7f8
+FCoqtail.mytheories.myReals.MyINR
+R15:19 Coq.Reals.Reals <> <> lib
+prf 56:60 <> INR_1
+R69:71 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R64:66 Coq.Reals.Raxioms <> INR def
+prf 115:122 <> Rabs_INR
+binder 133:133 <> n:1
+R148:150 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R136:139 Coq.Reals.Rbasic_fun <> Rabs def
+R142:144 Coq.Reals.Raxioms <> INR def
+R146:146 Coqtail.mytheories.myReals.MyINR <> n:1 var
+R151:153 Coq.Reals.Raxioms <> INR def
+R155:155 Coqtail.mytheories.myReals.MyINR <> n:1 var
+R180:190 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R200:206 Coq.Reals.RIneq <> pos_INR thm
+R180:190 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R200:206 Coq.Reals.RIneq <> pos_INR thm

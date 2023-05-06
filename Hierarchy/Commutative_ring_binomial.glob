@@ -1,0 +1,894 @@
+DIGEST e7d4f0c1d3324d1da10944888a733170
+FCoqtail.Hierarchy.Commutative_ring_binomial
+R816:836 Coqtail.Hierarchy.Type_class_definition <> <> lib
+R854:872 Coqtail.Hierarchy.Type_class_instance <> <> lib
+R890:923 Coq.Relations.Relation_Definitions <> <> lib
+R941:943 Coq.micromega.Lia <> <> lib
+R961:965 Coq.Arith.Arith <> <> lib
+R983:991 Coqtail.Arith.Nbinomial <> <> lib
+R1009:1014 Coq.Setoids.Setoid <> <> lib
+def 1029:1034 <> iter_l
+binder 1037:1037 <> A:1
+R1053:1061 Coqtail.Hierarchy.Type_class_definition <> operation def
+R1063:1063 Coqtail.Hierarchy.Commutative_ring_binomial <> A:1 var
+binder 1048:1049 <> op:2
+R1077:1077 Coqtail.Hierarchy.Commutative_ring_binomial <> A:1 var
+binder 1067:1073 <> neutral:3
+R1085:1085 Coqtail.Hierarchy.Commutative_ring_binomial <> A:1 var
+binder 1081:1081 <> x:4
+binder 1097:1097 <> n:5
+R1108:1108 Coqtail.Hierarchy.Commutative_ring_binomial <> n:5 var
+R1120:1120 Coq.Init.Datatypes <> O constr
+R1125:1131 Coqtail.Hierarchy.Commutative_ring_binomial <> neutral:3 var
+R1137:1137 Coq.Init.Datatypes <> S constr
+R1145:1146 Coqtail.Hierarchy.Commutative_ring_binomial <> op:2 var
+R1148:1148 Coqtail.Hierarchy.Commutative_ring_binomial <> x:4 var
+R1151:1151 Coqtail.Hierarchy.Commutative_ring_binomial <> s:6 var
+def 1174:1179 <> iter_r
+binder 1182:1182 <> A:8
+R1198:1206 Coqtail.Hierarchy.Type_class_definition <> operation def
+R1208:1208 Coqtail.Hierarchy.Commutative_ring_binomial <> A:8 var
+binder 1193:1194 <> op:9
+R1222:1222 Coqtail.Hierarchy.Commutative_ring_binomial <> A:8 var
+binder 1212:1218 <> neutral:10
+R1230:1230 Coqtail.Hierarchy.Commutative_ring_binomial <> A:8 var
+binder 1226:1226 <> x:11
+binder 1242:1242 <> n:12
+R1253:1253 Coqtail.Hierarchy.Commutative_ring_binomial <> n:12 var
+R1265:1265 Coq.Init.Datatypes <> O constr
+R1270:1276 Coqtail.Hierarchy.Commutative_ring_binomial <> neutral:10 var
+R1282:1282 Coq.Init.Datatypes <> S constr
+R1290:1291 Coqtail.Hierarchy.Commutative_ring_binomial <> op:9 var
+R1294:1294 Coqtail.Hierarchy.Commutative_ring_binomial <> s:13 var
+R1300:1300 Coqtail.Hierarchy.Commutative_ring_binomial <> x:11 var
+def 1319:1323 <> iter1
+binder 1326:1326 <> A:15
+R1342:1350 Coqtail.Hierarchy.Type_class_definition <> operation def
+R1352:1352 Coqtail.Hierarchy.Commutative_ring_binomial <> A:15 var
+binder 1337:1338 <> op:16
+R1363:1366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1360:1362 Coq.Init.Datatypes <> nat ind
+R1367:1367 Coqtail.Hierarchy.Commutative_ring_binomial <> A:15 var
+binder 1356:1356 <> f:17
+binder 1379:1379 <> n:18
+R1390:1390 Coqtail.Hierarchy.Commutative_ring_binomial <> n:18 var
+R1402:1402 Coq.Init.Datatypes <> O constr
+R1407:1407 Coqtail.Hierarchy.Commutative_ring_binomial <> f:17 var
+R1409:1409 Coq.Init.Datatypes <> O constr
+R1415:1415 Coq.Init.Datatypes <> S constr
+R1423:1424 Coqtail.Hierarchy.Commutative_ring_binomial <> op:16 var
+R1427:1427 Coqtail.Hierarchy.Commutative_ring_binomial <> f:17 var
+R1429:1429 Coqtail.Hierarchy.Commutative_ring_binomial <> n:18 var
+R1433:1433 Coqtail.Hierarchy.Commutative_ring_binomial <> s:19 var
+sec 1453:1468 <> Commutative_Ring
+var 1482:1482 Commutative_Ring X
+var 1503:1505 Commutative_Ring eqr
+R1509:1516 Coq.Relations.Relation_Definitions <> relation def
+R1518:1518 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+var 1532:1534 Commutative_Ring add
+var 1536:1538 Commutative_Ring mul
+R1542:1550 Coqtail.Hierarchy.Type_class_definition <> operation def
+R1552:1552 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+var 1566:1569 Commutative_Ring zero
+var 1571:1573 Commutative_Ring one
+R1577:1577 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+var 1591:1592 Commutative_Ring CR
+R1596:1611 Coqtail.Hierarchy.Type_class_definition <> Ring_Commutative class
+R1613:1613 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1615:1617 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R1619:1621 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.add var
+R1623:1625 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R1627:1630 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R1632:1634 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.one var
+def 1653:1657 <> CRpow
+R1662:1665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1661:1661 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1669:1672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1666:1668 Coq.Init.Datatypes <> nat ind
+R1673:1673 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1678:1683 Coqtail.Hierarchy.Commutative_ring_binomial <> iter_r def
+R1685:1685 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1687:1689 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R1691:1693 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.one var
+def 1709:1713 <> CRsum
+R1717:1717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1726:1730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1721:1724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1718:1720 Coq.Init.Datatypes <> nat ind
+R1725:1725 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1734:1737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1731:1733 Coq.Init.Datatypes <> nat ind
+R1738:1738 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1744:1748 Coqtail.Hierarchy.Commutative_ring_binomial <> iter1 def
+R1750:1750 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1752:1754 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.add var
+def 1770:1777 <> CRnatmul
+R1784:1787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1781:1783 Coq.Init.Datatypes <> nat ind
+R1789:1792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1788:1788 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1793:1793 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+binder 1802:1802 <> n:28
+binder 1804:1804 <> x:29
+R1809:1814 Coqtail.Hierarchy.Commutative_ring_binomial <> iter_l def
+R1816:1816 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R1818:1820 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.add var
+R1822:1825 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R1827:1827 Coqtail.Hierarchy.Commutative_ring_binomial <> x:29 var
+R1829:1829 Coqtail.Hierarchy.Commutative_ring_binomial <> n:28 var
+R1861:1865 Coqtail.Hierarchy.Commutative_ring_binomial <> CRpow def
+not 1846:1846 Commutative_Ring :::x_'^^'_x
+R1933:1935 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+not 1919:1919 Commutative_Ring :::x_'*'_x
+R1969:1971 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+not 1954:1954 Commutative_Ring :::x_'=='_x
+R2036:2038 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.add var
+not 2022:2022 Commutative_Ring :::x_'+'_x
+R2072:2079 Coqtail.Hierarchy.Commutative_ring_binomial <> CRnatmul def
+not 2057:2057 Commutative_Ring :::x_'**'_x
+def 2117:2126 <> newton_sum
+binder 2128:2128 <> n:30
+binder 2130:2130 <> a:31
+binder 2132:2132 <> b:32
+R2136:2136 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2145:2149 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+binder 2156:2156 <> k:33
+R2161:2161 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R2175:2179 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R2162:2170 Coqtail.Arith.Nbinomial <> Nbinomial def
+R2172:2172 Coqtail.Hierarchy.Commutative_ring_binomial <> n:30 var
+R2174:2174 Coqtail.Hierarchy.Commutative_ring_binomial <> k:33 var
+R2180:2180 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R2187:2191 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R2204:2204 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R2182:2185 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R2181:2181 Coqtail.Hierarchy.Commutative_ring_binomial <> a:31 var
+R2186:2186 Coqtail.Hierarchy.Commutative_ring_binomial <> k:33 var
+R2193:2197 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R2203:2203 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R2192:2192 Coqtail.Hierarchy.Commutative_ring_binomial <> b:32 var
+R2199:2201 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2198:2198 Coqtail.Hierarchy.Commutative_ring_binomial <> n:30 var
+R2202:2202 Coqtail.Hierarchy.Commutative_ring_binomial <> k:33 var
+R2207:2207 Coqtail.Hierarchy.Commutative_ring_binomial <> n:30 var
+def 2226:2228 <> opp
+R2233:2236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2232:2232 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2237:2237 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2277:2289 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+R2277:2289 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+def 2344:2346 <> sub
+R2351:2354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2350:2350 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2356:2359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2355:2355 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2360:2360 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+binder 2369:2369 <> a:34
+binder 2371:2371 <> b:35
+R2376:2378 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.add var
+R2380:2380 Coqtail.Hierarchy.Commutative_ring_binomial <> a:34 var
+R2383:2385 Coqtail.Hierarchy.Commutative_ring_binomial <> opp def
+R2387:2387 Coqtail.Hierarchy.Commutative_ring_binomial <> b:35 var
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2413:2425 Coqtail.Hierarchy.Type_class_definition <> monoid_setoid meth
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2413:2425 Coqtail.Hierarchy.Type_class_definition <> monoid_setoid meth
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2413:2425 Coqtail.Hierarchy.Type_class_definition <> monoid_setoid meth
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2413:2425 Coqtail.Hierarchy.Type_class_definition <> monoid_setoid meth
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2413:2425 Coqtail.Hierarchy.Type_class_definition <> monoid_setoid meth
+R2407:2407 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R2409:2411 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2413:2425 Coqtail.Hierarchy.Type_class_definition <> monoid_setoid meth
+R2480:2484 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2477:2479 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2488:2492 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2485:2487 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2493:2495 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2458:2460 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.add var
+R2535:2537 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R2535:2537 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R2552:2569 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R2552:2569 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R2593:2610 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R2593:2610 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R2672:2676 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2669:2671 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2680:2684 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2677:2679 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2685:2687 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2650:2652 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R2727:2729 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R2727:2729 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R2744:2761 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R2744:2761 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R2785:2802 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R2785:2802 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R2864:2868 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2861:2863 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2869:2871 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R2842:2844 Coqtail.Hierarchy.Commutative_ring_binomial <> opp def
+R2912:2914 Coqtail.Hierarchy.Commutative_ring_binomial <> opp def
+R2929:2941 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+R2929:2941 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+R2969:2981 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+R2969:2981 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+R3017:3019 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3013:3016 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R3035:3047 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3017:3019 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3013:3016 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R3035:3047 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3073:3075 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3069:3071 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3091:3108 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R3119:3125 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3073:3075 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3069:3071 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3091:3108 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R3119:3125 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3119:3125 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3163:3165 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3159:3161 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3181:3198 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R3207:3224 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R3163:3165 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3159:3161 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3181:3198 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R3207:3224 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R3270:3272 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3266:3269 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R3270:3272 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3266:3269 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R3297:3309 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3297:3309 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3335:3337 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3331:3333 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3335:3337 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3331:3333 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3353:3370 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R3398:3400 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3418:3424 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3353:3370 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_r meth
+R3398:3400 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3418:3424 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3447:3450 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3457:3457 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3452:3454 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3447:3450 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3457:3457 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3452:3454 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3482:3485 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3492:3492 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3487:3489 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3482:3485 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3492:3492 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3487:3489 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R3518:3525 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+R3518:3525 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+R3540:3557 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R3540:3557 Coqtail.Hierarchy.Type_class_definition <> monoid_eq_compat_l meth
+R3573:3576 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R3611:3618 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+R3611:3618 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+prf 3639:3643 <> Xring
+R3648:3658 Coq.setoid_ring.Ring_theory <> ring_theory rec
+R3660:3660 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.X var
+R3662:3665 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.zero var
+R3667:3669 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.one var
+R3671:3673 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.add var
+R3675:3677 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R3679:3681 Coqtail.Hierarchy.Commutative_ring_binomial <> sub def
+R3683:3685 Coqtail.Hierarchy.Commutative_ring_binomial <> opp def
+R3687:3689 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.eqr var
+R3731:3743 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3731:3743 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3757:3763 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3757:3763 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3777:3784 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+R3777:3784 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+R3798:3810 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3798:3810 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R3824:3830 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3824:3830 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R3844:3851 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+R3844:3851 Coqtail.Hierarchy.Type_class_definition <> op_assoc def
+R3865:3883 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_l meth
+R3865:3883 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_l meth
+R3922:3924 Coqtail.Hierarchy.Commutative_ring_binomial <> opp def
+R3942:3954 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+R3942:3954 Coqtail.Hierarchy.Type_class_definition <> group_reverse meth
+R4011:4015 Coqtail.Hierarchy.Commutative_ring_binomial <> Xring thm
+prf 4029:4039 <> CRsum_simpl
+binder 4041:4041 <> f:36
+binder 4043:4043 <> n:37
+R4060:4062 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4047:4051 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4053:4053 Coqtail.Hierarchy.Commutative_ring_binomial <> f:36 var
+R4056:4056 Coq.Init.Datatypes <> S constr
+R4058:4058 Coqtail.Hierarchy.Commutative_ring_binomial <> n:37 var
+R4070:4072 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R4063:4063 Coqtail.Hierarchy.Commutative_ring_binomial <> f:36 var
+R4066:4066 Coq.Init.Datatypes <> S constr
+R4068:4068 Coqtail.Hierarchy.Commutative_ring_binomial <> n:37 var
+R4073:4077 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4079:4079 Coqtail.Hierarchy.Commutative_ring_binomial <> f:36 var
+R4081:4081 Coqtail.Hierarchy.Commutative_ring_binomial <> n:37 var
+prf 4126:4138 <> CRsum_simpl_r
+binder 4140:4140 <> f:38
+binder 4142:4142 <> n:39
+R4159:4162 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R4146:4150 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4152:4152 Coqtail.Hierarchy.Commutative_ring_binomial <> f:38 var
+R4155:4155 Coq.Init.Datatypes <> S constr
+R4157:4157 Coqtail.Hierarchy.Commutative_ring_binomial <> n:39 var
+R4172:4174 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R4163:4167 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4169:4169 Coqtail.Hierarchy.Commutative_ring_binomial <> f:38 var
+R4171:4171 Coqtail.Hierarchy.Commutative_ring_binomial <> n:39 var
+R4175:4175 Coqtail.Hierarchy.Commutative_ring_binomial <> f:38 var
+R4178:4178 Coq.Init.Datatypes <> S constr
+R4180:4180 Coqtail.Hierarchy.Commutative_ring_binomial <> n:39 var
+prf 4234:4246 <> CRsum_reindex
+binder 4257:4257 <> n:40
+binder 4259:4259 <> f:41
+R4294:4297 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R4265:4267 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R4262:4262 Coqtail.Hierarchy.Commutative_ring_binomial <> f:41 var
+R4264:4264 Coq.Init.Datatypes <> O constr
+R4268:4272 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+binder 4279:4279 <> k:42
+R4284:4284 Coqtail.Hierarchy.Commutative_ring_binomial <> f:41 var
+R4287:4287 Coq.Init.Datatypes <> S constr
+R4289:4289 Coqtail.Hierarchy.Commutative_ring_binomial <> k:42 var
+R4293:4293 Coqtail.Hierarchy.Commutative_ring_binomial <> n:40 var
+R4298:4302 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4304:4304 Coqtail.Hierarchy.Commutative_ring_binomial <> f:41 var
+R4307:4307 Coq.Init.Datatypes <> S constr
+R4309:4309 Coqtail.Hierarchy.Commutative_ring_binomial <> n:40 var
+R4387:4397 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+R4387:4397 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+R4387:4397 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+R4387:4397 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+R4387:4397 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+prf 4446:4465 <> CRsum_eq_compat_weak
+binder 4476:4476 <> a:43
+binder 4478:4478 <> b:44
+binder 4480:4480 <> n:45
+R4483:4483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4504:4508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4491:4491 <> n:46
+R4497:4500 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R4494:4494 Coqtail.Hierarchy.Commutative_ring_binomial <> a:43 var
+R4496:4496 Coqtail.Hierarchy.Commutative_ring_binomial <> n:46 var
+R4501:4501 Coqtail.Hierarchy.Commutative_ring_binomial <> b:44 var
+R4503:4503 Coqtail.Hierarchy.Commutative_ring_binomial <> n:46 var
+R4518:4521 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R4509:4513 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4515:4515 Coqtail.Hierarchy.Commutative_ring_binomial <> a:43 var
+R4517:4517 Coqtail.Hierarchy.Commutative_ring_binomial <> n:45 var
+R4522:4526 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4528:4528 Coqtail.Hierarchy.Commutative_ring_binomial <> b:44 var
+R4530:4530 Coqtail.Hierarchy.Commutative_ring_binomial <> n:45 var
+prf 4672:4686 <> CRsum_eq_compat
+binder 4697:4697 <> a:47
+binder 4699:4699 <> b:48
+binder 4701:4701 <> n:49
+R4704:4704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4735:4739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4712:4712 <> i:50
+R4721:4724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4716:4719 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4715:4715 Coqtail.Hierarchy.Commutative_ring_binomial <> i:50 var
+R4720:4720 Coqtail.Hierarchy.Commutative_ring_binomial <> n:49 var
+R4728:4731 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R4725:4725 Coqtail.Hierarchy.Commutative_ring_binomial <> a:47 var
+R4727:4727 Coqtail.Hierarchy.Commutative_ring_binomial <> i:50 var
+R4732:4732 Coqtail.Hierarchy.Commutative_ring_binomial <> b:48 var
+R4734:4734 Coqtail.Hierarchy.Commutative_ring_binomial <> i:50 var
+R4749:4752 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R4740:4744 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4746:4746 Coqtail.Hierarchy.Commutative_ring_binomial <> a:47 var
+R4748:4748 Coqtail.Hierarchy.Commutative_ring_binomial <> n:49 var
+R4753:4757 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R4759:4759 Coqtail.Hierarchy.Commutative_ring_binomial <> b:48 var
+R4761:4761 Coqtail.Hierarchy.Commutative_ring_binomial <> n:49 var
+prf 4967:4982 <> CRsum_add_compat
+binder 4993:4993 <> a:51
+binder 4995:4995 <> b:52
+binder 4997:4997 <> n:53
+R5028:5031 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5000:5004 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+binder 5011:5011 <> i:54
+R5019:5021 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R5016:5016 Coqtail.Hierarchy.Commutative_ring_binomial <> a:51 var
+R5018:5018 Coqtail.Hierarchy.Commutative_ring_binomial <> i:54 var
+R5022:5022 Coqtail.Hierarchy.Commutative_ring_binomial <> b:52 var
+R5024:5024 Coqtail.Hierarchy.Commutative_ring_binomial <> i:54 var
+R5027:5027 Coqtail.Hierarchy.Commutative_ring_binomial <> n:53 var
+R5041:5043 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R5032:5036 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R5038:5038 Coqtail.Hierarchy.Commutative_ring_binomial <> a:51 var
+R5040:5040 Coqtail.Hierarchy.Commutative_ring_binomial <> n:53 var
+R5044:5048 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R5050:5050 Coqtail.Hierarchy.Commutative_ring_binomial <> b:52 var
+R5052:5052 Coqtail.Hierarchy.Commutative_ring_binomial <> n:53 var
+prf 5175:5191 <> CRsum_scal_compat
+binder 5202:5202 <> x:55
+binder 5204:5204 <> f:56
+binder 5206:5206 <> n:57
+R5222:5225 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5210:5212 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R5209:5209 Coqtail.Hierarchy.Commutative_ring_binomial <> x:55 var
+R5213:5217 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+R5219:5219 Coqtail.Hierarchy.Commutative_ring_binomial <> f:56 var
+R5221:5221 Coqtail.Hierarchy.Commutative_ring_binomial <> n:57 var
+R5226:5230 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum def
+binder 5237:5237 <> n:58
+R5243:5245 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R5242:5242 Coqtail.Hierarchy.Commutative_ring_binomial <> x:55 var
+R5246:5246 Coqtail.Hierarchy.Commutative_ring_binomial <> f:56 var
+R5248:5248 Coqtail.Hierarchy.Commutative_ring_binomial <> n:58 var
+R5251:5251 Coqtail.Hierarchy.Commutative_ring_binomial <> n:57 var
+prf 5399:5409 <> CRpow_simpl
+binder 5420:5420 <> a:59
+binder 5422:5422 <> n:60
+R5435:5437 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5426:5430 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R5434:5434 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R5425:5425 Coqtail.Hierarchy.Commutative_ring_binomial <> a:59 var
+R5431:5431 Coq.Init.Datatypes <> S constr
+R5433:5433 Coqtail.Hierarchy.Commutative_ring_binomial <> n:60 var
+R5444:5446 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R5439:5442 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R5438:5438 Coqtail.Hierarchy.Commutative_ring_binomial <> a:59 var
+R5443:5443 Coqtail.Hierarchy.Commutative_ring_binomial <> n:60 var
+R5447:5447 Coqtail.Hierarchy.Commutative_ring_binomial <> a:59 var
+prf 5492:5506 <> CRadd_eq_compat
+binder 5517:5517 <> a:61
+binder 5519:5519 <> b:62
+binder 5521:5521 <> c:63
+binder 5523:5523 <> d:64
+R5532:5535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5527:5530 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5526:5526 Coqtail.Hierarchy.Commutative_ring_binomial <> a:61 var
+R5531:5531 Coqtail.Hierarchy.Commutative_ring_binomial <> c:63 var
+R5542:5545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5537:5540 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5536:5536 Coqtail.Hierarchy.Commutative_ring_binomial <> b:62 var
+R5541:5541 Coqtail.Hierarchy.Commutative_ring_binomial <> d:64 var
+R5551:5554 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5547:5549 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R5546:5546 Coqtail.Hierarchy.Commutative_ring_binomial <> a:61 var
+R5550:5550 Coqtail.Hierarchy.Commutative_ring_binomial <> b:62 var
+R5556:5558 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R5555:5555 Coqtail.Hierarchy.Commutative_ring_binomial <> c:63 var
+R5559:5559 Coqtail.Hierarchy.Commutative_ring_binomial <> d:64 var
+prf 5645:5661 <> CRmul_scal_compat
+binder 5672:5672 <> a:65
+binder 5674:5674 <> b:66
+binder 5676:5676 <> n:67
+R5689:5692 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5680:5683 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R5679:5679 Coqtail.Hierarchy.Commutative_ring_binomial <> n:67 var
+R5685:5687 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R5684:5684 Coqtail.Hierarchy.Commutative_ring_binomial <> a:65 var
+R5688:5688 Coqtail.Hierarchy.Commutative_ring_binomial <> b:66 var
+R5694:5697 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R5704:5704 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R5693:5693 Coqtail.Hierarchy.Commutative_ring_binomial <> a:65 var
+R5699:5702 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R5698:5698 Coqtail.Hierarchy.Commutative_ring_binomial <> n:67 var
+R5703:5703 Coqtail.Hierarchy.Commutative_ring_binomial <> b:66 var
+prf 5820:5835 <> CRscal_eq_compat
+binder 5846:5846 <> a:68
+binder 5848:5848 <> b:69
+binder 5850:5850 <> n:70
+R5859:5862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5854:5857 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5853:5853 Coqtail.Hierarchy.Commutative_ring_binomial <> a:68 var
+R5858:5858 Coqtail.Hierarchy.Commutative_ring_binomial <> b:69 var
+R5869:5872 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R5864:5867 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R5863:5863 Coqtail.Hierarchy.Commutative_ring_binomial <> n:70 var
+R5868:5868 Coqtail.Hierarchy.Commutative_ring_binomial <> a:68 var
+R5874:5877 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R5873:5873 Coqtail.Hierarchy.Commutative_ring_binomial <> n:70 var
+R5878:5878 Coqtail.Hierarchy.Commutative_ring_binomial <> b:69 var
+prf 6010:6029 <> CRscal_mult_scal_one
+binder 6040:6040 <> a:71
+binder 6042:6042 <> n:72
+R6059:6062 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R6045:6045 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6054:6057 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6047:6050 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6046:6046 Coqtail.Hierarchy.Commutative_ring_binomial <> n:72 var
+R6051:6053 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.one var
+R6058:6058 Coqtail.Hierarchy.Commutative_ring_binomial <> a:71 var
+R6064:6067 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6063:6063 Coqtail.Hierarchy.Commutative_ring_binomial <> n:72 var
+R6068:6068 Coqtail.Hierarchy.Commutative_ring_binomial <> a:71 var
+prf 6185:6204 <> CRscal_add_eq_compat
+binder 6215:6215 <> a:73
+binder 6217:6217 <> b:74
+binder 6219:6219 <> n:75
+R6241:6244 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R6222:6222 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6229:6233 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6240:6240 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6224:6227 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6223:6223 Coqtail.Hierarchy.Commutative_ring_binomial <> n:75 var
+R6228:6228 Coqtail.Hierarchy.Commutative_ring_binomial <> a:73 var
+R6235:6238 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6234:6234 Coqtail.Hierarchy.Commutative_ring_binomial <> n:75 var
+R6239:6239 Coqtail.Hierarchy.Commutative_ring_binomial <> b:74 var
+R6246:6250 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6256:6256 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6245:6245 Coqtail.Hierarchy.Commutative_ring_binomial <> n:75 var
+R6252:6254 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6251:6251 Coqtail.Hierarchy.Commutative_ring_binomial <> a:73 var
+R6255:6255 Coqtail.Hierarchy.Commutative_ring_binomial <> b:74 var
+prf 6375:6394 <> CRadd_scal_eq_compat
+binder 6405:6405 <> a:76
+binder 6407:6407 <> n:77
+binder 6409:6409 <> p:78
+R6431:6434 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R6412:6412 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6419:6423 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6430:6430 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6414:6417 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6413:6413 Coqtail.Hierarchy.Commutative_ring_binomial <> n:77 var
+R6418:6418 Coqtail.Hierarchy.Commutative_ring_binomial <> a:76 var
+R6425:6428 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6424:6424 Coqtail.Hierarchy.Commutative_ring_binomial <> p:78 var
+R6429:6429 Coqtail.Hierarchy.Commutative_ring_binomial <> a:76 var
+R6435:6435 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6441:6445 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6437:6439 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6436:6436 Coqtail.Hierarchy.Commutative_ring_binomial <> n:77 var
+R6440:6440 Coqtail.Hierarchy.Commutative_ring_binomial <> p:78 var
+R6446:6446 Coqtail.Hierarchy.Commutative_ring_binomial <> a:76 var
+prf 6567:6572 <> Newton
+binder 6583:6583 <> n:79
+binder 6585:6585 <> a:80
+binder 6587:6587 <> b:81
+R6602:6605 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R6590:6590 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6596:6600 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6592:6594 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6591:6591 Coqtail.Hierarchy.Commutative_ring_binomial <> a:80 var
+R6595:6595 Coqtail.Hierarchy.Commutative_ring_binomial <> b:81 var
+R6601:6601 Coqtail.Hierarchy.Commutative_ring_binomial <> n:79 var
+R6606:6615 Coqtail.Hierarchy.Commutative_ring_binomial <> newton_sum def
+R6617:6617 Coqtail.Hierarchy.Commutative_ring_binomial <> n:79 var
+R6619:6619 Coqtail.Hierarchy.Commutative_ring_binomial <> a:80 var
+R6621:6621 Coqtail.Hierarchy.Commutative_ring_binomial <> b:81 var
+R6730:6739 Coqtail.Hierarchy.Commutative_ring_binomial <> newton_sum def
+R6752:6762 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+R6752:6762 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+R6752:6762 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl thm
+R6778:6790 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_reindex thm
+R6778:6790 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_reindex thm
+R6778:6790 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_reindex thm
+R6810:6824 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat thm
+binder 6831:6831 <> k:82
+R6841:6841 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6898:6906 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6963:6963 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6862:6866 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6842:6850 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6853:6853 Coq.Init.Datatypes <> S constr
+R6861:6861 Coqtail.Hierarchy.Commutative_ring_binomial <> k:82 var
+R6875:6877 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6868:6871 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6872:6872 Coq.Init.Datatypes <> S constr
+R6874:6874 Coqtail.Hierarchy.Commutative_ring_binomial <> k:82 var
+R6879:6883 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6897:6897 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6891:6893 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6884:6884 Coq.Init.Datatypes <> S constr
+R6887:6887 Coq.Init.Datatypes <> S constr
+R6894:6894 Coq.Init.Datatypes <> S constr
+R6896:6896 Coqtail.Hierarchy.Commutative_ring_binomial <> k:82 var
+R6928:6931 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6907:6915 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6918:6918 Coq.Init.Datatypes <> S constr
+R6924:6924 Coq.Init.Datatypes <> S constr
+R6926:6926 Coqtail.Hierarchy.Commutative_ring_binomial <> k:82 var
+R6940:6942 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6933:6936 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6937:6937 Coq.Init.Datatypes <> S constr
+R6939:6939 Coqtail.Hierarchy.Commutative_ring_binomial <> k:82 var
+R6944:6948 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6962:6962 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6956:6958 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6949:6949 Coq.Init.Datatypes <> S constr
+R6952:6952 Coq.Init.Datatypes <> S constr
+R6959:6959 Coq.Init.Datatypes <> S constr
+R6961:6961 Coqtail.Hierarchy.Commutative_ring_binomial <> k:82 var
+R6810:6824 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat thm
+binder 6831:6831 <> k:83
+R6841:6841 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6898:6906 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6963:6963 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6862:6866 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6842:6850 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6853:6853 Coq.Init.Datatypes <> S constr
+R6861:6861 Coqtail.Hierarchy.Commutative_ring_binomial <> k:83 var
+R6875:6877 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6868:6871 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6872:6872 Coq.Init.Datatypes <> S constr
+R6874:6874 Coqtail.Hierarchy.Commutative_ring_binomial <> k:83 var
+R6879:6883 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6897:6897 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6891:6893 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6884:6884 Coq.Init.Datatypes <> S constr
+R6887:6887 Coq.Init.Datatypes <> S constr
+R6894:6894 Coq.Init.Datatypes <> S constr
+R6896:6896 Coqtail.Hierarchy.Commutative_ring_binomial <> k:83 var
+R6928:6931 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6907:6915 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6918:6918 Coq.Init.Datatypes <> S constr
+R6924:6924 Coq.Init.Datatypes <> S constr
+R6926:6926 Coqtail.Hierarchy.Commutative_ring_binomial <> k:83 var
+R6940:6942 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6933:6936 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6937:6937 Coq.Init.Datatypes <> S constr
+R6939:6939 Coqtail.Hierarchy.Commutative_ring_binomial <> k:83 var
+R6944:6948 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6962:6962 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6956:6958 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6949:6949 Coq.Init.Datatypes <> S constr
+R6952:6952 Coq.Init.Datatypes <> S constr
+R6959:6959 Coq.Init.Datatypes <> S constr
+R6961:6961 Coqtail.Hierarchy.Commutative_ring_binomial <> k:83 var
+R6810:6824 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat thm
+binder 6831:6831 <> k:84
+R6841:6841 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6898:6906 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6963:6963 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6862:6866 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6842:6850 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6853:6853 Coq.Init.Datatypes <> S constr
+R6861:6861 Coqtail.Hierarchy.Commutative_ring_binomial <> k:84 var
+R6875:6877 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6868:6871 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6872:6872 Coq.Init.Datatypes <> S constr
+R6874:6874 Coqtail.Hierarchy.Commutative_ring_binomial <> k:84 var
+R6879:6883 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6897:6897 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6891:6893 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6884:6884 Coq.Init.Datatypes <> S constr
+R6887:6887 Coq.Init.Datatypes <> S constr
+R6894:6894 Coq.Init.Datatypes <> S constr
+R6896:6896 Coqtail.Hierarchy.Commutative_ring_binomial <> k:84 var
+R6928:6931 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6907:6915 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6918:6918 Coq.Init.Datatypes <> S constr
+R6924:6924 Coq.Init.Datatypes <> S constr
+R6926:6926 Coqtail.Hierarchy.Commutative_ring_binomial <> k:84 var
+R6940:6942 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6933:6936 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6937:6937 Coq.Init.Datatypes <> S constr
+R6939:6939 Coqtail.Hierarchy.Commutative_ring_binomial <> k:84 var
+R6944:6948 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6962:6962 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6956:6958 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6949:6949 Coq.Init.Datatypes <> S constr
+R6952:6952 Coq.Init.Datatypes <> S constr
+R6959:6959 Coq.Init.Datatypes <> S constr
+R6961:6961 Coqtail.Hierarchy.Commutative_ring_binomial <> k:84 var
+R6810:6824 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat thm
+binder 6831:6831 <> k:85
+R6841:6841 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6898:6906 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6963:6963 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R6862:6866 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6842:6850 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6853:6853 Coq.Init.Datatypes <> S constr
+R6861:6861 Coqtail.Hierarchy.Commutative_ring_binomial <> k:85 var
+R6875:6877 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6868:6871 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6872:6872 Coq.Init.Datatypes <> S constr
+R6874:6874 Coqtail.Hierarchy.Commutative_ring_binomial <> k:85 var
+R6879:6883 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6897:6897 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6891:6893 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6884:6884 Coq.Init.Datatypes <> S constr
+R6887:6887 Coq.Init.Datatypes <> S constr
+R6894:6894 Coq.Init.Datatypes <> S constr
+R6896:6896 Coqtail.Hierarchy.Commutative_ring_binomial <> k:85 var
+R6928:6931 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'**'_x not
+R6907:6915 Coqtail.Arith.Nbinomial <> Nbinomial def
+R6918:6918 Coq.Init.Datatypes <> S constr
+R6924:6924 Coq.Init.Datatypes <> S constr
+R6926:6926 Coqtail.Hierarchy.Commutative_ring_binomial <> k:85 var
+R6940:6942 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'*'_x not
+R6933:6936 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6937:6937 Coq.Init.Datatypes <> S constr
+R6939:6939 Coqtail.Hierarchy.Commutative_ring_binomial <> k:85 var
+R6944:6948 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6962:6962 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'^^'_x not
+R6956:6958 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R6949:6949 Coq.Init.Datatypes <> S constr
+R6952:6952 Coq.Init.Datatypes <> S constr
+R6959:6959 Coq.Init.Datatypes <> S constr
+R6961:6961 Coqtail.Hierarchy.Commutative_ring_binomial <> k:85 var
+R6979:6994 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_add_compat thm
+R6979:6994 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_add_compat thm
+R6979:6994 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_add_compat thm
+R7008:7018 Coqtail.Hierarchy.Commutative_ring_binomial <> CRpow_simpl thm
+R7008:7018 Coqtail.Hierarchy.Commutative_ring_binomial <> CRpow_simpl thm
+R7008:7018 Coqtail.Hierarchy.Commutative_ring_binomial <> CRpow_simpl thm
+R7048:7066 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_r meth
+R7048:7066 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_r meth
+R7048:7066 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_r meth
+R7079:7088 Coqtail.Hierarchy.Commutative_ring_binomial <> newton_sum def
+R7109:7115 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R7121:7123 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R7136:7152 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_scal_compat thm
+R7109:7115 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R7121:7123 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R7109:7115 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R7121:7123 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R7136:7152 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_scal_compat thm
+R7136:7152 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_scal_compat thm
+R7109:7115 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R7121:7123 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R7109:7115 Coqtail.Hierarchy.Type_class_definition <> op_comm def
+R7121:7123 Coqtail.Hierarchy.Commutative_ring_binomial <> Commutative_Ring.mul var
+R7136:7152 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_scal_compat thm
+R7136:7152 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_scal_compat thm
+binder 7177:7177 <> a:86
+binder 7179:7179 <> b:87
+binder 7181:7181 <> c:88
+binder 7183:7183 <> d:89
+binder 7185:7185 <> e:90
+binder 7187:7187 <> f:91
+R7200:7203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7191:7194 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R7190:7190 Coqtail.Hierarchy.Commutative_ring_binomial <> a:86 var
+R7196:7198 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7195:7195 Coqtail.Hierarchy.Commutative_ring_binomial <> e:90 var
+R7199:7199 Coqtail.Hierarchy.Commutative_ring_binomial <> c:88 var
+R7214:7217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7205:7208 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R7204:7204 Coqtail.Hierarchy.Commutative_ring_binomial <> b:87 var
+R7210:7212 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7209:7209 Coqtail.Hierarchy.Commutative_ring_binomial <> d:89 var
+R7213:7213 Coqtail.Hierarchy.Commutative_ring_binomial <> f:91 var
+R7223:7226 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R7219:7221 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7218:7218 Coqtail.Hierarchy.Commutative_ring_binomial <> a:86 var
+R7222:7222 Coqtail.Hierarchy.Commutative_ring_binomial <> b:87 var
+R7228:7231 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7243:7243 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7227:7227 Coqtail.Hierarchy.Commutative_ring_binomial <> c:88 var
+R7233:7236 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7242:7242 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7232:7232 Coqtail.Hierarchy.Commutative_ring_binomial <> d:89 var
+R7238:7240 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7237:7237 Coqtail.Hierarchy.Commutative_ring_binomial <> e:90 var
+R7241:7241 Coqtail.Hierarchy.Commutative_ring_binomial <> f:91 var
+binder 7177:7177 <> a:92
+binder 7179:7179 <> b:93
+binder 7181:7181 <> c:94
+binder 7183:7183 <> d:95
+binder 7185:7185 <> e:96
+binder 7187:7187 <> f:97
+R7200:7203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7191:7194 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R7190:7190 Coqtail.Hierarchy.Commutative_ring_binomial <> a:92 var
+R7196:7198 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7195:7195 Coqtail.Hierarchy.Commutative_ring_binomial <> e:96 var
+R7199:7199 Coqtail.Hierarchy.Commutative_ring_binomial <> c:94 var
+R7214:7217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7205:7208 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R7204:7204 Coqtail.Hierarchy.Commutative_ring_binomial <> b:93 var
+R7210:7212 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7209:7209 Coqtail.Hierarchy.Commutative_ring_binomial <> d:95 var
+R7213:7213 Coqtail.Hierarchy.Commutative_ring_binomial <> f:97 var
+R7223:7226 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'=='_x not
+R7219:7221 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7218:7218 Coqtail.Hierarchy.Commutative_ring_binomial <> a:92 var
+R7222:7222 Coqtail.Hierarchy.Commutative_ring_binomial <> b:93 var
+R7228:7231 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7243:7243 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7227:7227 Coqtail.Hierarchy.Commutative_ring_binomial <> c:94 var
+R7233:7236 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7242:7242 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7232:7232 Coqtail.Hierarchy.Commutative_ring_binomial <> d:95 var
+R7238:7240 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring :::x_'+'_x not
+R7237:7237 Coqtail.Hierarchy.Commutative_ring_binomial <> e:96 var
+R7241:7241 Coqtail.Hierarchy.Commutative_ring_binomial <> f:97 var
+R7349:7361 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl_r thm
+R7349:7361 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl_r thm
+R7349:7361 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_simpl_r thm
+R7383:7396 Coqtail.Arith.Nbinomial <> Nbinomial_diag thm
+R7383:7396 Coqtail.Arith.Nbinomial <> Nbinomial_diag thm
+R7383:7396 Coqtail.Arith.Nbinomial <> Nbinomial_diag thm
+R7383:7396 Coqtail.Arith.Nbinomial <> Nbinomial_diag thm
+R7383:7396 Coqtail.Arith.Nbinomial <> Nbinomial_diag thm
+R7383:7396 Coqtail.Arith.Nbinomial <> Nbinomial_diag thm
+R7418:7427 Coq.Arith.Minus <> minus_diag syndef
+R7418:7427 Coq.Arith.Minus <> minus_diag syndef
+R7418:7427 Coq.Arith.Minus <> minus_diag syndef
+R7418:7427 Coq.Arith.Minus <> minus_diag syndef
+R7418:7427 Coq.Arith.Minus <> minus_diag syndef
+R7418:7427 Coq.Arith.Minus <> minus_diag syndef
+R7440:7454 Coqtail.Hierarchy.Commutative_ring_binomial <> CRadd_eq_compat thm
+R7440:7454 Coqtail.Hierarchy.Commutative_ring_binomial <> CRadd_eq_compat thm
+R7468:7487 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat_weak thm
+R7468:7487 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat_weak thm
+R7518:7534 Coqtail.Hierarchy.Commutative_ring_binomial <> CRmul_scal_compat thm
+R7518:7534 Coqtail.Hierarchy.Commutative_ring_binomial <> CRmul_scal_compat thm
+R7518:7534 Coqtail.Hierarchy.Commutative_ring_binomial <> CRmul_scal_compat thm
+R7548:7563 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_eq_compat thm
+R7548:7563 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_eq_compat thm
+R7579:7589 Coqtail.Hierarchy.Commutative_ring_binomial <> CRpow_simpl thm
+R7579:7589 Coqtail.Hierarchy.Commutative_ring_binomial <> CRpow_simpl thm
+R7579:7589 Coqtail.Hierarchy.Commutative_ring_binomial <> CRpow_simpl thm
+R7654:7666 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_reindex thm
+R7654:7666 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_reindex thm
+R7654:7666 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_reindex thm
+R7679:7693 Coqtail.Hierarchy.Commutative_ring_binomial <> CRadd_eq_compat thm
+R7679:7693 Coqtail.Hierarchy.Commutative_ring_binomial <> CRadd_eq_compat thm
+R7755:7769 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat thm
+R7755:7769 Coqtail.Hierarchy.Commutative_ring_binomial <> CRsum_eq_compat thm
+R7818:7818 Coq.Init.Datatypes <> S constr
+R7801:7810 Coq.Arith.Minus <> minus_Sn_m thm
+R7818:7818 Coq.Init.Datatypes <> S constr
+R7801:7810 Coq.Arith.Minus <> minus_Sn_m thm
+R7818:7818 Coq.Init.Datatypes <> S constr
+R7801:7810 Coq.Arith.Minus <> minus_Sn_m thm
+R7818:7818 Coq.Init.Datatypes <> S constr
+R7801:7810 Coq.Arith.Minus <> minus_Sn_m thm
+R7862:7878 Coqtail.Hierarchy.Commutative_ring_binomial <> CRmul_scal_compat thm
+R7862:7878 Coqtail.Hierarchy.Commutative_ring_binomial <> CRmul_scal_compat thm
+R7862:7878 Coqtail.Hierarchy.Commutative_ring_binomial <> CRmul_scal_compat thm
+R7892:7907 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_eq_compat thm
+R7892:7907 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_eq_compat thm
+R7955:7974 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R7955:7974 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R7955:7974 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R7992:8011 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R8016:8024 Coqtail.Arith.Nbinomial <> Nbinomial def
+R8027:8027 Coq.Init.Datatypes <> S constr
+R8033:8033 Coq.Init.Datatypes <> S constr
+R7992:8011 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R8016:8024 Coqtail.Arith.Nbinomial <> Nbinomial def
+R8027:8027 Coq.Init.Datatypes <> S constr
+R8033:8033 Coq.Init.Datatypes <> S constr
+R7992:8011 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R8016:8024 Coqtail.Arith.Nbinomial <> Nbinomial def
+R8027:8027 Coq.Init.Datatypes <> S constr
+R8033:8033 Coq.Init.Datatypes <> S constr
+R8055:8073 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_l meth
+R8055:8073 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_l meth
+R8055:8073 Coqtail.Hierarchy.Type_class_definition <> ring_distributive_l meth
+R8087:8106 Coqtail.Hierarchy.Commutative_ring_binomial <> CRadd_scal_eq_compat thm
+R8087:8106 Coqtail.Hierarchy.Commutative_ring_binomial <> CRadd_scal_eq_compat thm
+R8087:8106 Coqtail.Hierarchy.Commutative_ring_binomial <> CRadd_scal_eq_compat thm
+R8120:8135 Coqtail.Arith.Nbinomial <> Nbinomial_pascal thm
+R8120:8135 Coqtail.Arith.Nbinomial <> Nbinomial_pascal thm
+R8120:8135 Coqtail.Arith.Nbinomial <> Nbinomial_pascal thm
+R8120:8135 Coqtail.Arith.Nbinomial <> Nbinomial_pascal thm
+R8159:8178 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R8159:8178 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R8159:8178 Coqtail.Hierarchy.Commutative_ring_binomial <> CRscal_mult_scal_one thm
+R8209:8224 Coqtail.Hierarchy.Commutative_ring_binomial Commutative_Ring <> sec

@@ -1,0 +1,323 @@
+DIGEST d12924a2834a2936b437048b4f7f4cdc
+FCoqtail.Arith.Nfinite_prod
+R816:820 Coq.Arith.Arith <> <> lib
+R838:844 Coq.Arith.Compare <> <> lib
+R862:867 Coqtail.Arith.Nk_ind <> <> lib
+R885:888 Coqtail.Arith.Npow <> <> lib
+R906:909 Coqtail.Arith.Ndiv <> <> lib
+def 1023:1038 <> Nfinite_prod_0_n
+R1043:1045 Coq.Init.Datatypes <> nat ind
+binder 1041:1041 <> n:1
+R1054:1057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1051:1053 Coq.Init.Datatypes <> nat ind
+R1058:1060 Coq.Init.Datatypes <> nat ind
+binder 1049:1049 <> f:2
+R1076:1078 Coq.Init.Datatypes <> nat ind
+R1089:1089 Coqtail.Arith.Nfinite_prod <> n:1 var
+R1103:1103 Coqtail.Arith.Nfinite_prod <> f:2 var
+R1109:1109 Coq.Init.Datatypes <> S constr
+R1117:1117 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1139:1143 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1147:1147 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1118:1133 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n:3 def
+R1138:1138 Coqtail.Arith.Nfinite_prod <> f:2 var
+R1144:1144 Coqtail.Arith.Nfinite_prod <> f:2 var
+R1146:1146 Coqtail.Arith.Nfinite_prod <> n:1 var
+prf 1253:1281 <> Nfinite_prod_subtle_eq_compat
+binder 1292:1292 <> n:5
+binder 1294:1294 <> f:6
+binder 1296:1296 <> g:7
+R1301:1301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1331:1335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1309:1309 <> k:8
+R1318:1321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1313:1316 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1312:1312 Coqtail.Arith.Nfinite_prod <> k:8 var
+R1317:1317 Coqtail.Arith.Nfinite_prod <> n:5 var
+R1325:1327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1322:1322 Coqtail.Arith.Nfinite_prod <> f:6 var
+R1324:1324 Coqtail.Arith.Nfinite_prod <> k:8 var
+R1328:1328 Coqtail.Arith.Nfinite_prod <> g:7 var
+R1330:1330 Coqtail.Arith.Nfinite_prod <> k:8 var
+R1357:1358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1336:1351 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1353:1353 Coqtail.Arith.Nfinite_prod <> n:5 var
+R1356:1356 Coqtail.Arith.Nfinite_prod <> f:6 var
+R1359:1374 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1376:1376 Coqtail.Arith.Nfinite_prod <> n:5 var
+R1378:1378 Coqtail.Arith.Nfinite_prod <> g:7 var
+R1451:1466 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1474:1489 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1474:1489 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1523:1523 Coq.Init.Datatypes <> S constr
+R1523:1523 Coq.Init.Datatypes <> S constr
+R1523:1523 Coq.Init.Datatypes <> S constr
+R1523:1523 Coq.Init.Datatypes <> S constr
+prf 1654:1675 <> Nfinite_prod_eq_compat
+binder 1686:1686 <> n:9
+binder 1688:1688 <> f:10
+binder 1690:1690 <> g:11
+R1695:1695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1715:1719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1703:1703 <> k:12
+R1709:1711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1706:1706 Coqtail.Arith.Nfinite_prod <> f:10 var
+R1708:1708 Coqtail.Arith.Nfinite_prod <> k:12 var
+R1712:1712 Coqtail.Arith.Nfinite_prod <> g:11 var
+R1714:1714 Coqtail.Arith.Nfinite_prod <> k:12 var
+R1740:1742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1720:1735 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1737:1737 Coqtail.Arith.Nfinite_prod <> n:9 var
+R1739:1739 Coqtail.Arith.Nfinite_prod <> f:10 var
+R1743:1758 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1760:1760 Coqtail.Arith.Nfinite_prod <> n:9 var
+R1762:1762 Coqtail.Arith.Nfinite_prod <> g:11 var
+R1786:1814 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_subtle_eq_compat thm
+R1786:1814 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_subtle_eq_compat thm
+prf 1897:1920 <> Nfinite_prod_split_upper
+binder 1931:1931 <> n:13
+binder 1933:1933 <> f:14
+R1962:1964 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1938:1953 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1956:1956 Coq.Init.Datatypes <> S constr
+R1958:1958 Coqtail.Arith.Nfinite_prod <> n:13 var
+R1961:1961 Coqtail.Arith.Nfinite_prod <> f:14 var
+R1965:1965 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1986:1990 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1998:1998 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1966:1981 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R1983:1983 Coqtail.Arith.Nfinite_prod <> n:13 var
+R1985:1985 Coqtail.Arith.Nfinite_prod <> f:14 var
+R1991:1991 Coqtail.Arith.Nfinite_prod <> f:14 var
+R1994:1994 Coq.Init.Datatypes <> S constr
+R1996:1996 Coqtail.Arith.Nfinite_prod <> n:13 var
+R2015:2030 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2038:2053 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2038:2053 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+prf 2132:2155 <> Nfinite_prod_split_lower
+binder 2166:2166 <> n:15
+binder 2168:2168 <> f:16
+R2197:2199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2173:2188 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2191:2191 Coq.Init.Datatypes <> S constr
+R2193:2193 Coqtail.Arith.Nfinite_prod <> n:15 var
+R2196:2196 Coqtail.Arith.Nfinite_prod <> f:16 var
+R2200:2200 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2204:2208 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2246:2246 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2201:2201 Coqtail.Arith.Nfinite_prod <> f:16 var
+R2209:2224 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2226:2226 Coqtail.Arith.Nfinite_prod <> n:15 var
+binder 2233:2233 <> k:17
+R2238:2238 Coqtail.Arith.Nfinite_prod <> f:16 var
+R2241:2241 Coq.Init.Datatypes <> S constr
+R2243:2243 Coqtail.Arith.Nfinite_prod <> k:17 var
+R2284:2299 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2331:2354 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2331:2354 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2331:2354 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2378:2401 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2378:2401 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2378:2401 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+prf 2463:2486 <> Nfinite_prod_mult_compat
+binder 2497:2497 <> n:18
+binder 2499:2499 <> f:19
+binder 2501:2501 <> a:20
+binder 2503:2503 <> g:21
+R2508:2508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2542:2546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2516:2516 <> k:22
+R2525:2528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2520:2523 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2519:2519 Coqtail.Arith.Nfinite_prod <> k:22 var
+R2524:2524 Coqtail.Arith.Nfinite_prod <> n:18 var
+R2532:2534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2529:2529 Coqtail.Arith.Nfinite_prod <> f:19 var
+R2531:2531 Coqtail.Arith.Nfinite_prod <> k:22 var
+R2536:2538 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2535:2535 Coqtail.Arith.Nfinite_prod <> a:20 var
+R2539:2539 Coqtail.Arith.Nfinite_prod <> g:21 var
+R2541:2541 Coqtail.Arith.Nfinite_prod <> k:22 var
+R2567:2569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2547:2562 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2564:2564 Coqtail.Arith.Nfinite_prod <> n:18 var
+R2566:2566 Coqtail.Arith.Nfinite_prod <> f:19 var
+R2577:2579 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2571:2572 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R2576:2576 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R2570:2570 Coqtail.Arith.Nfinite_prod <> a:20 var
+R2573:2573 Coq.Init.Datatypes <> S constr
+R2575:2575 Coqtail.Arith.Nfinite_prod <> n:18 var
+R2580:2595 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2597:2597 Coqtail.Arith.Nfinite_prod <> n:18 var
+R2599:2599 Coqtail.Arith.Nfinite_prod <> g:21 var
+R2637:2652 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R2662:2668 Coq.Arith.PeanoNat Nat pow def
+R2679:2686 Coq.Arith.Mult <> mult_1_r syndef
+R2679:2686 Coq.Arith.Mult <> mult_1_r syndef
+R2679:2686 Coq.Arith.Mult <> mult_1_r syndef
+R2731:2754 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2731:2754 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2731:2754 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2765:2788 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2765:2788 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2765:2788 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R2834:2844 Coqtail.Arith.Npow <> Npower_succ thm
+R2834:2844 Coqtail.Arith.Npow <> Npower_succ thm
+R2834:2844 Coqtail.Arith.Npow <> Npower_succ thm
+R2855:2865 Coqtail.Arith.Npow <> Npower_succ thm
+R2855:2865 Coqtail.Arith.Npow <> Npower_succ thm
+R2855:2865 Coqtail.Arith.Npow <> Npower_succ thm
+R2876:2886 Coqtail.Arith.Npow <> Npower_succ thm
+R2876:2886 Coqtail.Arith.Npow <> Npower_succ thm
+R2876:2886 Coqtail.Arith.Npow <> Npower_succ thm
+prf 2980:3000 <> Nfinite_prod_0_absord
+binder 3011:3011 <> n:23
+binder 3013:3013 <> f:24
+binder 3015:3015 <> k:25
+R3026:3029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3021:3024 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R3020:3020 Coqtail.Arith.Nfinite_prod <> k:25 var
+R3025:3025 Coqtail.Arith.Nfinite_prod <> n:23 var
+R3037:3040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3033:3035 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3030:3030 Coqtail.Arith.Nfinite_prod <> f:24 var
+R3032:3032 Coqtail.Arith.Nfinite_prod <> k:25 var
+R3061:3063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3041:3056 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R3058:3058 Coqtail.Arith.Nfinite_prod <> n:23 var
+R3060:3060 Coqtail.Arith.Nfinite_prod <> f:24 var
+R3110:3118 Coq.Arith.Le <> le_n_O_eq syndef
+R3110:3118 Coq.Arith.Le <> le_n_O_eq syndef
+R3173:3196 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3173:3196 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3173:3196 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3205:3214 Coq.Arith.Compare <> le_le_S_eq thm
+R3205:3214 Coq.Arith.Compare <> le_le_S_eq thm
+prf 3370:3394 <> Nfactorial_is_finite_prod
+binder 3405:3405 <> n:26
+R3420:3422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3410:3413 Coq.Arith.Factorial <> fact def
+R3416:3416 Coq.Init.Datatypes <> S constr
+R3418:3418 Coqtail.Arith.Nfinite_prod <> n:26 var
+R3423:3438 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R3440:3440 Coqtail.Arith.Nfinite_prod <> n:26 var
+binder 3447:3447 <> k:27
+R3452:3452 Coq.Init.Datatypes <> S constr
+R3454:3454 Coqtail.Arith.Nfinite_prod <> k:27 var
+R3521:3521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3508:3511 Coq.Arith.Factorial <> fact def
+R3514:3514 Coq.Init.Datatypes <> S constr
+R3516:3516 Coq.Init.Datatypes <> S constr
+R3528:3528 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R3522:3522 Coq.Init.Datatypes <> S constr
+R3524:3524 Coq.Init.Datatypes <> S constr
+R3529:3532 Coq.Arith.Factorial <> fact def
+R3534:3534 Coq.Init.Datatypes <> S constr
+R3521:3521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3508:3511 Coq.Arith.Factorial <> fact def
+R3514:3514 Coq.Init.Datatypes <> S constr
+R3516:3516 Coq.Init.Datatypes <> S constr
+R3528:3528 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R3522:3522 Coq.Init.Datatypes <> S constr
+R3524:3524 Coq.Init.Datatypes <> S constr
+R3529:3532 Coq.Arith.Factorial <> fact def
+R3534:3534 Coq.Init.Datatypes <> S constr
+R3591:3614 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3591:3614 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3591:3614 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+prf 3670:3696 <> Nfinite_prod_index_reversal
+binder 3707:3707 <> n:28
+binder 3709:3709 <> f:29
+R3734:3736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3714:3729 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R3731:3731 Coqtail.Arith.Nfinite_prod <> n:28 var
+R3733:3733 Coqtail.Arith.Nfinite_prod <> f:29 var
+R3737:3752 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R3754:3754 Coqtail.Arith.Nfinite_prod <> n:28 var
+binder 3761:3761 <> k:30
+R3766:3766 Coqtail.Arith.Nfinite_prod <> f:29 var
+R3769:3771 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3768:3768 Coqtail.Arith.Nfinite_prod <> n:28 var
+R3772:3772 Coqtail.Arith.Nfinite_prod <> k:30 var
+R3835:3858 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3835:3858 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3835:3858 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_upper thm
+R3869:3892 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_lower thm
+R3869:3892 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_lower thm
+R3869:3892 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_split_lower thm
+R3919:3927 Coq.Arith.Minus <> minus_n_O thm
+R3919:3927 Coq.Arith.Minus <> minus_n_O thm
+R3919:3927 Coq.Arith.Minus <> minus_n_O thm
+R3987:3991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3938:3953 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R3966:3968 Coq.Init.Datatypes <> nat ind
+binder 3962:3962 <> k:31
+R3979:3981 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3976:3976 Coq.Init.Datatypes <> S constr
+R3982:3982 Coq.Init.Datatypes <> S constr
+R3984:3984 Coqtail.Arith.Nfinite_prod <> k:31 var
+R3992:4007 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R4020:4022 Coq.Init.Datatypes <> nat ind
+binder 4016:4016 <> k:32
+R4031:4033 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4034:4034 Coqtail.Arith.Nfinite_prod <> k:32 var
+R3987:3991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3938:3953 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R3966:3968 Coq.Init.Datatypes <> nat ind
+binder 3962:3962 <> k:33
+R3979:3981 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R3976:3976 Coq.Init.Datatypes <> S constr
+R3982:3982 Coq.Init.Datatypes <> S constr
+R3984:3984 Coqtail.Arith.Nfinite_prod <> k:33 var
+R3992:4007 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R4020:4022 Coq.Init.Datatypes <> nat ind
+binder 4016:4016 <> k:34
+R4031:4033 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4034:4034 Coqtail.Arith.Nfinite_prod <> k:34 var
+R4046:4074 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_subtle_eq_compat thm
+R4046:4074 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_subtle_eq_compat thm
+R4100:4100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4096:4096 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4093:4093 Coq.Init.Datatypes <> S constr
+R4097:4097 Coq.Init.Datatypes <> S constr
+R4102:4102 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4100:4100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4096:4096 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4093:4093 Coq.Init.Datatypes <> S constr
+R4097:4097 Coq.Init.Datatypes <> S constr
+R4102:4102 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+prf 4216:4231 <> Nfinite_prod_div
+binder 4242:4242 <> n:35
+binder 4244:4244 <> f:36
+binder 4246:4246 <> k:37
+binder 4248:4248 <> p:38
+R4259:4262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4254:4257 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4253:4253 Coqtail.Arith.Nfinite_prod <> k:37 var
+R4258:4258 Coqtail.Arith.Nfinite_prod <> n:35 var
+R4272:4275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4263:4263 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R4265:4267 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R4271:4271 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R4264:4264 Coqtail.Arith.Nfinite_prod <> p:38 var
+R4268:4268 Coqtail.Arith.Nfinite_prod <> f:36 var
+R4270:4270 Coqtail.Arith.Nfinite_prod <> k:37 var
+R4276:4276 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R4278:4280 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R4301:4301 Coqtail.Arith.Ndiv <> ::nat_scope:'('_x_'|'_x_')' not
+R4277:4277 Coqtail.Arith.Nfinite_prod <> p:38 var
+R4281:4296 Coqtail.Arith.Nfinite_prod <> Nfinite_prod_0_n def
+R4298:4298 Coqtail.Arith.Nfinite_prod <> n:35 var
+R4300:4300 Coqtail.Arith.Nfinite_prod <> f:36 var
+R4394:4403 Coq.Arith.Compare <> le_le_S_eq thm
+R4394:4403 Coq.Arith.Compare <> le_le_S_eq thm
+R4429:4434 Coq.Arith.Le <> le_S_n thm
+R4429:4434 Coq.Arith.Le <> le_S_n thm
+R4455:4470 Coqtail.Arith.Ndiv <> Ndiv_mult_compat thm
+R4455:4470 Coqtail.Arith.Ndiv <> Ndiv_mult_compat thm
+R4518:4526 Coq.Arith.Mult <> mult_comm syndef
+R4518:4526 Coq.Arith.Mult <> mult_comm syndef
+R4518:4526 Coq.Arith.Mult <> mult_comm syndef
+R4535:4550 Coqtail.Arith.Ndiv <> Ndiv_mult_compat thm
+R4535:4550 Coqtail.Arith.Ndiv <> Ndiv_mult_compat thm

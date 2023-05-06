@@ -1,0 +1,829 @@
+DIGEST 393a72fa67c30ee2223effdbb278fcf0
+FCoqtail.Hierarchy.Type_class_instance
+R816:820 Coq.Arith.Arith <> <> lib
+R822:827 Coq.ZArith.ZArith <> <> lib
+R845:859 Coq.Classes.RelationClasses <> <> lib
+R877:897 Coqtail.Hierarchy.Type_class_definition <> <> lib
+R915:917 Coq.micromega.Lia <> <> lib
+binder 1033:1033 <> a:1
+binder 1033:1033 <> a:2
+R1072:1074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1072:1074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1131:1133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1131:1133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1190:1192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1190:1192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1222:1224 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1222:1224 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1244:1246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1244:1246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1283:1285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1283:1285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1148:1164 Coq.Arith.Mult <> mult_plus_distr_r syndef
+R1089:1105 Coq.Arith.Mult <> mult_plus_distr_l syndef
+inst 1426:1435 <> monoid_nat
+R1439:1444 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R1446:1448 Coq.Init.Datatypes <> nat ind
+R1450:1451 Coq.Init.Logic <> eq ind
+R1453:1456 Coq.Init.Peano <> plus syndef
+R1464:1476 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R1481:1488 Coq.Arith.Plus <> plus_0_l syndef
+inst 1552:1573 <> monoid_commutative_nat
+R1577:1594 Coqtail.Hierarchy.Type_class_definition <> Monoid_Commutative class
+R1596:1598 Coq.Init.Datatypes <> nat ind
+R1600:1601 Coq.Init.Logic <> eq ind
+R1603:1606 Coq.Init.Peano <> plus syndef
+R1614:1631 Coqtail.Hierarchy.Type_class_definition <> monoid_comm_monoid meth
+R1636:1645 Coqtail.Hierarchy.Type_class_instance <> monoid_nat inst
+inst 1709:1725 <> monoid_nat_mult_1
+R1729:1734 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R1736:1738 Coq.Init.Datatypes <> nat ind
+R1740:1741 Coq.Init.Logic <> eq ind
+R1743:1746 Coq.Init.Peano <> mult syndef
+R1754:1766 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R1771:1778 Coq.Arith.Mult <> mult_1_l syndef
+inst 1843:1854 <> semiring_nat
+R1858:1865 Coqtail.Hierarchy.Type_class_definition <> SemiRing class
+R1867:1869 Coq.Init.Datatypes <> nat ind
+R1871:1872 Coq.Init.Logic <> eq ind
+R1874:1877 Coq.Init.Peano <> plus syndef
+R1879:1882 Coq.Init.Peano <> mult syndef
+R1892:1911 Coqtail.Hierarchy.Type_class_definition <> semiring_monoid_comm meth
+R1916:1937 Coqtail.Hierarchy.Type_class_instance <> monoid_commutative_nat inst
+inst 2001:2024 <> semiring_commutative_nat
+R2028:2047 Coqtail.Hierarchy.Type_class_definition <> SemiRing_Commutative class
+R2049:2051 Coq.Init.Datatypes <> nat ind
+R2053:2054 Coq.Init.Logic <> eq ind
+R2056:2059 Coq.Init.Peano <> plus syndef
+R2061:2064 Coq.Init.Peano <> mult syndef
+R2074:2095 Coqtail.Hierarchy.Type_class_definition <> semiring_comm_semiring meth
+R2100:2111 Coqtail.Hierarchy.Type_class_instance <> semiring_nat inst
+inst 2212:2219 <> monoid_Z
+R2223:2228 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R2230:2230 Coq.Numbers.BinNums <> Z ind
+R2232:2233 Coq.Init.Logic <> eq ind
+R2235:2239 Coq.ZArith.BinInt <> Zplus syndef
+R2249:2261 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R2266:2274 Coq.ZArith.BinInt <> Zplus_0_l syndef
+inst 2338:2350 <> monoid_mult_Z
+R2354:2359 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R2361:2361 Coq.Numbers.BinNums <> Z ind
+R2363:2364 Coq.Init.Logic <> eq ind
+R2366:2370 Coq.ZArith.BinInt <> Zmult syndef
+R2380:2392 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R2397:2405 Coq.ZArith.BinInt <> Zmult_1_l syndef
+inst 2469:2475 <> group_Z
+R2479:2483 Coqtail.Hierarchy.Type_class_definition <> Group class
+R2485:2485 Coq.Numbers.BinNums <> Z ind
+R2487:2488 Coq.Init.Logic <> eq ind
+R2490:2494 Coq.ZArith.BinInt <> Zplus syndef
+R2504:2515 Coqtail.Hierarchy.Type_class_definition <> group_monoid meth
+R2520:2527 Coqtail.Hierarchy.Type_class_instance <> monoid_Z inst
+R2556:2556 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2556:2556 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+inst 2601:2619 <> group_commutative_Z
+R2623:2639 Coqtail.Hierarchy.Type_class_definition <> Group_Commutative class
+R2641:2641 Coq.Numbers.BinNums <> Z ind
+R2643:2644 Coq.Init.Logic <> eq ind
+R2646:2650 Coq.ZArith.BinInt <> Zplus syndef
+R2660:2675 Coqtail.Hierarchy.Type_class_definition <> group_comm_group meth
+R2680:2686 Coqtail.Hierarchy.Type_class_instance <> group_Z inst
+inst 2750:2755 <> ring_Z
+R2759:2762 Coqtail.Hierarchy.Type_class_definition <> Ring class
+R2764:2764 Coq.Numbers.BinNums <> Z ind
+R2766:2767 Coq.Init.Logic <> eq ind
+R2769:2773 Coq.ZArith.BinInt <> Zplus syndef
+R2775:2779 Coq.ZArith.BinInt <> Zmult syndef
+R2793:2807 Coqtail.Hierarchy.Type_class_definition <> ring_group_comm meth
+R2812:2830 Coqtail.Hierarchy.Type_class_instance <> group_commutative_Z inst
+inst 2894:2911 <> ring_commutative_Z
+R2915:2930 Coqtail.Hierarchy.Type_class_definition <> Ring_Commutative class
+R2932:2932 Coq.Numbers.BinNums <> Z ind
+R2934:2935 Coq.Init.Logic <> eq ind
+R2937:2941 Coq.ZArith.BinInt <> Zplus syndef
+R2943:2947 Coq.ZArith.BinInt <> Zmult syndef
+R2961:2974 Coqtail.Hierarchy.Type_class_definition <> ring_comm_ring meth
+R2979:2984 Coqtail.Hierarchy.Type_class_instance <> ring_Z inst
+R3046:3051 Coq.ZArith.ZArith <> <> lib
+R3069:3078 Coq.ZArith.Znumtheory <> <> lib
+sec 3090:3093 <> Z_nZ
+var 3108:3108 Z_nZ n
+R3112:3112 Coq.Numbers.BinNums <> Z ind
+def 3126:3131 <> mod_eq
+binder 3133:3133 <> x:4
+binder 3135:3135 <> y:5
+R3140:3141 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3143:3145 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3151:3152 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R3142:3142 Coqtail.Hierarchy.Type_class_instance <> Z_nZ.n var
+R3147:3149 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R3146:3146 Coqtail.Hierarchy.Type_class_instance <> y:5 var
+R3150:3150 Coqtail.Hierarchy.Type_class_instance <> x:4 var
+R3177:3182 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+not 3164:3164 Z_nZ :::x_'%='_x
+prf 3210:3220 <> mod_eq_refl
+R3224:3232 Coq.Classes.RelationClasses <> Reflexive class
+R3234:3239 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R3263:3268 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+prf 3311:3320 <> mod_eq_sym
+R3324:3332 Coq.Classes.RelationClasses <> Symmetric class
+R3334:3339 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R3392:3392 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3392:3392 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R3405:3429 Coq.ZArith.BinInt <> Zopp_mult_distr_l_reverse syndef
+R3405:3429 Coq.ZArith.BinInt <> Zopp_mult_distr_l_reverse syndef
+R3405:3429 Coq.ZArith.BinInt <> Zopp_mult_distr_l_reverse syndef
+prf 3464:3475 <> mod_eq_trans
+R3479:3488 Coq.Classes.RelationClasses <> Transitive class
+R3490:3495 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R3577:3579 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3577:3579 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3593:3610 Coq.ZArith.BinInt <> Zmult_plus_distr_l syndef
+R3593:3610 Coq.ZArith.BinInt <> Zmult_plus_distr_l syndef
+R3593:3610 Coq.ZArith.BinInt <> Zmult_plus_distr_l syndef
+inst 3763:3774 <> mod_eq_equiv
+R3778:3788 Coq.Classes.RelationClasses <> Equivalence class
+R3790:3795 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+prf 3850:3862 <> Zmod_plus_0_l
+R3877:3877 Coq.Numbers.BinNums <> Z ind
+binder 3873:3873 <> x:6
+R3880:3880 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R3886:3890 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R3882:3884 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3885:3885 Coqtail.Hierarchy.Type_class_instance <> x:6 var
+R3891:3891 Coqtail.Hierarchy.Type_class_instance <> x:6 var
+R3915:3920 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R3944:3952 Coq.ZArith.Znumtheory <> Zdivide_0 syndef
+R3944:3952 Coq.ZArith.Znumtheory <> Zdivide_0 syndef
+prf 3967:3979 <> Zmod_plus_0_r
+R3994:3994 Coq.Numbers.BinNums <> Z ind
+binder 3990:3990 <> x:7
+R3997:3997 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4003:4007 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R3999:4001 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R3998:3998 Coqtail.Hierarchy.Type_class_instance <> x:7 var
+R4008:4008 Coqtail.Hierarchy.Type_class_instance <> x:7 var
+R4034:4043 Coq.ZArith.BinInt <> Zplus_comm syndef
+R4052:4064 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_0_l thm
+R4034:4043 Coq.ZArith.BinInt <> Zplus_comm syndef
+R4034:4043 Coq.ZArith.BinInt <> Zplus_comm syndef
+R4052:4064 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_0_l thm
+prf 4079:4096 <> Zmod_plus_compat_r
+R4114:4114 Coq.Numbers.BinNums <> Z ind
+binder 4106:4106 <> x:8
+binder 4108:4108 <> y:9
+binder 4110:4110 <> z:10
+R4122:4125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4118:4120 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4117:4117 Coqtail.Hierarchy.Type_class_instance <> x:8 var
+R4121:4121 Coqtail.Hierarchy.Type_class_instance <> y:9 var
+R4126:4126 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4130:4135 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4139:4139 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4128:4128 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4127:4127 Coqtail.Hierarchy.Type_class_instance <> x:8 var
+R4129:4129 Coqtail.Hierarchy.Type_class_instance <> z:10 var
+R4137:4137 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4136:4136 Coqtail.Hierarchy.Type_class_instance <> y:9 var
+R4138:4138 Coqtail.Hierarchy.Type_class_instance <> z:10 var
+R4164:4169 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R4184:4189 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R4200:4218 Coq.ZArith.BinInt <> Zminus_plus_simpl_r thm
+R4200:4218 Coq.ZArith.BinInt <> Zminus_plus_simpl_r thm
+R4200:4218 Coq.ZArith.BinInt <> Zminus_plus_simpl_r thm
+prf 4242:4259 <> Zmod_plus_compat_l
+R4277:4277 Coq.Numbers.BinNums <> Z ind
+binder 4269:4269 <> x:11
+binder 4271:4271 <> y:12
+binder 4273:4273 <> z:13
+R4285:4288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4281:4283 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4280:4280 Coqtail.Hierarchy.Type_class_instance <> y:12 var
+R4284:4284 Coqtail.Hierarchy.Type_class_instance <> z:13 var
+R4289:4289 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4293:4298 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4302:4302 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4291:4291 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4290:4290 Coqtail.Hierarchy.Type_class_instance <> x:11 var
+R4292:4292 Coqtail.Hierarchy.Type_class_instance <> y:12 var
+R4300:4300 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4299:4299 Coqtail.Hierarchy.Type_class_instance <> x:11 var
+R4301:4301 Coqtail.Hierarchy.Type_class_instance <> z:13 var
+R4327:4332 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R4347:4352 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R4363:4381 Coq.ZArith.BinInt <> Zminus_plus_simpl_l thm
+R4363:4381 Coq.ZArith.BinInt <> Zminus_plus_simpl_l thm
+R4363:4381 Coq.ZArith.BinInt <> Zminus_plus_simpl_l thm
+inst 4408:4424 <> mod_eq_plus_assoc
+R4428:4438 Coqtail.Hierarchy.Type_class_definition <> Associative class
+R4447:4451 Coq.ZArith.BinInt <> Zplus syndef
+R4440:4445 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R4482:4487 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R4511:4519 Coq.ZArith.Znumtheory <> Zdivide_0 syndef
+R4511:4519 Coq.ZArith.Znumtheory <> Zdivide_0 syndef
+prf 4534:4546 <> Zmod_mult_1_r
+R4561:4561 Coq.Numbers.BinNums <> Z ind
+binder 4557:4557 <> x:14
+R4564:4564 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4570:4574 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4566:4568 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4565:4565 Coqtail.Hierarchy.Type_class_instance <> x:14 var
+R4575:4575 Coqtail.Hierarchy.Type_class_instance <> x:14 var
+R4613:4623 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+R4613:4623 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+prf 4638:4650 <> Zmod_mult_1_l
+R4665:4665 Coq.Numbers.BinNums <> Z ind
+binder 4661:4661 <> x:15
+R4668:4668 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4674:4678 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4670:4672 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4673:4673 Coqtail.Hierarchy.Type_class_instance <> x:15 var
+R4679:4679 Coqtail.Hierarchy.Type_class_instance <> x:15 var
+R4704:4713 Coq.ZArith.BinInt <> Zmult_comm syndef
+R4722:4734 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_1_r thm
+R4704:4713 Coq.ZArith.BinInt <> Zmult_comm syndef
+R4704:4713 Coq.ZArith.BinInt <> Zmult_comm syndef
+R4722:4734 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_1_r thm
+prf 4749:4766 <> Zmod_mult_compat_l
+R4785:4785 Coq.Numbers.BinNums <> Z ind
+binder 4777:4777 <> x:16
+binder 4779:4779 <> y:17
+binder 4781:4781 <> z:18
+R4792:4795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4789:4790 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4788:4788 Coqtail.Hierarchy.Type_class_instance <> y:17 var
+R4791:4791 Coqtail.Hierarchy.Type_class_instance <> z:18 var
+R4796:4796 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4800:4805 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4809:4809 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R4798:4798 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4797:4797 Coqtail.Hierarchy.Type_class_instance <> x:16 var
+R4799:4799 Coqtail.Hierarchy.Type_class_instance <> y:17 var
+R4807:4807 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4806:4806 Coqtail.Hierarchy.Type_class_instance <> x:16 var
+R4808:4808 Coqtail.Hierarchy.Type_class_instance <> z:18 var
+R4846:4851 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R4886:4886 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4865:4877 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R4886:4886 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4865:4877 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R4902:4920 Coq.ZArith.BinInt <> Zmult_minus_distr_l thm
+R4902:4920 Coq.ZArith.BinInt <> Zmult_minus_distr_l thm
+R4902:4920 Coq.ZArith.BinInt <> Zmult_minus_distr_l thm
+R4953:4963 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R4953:4963 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R4953:4963 Coq.ZArith.BinInt <> Zmult_assoc syndef
+prf 4991:5008 <> Zmod_mult_compat_r
+R5027:5027 Coq.Numbers.BinNums <> Z ind
+binder 5019:5019 <> x:19
+binder 5021:5021 <> y:20
+binder 5023:5023 <> z:21
+R5034:5037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5031:5032 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R5030:5030 Coqtail.Hierarchy.Type_class_instance <> x:19 var
+R5033:5033 Coqtail.Hierarchy.Type_class_instance <> y:20 var
+R5038:5038 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R5042:5047 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R5051:5051 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R5040:5040 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5039:5039 Coqtail.Hierarchy.Type_class_instance <> x:19 var
+R5041:5041 Coqtail.Hierarchy.Type_class_instance <> z:21 var
+R5049:5049 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5048:5048 Coqtail.Hierarchy.Type_class_instance <> y:20 var
+R5050:5050 Coqtail.Hierarchy.Type_class_instance <> z:21 var
+R5088:5093 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R5108:5113 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R5143:5143 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5122:5134 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R5143:5143 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R5122:5134 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R5159:5177 Coq.ZArith.BinInt <> Zmult_minus_distr_r syndef
+R5159:5177 Coq.ZArith.BinInt <> Zmult_minus_distr_r syndef
+R5159:5177 Coq.ZArith.BinInt <> Zmult_minus_distr_r syndef
+R5210:5219 Coq.ZArith.BinInt <> Zmult_comm syndef
+R5210:5219 Coq.ZArith.BinInt <> Zmult_comm syndef
+R5210:5219 Coq.ZArith.BinInt <> Zmult_comm syndef
+R5230:5240 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R5230:5240 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R5230:5240 Coq.ZArith.BinInt <> Zmult_assoc syndef
+inst 5280:5290 <> monoid_Z_nZ
+R5294:5299 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R5301:5301 Coq.Numbers.BinNums <> Z ind
+R5303:5308 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R5310:5314 Coq.ZArith.BinInt <> Zplus syndef
+R5324:5336 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R5341:5353 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_0_l thm
+R5384:5396 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_0_r thm
+R5384:5396 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_0_r thm
+R5431:5448 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_compat_l thm
+R5431:5448 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_compat_l thm
+R5483:5500 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_compat_r thm
+R5483:5500 Coqtail.Hierarchy.Type_class_instance <> Zmod_plus_compat_r thm
+inst 5518:5534 <> mod_eq_mult_assoc
+R5538:5548 Coqtail.Hierarchy.Type_class_definition <> Associative class
+R5557:5561 Coq.ZArith.BinInt <> Zmult syndef
+R5550:5555 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R5606:5616 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+R5606:5616 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+inst 5642:5657 <> monoid_mult_Z_nZ
+R5661:5666 Coqtail.Hierarchy.Type_class_definition <> Monoid class
+R5668:5668 Coq.Numbers.BinNums <> Z ind
+R5670:5675 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R5677:5681 Coq.ZArith.BinInt <> Zmult syndef
+R5691:5703 Coqtail.Hierarchy.Type_class_definition <> monoid_iden_l meth
+R5708:5720 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_1_l thm
+R5751:5763 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_1_r thm
+R5751:5763 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_1_r thm
+R5798:5815 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_compat_l thm
+R5798:5815 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_compat_l thm
+R5850:5867 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_compat_r thm
+R5850:5867 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_compat_r thm
+prf 5882:5899 <> mod_eq_plus_invert
+R5914:5914 Coq.Numbers.BinNums <> Z ind
+binder 5910:5910 <> x:22
+R5917:5919 Coq.Init.Specif <> sig ind
+binder 5926:5926 <> y:23
+R5931:5931 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R5937:5941 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R5933:5935 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5932:5932 Coqtail.Hierarchy.Type_class_instance <> x:22 var
+R5936:5936 Coqtail.Hierarchy.Type_class_instance <> y:23 var
+R5969:5969 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5995:6005 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+R5969:5969 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R5995:6005 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+inst 6031:6040 <> group_Z_nZ
+R6044:6048 Coqtail.Hierarchy.Type_class_definition <> Group class
+R6050:6050 Coq.Numbers.BinNums <> Z ind
+R6052:6057 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R6059:6063 Coq.ZArith.BinInt <> Zplus syndef
+R6073:6084 Coqtail.Hierarchy.Type_class_definition <> group_monoid meth
+R6089:6099 Coqtail.Hierarchy.Type_class_instance <> monoid_Z_nZ inst
+R6126:6143 Coqtail.Hierarchy.Type_class_instance <> mod_eq_plus_invert thm
+R6126:6143 Coqtail.Hierarchy.Type_class_instance <> mod_eq_plus_invert thm
+inst 6161:6174 <> Zmod_plus_comm
+R6178:6188 Coqtail.Hierarchy.Type_class_definition <> Commutative class
+R6197:6201 Coq.ZArith.BinInt <> Zplus syndef
+R6190:6195 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+inst 6244:6265 <> group_commutative_Z_nZ
+R6269:6285 Coqtail.Hierarchy.Type_class_definition <> Group_Commutative class
+R6287:6287 Coq.Numbers.BinNums <> Z ind
+R6289:6294 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R6296:6300 Coq.ZArith.BinInt <> Zplus syndef
+R6310:6325 Coqtail.Hierarchy.Type_class_definition <> group_comm_group meth
+R6330:6339 Coqtail.Hierarchy.Type_class_instance <> group_Z_nZ inst
+prf 6350:6371 <> Zmod_mult_plus_distr_r
+R6390:6390 Coq.Numbers.BinNums <> Z ind
+binder 6382:6382 <> n:24
+binder 6384:6384 <> m:25
+binder 6386:6386 <> p:26
+R6393:6393 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R6405:6410 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R6424:6424 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R6395:6398 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6404:6404 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6394:6394 Coqtail.Hierarchy.Type_class_instance <> n:24 var
+R6400:6402 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6399:6399 Coqtail.Hierarchy.Type_class_instance <> m:25 var
+R6403:6403 Coqtail.Hierarchy.Type_class_instance <> p:26 var
+R6416:6418 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6412:6414 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6411:6411 Coqtail.Hierarchy.Type_class_instance <> n:24 var
+R6415:6415 Coqtail.Hierarchy.Type_class_instance <> m:25 var
+R6420:6422 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6419:6419 Coqtail.Hierarchy.Type_class_instance <> n:24 var
+R6423:6423 Coqtail.Hierarchy.Type_class_instance <> p:26 var
+R6463:6473 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+R6463:6473 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+prf 6488:6509 <> Zmod_mult_plus_distr_l
+R6528:6528 Coq.Numbers.BinNums <> Z ind
+binder 6520:6520 <> n:27
+binder 6522:6522 <> m:28
+binder 6524:6524 <> p:29
+R6531:6531 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R6543:6548 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R6562:6562 Coqtail.Hierarchy.Type_class_instance Z_nZ :::x_'%='_x not
+R6532:6532 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6538:6541 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6534:6536 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6533:6533 Coqtail.Hierarchy.Type_class_instance <> n:27 var
+R6537:6537 Coqtail.Hierarchy.Type_class_instance <> m:28 var
+R6542:6542 Coqtail.Hierarchy.Type_class_instance <> p:29 var
+R6554:6556 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6550:6552 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6549:6549 Coqtail.Hierarchy.Type_class_instance <> n:27 var
+R6553:6553 Coqtail.Hierarchy.Type_class_instance <> p:29 var
+R6558:6560 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6557:6557 Coqtail.Hierarchy.Type_class_instance <> m:28 var
+R6561:6561 Coqtail.Hierarchy.Type_class_instance <> p:29 var
+R6601:6611 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+R6601:6611 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+inst 6637:6645 <> ring_Z_nZ
+R6649:6652 Coqtail.Hierarchy.Type_class_definition <> Ring class
+R6654:6654 Coq.Numbers.BinNums <> Z ind
+R6656:6661 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R6663:6667 Coq.ZArith.BinInt <> Zplus syndef
+R6669:6673 Coq.ZArith.BinInt <> Zmult syndef
+R6687:6701 Coqtail.Hierarchy.Type_class_definition <> ring_group_comm meth
+R6706:6727 Coqtail.Hierarchy.Type_class_instance <> group_commutative_Z_nZ inst
+R6754:6775 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_r thm
+R6754:6775 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_r thm
+R6806:6827 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_l thm
+R6806:6827 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_l thm
+inst 6845:6858 <> Zmod_mult_comm
+R6862:6872 Coqtail.Hierarchy.Type_class_definition <> Commutative class
+R6881:6885 Coq.ZArith.BinInt <> Zmult syndef
+R6874:6879 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R6917:6926 Coq.ZArith.BinInt <> Zmult_comm syndef
+R6935:6945 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+R6917:6926 Coq.ZArith.BinInt <> Zmult_comm syndef
+R6917:6926 Coq.ZArith.BinInt <> Zmult_comm syndef
+R6935:6945 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+inst 6963:6983 <> ring_commutative_Z_nZ
+R6987:7002 Coqtail.Hierarchy.Type_class_definition <> Ring_Commutative class
+R7004:7004 Coq.Numbers.BinNums <> Z ind
+R7006:7011 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R7013:7017 Coq.ZArith.BinInt <> Zplus syndef
+R7019:7023 Coq.ZArith.BinInt <> Zmult syndef
+R7037:7050 Coqtail.Hierarchy.Type_class_definition <> ring_comm_ring meth
+R7055:7063 Coqtail.Hierarchy.Type_class_instance <> ring_Z_nZ inst
+R7072:7075 Coqtail.Hierarchy.Type_class_instance Z_nZ <> sec
+R7094:7099 Coq.ZArith.ZArith <> <> lib
+R7117:7126 Coq.ZArith.Znumtheory <> <> lib
+R7144:7162 Coq.Logic.ConstructiveEpsilon <> <> lib
+sec 7174:7175 <> Fp
+var 7190:7190 Fp p
+R7194:7194 Coq.Numbers.BinNums <> Z ind
+var 7208:7214 Fp p_prime
+R7218:7222 Coq.ZArith.Znumtheory <> prime ind
+R7224:7224 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+def 7238:7240 <> rel
+R7245:7250 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R7252:7252 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R7277:7279 Coqtail.Hierarchy.Type_class_instance <> rel def
+not 7264:7264 Fp :::x_'%='_x
+prf 7307:7318 <> Zmult_iden_l
+R7333:7333 Coq.Numbers.BinNums <> Z ind
+binder 7329:7329 <> x:32
+R7337:7337 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R7343:7347 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R7339:7341 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7342:7342 Coqtail.Hierarchy.Type_class_instance <> x:32 var
+R7348:7348 Coqtail.Hierarchy.Type_class_instance <> x:32 var
+R7387:7397 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+R7387:7397 Coqtail.Hierarchy.Type_class_instance <> mod_eq_refl thm
+prf 7412:7423 <> Zmult_iden_r
+R7438:7438 Coq.Numbers.BinNums <> Z ind
+binder 7434:7434 <> x:33
+R7441:7441 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R7447:7451 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R7443:7445 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7442:7442 Coqtail.Hierarchy.Type_class_instance <> x:33 var
+R7452:7452 Coqtail.Hierarchy.Type_class_instance <> x:33 var
+R7478:7487 Coq.ZArith.BinInt <> Zmult_comm syndef
+R7496:7507 Coqtail.Hierarchy.Type_class_instance <> Zmult_iden_l thm
+R7478:7487 Coq.ZArith.BinInt <> Zmult_comm syndef
+R7478:7487 Coq.ZArith.BinInt <> Zmult_comm syndef
+R7496:7507 Coqtail.Hierarchy.Type_class_instance <> Zmult_iden_l thm
+sec 7536:7548 Fp ConstructiveZ
+var 7562:7562 Fp.ConstructiveZ P
+R7567:7570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7566:7566 Coq.Numbers.BinNums <> Z ind
+var 7590:7600 Fp.ConstructiveZ P_decidable
+binder 7611:7611 <> x:35
+R7614:7614 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7618:7622 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7628:7628 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R7615:7615 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7617:7617 Coqtail.Hierarchy.Type_class_instance <> x:35 var
+R7623:7624 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7625:7625 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7627:7627 Coqtail.Hierarchy.Type_class_instance <> x:35 var
+prf 7644:7680 <> constructive_indefinite_description_Z
+R7688:7691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7684:7685 Coq.Init.Logic <> ex ind
+R7687:7687 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7692:7694 Coq.Init.Specif <> sig ind
+R7696:7696 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7732:7742 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R7732:7742 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+binder 7828:7828 <> n:37
+R7847:7850 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7833:7833 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7836:7843 Coq.ZArith.BinInt <> Z_of_nat syndef
+R7845:7845 Coqtail.Hierarchy.Type_class_instance <> n:37 var
+R7851:7851 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7854:7855 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7856:7863 Coq.ZArith.BinInt <> Z_of_nat syndef
+R7865:7865 Coqtail.Hierarchy.Type_class_instance <> n:37 var
+binder 7828:7828 <> n:38
+R7847:7850 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7833:7833 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7836:7843 Coq.ZArith.BinInt <> Z_of_nat syndef
+R7845:7845 Coqtail.Hierarchy.Type_class_instance <> n:38 var
+R7851:7851 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P var
+R7854:7855 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R7856:7863 Coq.ZArith.BinInt <> Z_of_nat syndef
+R7865:7865 Coqtail.Hierarchy.Type_class_instance <> n:38 var
+R7889:7890 Coq.Init.Logic <> ex ind
+R7889:7890 Coq.Init.Logic <> ex ind
+R7936:7944 Coq.ZArith.BinInt Z abs_nat def
+R7936:7944 Coq.ZArith.BinInt Z abs_nat def
+R8025:8051 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R8025:8051 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R8025:8051 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R8025:8051 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R8025:8051 Coq.ZArith.Znat <> Zpos_eq_Z_of_nat_o_nat_of_P syndef
+R8081:8119 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_description_nat syndef
+R8081:8119 Coq.Logic.ConstructiveEpsilon <> constructive_indefinite_description_nat syndef
+R8154:8155 Coq.Logic.ConstructiveEpsilon <> P' def
+R8191:8198 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8173:8183 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8191:8198 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8173:8183 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8248:8249 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8250:8257 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8230:8240 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8248:8249 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8250:8257 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8230:8240 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8337:8344 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8319:8329 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8337:8344 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8319:8329 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8413:8414 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8415:8422 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8395:8405 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8413:8414 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8415:8422 Coq.ZArith.BinInt <> Z_of_nat syndef
+R8395:8405 Coqtail.Hierarchy.Type_class_instance <> Fp.ConstructiveZ.P_decidable var
+R8502:8506 Coq.Init.Logic <> False ind
+R8502:8506 Coq.Init.Logic <> False ind
+R8555:8567 Coqtail.Hierarchy.Type_class_instance Fp.ConstructiveZ <> sec
+prf 8578:8590 <> Zmult_reverse
+R8605:8605 Coq.Numbers.BinNums <> Z ind
+binder 8601:8601 <> x:39
+R8616:8619 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8608:8609 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8611:8614 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R8610:8610 Coqtail.Hierarchy.Type_class_instance <> x:39 var
+R8620:8622 Coq.Init.Specif <> sig ind
+binder 8629:8629 <> y:40
+R8634:8634 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R8640:8644 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R8636:8638 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R8635:8635 Coqtail.Hierarchy.Type_class_instance <> x:39 var
+R8639:8639 Coqtail.Hierarchy.Type_class_instance <> y:40 var
+R8670:8706 Coqtail.Hierarchy.Type_class_instance <> constructive_indefinite_description_Z thm
+R8670:8706 Coqtail.Hierarchy.Type_class_instance <> constructive_indefinite_description_Z thm
+R8725:8728 Coqtail.Hierarchy.Type_class_instance <> rel def
+R8731:8736 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R8746:8756 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R8746:8756 Coq.ZArith.Znumtheory <> Zdivide_dec thm
+R8764:8770 Coq.ZArith.Znumtheory <> Zis_gcd ind
+R8774:8774 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R8764:8770 Coq.ZArith.Znumtheory <> Zis_gcd ind
+R8774:8774 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R8801:8814 Coq.ZArith.Znumtheory <> Zis_gcd_bezout thm
+R8801:8814 Coq.ZArith.Znumtheory <> Zis_gcd_bezout thm
+R8905:8915 Coq.ZArith.Znumtheory <> Zone_divide syndef
+R8905:8915 Coq.ZArith.Znumtheory <> Zone_divide syndef
+R8905:8915 Coq.ZArith.Znumtheory <> Zone_divide syndef
+R8905:8915 Coq.ZArith.Znumtheory <> Zone_divide syndef
+R8942:8943 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8934:8938 Coq.ZArith.BinInt Z abs def
+R8944:8948 Coq.ZArith.BinInt Z abs def
+R8950:8950 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R8963:8976 Coq.ZArith.Znumtheory <> Zdivide_bounds thm
+R8942:8943 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R8934:8938 Coq.ZArith.BinInt Z abs def
+R8944:8948 Coq.ZArith.BinInt Z abs def
+R8950:8950 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R8963:8976 Coq.ZArith.Znumtheory <> Zdivide_bounds thm
+R8997:9003 Coqtail.Hierarchy.Type_class_instance <> Fp.p_prime var
+R9021:9025 Coq.ZArith.BinInt Z abs def
+R9027:9027 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9035:9035 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9021:9025 Coq.ZArith.BinInt Z abs def
+R9027:9027 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9035:9035 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9056:9056 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9077:9083 Coqtail.Hierarchy.Type_class_instance <> Fp.p_prime var
+R9108:9114 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9117:9118 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9115:9116 <> x1:41
+R9127:9130 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9120:9121 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R9124:9125 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R9122:9123 Coqtail.Hierarchy.Type_class_instance <> x1:41 var
+R9122:9123 Coqtail.Hierarchy.Type_class_instance <> x1:41 var
+R9126:9126 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9139:9142 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9131:9131 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9134:9136 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9138:9138 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9132:9133 Coqtail.Hierarchy.Type_class_instance <> x1:41 var
+R9151:9154 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9143:9143 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9146:9148 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9150:9150 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9144:9145 Coqtail.Hierarchy.Type_class_instance <> x1:41 var
+R9149:9149 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9163:9165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9155:9159 Coq.ZArith.BinInt Z abs def
+R9166:9167 Coqtail.Hierarchy.Type_class_instance <> x1:41 var
+R9108:9114 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9117:9118 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9115:9116 <> x1:42
+R9127:9130 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9120:9121 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R9124:9125 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<='_x not
+R9122:9123 Coqtail.Hierarchy.Type_class_instance <> x1:42 var
+R9122:9123 Coqtail.Hierarchy.Type_class_instance <> x1:42 var
+R9126:9126 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9139:9142 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9131:9131 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9134:9136 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9138:9138 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9132:9133 Coqtail.Hierarchy.Type_class_instance <> x1:42 var
+R9151:9154 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9143:9143 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9146:9148 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9150:9150 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9144:9145 Coqtail.Hierarchy.Type_class_instance <> x1:42 var
+R9149:9149 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9163:9165 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9155:9159 Coq.ZArith.BinInt Z abs def
+R9166:9167 Coqtail.Hierarchy.Type_class_instance <> x1:42 var
+R9234:9240 Coqtail.Hierarchy.Type_class_instance <> Fp.p_prime var
+R9283:9286 Coq.Numbers.BinNums <> Zpos constr
+R9319:9327 Coq.ZArith.Zorder <> Zle_0_pos thm
+R9283:9286 Coq.Numbers.BinNums <> Zpos constr
+R9319:9327 Coq.ZArith.Zorder <> Zle_0_pos thm
+R9340:9340 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R9341:9344 Coq.Numbers.BinNums <> Zneg constr
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9340:9340 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R9341:9344 Coq.Numbers.BinNums <> Zneg constr
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9377:9384 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9485:9485 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9488:9490 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9492:9492 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9485:9485 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9488:9490 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9492:9492 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R9561:9577 Coq.ZArith.Znumtheory <> Zdivide_opp_l_rev thm
+R9588:9595 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9561:9577 Coq.ZArith.Znumtheory <> Zdivide_opp_l_rev thm
+R9588:9595 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9588:9595 Coq.ZArith.BinInt <> Zopp_neg syndef
+R9632:9638 Coq.ZArith.Zorder <> dec_Zle syndef
+R9632:9638 Coq.ZArith.Zorder <> dec_Zle syndef
+R9654:9665 Coq.ZArith.Zorder <> Zle_lt_or_eq thm
+R9654:9665 Coq.ZArith.Zorder <> Zle_lt_or_eq thm
+R9718:9728 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R9756:9766 Coq.ZArith.Zorder <> Zle_antisym syndef
+R9718:9728 Coq.ZArith.Zorder <> Zlt_le_succ thm
+R9756:9766 Coq.ZArith.Zorder <> Zle_antisym syndef
+R9790:9800 Coq.ZArith.Znumtheory <> Zone_divide syndef
+R9790:9800 Coq.ZArith.Znumtheory <> Zone_divide syndef
+R9874:9880 Coqtail.Hierarchy.Type_class_instance <> Fp.p_prime var
+R9924:9933 Coq.ZArith.Zorder <> Znot_le_gt thm
+R9924:9933 Coq.ZArith.Zorder <> Znot_le_gt thm
+R9953:9959 Coq.ZArith.Zorder <> dec_Zlt syndef
+R9964:9964 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9953:9959 Coq.ZArith.Zorder <> dec_Zlt syndef
+R9964:9964 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R9979:9985 Coqtail.Hierarchy.Type_class_instance <> Fp.p_prime var
+R10029:10041 Coq.ZArith.BinInt Z divide_refl thm
+R10029:10041 Coq.ZArith.BinInt Z divide_refl thm
+R10070:10078 Coq.Init.Logic <> False_ind scheme
+R10070:10078 Coq.Init.Logic <> False_ind scheme
+R10115:10127 Coq.ZArith.Znumtheory <> Zdivide_opp_r thm
+R10115:10127 Coq.ZArith.Znumtheory <> Zdivide_opp_r thm
+R10140:10140 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R10160:10170 Coq.ZArith.Zorder <> Zle_antisym syndef
+R10140:10140 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R10160:10170 Coq.ZArith.Zorder <> Zle_antisym syndef
+prf 10205:10218 <> Zmult_compat_l
+R10236:10236 Coq.Numbers.BinNums <> Z ind
+binder 10228:10228 <> x:43
+binder 10230:10230 <> y:44
+binder 10232:10232 <> z:45
+R10249:10252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10239:10239 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10241:10246 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10248:10248 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10240:10240 Coqtail.Hierarchy.Type_class_instance <> y:44 var
+R10247:10247 Coqtail.Hierarchy.Type_class_instance <> z:45 var
+R10253:10253 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10259:10264 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10270:10270 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10255:10257 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10254:10254 Coqtail.Hierarchy.Type_class_instance <> x:43 var
+R10258:10258 Coqtail.Hierarchy.Type_class_instance <> y:44 var
+R10266:10268 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10265:10265 Coqtail.Hierarchy.Type_class_instance <> x:43 var
+R10269:10269 Coqtail.Hierarchy.Type_class_instance <> z:45 var
+R10295:10297 Coqtail.Hierarchy.Type_class_instance <> rel def
+R10307:10312 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R10322:10324 Coqtail.Hierarchy.Type_class_instance <> rel def
+R10339:10344 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R10400:10400 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10379:10391 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R10400:10400 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10379:10391 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R10416:10434 Coq.ZArith.BinInt <> Zmult_minus_distr_l thm
+R10416:10434 Coq.ZArith.BinInt <> Zmult_minus_distr_l thm
+R10416:10434 Coq.ZArith.BinInt <> Zmult_minus_distr_l thm
+R10456:10466 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R10456:10466 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R10456:10466 Coq.ZArith.BinInt <> Zmult_assoc syndef
+prf 10494:10507 <> Zmult_compat_r
+R10525:10525 Coq.Numbers.BinNums <> Z ind
+binder 10517:10517 <> x:46
+binder 10519:10519 <> y:47
+binder 10521:10521 <> z:48
+R10538:10541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10528:10528 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10530:10535 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10537:10537 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10529:10529 Coqtail.Hierarchy.Type_class_instance <> x:46 var
+R10536:10536 Coqtail.Hierarchy.Type_class_instance <> y:47 var
+R10542:10542 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10548:10553 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10559:10559 Coqtail.Hierarchy.Type_class_instance Fp :::x_'%='_x not
+R10544:10546 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10543:10543 Coqtail.Hierarchy.Type_class_instance <> x:46 var
+R10547:10547 Coqtail.Hierarchy.Type_class_instance <> z:48 var
+R10555:10557 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10554:10554 Coqtail.Hierarchy.Type_class_instance <> y:47 var
+R10558:10558 Coqtail.Hierarchy.Type_class_instance <> z:48 var
+R10584:10586 Coqtail.Hierarchy.Type_class_instance <> rel def
+R10596:10601 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R10611:10613 Coqtail.Hierarchy.Type_class_instance <> rel def
+R10628:10633 Coqtail.Hierarchy.Type_class_instance <> mod_eq def
+R10689:10689 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10668:10680 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R10689:10689 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R10668:10680 Coq.ZArith.Znumtheory <> Zdivide_intro def
+R10705:10723 Coq.ZArith.BinInt <> Zmult_minus_distr_r syndef
+R10705:10723 Coq.ZArith.BinInt <> Zmult_minus_distr_r syndef
+R10705:10723 Coq.ZArith.BinInt <> Zmult_minus_distr_r syndef
+R10745:10754 Coq.ZArith.BinInt <> Zmult_comm syndef
+R10745:10754 Coq.ZArith.BinInt <> Zmult_comm syndef
+R10745:10754 Coq.ZArith.BinInt <> Zmult_comm syndef
+R10765:10775 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R10765:10775 Coq.ZArith.BinInt <> Zmult_assoc syndef
+R10765:10775 Coq.ZArith.BinInt <> Zmult_assoc syndef
+inst 10814:10836 <> group_multiplicative_Fp
+R10840:10859 Coqtail.Hierarchy.Type_class_definition <> Group_Multiplicative class
+R10861:10861 Coq.Numbers.BinNums <> Z ind
+R10863:10865 Coqtail.Hierarchy.Type_class_instance <> rel def
+R10867:10871 Coq.ZArith.BinInt <> Zmult syndef
+R10881:10892 Coqtail.Hierarchy.Type_class_definition <> group_setoid meth
+R10897:10908 Coqtail.Hierarchy.Type_class_instance <> mod_eq_equiv inst
+R10910:10910 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R10941:10952 Coqtail.Hierarchy.Type_class_instance <> Zmult_iden_l thm
+R10941:10952 Coqtail.Hierarchy.Type_class_instance <> Zmult_iden_l thm
+R10987:10998 Coqtail.Hierarchy.Type_class_instance <> Zmult_iden_r thm
+R10987:10998 Coqtail.Hierarchy.Type_class_instance <> Zmult_iden_r thm
+R11033:11045 Coqtail.Hierarchy.Type_class_instance <> Zmult_reverse thm
+R11033:11045 Coqtail.Hierarchy.Type_class_instance <> Zmult_reverse thm
+R11080:11096 Coqtail.Hierarchy.Type_class_instance <> mod_eq_mult_assoc inst
+R11080:11096 Coqtail.Hierarchy.Type_class_instance <> mod_eq_mult_assoc inst
+R11131:11144 Coqtail.Hierarchy.Type_class_instance <> Zmult_compat_l thm
+R11131:11144 Coqtail.Hierarchy.Type_class_instance <> Zmult_compat_l thm
+R11179:11192 Coqtail.Hierarchy.Type_class_instance <> Zmult_compat_r thm
+R11179:11192 Coqtail.Hierarchy.Type_class_instance <> Zmult_compat_r thm
+inst 11218:11225 <> field_Fp
+R11229:11233 Coqtail.Hierarchy.Type_class_definition <> Field class
+R11235:11235 Coq.Numbers.BinNums <> Z ind
+R11237:11239 Coqtail.Hierarchy.Type_class_instance <> rel def
+R11241:11245 Coq.ZArith.BinInt <> Zplus syndef
+R11247:11251 Coq.ZArith.BinInt <> Zmult syndef
+R11265:11280 Coqtail.Hierarchy.Type_class_definition <> field_group_comm meth
+R11285:11306 Coqtail.Hierarchy.Type_class_instance <> group_commutative_Z_nZ inst
+R11308:11308 Coqtail.Hierarchy.Type_class_instance <> Fp.p var
+R11335:11356 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_r thm
+R11335:11356 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_r thm
+R11387:11408 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_l thm
+R11387:11408 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_plus_distr_l thm
+inst 11434:11453 <> field_commutative_Fp
+R11457:11473 Coqtail.Hierarchy.Type_class_definition <> Field_Commutative class
+R11475:11475 Coq.Numbers.BinNums <> Z ind
+R11477:11479 Coqtail.Hierarchy.Type_class_instance <> rel def
+R11481:11485 Coq.ZArith.BinInt <> Zplus syndef
+R11487:11491 Coq.ZArith.BinInt <> Zmult syndef
+R11505:11520 Coqtail.Hierarchy.Type_class_definition <> field_comm_field meth
+R11525:11532 Coqtail.Hierarchy.Type_class_instance <> field_Fp inst
+R11559:11572 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_comm inst
+R11559:11572 Coqtail.Hierarchy.Type_class_instance <> Zmod_mult_comm inst
+R11585:11586 Coqtail.Hierarchy.Type_class_instance Fp <> sec

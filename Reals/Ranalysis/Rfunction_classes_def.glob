@@ -1,0 +1,246 @@
+DIGEST 53ee1a482f84df9a6d64e37e0d688844
+FCoqtail.Reals.Ranalysis.Rfunction_classes_def
+R15:19 Coq.Reals.Rbase <> <> lib
+R37:45 Coq.Reals.Ranalysis <> <> lib
+R64:72 Coqtail.Reals.Ranalysis.Rinterval <> <> lib
+R74:86 Coqtail.Reals.Ranalysis.Ranalysis_def <> <> lib
+ind 157:162 <> DClass
+constr 198:200 <> D_0
+constr 219:221 <> D_S
+R170:173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R169:169 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R174:174 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 165:165 <> f:1
+R182:185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R179:181 Coq.Init.Datatypes <> nat ind
+R204:209 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass:2 ind
+R211:211 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:1 var
+binder 232:232 <> n:4
+R240:248 Coq.Reals.Ranalysis1 <> derivable def
+R250:250 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:1 var
+binder 235:236 <> pr:5
+R276:279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R254:259 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass:2 ind
+R275:275 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:4 var
+R262:267 Coq.Reals.Ranalysis1 <> derive def
+R269:269 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:1 var
+R271:272 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> pr:5 var
+R280:285 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass:2 ind
+R290:290 Coq.Init.Datatypes <> S constr
+R292:292 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:4 var
+R287:287 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:1 var
+def 308:308 <> D
+binder 310:310 <> n:6
+binder 312:312 <> f:7
+R317:322 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass ind
+R324:324 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:7 var
+R326:326 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:6 var
+ind 381:392 <> DClass_Rball
+constr 438:441 <> Db_0
+constr 470:473 <> Db_S
+R401:401 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 395:395 <> c:8
+binder 397:397 <> r:9
+R410:413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R409:409 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R414:414 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 405:405 <> f:10
+R422:425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R419:421 Coq.Init.Datatypes <> nat ind
+R445:456 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass_Rball:11 ind
+R462:462 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:10 var
+R460:460 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:9 var
+R458:458 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:8 var
+binder 484:484 <> n:13
+R492:506 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_Rball def
+R508:508 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:8 var
+R510:510 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:9 var
+R512:512 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:10 var
+binder 487:488 <> pr:14
+R569:583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R527:538 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass_Rball:11 ind
+R568:568 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:13 var
+R545:556 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R558:558 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:8 var
+R560:560 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:9 var
+R562:562 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:10 var
+R564:565 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> pr:14 var
+R542:542 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:9 var
+R540:540 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:8 var
+R584:595 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass_Rball:11 ind
+R604:604 Coq.Init.Datatypes <> S constr
+R606:606 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:13 var
+R601:601 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:10 var
+R599:599 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:9 var
+R597:597 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:8 var
+def 622:628 <> D_Rball
+binder 630:630 <> c:15
+binder 632:632 <> r:16
+binder 634:634 <> n:17
+binder 636:636 <> f:18
+R641:652 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> DClass_Rball ind
+R654:654 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:15 var
+R656:656 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:16 var
+R658:658 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:18 var
+R660:660 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:17 var
+def 697:703 <> D_infty
+R711:714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R710:710 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R715:715 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 706:706 <> f:19
+binder 728:728 <> n:20
+R731:731 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R733:733 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:20 var
+R735:735 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:19 var
+def 749:761 <> D_Rball_infty
+binder 763:763 <> c:21
+binder 765:765 <> r:22
+binder 767:767 <> f:23
+binder 779:779 <> n:24
+R782:788 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R790:790 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:21 var
+R792:792 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:22 var
+R794:794 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:24 var
+R796:796 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:23 var
+def 811:812 <> Dn
+R819:821 Coq.Init.Datatypes <> nat ind
+binder 815:815 <> n:25
+R827:830 Coq.Init.Specif <> sigT ind
+R833:833 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R835:835 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:25 var
+def 850:857 <> Dn_Rball
+binder 859:859 <> c:26
+binder 861:861 <> r:27
+binder 863:863 <> n:28
+R868:871 Coq.Init.Specif <> sigT ind
+R874:880 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R882:882 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:26 var
+R884:884 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:27 var
+R886:886 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:28 var
+def 902:907 <> Dinfty
+R912:915 Coq.Init.Specif <> sigT ind
+R917:923 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+ind 966:971 <> CClass
+constr 1007:1009 <> C_0
+constr 1044:1046 <> C_S
+R979:982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R978:978 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R983:983 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 974:974 <> f:29
+R991:994 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R988:990 Coq.Init.Datatypes <> nat ind
+R1025:1028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1013:1022 Coq.Reals.Ranalysis1 <> continuity def
+R1024:1024 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:29 var
+R1029:1034 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass:30 ind
+R1036:1036 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:29 var
+binder 1057:1057 <> n:32
+R1065:1073 Coq.Reals.Ranalysis1 <> derivable def
+R1075:1075 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:29 var
+binder 1060:1061 <> pr:33
+R1101:1104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1079:1084 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass:30 ind
+R1100:1100 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:32 var
+R1087:1092 Coq.Reals.Ranalysis1 <> derive def
+R1094:1094 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:29 var
+R1096:1097 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> pr:33 var
+R1105:1110 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass:30 ind
+R1115:1115 Coq.Init.Datatypes <> S constr
+R1117:1117 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:32 var
+R1112:1112 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:29 var
+def 1133:1133 <> C
+binder 1135:1135 <> n:34
+binder 1137:1137 <> f:35
+R1143:1148 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass ind
+R1150:1150 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:35 var
+R1152:1152 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:34 var
+ind 1208:1219 <> CClass_Rball
+constr 1265:1268 <> Cb_0
+constr 1323:1326 <> Cb_S
+R1228:1228 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1222:1222 <> c:36
+binder 1224:1224 <> r:37
+R1237:1240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1236:1236 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1241:1241 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1232:1232 <> f:38
+R1249:1252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1246:1248 Coq.Init.Datatypes <> nat ind
+R1294:1297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1272:1287 Coqtail.Reals.Ranalysis.Ranalysis_def <> continuity_Rball def
+R1289:1289 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:36 var
+R1291:1291 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:37 var
+R1293:1293 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:38 var
+R1298:1309 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass_Rball:39 ind
+R1315:1315 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:38 var
+R1313:1313 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:37 var
+R1311:1311 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:36 var
+binder 1337:1337 <> n:41
+R1345:1359 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_Rball def
+R1361:1361 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:36 var
+R1363:1363 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:37 var
+R1365:1365 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:38 var
+binder 1340:1341 <> pr:42
+R1422:1436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1380:1391 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass_Rball:39 ind
+R1421:1421 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:41 var
+R1398:1409 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R1411:1411 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:36 var
+R1413:1413 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:37 var
+R1415:1415 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:38 var
+R1417:1418 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> pr:42 var
+R1395:1395 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:37 var
+R1393:1393 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:36 var
+R1437:1448 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass_Rball:39 ind
+R1457:1457 Coq.Init.Datatypes <> S constr
+R1459:1459 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:41 var
+R1454:1454 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:38 var
+R1452:1452 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:37 var
+R1450:1450 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:36 var
+def 1475:1481 <> C_Rball
+binder 1483:1483 <> c:43
+binder 1485:1485 <> r:44
+binder 1487:1487 <> n:45
+binder 1489:1489 <> f:46
+R1494:1505 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> CClass_Rball ind
+R1507:1507 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:43 var
+R1509:1509 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:44 var
+R1511:1511 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:46 var
+R1513:1513 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:45 var
+def 1550:1556 <> C_infty
+R1564:1567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1563:1563 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1568:1568 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1559:1559 <> f:47
+binder 1581:1581 <> n:48
+R1584:1584 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R1586:1586 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:48 var
+R1588:1588 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:47 var
+def 1602:1614 <> C_Rball_infty
+binder 1616:1616 <> c:49
+binder 1618:1618 <> r:50
+binder 1620:1620 <> f:51
+binder 1632:1632 <> n:52
+R1635:1641 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R1643:1643 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:49 var
+R1645:1645 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:50 var
+R1647:1647 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:52 var
+R1649:1649 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> f:51 var
+def 1664:1665 <> Cn
+R1672:1674 Coq.Init.Datatypes <> nat ind
+binder 1668:1668 <> n:53
+R1687:1690 Coq.Init.Specif <> sigT ind
+R1693:1693 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R1695:1695 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:53 var
+def 1710:1717 <> Cn_Rball
+binder 1719:1719 <> c:54
+binder 1721:1721 <> r:55
+binder 1723:1723 <> n:56
+R1728:1731 Coq.Init.Specif <> sigT ind
+R1734:1740 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R1742:1742 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> c:54 var
+R1744:1744 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> r:55 var
+R1746:1746 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> n:56 var
+def 1762:1767 <> Cinfty
+R1779:1782 Coq.Init.Specif <> sigT ind
+R1784:1790 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def

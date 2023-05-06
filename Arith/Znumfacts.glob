@@ -1,0 +1,598 @@
+DIGEST 51157ebc0c9b1b09c95c01a17ed1753d
+FCoqtail.Arith.Znumfacts
+R15:20 Coq.ZArith.ZArith <> <> lib
+R22:24 Coq.micromega.Lia <> <> lib
+R26:35 Coq.ZArith.Znumtheory <> <> lib
+R53:59 Coqtail.Arith.Natsets <> <> lib
+R61:65 Coqtail.mytheories.MyNat <> <> lib
+R67:72 Coqtail.Arith.Ztools <> <> lib
+R74:77 Coqtail.Arith.Zeqm <> <> lib
+def 694:710 <> prime_dec_aux_inf
+binder 722:722 <> p:1
+binder 724:724 <> m:2
+R767:775 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R812:813 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R731:732 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R734:736 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R765:766 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 733:733 <> n:3
+R746:749 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R738:740 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R742:744 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R741:741 Coqtail.Arith.Znumfacts <> n:3 var
+R741:741 Coqtail.Arith.Znumfacts <> n:3 var
+R745:745 Coqtail.Arith.Znumfacts <> m:2 var
+R750:751 Coq.Init.Logic <> ::type_scope:'~'_x not
+R752:760 Coq.ZArith.Znumtheory <> rel_prime def
+R762:762 Coqtail.Arith.Znumfacts <> n:3 var
+R764:764 Coqtail.Arith.Znumfacts <> p:1 var
+binder 783:783 <> n:4
+R795:798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R787:789 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R791:793 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R790:790 Coqtail.Arith.Znumfacts <> n:4 var
+R790:790 Coqtail.Arith.Znumfacts <> n:4 var
+R794:794 Coqtail.Arith.Znumfacts <> m:2 var
+R799:807 Coq.ZArith.Znumtheory <> rel_prime def
+R809:809 Coqtail.Arith.Znumfacts <> n:4 var
+R811:811 Coqtail.Arith.Znumfacts <> p:1 var
+R845:852 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R845:852 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R929:939 Coq.ZArith.Wf_Z <> natlike_rec thm
+R929:939 Coq.ZArith.Wf_Z <> natlike_rec thm
+R1127:1139 Coq.ZArith.Znumtheory <> rel_prime_dec def
+R1127:1139 Coq.ZArith.Znumtheory <> rel_prime_dec def
+R1201:1217 Coq.ZArith.Zorder <> Zgt_succ_gt_or_eq thm
+R1201:1217 Coq.ZArith.Zorder <> Zgt_succ_gt_or_eq thm
+R1295:1302 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+R1295:1302 Coq.ZArith.ZArith_dec <> Z_lt_dec def
+prf 1515:1534 <> not_prime_divide_inf
+binder 1545:1545 <> p:5
+R1553:1556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1549:1551 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R1552:1552 Coqtail.Arith.Znumfacts <> p:5 var
+R1566:1569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1557:1558 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1559:1563 Coq.ZArith.Znumtheory <> prime ind
+R1565:1565 Coqtail.Arith.Znumfacts <> p:5 var
+R1570:1571 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1573:1575 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R1597:1598 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 1572:1572 <> n:6
+R1585:1589 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1577:1579 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R1581:1583 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R1580:1580 Coqtail.Arith.Znumfacts <> n:6 var
+R1580:1580 Coqtail.Arith.Znumfacts <> n:6 var
+R1584:1584 Coqtail.Arith.Znumfacts <> p:5 var
+R1590:1590 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1592:1594 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1596:1596 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R1591:1591 Coqtail.Arith.Znumfacts <> n:6 var
+R1595:1595 Coqtail.Arith.Znumfacts <> p:5 var
+R1635:1651 Coqtail.Arith.Znumfacts <> prime_dec_aux_inf def
+R1635:1651 Coqtail.Arith.Znumfacts <> prime_dec_aux_inf def
+R1719:1729 Coq.ZArith.Znumtheory <> Zgcd_is_pos syndef
+R1719:1729 Coq.ZArith.Znumtheory <> Zgcd_is_pos syndef
+R1760:1773 Coq.ZArith.ZArith_dec <> Z_le_lt_eq_dec def
+R1778:1782 Coq.ZArith.BinInt Z gcd def
+R1760:1773 Coq.ZArith.ZArith_dec <> Z_le_lt_eq_dec def
+R1778:1782 Coq.ZArith.BinInt Z gcd def
+R1832:1845 Coq.ZArith.ZArith_dec <> Z_le_lt_eq_dec def
+R1850:1854 Coq.ZArith.BinInt Z gcd def
+R1832:1845 Coq.ZArith.ZArith_dec <> Z_le_lt_eq_dec def
+R1850:1854 Coq.ZArith.BinInt Z gcd def
+R1908:1912 Coq.ZArith.BinInt Z gcd def
+R1908:1912 Coq.ZArith.BinInt Z gcd def
+R1972:1984 Coq.ZArith.BinInt Z le_lt_trans thm
+R1972:1984 Coq.ZArith.BinInt Z le_lt_trans thm
+R2034:2044 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2034:2044 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2151:2159 Coq.ZArith.Zorder <> Zle_or_lt syndef
+R2239:2242 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2244:2246 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2247:2251 Coq.ZArith.BinInt Z gcd def
+R2151:2159 Coq.ZArith.Zorder <> Zle_or_lt syndef
+R2239:2242 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R2244:2246 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2247:2251 Coq.ZArith.BinInt Z gcd def
+R2387:2389 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2390:2394 Coq.ZArith.BinInt Z gcd def
+R2369:2378 Coq.ZArith.BinInt Z le_trans thm
+R2387:2389 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2390:2394 Coq.ZArith.BinInt Z gcd def
+R2369:2378 Coq.ZArith.BinInt Z le_trans thm
+R2512:2522 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2512:2522 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2621:2631 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2621:2631 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2659:2669 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2659:2669 Coq.ZArith.Znumtheory <> Zgcd_is_gcd thm
+R2765:2767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2765:2767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2895:2906 Coq.ZArith.Zorder <> Zle_lt_or_eq thm
+R2895:2906 Coq.ZArith.Zorder <> Zle_lt_or_eq thm
+R2980:2992 Coq.ZArith.Znumtheory <> Zis_gcd_intro constr
+R2980:2992 Coq.ZArith.Znumtheory <> Zis_gcd_intro constr
+prf 3029:3048 <> Pcompare_notEq_notEq
+binder 3059:3059 <> a:7
+binder 3061:3061 <> b:8
+R3068:3068 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3090:3095 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3117:3117 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3084:3087 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3069:3076 Coq.PArith.BinPos <> Pcompare syndef
+R3082:3083 Coq.Init.Datatypes <> Lt constr
+R3078:3078 Coqtail.Arith.Znumfacts <> a:7 var
+R3080:3080 Coqtail.Arith.Znumfacts <> b:8 var
+R3088:3089 Coq.Init.Datatypes <> Eq constr
+R3111:3114 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3096:3103 Coq.PArith.BinPos <> Pcompare syndef
+R3109:3110 Coq.Init.Datatypes <> Gt constr
+R3105:3105 Coqtail.Arith.Znumfacts <> a:7 var
+R3107:3107 Coqtail.Arith.Znumfacts <> b:8 var
+R3115:3116 Coq.Init.Datatypes <> Eq constr
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3320:3324 Coq.Init.Logic <> proj2 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3320:3324 Coq.Init.Logic <> proj2 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3320:3324 Coq.Init.Logic <> proj2 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3320:3324 Coq.Init.Logic <> proj2 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3278:3282 Coq.Init.Logic <> proj1 thm
+R3320:3324 Coq.Init.Logic <> proj2 thm
+prf 3365:3378 <> Pcompare_Eq_eq
+binder 3389:3389 <> a:9
+binder 3391:3391 <> b:10
+R3414:3417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3409:3411 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3394:3401 Coq.PArith.BinPos <> Pcompare syndef
+R3407:3408 Coq.Init.Datatypes <> Eq constr
+R3403:3403 Coqtail.Arith.Znumfacts <> a:9 var
+R3405:3405 Coqtail.Arith.Znumfacts <> b:10 var
+R3412:3413 Coq.Init.Datatypes <> Eq constr
+R3419:3421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3418:3418 Coqtail.Arith.Znumfacts <> a:9 var
+R3422:3422 Coqtail.Arith.Znumfacts <> b:10 var
+R3623:3642 Coqtail.Arith.Znumfacts <> Pcompare_notEq_notEq thm
+R3623:3642 Coqtail.Arith.Znumfacts <> Pcompare_notEq_notEq thm
+R3671:3675 Coq.Init.Logic <> proj1 thm
+R3678:3697 Coqtail.Arith.Znumfacts <> Pcompare_notEq_notEq thm
+R3671:3675 Coq.Init.Logic <> proj1 thm
+R3678:3697 Coqtail.Arith.Znumfacts <> Pcompare_notEq_notEq thm
+prf 3729:3742 <> Zcompare_Eq_eq
+R3759:3759 Coq.Numbers.BinNums <> Z ind
+binder 3753:3753 <> n:11
+binder 3755:3755 <> m:12
+R3775:3778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3762:3762 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3769:3772 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3764:3767 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R3763:3763 Coqtail.Arith.Znumfacts <> n:11 var
+R3768:3768 Coqtail.Arith.Znumfacts <> m:12 var
+R3773:3774 Coq.Init.Datatypes <> Eq constr
+R3780:3782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3779:3779 Coqtail.Arith.Znumfacts <> n:11 var
+R3783:3783 Coqtail.Arith.Znumfacts <> m:12 var
+R3933:3946 Coqtail.Arith.Znumfacts <> Pcompare_Eq_eq thm
+R3933:3946 Coqtail.Arith.Znumfacts <> Pcompare_Eq_eq thm
+R3933:3946 Coqtail.Arith.Znumfacts <> Pcompare_Eq_eq thm
+R3966:3969 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R3995:3998 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R3966:3969 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R3995:3998 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+def 4055:4068 <> Z_le_lt_eq_dec
+binder 4070:4070 <> x:13
+binder 4072:4072 <> y:14
+R4082:4085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4077:4080 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4076:4076 Coqtail.Arith.Znumfacts <> x:13 var
+R4081:4081 Coqtail.Arith.Znumfacts <> y:14 var
+R4086:4086 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4092:4096 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4102:4102 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4088:4090 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R4087:4087 Coqtail.Arith.Znumfacts <> x:13 var
+R4091:4091 Coqtail.Arith.Znumfacts <> y:14 var
+R4098:4100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4097:4097 Coqtail.Arith.Znumfacts <> x:13 var
+R4101:4101 Coqtail.Arith.Znumfacts <> y:14 var
+binder 4151:4151 <> x:15
+binder 4153:4153 <> y:16
+R4158:4161 Coq.Init.Logic <> conj constr
+R4227:4229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4226:4226 Coqtail.Arith.Znumfacts <> x:15 var
+R4230:4230 Coqtail.Arith.Znumfacts <> y:16 var
+binder 4222:4222 <> E:17
+R4243:4250 Coq.Init.Logic <> eq_ind_r def
+R4298:4298 Coqtail.Arith.Znumfacts <> E:17 var
+R4280:4293 Coq.ZArith.BinInt Z compare_refl thm
+R4295:4295 Coqtail.Arith.Znumfacts <> y:16 var
+binder 4257:4258 <> x0:18
+R4263:4263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4271:4274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4266:4269 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R4264:4265 Coqtail.Arith.Znumfacts <> x0:18 var
+R4270:4270 Coqtail.Arith.Znumfacts <> y:16 var
+R4275:4276 Coq.Init.Datatypes <> Eq constr
+R4172:4172 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4179:4182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4174:4177 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R4173:4173 Coqtail.Arith.Znumfacts <> x:15 var
+R4178:4178 Coqtail.Arith.Znumfacts <> y:16 var
+R4183:4184 Coq.Init.Datatypes <> Eq constr
+binder 4168:4168 <> E:19
+R4189:4202 Coqtail.Arith.Znumfacts <> Zcompare_Eq_eq thm
+R4204:4204 Coqtail.Arith.Znumfacts <> x:15 var
+R4206:4206 Coqtail.Arith.Znumfacts <> y:16 var
+R4208:4208 Coqtail.Arith.Znumfacts <> E:19 var
+binder 4151:4151 <> x:20
+binder 4153:4153 <> y:21
+R4158:4161 Coq.Init.Logic <> conj constr
+R4227:4229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4226:4226 Coqtail.Arith.Znumfacts <> x:20 var
+R4230:4230 Coqtail.Arith.Znumfacts <> y:21 var
+binder 4222:4222 <> E:22
+R4243:4250 Coq.Init.Logic <> eq_ind_r def
+R4298:4298 Coqtail.Arith.Znumfacts <> E:22 var
+R4280:4293 Coq.ZArith.BinInt Z compare_refl thm
+R4295:4295 Coqtail.Arith.Znumfacts <> y:21 var
+binder 4257:4258 <> x0:23
+R4263:4263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4271:4274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4266:4269 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R4264:4265 Coqtail.Arith.Znumfacts <> x0:23 var
+R4270:4270 Coqtail.Arith.Znumfacts <> y:21 var
+R4275:4276 Coq.Init.Datatypes <> Eq constr
+R4172:4172 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4179:4182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4174:4177 Coq.ZArith.BinInt <> ::Z_scope:x_'?='_x not
+R4173:4173 Coqtail.Arith.Znumfacts <> x:20 var
+R4178:4178 Coqtail.Arith.Znumfacts <> y:21 var
+R4183:4184 Coq.Init.Datatypes <> Eq constr
+binder 4168:4168 <> E:24
+R4189:4202 Coqtail.Arith.Znumfacts <> Zcompare_Eq_eq thm
+R4204:4204 Coqtail.Arith.Znumfacts <> x:20 var
+R4206:4206 Coqtail.Arith.Znumfacts <> y:21 var
+R4208:4208 Coqtail.Arith.Znumfacts <> E:24 var
+R4322:4333 Coq.ZArith.ZArith_dec <> Zcompare_rec thm
+R4322:4333 Coq.ZArith.ZArith_dec <> Zcompare_rec thm
+R4499:4501 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R4499:4501 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+prf 4613:4624 <> Z_prime_rect
+R4640:4643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4639:4639 Coq.Numbers.BinNums <> Z ind
+binder 4635:4635 <> P:25
+R4653:4653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4657:4663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4654:4654 Coqtail.Arith.Znumfacts <> P:25 var
+R4664:4664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4668:4674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4665:4665 Coqtail.Arith.Znumfacts <> P:25 var
+R4675:4675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4700:4706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4683:4683 <> n:26
+R4693:4696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4686:4690 Coq.ZArith.Znumtheory <> prime ind
+R4692:4692 Coqtail.Arith.Znumfacts <> n:26 var
+R4697:4697 Coqtail.Arith.Znumfacts <> P:25 var
+R4699:4699 Coqtail.Arith.Znumfacts <> n:26 var
+R4707:4707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4743:4751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4715:4715 <> a:27
+binder 4717:4717 <> b:28
+R4723:4726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4720:4720 Coqtail.Arith.Znumfacts <> P:25 var
+R4722:4722 Coqtail.Arith.Znumfacts <> a:27 var
+R4730:4733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4727:4727 Coqtail.Arith.Znumfacts <> P:25 var
+R4729:4729 Coqtail.Arith.Znumfacts <> b:28 var
+R4734:4734 Coqtail.Arith.Znumfacts <> P:25 var
+R4738:4740 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R4737:4737 Coqtail.Arith.Znumfacts <> a:27 var
+R4741:4741 Coqtail.Arith.Znumfacts <> b:28 var
+binder 4759:4759 <> n:29
+R4768:4771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4763:4766 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4767:4767 Coqtail.Arith.Znumfacts <> n:29 var
+R4772:4772 Coqtail.Arith.Znumfacts <> P:25 var
+R4774:4774 Coqtail.Arith.Znumfacts <> n:29 var
+R4848:4850 Coq.Init.Datatypes <> nat ind
+binder 4844:4844 <> N:30
+binder 4853:4853 <> n:31
+R4862:4865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4857:4860 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4861:4861 Coqtail.Arith.Znumfacts <> n:31 var
+R4887:4890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4878:4880 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4867:4875 Coq.ZArith.BinInt Z abs_nat def
+R4877:4877 Coqtail.Arith.Znumfacts <> n:31 var
+R4881:4881 Coqtail.Arith.Znumfacts <> N:30 var
+R4893:4893 Coqtail.Arith.Znumfacts <> n:31 var
+R4848:4850 Coq.Init.Datatypes <> nat ind
+binder 4844:4844 <> N:32
+binder 4853:4853 <> n:33
+R4862:4865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4857:4860 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R4861:4861 Coqtail.Arith.Znumfacts <> n:33 var
+R4887:4890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4878:4880 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4867:4875 Coq.ZArith.BinInt Z abs_nat def
+R4877:4877 Coqtail.Arith.Znumfacts <> n:33 var
+R4881:4881 Coqtail.Arith.Znumfacts <> N:32 var
+R4893:4893 Coqtail.Arith.Znumfacts <> n:33 var
+R5039:5052 Coqtail.Arith.Znumfacts <> Z_le_lt_eq_dec def
+R5057:5064 Coq.ZArith.BinInt <> Z_of_nat syndef
+R5039:5052 Coqtail.Arith.Znumfacts <> Z_le_lt_eq_dec def
+R5057:5064 Coq.ZArith.BinInt <> Z_of_nat syndef
+R5195:5203 Coq.ZArith.Znumtheory <> prime_dec def
+R5206:5213 Coq.ZArith.BinInt <> Z_of_nat syndef
+R5195:5203 Coq.ZArith.Znumtheory <> prime_dec def
+R5206:5213 Coq.ZArith.BinInt <> Z_of_nat syndef
+R5422:5429 Coq.ZArith.BinInt <> Z_of_nat syndef
+R5432:5432 Coq.Init.Datatypes <> S constr
+R5435:5435 Coq.Init.Datatypes <> S constr
+R5422:5429 Coq.ZArith.BinInt <> Z_of_nat syndef
+R5432:5432 Coq.Init.Datatypes <> S constr
+R5435:5435 Coq.Init.Datatypes <> S constr
+R5466:5468 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5466:5468 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5508:5527 Coqtail.Arith.Znumfacts <> not_prime_divide_inf thm
+R5508:5527 Coqtail.Arith.Znumfacts <> not_prime_divide_inf thm
+R5590:5600 Coqtail.Arith.Ztools <> Zdivide_inf thm
+R5590:5600 Coqtail.Arith.Ztools <> Zdivide_inf thm
+R5724:5726 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R5728:5730 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R5724:5726 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R5728:5730 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<'_x not
+R5752:5754 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5768:5781 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R5752:5754 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5768:5781 Coq.ZArith.Zorder <> Zmult_lt_reg_r thm
+R5838:5846 Coq.ZArith.BinInt <> Zmult_1_r syndef
+R5838:5846 Coq.ZArith.BinInt <> Zmult_1_r syndef
+R5838:5846 Coq.ZArith.BinInt <> Zmult_1_r syndef
+R5871:5887 Coq.ZArith.Zorder <> Zmult_lt_compat_l thm
+R5871:5887 Coq.ZArith.Zorder <> Zmult_lt_compat_l thm
+R6007:6007 Coq.Init.Datatypes <> S constr
+R6010:6018 Coq.ZArith.BinInt Z abs_nat def
+R6007:6007 Coq.Init.Datatypes <> S constr
+R6010:6018 Coq.ZArith.BinInt Z abs_nat def
+prf 6048:6058 <> Z_prime_ind
+R6074:6077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6073:6073 Coq.Numbers.BinNums <> Z ind
+binder 6069:6069 <> P:34
+R6087:6087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6091:6097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6088:6088 Coqtail.Arith.Znumfacts <> P:34 var
+R6098:6098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6102:6108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6099:6099 Coqtail.Arith.Znumfacts <> P:34 var
+R6109:6109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6134:6140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6117:6117 <> n:35
+R6127:6130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6120:6124 Coq.ZArith.Znumtheory <> prime ind
+R6126:6126 Coqtail.Arith.Znumfacts <> n:35 var
+R6131:6131 Coqtail.Arith.Znumfacts <> P:34 var
+R6133:6133 Coqtail.Arith.Znumfacts <> n:35 var
+R6141:6141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6177:6185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6149:6149 <> a:36
+binder 6151:6151 <> b:37
+R6157:6160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6154:6154 Coqtail.Arith.Znumfacts <> P:34 var
+R6156:6156 Coqtail.Arith.Znumfacts <> a:36 var
+R6164:6167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6161:6161 Coqtail.Arith.Znumfacts <> P:34 var
+R6163:6163 Coqtail.Arith.Znumfacts <> b:37 var
+R6168:6168 Coqtail.Arith.Znumfacts <> P:34 var
+R6172:6174 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6171:6171 Coqtail.Arith.Znumfacts <> a:36 var
+R6175:6175 Coqtail.Arith.Znumfacts <> b:37 var
+binder 6193:6193 <> n:38
+R6202:6205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6197:6200 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6201:6201 Coqtail.Arith.Znumfacts <> n:38 var
+R6206:6206 Coqtail.Arith.Znumfacts <> P:34 var
+R6208:6208 Coqtail.Arith.Znumfacts <> n:38 var
+R6237:6248 Coqtail.Arith.Znumfacts <> Z_prime_rect thm
+R6237:6248 Coqtail.Arith.Znumfacts <> Z_prime_rect thm
+prf 6335:6344 <> bezout_inj
+binder 6355:6355 <> a:39
+binder 6357:6357 <> b:40
+R6362:6362 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6364:6366 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6368:6370 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6402:6402 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6367:6367 Coq.Numbers.BinNums <> Z ind
+binder 6363:6363 <> u:41
+R6371:6371 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R6373:6375 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R6401:6401 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 6372:6372 <> v:42
+R6389:6391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6381:6383 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6377:6379 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6376:6376 Coqtail.Arith.Znumfacts <> u:41 var
+R6380:6380 Coqtail.Arith.Znumfacts <> a:39 var
+R6385:6387 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6384:6384 Coqtail.Arith.Znumfacts <> v:42 var
+R6388:6388 Coqtail.Arith.Znumfacts <> b:40 var
+R6392:6396 Coq.ZArith.BinInt Z gcd def
+R6398:6398 Coqtail.Arith.Znumfacts <> a:39 var
+R6400:6400 Coqtail.Arith.Znumfacts <> b:40 var
+R6438:6443 Coq.ZArith.Znumtheory <> euclid thm
+R6438:6443 Coq.ZArith.Znumtheory <> euclid thm
+R6482:6489 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R6482:6489 Coq.ZArith.ZArith_dec <> Z_le_dec def
+R6543:6553 Coq.ZArith.Znumtheory <> Zis_gcd_gcd thm
+R6543:6553 Coq.ZArith.Znumtheory <> Zis_gcd_gcd thm
+R6543:6553 Coq.ZArith.Znumtheory <> Zis_gcd_gcd thm
+R6594:6595 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6608:6609 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6594:6595 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6608:6609 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6632:6635 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6636:6637 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6632:6635 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R6636:6637 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R6662:6672 Coq.ZArith.Znumtheory <> Zis_gcd_gcd thm
+R6662:6672 Coq.ZArith.Znumtheory <> Zis_gcd_gcd thm
+R6662:6672 Coq.ZArith.Znumtheory <> Zis_gcd_gcd thm
+R6662:6672 Coq.ZArith.Znumtheory <> Zis_gcd_gcd thm
+R6723:6733 Coq.ZArith.Znumtheory <> Zis_gcd_opp thm
+R6736:6746 Coq.ZArith.Znumtheory <> Zis_gcd_sym thm
+R6723:6733 Coq.ZArith.Znumtheory <> Zis_gcd_opp thm
+R6736:6746 Coq.ZArith.Znumtheory <> Zis_gcd_sym thm
+prf 6767:6782 <> rel_prime_bezout
+binder 6793:6793 <> a:43
+binder 6795:6795 <> b:44
+R6811:6816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6798:6806 Coq.ZArith.Znumtheory <> rel_prime def
+R6808:6808 Coqtail.Arith.Znumfacts <> a:43 var
+R6810:6810 Coqtail.Arith.Znumfacts <> b:44 var
+R6817:6817 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6819:6821 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6823:6825 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6849:6849 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R6822:6822 Coq.Numbers.BinNums <> Z ind
+binder 6818:6818 <> u:45
+R6826:6826 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R6828:6830 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R6848:6848 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 6827:6827 <> v:46
+R6844:6846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6836:6838 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6832:6834 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6831:6831 Coqtail.Arith.Znumfacts <> u:45 var
+R6835:6835 Coqtail.Arith.Znumfacts <> a:43 var
+R6840:6842 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6839:6839 Coqtail.Arith.Znumfacts <> v:46 var
+R6843:6843 Coqtail.Arith.Znumfacts <> b:44 var
+R6890:6894 Coq.Init.Logic <> proj2 thm
+R6897:6912 Coq.ZArith.Znumtheory <> Zgcd_1_rel_prime thm
+R6890:6894 Coq.Init.Logic <> proj2 thm
+R6897:6912 Coq.ZArith.Znumtheory <> Zgcd_1_rel_prime thm
+R6890:6894 Coq.Init.Logic <> proj2 thm
+R6897:6912 Coq.ZArith.Znumtheory <> Zgcd_1_rel_prime thm
+R6890:6894 Coq.Init.Logic <> proj2 thm
+R6897:6912 Coq.ZArith.Znumtheory <> Zgcd_1_rel_prime thm
+R6935:6944 Coqtail.Arith.Znumfacts <> bezout_inj thm
+R6935:6944 Coqtail.Arith.Znumfacts <> bezout_inj thm
+prf 7010:7025 <> modular_mult_inj
+binder 7036:7036 <> p:47
+binder 7038:7038 <> n:48
+R7048:7053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7041:7045 Coq.ZArith.Znumtheory <> prime ind
+R7047:7047 Coqtail.Arith.Znumfacts <> p:47 var
+R7069:7072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7054:7056 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7068:7068 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7058:7062 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7064:7065 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7067:7067 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7066:7066 Coqtail.Arith.Znumfacts <> p:47 var
+R7063:7063 Coqtail.Arith.Znumfacts <> n:48 var
+binder 7080:7080 <> x:49
+binder 7082:7082 <> y:50
+R7104:7107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7090:7094 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7100:7101 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7103:7103 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7102:7102 Coqtail.Arith.Znumfacts <> p:47 var
+R7086:7088 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7085:7085 Coqtail.Arith.Znumfacts <> x:49 var
+R7089:7089 Coqtail.Arith.Znumfacts <> n:48 var
+R7096:7098 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7095:7095 Coqtail.Arith.Znumfacts <> y:50 var
+R7099:7099 Coqtail.Arith.Znumfacts <> n:48 var
+R7109:7113 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7115:7116 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7118:7118 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7117:7117 Coqtail.Arith.Znumfacts <> p:47 var
+R7108:7108 Coqtail.Arith.Znumfacts <> x:49 var
+R7114:7114 Coqtail.Arith.Znumfacts <> y:50 var
+R7162:7172 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R7175:7184 Coqtail.Arith.Zeqm <> divide_eqm thm
+R7162:7172 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R7175:7184 Coqtail.Arith.Zeqm <> divide_eqm thm
+R7213:7213 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R7215:7217 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R7229:7229 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R7218:7218 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7224:7227 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7220:7222 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7213:7213 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R7215:7217 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R7229:7229 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R7218:7218 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7224:7227 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7220:7222 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R7243:7252 Coqtail.Arith.Zeqm <> divide_eqm thm
+R7243:7252 Coqtail.Arith.Zeqm <> divide_eqm thm
+R7337:7346 Coq.ZArith.Znumtheory <> prime_mult thm
+R7337:7346 Coq.ZArith.Znumtheory <> prime_mult thm
+R7417:7426 Coqtail.Arith.Zeqm <> divide_eqm thm
+R7417:7426 Coqtail.Arith.Zeqm <> divide_eqm thm
+prf 7504:7518 <> modular_inverse
+binder 7529:7529 <> p:51
+binder 7531:7531 <> x:52
+R7541:7544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7534:7538 Coq.ZArith.Znumtheory <> prime ind
+R7540:7540 Coqtail.Arith.Znumfacts <> p:51 var
+R7559:7562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7545:7546 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7558:7558 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7548:7552 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7554:7555 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7557:7557 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7556:7556 Coqtail.Arith.Znumfacts <> p:51 var
+R7547:7547 Coqtail.Arith.Znumfacts <> x:52 var
+R7563:7564 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R7566:7568 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R7584:7585 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 7565:7565 <> y:53
+R7574:7578 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7580:7581 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7583:7583 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7582:7582 Coqtail.Arith.Znumfacts <> p:51 var
+R7570:7572 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7569:7569 Coqtail.Arith.Znumfacts <> x:52 var
+R7573:7573 Coqtail.Arith.Znumfacts <> y:53 var
+R7625:7633 Coq.ZArith.Znumtheory <> rel_prime def
+R7637:7641 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7625:7633 Coq.ZArith.Znumtheory <> rel_prime def
+R7637:7641 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7680:7682 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R7709:7716 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R7680:7682 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R7709:7716 Coq.ZArith.Zdiv <> Z_mod_lt thm
+R7736:7738 Coq.ZArith.Zdiv <> eqm def
+R7755:7762 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R7755:7762 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R7755:7762 Coq.ZArith.Zdiv <> Zmod_0_l thm
+R7799:7814 Coqtail.Arith.Znumfacts <> rel_prime_bezout thm
+R7799:7814 Coqtail.Arith.Znumfacts <> rel_prime_bezout thm
+R7900:7904 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7906:7907 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7909:7909 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7894:7898 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7929:7936 Coq.ZArith.Zdiv <> Zmod_mod thm
+R7900:7904 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7906:7907 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7909:7909 Coqtail.Arith.Zeqm <> :::x_'≡'_x_'['_x_']' not
+R7894:7898 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R7929:7936 Coq.ZArith.Zdiv <> Zmod_mod thm
+R7929:7936 Coq.ZArith.Zdiv <> Zmod_mod thm
+R7998:8008 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R7998:8008 Coqtail.Arith.Zeqm <> eqm_minus_0 thm
+R8040:8049 Coqtail.Arith.Zeqm <> divide_eqm thm
+R8040:8049 Coqtail.Arith.Zeqm <> divide_eqm thm
+R8073:8074 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R8073:8074 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not

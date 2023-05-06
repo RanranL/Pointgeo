@@ -1,0 +1,237 @@
+DIGEST 8611546fcc88708079ab8ce4b386a0ff
+FCoqtail.Reals.Finite_Calculus.Definitions
+R15:27 Coqtail.Reals.Rsequence.Rsequence_def <> <> lib
+R29:48 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> <> lib
+R50:72 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> <> lib
+R90:94 Coqtail.mytheories.MyNat <> <> lib
+R112:124 Coqtail.Reals.Ranalysis.Rfunction_def <> <> lib
+def 166:166 <> D
+R174:177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R173:173 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R178:178 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 169:169 <> f:1
+R184:187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R183:183 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R188:188 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 197:197 <> x:2
+R211:213 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R202:202 Coqtail.Reals.Finite_Calculus.Definitions <> f:1 var
+R206:208 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R205:205 Coqtail.Reals.Finite_Calculus.Definitions <> x:2 var
+R214:214 Coqtail.Reals.Finite_Calculus.Definitions <> f:1 var
+R216:216 Coqtail.Reals.Finite_Calculus.Definitions <> x:2 var
+def 230:232 <> Int
+R240:242 Coq.Init.Datatypes <> nat ind
+binder 235:235 <> a:3
+binder 237:237 <> b:4
+R251:254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R250:250 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R255:255 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 246:246 <> f:5
+R260:260 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R267:274 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R277:287 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_shifts def
+binder 294:294 <> n:6
+R299:299 Coqtail.Reals.Finite_Calculus.Definitions <> f:5 var
+R302:304 Coq.Reals.Raxioms <> INR def
+R306:306 Coqtail.Reals.Finite_Calculus.Definitions <> n:6 var
+R310:310 Coqtail.Reals.Finite_Calculus.Definitions <> a:3 var
+R315:317 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R314:314 Coqtail.Reals.Finite_Calculus.Definitions <> b:4 var
+R318:318 Coqtail.Reals.Finite_Calculus.Definitions <> a:3 var
+prf 329:340 <> D_opp_compat
+binder 351:351 <> f:7
+R363:366 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R354:354 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R357:358 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R359:359 Coqtail.Reals.Finite_Calculus.Definitions <> f:7 var
+R368:369 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R370:370 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R372:372 Coqtail.Reals.Finite_Calculus.Definitions <> f:7 var
+R405:405 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R408:414 Coq.Reals.Ranalysis1 <> opp_fct def
+prf 436:448 <> D_plus_compat
+binder 459:459 <> f:8
+binder 461:461 <> g:9
+R475:478 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R464:464 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R468:470 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R467:467 Coqtail.Reals.Finite_Calculus.Definitions <> f:8 var
+R471:471 Coqtail.Reals.Finite_Calculus.Definitions <> g:9 var
+R483:485 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R480:480 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R482:482 Coqtail.Reals.Finite_Calculus.Definitions <> f:8 var
+R486:486 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R488:488 Coqtail.Reals.Finite_Calculus.Definitions <> g:9 var
+R523:523 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R526:533 Coq.Reals.Ranalysis1 <> plus_fct def
+prf 555:568 <> D_minus_compat
+binder 579:579 <> f:10
+binder 581:581 <> g:11
+R595:598 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R584:584 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R588:590 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R587:587 Coqtail.Reals.Finite_Calculus.Definitions <> f:10 var
+R591:591 Coqtail.Reals.Finite_Calculus.Definitions <> g:11 var
+R603:605 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R600:600 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R602:602 Coqtail.Reals.Finite_Calculus.Definitions <> f:10 var
+R606:606 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R608:608 Coqtail.Reals.Finite_Calculus.Definitions <> g:11 var
+R643:643 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R646:654 Coq.Reals.Ranalysis1 <> minus_fct def
+R657:662 Coq.Reals.Rdefinitions <> Rminus def
+prf 684:688 <> Int_D
+binder 698:698 <> a:12
+binder 700:700 <> b:13
+binder 702:702 <> f:14
+R717:720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R707:710 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R706:706 Coqtail.Reals.Finite_Calculus.Definitions <> a:12 var
+R711:711 Coqtail.Reals.Finite_Calculus.Definitions <> b:13 var
+R734:736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R721:723 Coqtail.Reals.Finite_Calculus.Definitions <> Int def
+R725:725 Coqtail.Reals.Finite_Calculus.Definitions <> a:12 var
+R727:727 Coqtail.Reals.Finite_Calculus.Definitions <> b:13 var
+R730:730 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R732:732 Coqtail.Reals.Finite_Calculus.Definitions <> f:14 var
+R750:752 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R737:737 Coqtail.Reals.Finite_Calculus.Definitions <> f:14 var
+R745:747 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R740:742 Coq.Reals.Raxioms <> INR def
+R744:744 Coqtail.Reals.Finite_Calculus.Definitions <> b:13 var
+R753:753 Coqtail.Reals.Finite_Calculus.Definitions <> f:14 var
+R756:758 Coq.Reals.Raxioms <> INR def
+R760:760 Coqtail.Reals.Finite_Calculus.Definitions <> a:12 var
+R865:867 Coqtail.Reals.Finite_Calculus.Definitions <> Int def
+R912:925 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_sum_simpl thm
+R938:946 Coq.Arith.Minus <> minus_n_O thm
+R967:972 Coq.Arith.Le <> le_0_n syndef
+R912:925 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_sum_simpl thm
+R912:925 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_sum_simpl thm
+R938:946 Coq.Arith.Minus <> minus_n_O thm
+R938:946 Coq.Arith.Minus <> minus_n_O thm
+R967:972 Coq.Arith.Le <> le_0_n syndef
+R985:995 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_shifts def
+R998:998 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R1013:1021 Coq.Arith.Minus <> minus_n_O thm
+R1048:1052 Coq.Reals.RIneq <> S_INR thm
+R1013:1021 Coq.Arith.Minus <> minus_n_O thm
+R1013:1021 Coq.Arith.Minus <> minus_n_O thm
+R1048:1052 Coq.Reals.RIneq <> S_INR thm
+R1048:1052 Coq.Reals.RIneq <> S_INR thm
+R1073:1084 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_ext thm
+R1097:1113 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_shift_shifts thm
+R1128:1148 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_shift_compat thm
+R1073:1084 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_ext thm
+R1073:1084 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_ext thm
+R1073:1084 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_ext thm
+R1097:1113 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_shift_shifts thm
+R1128:1148 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_shift_compat thm
+R1128:1148 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> Rseq_sum_shift_compat thm
+R1160:1169 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_shift def
+R1181:1194 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_sum_simpl thm
+R1210:1220 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_shifts def
+R1223:1223 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R1181:1194 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_sum_simpl thm
+R1181:1194 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> Rseq_sum_simpl thm
+R1236:1245 Coq.Arith.Minus <> minus_Sn_m thm
+R1248:1262 Coq.Arith.Minus <> le_plus_minus_r thm
+R1265:1272 Coq.Arith.Plus <> plus_0_r syndef
+R1275:1279 Coq.Reals.RIneq <> S_INR thm
+R1282:1286 Coq.Reals.RIneq <> S_INR thm
+R1236:1245 Coq.Arith.Minus <> minus_Sn_m thm
+R1236:1245 Coq.Arith.Minus <> minus_Sn_m thm
+R1236:1245 Coq.Arith.Minus <> minus_Sn_m thm
+R1248:1262 Coq.Arith.Minus <> le_plus_minus_r thm
+R1248:1262 Coq.Arith.Minus <> le_plus_minus_r thm
+R1248:1262 Coq.Arith.Minus <> le_plus_minus_r thm
+R1265:1272 Coq.Arith.Plus <> plus_0_r syndef
+R1265:1272 Coq.Arith.Plus <> plus_0_r syndef
+R1275:1279 Coq.Reals.RIneq <> S_INR thm
+R1275:1279 Coq.Reals.RIneq <> S_INR thm
+R1282:1286 Coq.Reals.RIneq <> S_INR thm
+R1282:1286 Coq.Reals.RIneq <> S_INR thm
+R1315:1315 Coq.Init.Datatypes <> S constr
+R1329:1335 Coq.Arith.Le <> le_n_Sn syndef
+R1315:1315 Coq.Init.Datatypes <> S constr
+R1329:1335 Coq.Arith.Le <> le_n_Sn syndef
+R1361:1366 Coq.Arith.Le <> le_S_n thm
+R1361:1366 Coq.Arith.Le <> le_S_n thm
+R1391:1396 Coq.Arith.Le <> le_S_n thm
+R1391:1396 Coq.Arith.Le <> le_S_n thm
+def 1427:1428 <> Fp
+R1435:1437 Coq.Init.Datatypes <> nat ind
+binder 1431:1431 <> n:15
+R1443:1446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1442:1442 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1447:1447 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1456:1456 <> x:17
+R1467:1467 Coqtail.Reals.Finite_Calculus.Definitions <> n:15 var
+R1478:1478 Coq.Init.Datatypes <> O constr
+R1491:1491 Coq.Init.Datatypes <> S constr
+R1498:1498 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1508:1511 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1500:1502 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1499:1499 Coqtail.Reals.Finite_Calculus.Definitions <> x:17 var
+R1503:1505 Coq.Reals.Raxioms <> INR def
+R1512:1513 Coqtail.Reals.Finite_Calculus.Definitions <> Fp:16 def
+R1517:1517 Coqtail.Reals.Finite_Calculus.Definitions <> x:17 var
+prf 1531:1542 <> D_Fp_S_simpl
+binder 1553:1553 <> x:19
+binder 1555:1555 <> n:20
+R1572:1574 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1558:1558 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R1561:1562 Coqtail.Reals.Finite_Calculus.Definitions <> Fp def
+R1565:1565 Coq.Init.Datatypes <> S constr
+R1567:1567 Coqtail.Reals.Finite_Calculus.Definitions <> n:20 var
+R1571:1571 Coqtail.Reals.Finite_Calculus.Definitions <> x:19 var
+R1584:1586 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1575:1577 Coq.Reals.Raxioms <> INR def
+R1580:1580 Coq.Init.Datatypes <> S constr
+R1582:1582 Coqtail.Reals.Finite_Calculus.Definitions <> n:20 var
+R1587:1588 Coqtail.Reals.Finite_Calculus.Definitions <> Fp def
+R1590:1590 Coqtail.Reals.Finite_Calculus.Definitions <> n:20 var
+R1592:1592 Coqtail.Reals.Finite_Calculus.Definitions <> x:19 var
+R1636:1636 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R1639:1640 Coqtail.Reals.Finite_Calculus.Definitions <> Fp def
+R1669:1671 Coq.Reals.Raxioms <> INR def
+R1673:1673 Coq.Init.Datatypes <> S constr
+R1675:1675 Coq.Init.Datatypes <> S constr
+R1689:1690 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1691:1693 Coq.Reals.Raxioms <> INR def
+R1695:1695 Coq.Init.Datatypes <> S constr
+R1669:1671 Coq.Reals.Raxioms <> INR def
+R1673:1673 Coq.Init.Datatypes <> S constr
+R1675:1675 Coq.Init.Datatypes <> S constr
+R1689:1690 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1691:1693 Coq.Reals.Raxioms <> INR def
+R1695:1695 Coq.Init.Datatypes <> S constr
+R1736:1753 Coq.Reals.RIneq <> Rmult_plus_distr_r thm
+R1736:1753 Coq.Reals.RIneq <> Rmult_plus_distr_r thm
+R1736:1753 Coq.Reals.RIneq <> Rmult_plus_distr_r thm
+R1799:1801 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1802:1804 Coq.Reals.Raxioms <> INR def
+R1810:1811 Coqtail.Reals.Finite_Calculus.Definitions <> Fp def
+R1780:1789 Coq.Reals.Raxioms <> Rmult_comm thm
+R1799:1801 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1802:1804 Coq.Reals.Raxioms <> INR def
+R1810:1811 Coqtail.Reals.Finite_Calculus.Definitions <> Fp def
+R1780:1789 Coq.Reals.Raxioms <> Rmult_comm thm
+R1799:1801 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1802:1804 Coq.Reals.Raxioms <> INR def
+R1810:1811 Coqtail.Reals.Finite_Calculus.Definitions <> Fp def
+R1780:1789 Coq.Reals.Raxioms <> Rmult_comm thm
+R1831:1841 Coq.Reals.Raxioms <> Rmult_assoc thm
+R1831:1841 Coq.Reals.Raxioms <> Rmult_assoc thm
+R1831:1841 Coq.Reals.Raxioms <> Rmult_assoc thm
+R1869:1869 Coqtail.Reals.Finite_Calculus.Definitions <> D def
+R1872:1873 Coqtail.Reals.Finite_Calculus.Definitions <> Fp def
+R1886:1888 Coq.Reals.Raxioms <> INR def
+R1891:1891 Coq.Init.Datatypes <> S constr
+R1904:1906 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1907:1909 Coq.Reals.Raxioms <> INR def
+R1886:1888 Coq.Reals.Raxioms <> INR def
+R1891:1891 Coq.Init.Datatypes <> S constr
+R1904:1906 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1907:1909 Coq.Reals.Raxioms <> INR def

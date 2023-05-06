@@ -1,0 +1,8 @@
+DIGEST e7b6227f4c6448c5f456c6915ac3e43b
+FCoqtail.Reals.Rseries
+R15:25 Coqtail.Reals.Rseries.Rseries_def <> <> lib
+R43:60 Coqtail.Reals.Rseries.Rseries_base_facts <> <> lib
+R78:94 Coqtail.Reals.Rseries.Rseries_pos_facts <> <> lib
+R112:127 Coqtail.Reals.Rseries.Rseries_cv_facts <> <> lib
+R145:167 Coqtail.Reals.Rseries.Rseries_remainder_facts <> <> lib
+R185:197 Coqtail.Reals.Rseries.Rseries_facts <> <> lib

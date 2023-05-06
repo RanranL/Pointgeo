@@ -1,0 +1,242 @@
+DIGEST 83dd0e2b40b115e388bec02b530c2e21
+FCoqtail.Reals.Rseries.Rseries_pos_facts
+R15:23 Coqtail.Reals.Rsequence <> <> lib
+R25:40 Coqtail.Reals.Rsequence.Rsequence_stdlib <> <> lib
+R58:68 Coqtail.Reals.Rseries.Rseries_def <> <> lib
+R70:87 Coqtail.Reals.Rseries.Rseries_base_facts <> <> lib
+prf 176:191 <> Rser_pos_growing
+binder 201:202 <> Un:1
+R206:206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R226:230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 214:214 <> n:2
+R218:221 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R222:223 Coqtail.Reals.Rseries.Rseries_pos_facts <> Un:1 var
+R225:225 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:2 var
+R231:242 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_growing def
+R245:252 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R254:255 Coqtail.Reals.Rseries.Rseries_pos_facts <> Un:1 var
+R314:316 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R301:308 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R314:316 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R301:308 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R332:340 Coq.Reals.RIneq <> Rplus_0_r thm
+R332:340 Coq.Reals.RIneq <> Rplus_0_r thm
+R332:340 Coq.Reals.RIneq <> Rplus_0_r thm
+R364:380 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R364:380 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+prf 405:429 <> Rser_pos_strictly_growing
+binder 439:440 <> Un:3
+R444:444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R463:467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 452:452 <> n:4
+R456:458 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R459:460 Coqtail.Reals.Rseries.Rseries_pos_facts <> Un:3 var
+R462:462 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:4 var
+R468:488 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_strictly_growing def
+R491:498 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R500:501 Coqtail.Reals.Rseries.Rseries_pos_facts <> Un:3 var
+R571:573 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R558:565 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R539:550 Coq.Reals.RIneq <> Rle_lt_trans thm
+R571:573 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R558:565 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R539:550 Coq.Reals.RIneq <> Rle_lt_trans thm
+R589:597 Coq.Reals.RIneq <> Rplus_0_r thm
+R589:597 Coq.Reals.RIneq <> Rplus_0_r thm
+R589:597 Coq.Reals.RIneq <> Rplus_0_r thm
+R621:637 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+R621:637 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+prf 719:735 <> Rser_pos_bound_cv
+binder 746:747 <> Un:5
+binder 749:749 <> M:6
+R753:753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R773:777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 761:761 <> n:7
+R765:768 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R769:770 Coqtail.Reals.Rseries.Rseries_pos_facts <> Un:5 var
+R772:772 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:7 var
+R797:800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R778:791 Coqtail.Reals.Rseries.Rseries_def <> Rser_bound_max def
+R793:794 Coqtail.Reals.Rseries.Rseries_pos_facts <> Un:5 var
+R796:796 Coqtail.Reals.Rseries.Rseries_pos_facts <> M:6 var
+R801:802 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R804:806 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R819:820 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 803:803 <> l:8
+R807:813 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R815:816 Coqtail.Reals.Rseries.Rseries_pos_facts <> Un:5 var
+R818:818 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:8 var
+R879:886 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R863:871 Coq.Reals.SeqProp <> ub_to_lub thm
+R879:886 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R863:871 Coq.Reals.SeqProp <> ub_to_lub thm
+R910:930 Coqtail.Reals.Rsequence.Rsequence_stdlib <> Rseq_bound_max_has_ub thm
+R910:930 Coqtail.Reals.Rsequence.Rsequence_stdlib <> Rseq_bound_max_has_ub thm
+R982:995 Coq.Reals.Rseries <> Un_cv_crit_lub thm
+R1006:1021 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_pos_growing thm
+R982:995 Coq.Reals.Rseries <> Un_cv_crit_lub thm
+R1006:1021 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_pos_growing thm
+sec 1095:1109 <> Classical_facts
+var 1123:1124 Classical_facts Un
+var 1126:1127 Classical_facts Vn
+R1134:1137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1131:1133 Coq.Init.Datatypes <> nat ind
+R1138:1138 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 1152:1157 Classical_facts Un_pos
+binder 1168:1168 <> n:11
+R1172:1175 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1176:1177 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.Un var
+R1179:1179 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:11 var
+var 1193:1196 Classical_facts NNPP
+binder 1207:1207 <> p:13
+R1222:1225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1217:1218 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1219:1220 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1221:1221 Coqtail.Reals.Rseries.Rseries_pos_facts <> p:13 var
+R1226:1226 Coqtail.Reals.Rseries.Rseries_pos_facts <> p:13 var
+var 1240:1246 Classical_facts classic
+binder 1256:1256 <> P:15
+R1267:1270 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1266:1266 Coqtail.Reals.Rseries.Rseries_pos_facts <> P:15 var
+R1271:1272 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1273:1273 Coqtail.Reals.Rseries.Rseries_pos_facts <> P:15 var
+prf 1347:1361 <> Rser_pos_cv_dec
+R1365:1365 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1388:1393 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1414:1414 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1366:1372 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1374:1375 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1373:1373 <> l:17
+R1376:1382 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R1384:1385 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.Un var
+R1387:1387 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:17 var
+R1394:1410 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv_pos_infty def
+R1412:1413 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.Un var
+R1434:1440 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.classic var
+R1443:1449 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1451:1452 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1450:1450 <> l:18
+R1453:1459 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R1461:1462 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.Un var
+R1464:1464 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:18 var
+R1434:1440 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.classic var
+R1443:1449 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1451:1452 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1450:1450 <> l:19
+R1453:1459 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R1461:1462 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.Un var
+R1464:1464 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:19 var
+R1517:1538 Coqtail.Reals.Rsequence.Rsequence_facts <> Rseq_unbounded_growing thm
+R1517:1538 Coqtail.Reals.Rsequence.Rsequence_facts <> Rseq_unbounded_growing thm
+R1549:1552 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.NNPP var
+R1549:1552 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.NNPP var
+R1563:1578 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_pos_growing thm
+R1563:1578 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_pos_growing thm
+R1633:1649 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_pos_bound_cv thm
+R1655:1660 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.Un_pos var
+R1633:1649 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_pos_bound_cv thm
+R1655:1660 Coqtail.Reals.Rseries.Rseries_pos_facts <> Classical_facts.Un_pos var
+R1713:1727 Coqtail.Reals.Rseries.Rseries_pos_facts Classical_facts <> sec
+prf 1815:1843 <> Rser_cv_growing_subseq_compat
+R1859:1862 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq def
+binder 1854:1855 <> An:20
+R1872:1880 Coqtail.Reals.Rsequence.Rsequence_subsequence <> extractor def
+binder 1866:1868 <> phi:21
+binder 1883:1883 <> l:22
+R1888:1888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1908:1913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 1896:1896 <> n:23
+R1900:1903 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1904:1905 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:20 var
+R1907:1907 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:23 var
+R1952:1955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1914:1920 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+R1923:1923 Coqtail.Reals.Rsequence.Rsequence_subsequence <> ::Rseq_scope:x_'⋅'_x not
+R1935:1940 Coqtail.Reals.Rsequence.Rsequence_subsequence <> ::Rseq_scope:x_'⋅'_x not
+R1941:1943 Coqtail.Reals.Rseries.Rseries_pos_facts <> phi:21 var
+R1924:1931 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R1933:1934 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:20 var
+R1951:1951 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:22 var
+R1956:1962 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R1964:1965 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:20 var
+R1967:1967 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:22 var
+R2048:2048 Coqtail.Reals.Rsequence.Rsequence_subsequence <> ::Rseq_scope:x_'⋅'_x not
+R2060:2065 Coqtail.Reals.Rsequence.Rsequence_subsequence <> ::Rseq_scope:x_'⋅'_x not
+R2049:2056 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R2012:2040 Coqtail.Reals.Rsequence.Rsequence_subsequence <> Rseq_subseq_growing_cv_compat thm
+R2048:2048 Coqtail.Reals.Rsequence.Rsequence_subsequence <> ::Rseq_scope:x_'⋅'_x not
+R2060:2065 Coqtail.Reals.Rsequence.Rsequence_subsequence <> ::Rseq_scope:x_'⋅'_x not
+R2049:2056 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R2012:2040 Coqtail.Reals.Rsequence.Rsequence_subsequence <> Rseq_subseq_growing_cv_compat thm
+R2144:2146 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2131:2138 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R2144:2146 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2131:2138 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R2163:2171 Coq.Reals.RIneq <> Rplus_0_r thm
+R2163:2171 Coq.Reals.RIneq <> Rplus_0_r thm
+R2163:2171 Coq.Reals.RIneq <> Rplus_0_r thm
+R2204:2220 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R2204:2220 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+prf 2330:2356 <> Rser_cv_growing_even_compat
+binder 2366:2367 <> An:24
+binder 2369:2369 <> l:25
+R2374:2374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2394:2399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2382:2382 <> n:26
+R2386:2389 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2390:2391 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:24 var
+R2393:2393 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:26 var
+R2440:2445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2400:2406 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+binder 2413:2413 <> n:27
+R2419:2426 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R2428:2429 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:24 var
+R2433:2433 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2434:2434 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:27 var
+R2439:2439 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:25 var
+R2446:2452 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R2454:2455 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:24 var
+R2457:2457 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:25 var
+R2506:2517 Coqtail.Reals.Rsequence.Rsequence_subsequence <> is_extractor def
+R2520:2523 Coq.Init.Peano <> mult syndef
+R2592:2596 Coq.Init.Specif <> exist constr
+R2556:2584 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_cv_growing_subseq_compat thm
+R2506:2517 Coqtail.Reals.Rsequence.Rsequence_subsequence <> is_extractor def
+R2520:2523 Coq.Init.Peano <> mult syndef
+R2592:2596 Coq.Init.Specif <> exist constr
+R2556:2584 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_cv_growing_subseq_compat thm
+prf 2633:2658 <> Rser_cv_growing_odd_compat
+binder 2668:2669 <> An:28
+binder 2671:2671 <> l:29
+R2676:2676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2696:2701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 2684:2684 <> n:30
+R2688:2691 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2692:2693 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:28 var
+R2695:2695 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:30 var
+R2746:2751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2702:2708 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+binder 2715:2715 <> n:31
+R2721:2728 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_sum def
+R2730:2731 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:28 var
+R2734:2734 Coq.Init.Datatypes <> S constr
+R2738:2738 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2739:2739 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:31 var
+R2745:2745 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:29 var
+R2752:2758 Coqtail.Reals.Rseries.Rseries_def <> Rser_cv def
+R2760:2761 Coqtail.Reals.Rseries.Rseries_pos_facts <> An:28 var
+R2763:2763 Coqtail.Reals.Rseries.Rseries_pos_facts <> l:29 var
+R2812:2823 Coqtail.Reals.Rsequence.Rsequence_subsequence <> is_extractor def
+binder 2830:2830 <> n:32
+R2835:2835 Coq.Init.Datatypes <> S constr
+R2839:2841 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2842:2842 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:32 var
+R2910:2914 Coq.Init.Specif <> exist constr
+R2874:2902 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_cv_growing_subseq_compat thm
+R2812:2823 Coqtail.Reals.Rsequence.Rsequence_subsequence <> is_extractor def
+binder 2830:2830 <> n:33
+R2835:2835 Coq.Init.Datatypes <> S constr
+R2839:2841 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2842:2842 Coqtail.Reals.Rseries.Rseries_pos_facts <> n:33 var
+R2910:2914 Coq.Init.Specif <> exist constr
+R2874:2902 Coqtail.Reals.Rseries.Rseries_pos_facts <> Rser_cv_growing_subseq_compat thm

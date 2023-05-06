@@ -1,0 +1,13 @@
+DIGEST a0848bb9ad11bc5f8c538765bfda2746
+FCoqtail.Reals.Rsequence
+R15:27 Coqtail.Reals.Rsequence.Rsequence_def <> <> lib
+R45:64 Coqtail.Reals.Rsequence.Rsequence_base_facts <> <> lib
+R82:99 Coqtail.Reals.Rsequence.Rsequence_cv_facts <> <> lib
+R117:135 Coqtail.Reals.Rsequence.Rsequence_rel_facts <> <> lib
+R153:167 Coqtail.Reals.Rsequence.Rsequence_facts <> <> lib
+R185:205 Coqtail.Reals.Rsequence.Rsequence_usual_facts <> <> lib
+R223:242 Coqtail.Reals.Rsequence.Rsequence_sums_facts <> <> lib
+R260:273 Coqtail.Reals.Rsequence.Rsequence_ring <> <> lib
+R291:313 Coqtail.Reals.Rsequence.Rsequence_rewrite_facts <> <> lib
+R331:347 Coqtail.Reals.Rsequence.Rsequence_tactics <> <> lib
+R365:385 Coqtail.Reals.Rsequence.Rsequence_subsequence <> <> lib

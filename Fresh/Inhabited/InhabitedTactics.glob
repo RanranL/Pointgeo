@@ -1,0 +1,8 @@
+DIGEST e923048eebcd8c6d23f9204483fad87b
+FCoqtail.Fresh.Inhabited.InhabitedTactics
+R15:19 Coqtail.Fresh.Inhabited.Monad <> <> lib
+R73:81 Coq.Init.Logic <> inhabited ind
+R73:81 Coq.Init.Logic <> inhabited ind
+R213:220 Coq.Init.Logic <> inhabits constr
+R222:222 Coq.Init.Logic <> I constr
+R341:348 Coq.Init.Logic <> inhabits constr

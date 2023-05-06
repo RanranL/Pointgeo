@@ -1,0 +1,173 @@
+DIGEST a6e0bfcb5b22a2be6a9d4b3b39cf3e25
+FCoqtail.Arith.Zprime
+R24:29 Coq.ZArith.ZArith <> <> lib
+R31:40 Coq.ZArith.Znumtheory <> <> lib
+R42:44 Coq.micromega.Lia <> <> lib
+R46:49 Coq.Lists.List <> <> lib
+R51:54 Coq.Bool.Bool <> <> lib
+R85:90 Coqtail.Arith.Ztools <> <> lib
+R92:95 Coqtail.Arith.Zpow <> <> lib
+def 181:190 <> prime_sqrt
+R197:197 Coq.Numbers.BinNums <> Z ind
+binder 193:193 <> n:1
+R215:219 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R264:264 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R211:213 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R214:214 Coqtail.Arith.Zprime <> n:1 var
+R231:231 Coq.Numbers.BinNums <> Z ind
+binder 227:227 <> x:2
+R251:254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R235:237 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R239:242 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x_'<='_x not
+R238:238 Coqtail.Arith.Zprime <> x:2 var
+R238:238 Coqtail.Arith.Zprime <> x:2 var
+R243:248 Coq.ZArith.BinInt Z sqrt def
+R250:250 Coqtail.Arith.Zprime <> n:1 var
+R255:256 Coq.Init.Logic <> ::type_scope:'~'_x not
+R257:257 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R259:261 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R263:263 Coq.ZArith.BinInt <> ::Z_scope:'('_x_'|'_x_')' not
+R258:258 Coqtail.Arith.Zprime <> x:2 var
+R262:262 Coqtail.Arith.Zprime <> n:1 var
+prf 274:288 <> prime_sqrt_spec
+binder 290:290 <> n:3
+R306:310 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R294:303 Coqtail.Arith.Zprime <> prime_sqrt def
+R305:305 Coqtail.Arith.Zprime <> n:3 var
+R311:315 Coq.ZArith.Znumtheory <> prime ind
+R317:317 Coqtail.Arith.Zprime <> n:3 var
+R339:347 Coq.ZArith.Znumtheory <> prime_alt thm
+R339:347 Coq.ZArith.Znumtheory <> prime_alt thm
+R339:347 Coq.ZArith.Znumtheory <> prime_alt thm
+R369:374 Coq.ZArith.Znumtheory <> prime' def
+R377:386 Coqtail.Arith.Zprime <> prime_sqrt def
+R475:487 Coq.ZArith.BinInt Z sqrt_lt_lin thm
+R475:487 Coq.ZArith.BinInt Z sqrt_lt_lin thm
+R530:540 Coq.ZArith.ZArith_dec <> Z_le_gt_dec def
+R530:540 Coq.ZArith.ZArith_dec <> Z_le_gt_dec def
+R618:620 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R618:620 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R634:637 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R634:637 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R696:711 Coq.ZArith.BinInt Z sqrt_le_square thm
+R696:711 Coq.ZArith.BinInt Z sqrt_le_square thm
+R800:802 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R800:802 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R816:819 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R816:819 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R878:893 Coq.ZArith.BinInt Z sqrt_le_square thm
+R878:893 Coq.ZArith.BinInt Z sqrt_le_square thm
+def 942:945 <> Zseq
+R956:956 Coq.Numbers.BinNums <> Z ind
+binder 948:952 <> start:4
+R966:968 Coq.Init.Datatypes <> nat ind
+binder 960:962 <> len:5
+R986:989 Coq.Init.Datatypes <> list ind
+R991:991 Coq.Numbers.BinNums <> Z ind
+R1004:1006 Coqtail.Arith.Zprime <> len:5 var
+R1026:1028 Coq.Init.Datatypes <> nil constr
+R1034:1034 Coq.Init.Datatypes <> S constr
+R1048:1051 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1043:1047 Coqtail.Arith.Zprime <> start:4 var
+R1052:1055 Coqtail.Arith.Zprime <> Zseq:6 def
+R1069:1071 Coqtail.Arith.Zprime <> len:5 var
+R1059:1061 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1062:1066 Coqtail.Arith.Zprime <> start:4 var
+prf 1087:1093 <> in_Zseq
+binder 1095:1095 <> n:8
+binder 1097:1097 <> a:9
+binder 1099:1099 <> x:10
+R1118:1123 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1147:1147 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1103:1104 Coq.Lists.List <> In def
+R1109:1112 Coqtail.Arith.Zprime <> Zseq def
+R1114:1114 Coqtail.Arith.Zprime <> a:9 var
+R1116:1116 Coqtail.Arith.Zprime <> n:8 var
+R1106:1106 Coqtail.Arith.Zprime <> x:10 var
+R1125:1128 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1130:1132 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x_'<'_x not
+R1124:1124 Coqtail.Arith.Zprime <> a:9 var
+R1129:1129 Coqtail.Arith.Zprime <> x:10 var
+R1129:1129 Coqtail.Arith.Zprime <> x:10 var
+R1134:1136 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1133:1133 Coqtail.Arith.Zprime <> a:9 var
+R1137:1144 Coq.ZArith.BinInt Z of_nat def
+R1146:1146 Coqtail.Arith.Zprime <> n:8 var
+R1292:1299 Coq.ZArith.BinInt Z eq_dec def
+R1292:1299 Coq.ZArith.BinInt Z eq_dec def
+def 1361:1366 <> primeb
+R1373:1373 Coq.Numbers.BinNums <> Z ind
+binder 1369:1369 <> p:11
+R1378:1381 Coq.Init.Datatypes <> bool ind
+R1389:1389 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1396:1403 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1391:1394 Coq.ZArith.BinInt <> ::Z_scope:x_'<?'_x not
+R1395:1395 Coqtail.Arith.Zprime <> p:11 var
+R1404:1410 Coq.Lists.List <> forallb def
+R1454:1457 Coqtail.Arith.Zprime <> Zseq def
+R1481:1483 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1462:1469 Coq.ZArith.BinInt Z to_nat def
+R1472:1477 Coq.ZArith.BinInt Z sqrt def
+R1479:1479 Coqtail.Arith.Zprime <> p:11 var
+binder 1422:1422 <> n:12
+R1427:1430 Coq.Init.Datatypes <> negb def
+R1440:1443 Coq.ZArith.BinInt <> ::Z_scope:x_'=?'_x not
+R1434:1438 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R1433:1433 Coqtail.Arith.Zprime <> p:11 var
+R1439:1439 Coqtail.Arith.Zprime <> n:12 var
+prf 1502:1513 <> primeb_prime
+R1520:1520 Coq.Numbers.BinNums <> Z ind
+binder 1516:1516 <> n:13
+R1540:1544 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1533:1535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1525:1530 Coqtail.Arith.Zprime <> primeb def
+R1532:1532 Coqtail.Arith.Zprime <> n:13 var
+R1536:1539 Coq.Init.Datatypes <> true constr
+R1545:1549 Coq.ZArith.Znumtheory <> prime ind
+R1551:1551 Coqtail.Arith.Zprime <> n:13 var
+R1573:1587 Coqtail.Arith.Zprime <> prime_sqrt_spec thm
+R1573:1587 Coqtail.Arith.Zprime <> prime_sqrt_spec thm
+R1573:1587 Coqtail.Arith.Zprime <> prime_sqrt_spec thm
+R1599:1608 Coqtail.Arith.Zprime <> prime_sqrt def
+R1611:1616 Coqtail.Arith.Zprime <> primeb def
+R1629:1641 Coq.Bool.Bool <> andb_true_iff thm
+R1644:1651 Coq.ZArith.BinInt Z ltb_lt thm
+R1654:1667 Coq.Lists.List <> forallb_forall thm
+R1629:1641 Coq.Bool.Bool <> andb_true_iff thm
+R1629:1641 Coq.Bool.Bool <> andb_true_iff thm
+R1644:1651 Coq.ZArith.BinInt Z ltb_lt thm
+R1644:1651 Coq.ZArith.BinInt Z ltb_lt thm
+R1654:1667 Coq.Lists.List <> forallb_forall thm
+R1654:1667 Coq.Lists.List <> forallb_forall thm
+R1753:1759 Coqtail.Arith.Zprime <> in_Zseq thm
+R1753:1759 Coqtail.Arith.Zprime <> in_Zseq thm
+R1753:1759 Coqtail.Arith.Zprime <> in_Zseq thm
+R1794:1806 Coq.Bool.Bool <> negb_true_iff thm
+R1809:1817 Coq.ZArith.BinInt Z eqb_neq thm
+R1794:1806 Coq.Bool.Bool <> negb_true_iff thm
+R1794:1806 Coq.Bool.Bool <> negb_true_iff thm
+R1809:1817 Coq.ZArith.BinInt Z eqb_neq thm
+R1809:1817 Coq.ZArith.BinInt Z eqb_neq thm
+R1838:1848 Coq.ZArith.Znumtheory <> Zdivide_mod thm
+R1838:1848 Coq.ZArith.Znumtheory <> Zdivide_mod thm
+R1871:1877 Coqtail.Arith.Zprime <> in_Zseq thm
+R1871:1877 Coqtail.Arith.Zprime <> in_Zseq thm
+R1888:1900 Coq.Bool.Bool <> negb_true_iff thm
+R1903:1911 Coq.ZArith.BinInt Z eqb_neq thm
+R1914:1925 Coq.ZArith.BinInt Z mod_divide thm
+R1888:1900 Coq.Bool.Bool <> negb_true_iff thm
+R1888:1900 Coq.Bool.Bool <> negb_true_iff thm
+R1903:1911 Coq.ZArith.BinInt Z eqb_neq thm
+R1903:1911 Coq.ZArith.BinInt Z eqb_neq thm
+R1914:1925 Coq.ZArith.BinInt Z mod_divide thm
+R1914:1925 Coq.ZArith.BinInt Z mod_divide thm
+R1914:1925 Coq.ZArith.BinInt Z mod_divide thm
+R1966:1978 Coq.Lists.List ListNotations <> mod
+def 1992:2003 <> primes_up_to
+R2010:2010 Coq.Numbers.BinNums <> Z ind
+binder 2006:2006 <> n:14
+R2016:2021 Coq.Lists.List <> filter def
+R2031:2034 Coqtail.Arith.Zprime <> Zseq def
+R2039:2046 Coq.ZArith.BinInt Z to_nat def
+R2048:2048 Coqtail.Arith.Zprime <> n:14 var
+R2023:2028 Coqtail.Arith.Zprime <> primeb def

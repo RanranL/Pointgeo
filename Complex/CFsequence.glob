@@ -1,0 +1,155 @@
+DIGEST a74484d2967b58761dc36fea3d0b06ad
+FCoqtail.Complex.CFsequence
+R871:875 Coqtail.Complex.Cbase <> <> lib
+R893:902 Coqtail.Complex.Cfunctions <> <> lib
+R920:928 Coqtail.Complex.Csequence <> <> lib
+R946:958 Coqtail.Complex.Canalysis_def <> <> lib
+R1108:1110 Coq.Init.Datatypes <> nat ind
+R1138:1141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1135:1137 Coq.Init.Datatypes <> nat ind
+R1143:1146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1142:1142 Coqtail.Complex.Cdefinitions <> C def
+R1147:1147 Coqtail.Complex.Cdefinitions <> C def
+R1171:1174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1170:1170 Coqtail.Complex.Cdefinitions <> C def
+R1175:1175 Coqtail.Complex.Cdefinitions <> C def
+def 1246:1255 <> CFseq_plus
+binder 1257:1258 <> fn:1
+binder 1260:1261 <> gn:2
+binder 1263:1263 <> n:3
+R1273:1275 Coqtail.Complex.Canalysis_def <> ::Cfun_scope:x_'+'_x not
+R1269:1270 Coqtail.Complex.CFsequence <> fn:1 var
+R1272:1272 Coqtail.Complex.CFsequence <> n:3 var
+R1276:1277 Coqtail.Complex.CFsequence <> gn:2 var
+R1279:1279 Coqtail.Complex.CFsequence <> n:3 var
+def 1296:1305 <> CFseq_mult
+binder 1307:1308 <> fn:4
+binder 1310:1311 <> gn:5
+binder 1313:1313 <> n:6
+R1323:1325 Coqtail.Complex.Canalysis_def <> ::Cfun_scope:x_'*'_x not
+R1319:1320 Coqtail.Complex.CFsequence <> fn:4 var
+R1322:1322 Coqtail.Complex.CFsequence <> n:6 var
+R1326:1327 Coqtail.Complex.CFsequence <> gn:5 var
+R1329:1329 Coqtail.Complex.CFsequence <> n:6 var
+def 1346:1354 <> CFseq_opp
+binder 1356:1357 <> fn:7
+binder 1359:1359 <> n:8
+binder 1369:1369 <> x:9
+R1374:1377 Coqtail.Complex.Cdefinitions <> Copp def
+R1380:1381 Coqtail.Complex.CFsequence <> fn:7 var
+R1383:1383 Coqtail.Complex.CFsequence <> n:8 var
+R1385:1385 Coqtail.Complex.CFsequence <> x:9 var
+def 1403:1411 <> CFseq_inv
+binder 1413:1414 <> fn:10
+binder 1416:1416 <> n:11
+binder 1426:1426 <> x:12
+R1431:1434 Coqtail.Complex.Cdefinitions <> Cinv def
+R1437:1438 Coqtail.Complex.CFsequence <> fn:10 var
+R1440:1440 Coqtail.Complex.CFsequence <> n:11 var
+R1442:1442 Coqtail.Complex.CFsequence <> x:12 var
+R1463:1472 Coqtail.Complex.CFsequence <> CFseq_plus def
+not 1456:1456 <> ::CFseq_scope:x_'+'_x
+R1502:1511 Coqtail.Complex.CFsequence <> CFseq_mult def
+not 1495:1495 <> ::CFseq_scope:x_'*'_x
+R1547:1555 Coqtail.Complex.CFsequence <> CFseq_opp def
+not 1537:1537 <> ::CFseq_scope:'-'_x
+R1594:1602 Coqtail.Complex.CFsequence <> CFseq_inv def
+not 1584:1584 <> ::CFseq_scope:'/'_x
+def 1634:1644 <> CFseq_minus
+binder 1646:1647 <> fn:13
+binder 1649:1650 <> gn:14
+binder 1652:1652 <> n:15
+R1662:1664 Coqtail.Complex.Canalysis_def <> ::Cfun_scope:x_'-'_x not
+R1658:1659 Coqtail.Complex.CFsequence <> fn:13 var
+R1661:1661 Coqtail.Complex.CFsequence <> n:15 var
+R1665:1666 Coqtail.Complex.CFsequence <> gn:14 var
+R1668:1668 Coqtail.Complex.CFsequence <> n:15 var
+def 1685:1693 <> CFseq_div
+binder 1695:1696 <> fn:16
+binder 1698:1699 <> gn:17
+binder 1701:1701 <> n:18
+R1711:1713 Coqtail.Complex.Canalysis_def <> ::Cfun_scope:x_'/'_x not
+R1707:1708 Coqtail.Complex.CFsequence <> fn:16 var
+R1710:1710 Coqtail.Complex.CFsequence <> n:18 var
+R1714:1715 Coqtail.Complex.CFsequence <> gn:17 var
+R1717:1717 Coqtail.Complex.CFsequence <> n:18 var
+R1737:1747 Coqtail.Complex.CFsequence <> CFseq_minus def
+not 1730:1730 <> ::CFseq_scope:x_'-'_x
+R1777:1785 Coqtail.Complex.CFsequence <> CFseq_div def
+not 1770:1770 <> ::CFseq_scope:x_'/'_x
+def 1860:1867 <> CFseq_cv
+binder 1869:1870 <> fn:19
+binder 1872:1872 <> f:20
+binder 1884:1884 <> x:21
+R1887:1893 Coqtail.Complex.Csequence_def <> Cseq_cv def
+binder 1900:1900 <> n:22
+R1905:1906 Coqtail.Complex.CFsequence <> fn:19 var
+R1908:1908 Coqtail.Complex.CFsequence <> n:22 var
+R1910:1910 Coqtail.Complex.CFsequence <> x:21 var
+R1914:1914 Coqtail.Complex.CFsequence <> f:20 var
+R1916:1916 Coqtail.Complex.CFsequence <> x:21 var
+def 1931:1944 <> CFseq_cv_boule
+binder 1946:1947 <> fn:23
+binder 1949:1949 <> f:24
+R1956:1956 Coqtail.Complex.Cdefinitions <> C def
+binder 1952:1952 <> c:25
+R1964:1970 Coq.Reals.RIneq <> posreal rec
+binder 1960:1960 <> r:26
+binder 1983:1983 <> x:27
+R1998:2001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1987:1991 Coqtail.Complex.Cmet <> Boule def
+R1993:1993 Coqtail.Complex.CFsequence <> c:25 var
+R1995:1995 Coqtail.Complex.CFsequence <> r:26 var
+R1997:1997 Coqtail.Complex.CFsequence <> x:27 var
+R2002:2008 Coqtail.Complex.Csequence_def <> Cseq_cv def
+binder 2015:2015 <> n:28
+R2020:2021 Coqtail.Complex.CFsequence <> fn:23 var
+R2023:2023 Coqtail.Complex.CFsequence <> n:28 var
+R2025:2025 Coqtail.Complex.CFsequence <> x:27 var
+R2029:2029 Coqtail.Complex.CFsequence <> f:24 var
+R2031:2031 Coqtail.Complex.CFsequence <> x:27 var
+def 2047:2055 <> CFseq_cvu
+binder 2057:2058 <> fn:29
+binder 2060:2060 <> f:30
+R2067:2067 Coqtail.Complex.Cdefinitions <> C def
+binder 2063:2063 <> x:31
+R2075:2081 Coq.Reals.RIneq <> posreal rec
+binder 2071:2071 <> r:32
+R2100:2100 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2094:2096 <> eps:33
+R2110:2121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2104:2106 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2107:2109 Coqtail.Complex.CFsequence <> eps:33 var
+R2122:2128 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2136:2137 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2133:2135 Coq.Init.Datatypes <> nat ind
+binder 2129:2129 <> N:34
+binder 2145:2145 <> n:35
+R2152:2152 Coqtail.Complex.Cdefinitions <> C def
+binder 2148:2148 <> y:36
+R2168:2171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2158:2161 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2157:2157 Coqtail.Complex.CFsequence <> N:34 var
+R2162:2162 Coqtail.Complex.CFsequence <> n:35 var
+R2183:2194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2172:2176 Coqtail.Complex.Cmet <> Boule def
+R2178:2178 Coqtail.Complex.CFsequence <> x:31 var
+R2180:2180 Coqtail.Complex.CFsequence <> r:32 var
+R2182:2182 Coqtail.Complex.CFsequence <> y:36 var
+R2216:2218 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2195:2200 Coqtail.Complex.Cmet <> C_dist def
+R2203:2204 Coqtail.Complex.CFsequence <> fn:29 var
+R2206:2206 Coqtail.Complex.CFsequence <> n:35 var
+R2208:2208 Coqtail.Complex.CFsequence <> y:36 var
+R2212:2212 Coqtail.Complex.CFsequence <> f:30 var
+R2214:2214 Coqtail.Complex.CFsequence <> y:36 var
+R2219:2221 Coqtail.Complex.CFsequence <> eps:33 var
+def 2236:2248 <> CFpartial_sum
+R2259:2262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2256:2258 Coq.Init.Datatypes <> nat ind
+R2263:2263 Coqtail.Complex.Cdefinitions <> C def
+binder 2251:2252 <> fn:37
+binder 2266:2266 <> N:38
+R2271:2278 Coqtail.Complex.Cfunctions <> sum_f_C0 def
+R2280:2281 Coqtail.Complex.CFsequence <> fn:37 var
+R2283:2283 Coqtail.Complex.CFsequence <> N:38 var

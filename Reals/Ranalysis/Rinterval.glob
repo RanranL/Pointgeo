@@ -1,0 +1,1666 @@
+DIGEST 69908200fee92834b6608d4f3ad95050
+FCoqtail.Reals.Ranalysis.Rinterval
+R15:19 Coq.Reals.Rbase <> <> lib
+R21:30 Coq.Reals.Rfunctions <> <> lib
+R32:44 Coqtail.Reals.Ranalysis.Rfunction_def <> <> lib
+R46:54 Coq.Reals.Rtopology <> <> lib
+R56:58 Coq.micromega.Lra <> <> lib
+R76:82 Coqtail.mytheories.myReals.MyRIneq <> <> lib
+R84:88 Coqtail.mytheories.MyNeq <> <> lib
+R90:100 Coq.Reals.PSeries_reg <> <> lib
+R118:124 Coqtail.Reals.Tactics <> <> lib
+def 215:220 <> middle
+R225:225 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 223:223 <> x:1
+R231:231 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 229:229 <> y:2
+R236:236 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R241:241 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R247:250 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R243:245 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R242:242 Coqtail.Reals.Ranalysis.Rinterval <> x:1 var
+R246:246 Coqtail.Reals.Ranalysis.Rinterval <> y:2 var
+def 265:277 <> interval_dist
+binder 279:280 <> lb:3
+binder 282:283 <> ub:4
+binder 285:285 <> x:5
+R290:293 Coq.Reals.Rbasic_fun <> Rmin def
+R297:299 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R296:296 Coqtail.Reals.Ranalysis.Rinterval <> x:5 var
+R300:301 Coqtail.Reals.Ranalysis.Rinterval <> lb:3 var
+R307:309 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R305:306 Coqtail.Reals.Ranalysis.Rinterval <> ub:4 var
+R310:310 Coqtail.Reals.Ranalysis.Rinterval <> x:5 var
+def 325:337 <> interval_size
+binder 339:340 <> lb:6
+binder 342:343 <> ub:7
+R347:347 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R352:352 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R360:363 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R355:357 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R353:354 Coqtail.Reals.Ranalysis.Rinterval <> ub:7 var
+R358:359 Coqtail.Reals.Ranalysis.Rinterval <> lb:6 var
+prf 374:390 <> interval_size_pos
+binder 401:402 <> lb:8
+binder 404:405 <> ub:9
+R415:418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R410:412 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R408:409 Coqtail.Reals.Ranalysis.Rinterval <> lb:8 var
+R413:414 Coqtail.Reals.Ranalysis.Rinterval <> ub:9 var
+R420:422 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R423:435 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R437:438 Coqtail.Reals.Ranalysis.Rinterval <> lb:8 var
+R440:441 Coqtail.Reals.Ranalysis.Rinterval <> ub:9 var
+R458:470 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+def 504:510 <> whole_R
+R524:524 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R530:533 Coq.Init.Logic <> True ind
+def 547:554 <> interval
+R567:567 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 557:558 <> lb:10
+binder 560:561 <> ub:11
+binder 563:563 <> x:12
+R575:578 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R580:583 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R573:574 Coqtail.Reals.Ranalysis.Rinterval <> lb:10 var
+R579:579 Coqtail.Reals.Ranalysis.Rinterval <> x:12 var
+R579:579 Coqtail.Reals.Ranalysis.Rinterval <> x:12 var
+R584:585 Coqtail.Reals.Ranalysis.Rinterval <> ub:11 var
+def 599:611 <> open_interval
+R622:622 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 614:615 <> lb:13
+binder 617:618 <> ub:14
+binder 620:620 <> x:15
+R630:632 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R634:636 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R628:629 Coqtail.Reals.Ranalysis.Rinterval <> lb:13 var
+R633:633 Coqtail.Reals.Ranalysis.Rinterval <> x:15 var
+R633:633 Coqtail.Reals.Ranalysis.Rinterval <> x:15 var
+R637:638 Coqtail.Reals.Ranalysis.Rinterval <> ub:14 var
+def 653:657 <> Rball
+binder 659:659 <> c:16
+binder 661:661 <> r:17
+binder 663:663 <> x:18
+R680:682 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R668:671 Coq.Reals.Rbasic_fun <> Rabs def
+R675:677 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R674:674 Coqtail.Reals.Ranalysis.Rinterval <> x:18 var
+R678:678 Coqtail.Reals.Ranalysis.Rinterval <> c:16 var
+R683:683 Coqtail.Reals.Ranalysis.Rinterval <> r:17 var
+def 697:706 <> Rball_dist
+binder 708:708 <> c:19
+binder 710:710 <> r:20
+R715:727 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist def
+R731:733 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R730:730 Coqtail.Reals.Ranalysis.Rinterval <> c:19 var
+R734:734 Coqtail.Reals.Ranalysis.Rinterval <> r:20 var
+R739:741 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R738:738 Coqtail.Reals.Ranalysis.Rinterval <> c:19 var
+R742:742 Coqtail.Reals.Ranalysis.Rinterval <> r:20 var
+def 758:765 <> Rball_eq
+binder 767:767 <> c:21
+binder 769:769 <> r:22
+R779:782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R778:778 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R783:783 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 772:772 <> f:23
+binder 774:774 <> g:24
+binder 796:796 <> x:25
+R812:815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R801:805 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R807:807 Coqtail.Reals.Ranalysis.Rinterval <> c:21 var
+R809:809 Coqtail.Reals.Ranalysis.Rinterval <> r:22 var
+R811:811 Coqtail.Reals.Ranalysis.Rinterval <> x:25 var
+R819:821 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R816:816 Coqtail.Reals.Ranalysis.Rinterval <> f:23 var
+R818:818 Coqtail.Reals.Ranalysis.Rinterval <> x:25 var
+R822:822 Coqtail.Reals.Ranalysis.Rinterval <> g:24 var
+R824:824 Coqtail.Reals.Ranalysis.Rinterval <> x:25 var
+prf 834:845 <> Req_Rball_eq
+binder 855:855 <> f:26
+binder 857:857 <> g:27
+binder 859:859 <> c:28
+binder 861:861 <> r:29
+R872:875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R867:870 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R866:866 Coqtail.Reals.Ranalysis.Rinterval <> f:26 var
+R871:871 Coqtail.Reals.Ranalysis.Rinterval <> g:27 var
+R876:883 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R885:885 Coqtail.Reals.Ranalysis.Rinterval <> c:28 var
+R887:887 Coqtail.Reals.Ranalysis.Rinterval <> r:29 var
+R889:889 Coqtail.Reals.Ranalysis.Rinterval <> f:26 var
+R891:891 Coqtail.Reals.Ranalysis.Rinterval <> g:27 var
+prf 952:964 <> Rball_eq_refl
+binder 974:974 <> c:30
+binder 976:976 <> r:31
+binder 978:978 <> f:32
+R981:988 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R990:990 Coqtail.Reals.Ranalysis.Rinterval <> c:30 var
+R992:992 Coqtail.Reals.Ranalysis.Rinterval <> r:31 var
+R994:994 Coqtail.Reals.Ranalysis.Rinterval <> f:32 var
+R996:996 Coqtail.Reals.Ranalysis.Rinterval <> f:32 var
+R1013:1020 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+prf 1045:1056 <> Rball_eq_sym
+binder 1066:1066 <> c:33
+binder 1068:1068 <> r:34
+binder 1070:1070 <> f:35
+binder 1072:1072 <> g:36
+R1091:1094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1075:1082 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1084:1084 Coqtail.Reals.Ranalysis.Rinterval <> c:33 var
+R1086:1086 Coqtail.Reals.Ranalysis.Rinterval <> r:34 var
+R1088:1088 Coqtail.Reals.Ranalysis.Rinterval <> f:35 var
+R1090:1090 Coqtail.Reals.Ranalysis.Rinterval <> g:36 var
+R1095:1102 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1104:1104 Coqtail.Reals.Ranalysis.Rinterval <> c:33 var
+R1106:1106 Coqtail.Reals.Ranalysis.Rinterval <> r:34 var
+R1108:1108 Coqtail.Reals.Ranalysis.Rinterval <> g:36 var
+R1110:1110 Coqtail.Reals.Ranalysis.Rinterval <> f:35 var
+R1127:1134 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+prf 1176:1189 <> Rball_eq_trans
+binder 1199:1199 <> c:37
+binder 1201:1201 <> r:38
+binder 1203:1203 <> f:39
+binder 1205:1205 <> g:40
+binder 1207:1207 <> h:41
+R1226:1231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1210:1217 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1219:1219 Coqtail.Reals.Ranalysis.Rinterval <> c:37 var
+R1221:1221 Coqtail.Reals.Ranalysis.Rinterval <> r:38 var
+R1223:1223 Coqtail.Reals.Ranalysis.Rinterval <> f:39 var
+R1225:1225 Coqtail.Reals.Ranalysis.Rinterval <> g:40 var
+R1248:1251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1232:1239 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1241:1241 Coqtail.Reals.Ranalysis.Rinterval <> c:37 var
+R1243:1243 Coqtail.Reals.Ranalysis.Rinterval <> r:38 var
+R1245:1245 Coqtail.Reals.Ranalysis.Rinterval <> g:40 var
+R1247:1247 Coqtail.Reals.Ranalysis.Rinterval <> h:41 var
+R1252:1259 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1261:1261 Coqtail.Reals.Ranalysis.Rinterval <> c:37 var
+R1263:1263 Coqtail.Reals.Ranalysis.Rinterval <> r:38 var
+R1265:1265 Coqtail.Reals.Ranalysis.Rinterval <> f:39 var
+R1267:1267 Coqtail.Reals.Ranalysis.Rinterval <> h:41 var
+R1284:1291 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+prf 1343:1358 <> Rball_radius_pos
+binder 1369:1369 <> c:42
+binder 1371:1371 <> r:43
+binder 1373:1373 <> x:44
+R1389:1392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1378:1382 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R1384:1384 Coqtail.Reals.Ranalysis.Rinterval <> c:42 var
+R1386:1386 Coqtail.Reals.Ranalysis.Rinterval <> r:43 var
+R1388:1388 Coqtail.Reals.Ranalysis.Rinterval <> x:44 var
+R1394:1396 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1397:1397 Coqtail.Reals.Ranalysis.Rinterval <> r:43 var
+R1414:1418 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R1447:1458 Coq.Reals.RIneq <> Rle_lt_trans thm
+R1470:1477 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R1447:1458 Coq.Reals.RIneq <> Rle_lt_trans thm
+R1470:1477 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R1509:1514 Coq.Setoids.Setoid <> <> lib
+R1548:1548 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1543:1543 <> c:45
+binder 1545:1545 <> r:46
+R1555:1558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1554:1554 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1559:1559 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1563:1570 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1572:1572 Coqtail.Reals.Ranalysis.Rinterval <> c:45 var
+R1574:1574 Coqtail.Reals.Ranalysis.Rinterval <> r:46 var
+R1548:1548 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1543:1543 <> c:47
+binder 1545:1545 <> r:48
+R1555:1558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1554:1554 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1559:1559 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1563:1570 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1572:1572 Coqtail.Reals.Ranalysis.Rinterval <> c:47 var
+R1574:1574 Coqtail.Reals.Ranalysis.Rinterval <> r:48 var
+R1600:1612 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq_refl thm
+R1548:1548 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1543:1543 <> c:49
+binder 1545:1545 <> r:50
+R1555:1558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1554:1554 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1559:1559 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1563:1570 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1572:1572 Coqtail.Reals.Ranalysis.Rinterval <> c:49 var
+R1574:1574 Coqtail.Reals.Ranalysis.Rinterval <> r:50 var
+R1639:1650 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq_sym thm
+R1548:1548 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1543:1543 <> c:51
+binder 1545:1545 <> r:52
+R1555:1558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1554:1554 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1559:1559 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1563:1570 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1572:1572 Coqtail.Reals.Ranalysis.Rinterval <> c:51 var
+R1574:1574 Coqtail.Reals.Ranalysis.Rinterval <> r:52 var
+R1681:1694 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq_trans thm
+R1548:1548 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1543:1543 <> c:53
+binder 1545:1545 <> r:54
+R1555:1558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1554:1554 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1559:1559 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1563:1570 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1572:1572 Coqtail.Reals.Ranalysis.Rinterval <> c:53 var
+R1574:1574 Coqtail.Reals.Ranalysis.Rinterval <> r:54 var
+R1600:1612 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq_refl thm
+R1639:1650 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq_sym thm
+R1681:1694 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq_trans thm
+prf 1785:1799 <> center_in_Rball
+binder 1810:1810 <> c:55
+binder 1812:1812 <> r:56
+R1820:1823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1816:1818 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1819:1819 Coqtail.Reals.Ranalysis.Rinterval <> r:56 var
+R1824:1828 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R1830:1830 Coqtail.Reals.Ranalysis.Rinterval <> c:55 var
+R1832:1832 Coqtail.Reals.Ranalysis.Rinterval <> r:56 var
+R1834:1834 Coqtail.Reals.Ranalysis.Rinterval <> c:55 var
+R1859:1867 Coq.Reals.Rbasic_fun <> Rabs_def1 thm
+R1859:1867 Coq.Reals.Rbasic_fun <> Rabs_def1 thm
+prf 1888:1905 <> center_in_interval
+binder 1916:1916 <> c:57
+binder 1918:1918 <> r:58
+R1927:1930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1922:1925 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1926:1926 Coqtail.Reals.Ranalysis.Rinterval <> r:58 var
+R1931:1938 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R1942:1944 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1941:1941 Coqtail.Reals.Ranalysis.Rinterval <> c:57 var
+R1945:1945 Coqtail.Reals.Ranalysis.Rinterval <> r:58 var
+R1950:1952 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1949:1949 Coqtail.Reals.Ranalysis.Rinterval <> c:57 var
+R1953:1953 Coqtail.Reals.Ranalysis.Rinterval <> r:58 var
+R1956:1956 Coqtail.Reals.Ranalysis.Rinterval <> c:57 var
+prf 2000:2022 <> center_in_open_interval
+binder 2033:2033 <> c:59
+binder 2035:2035 <> r:60
+R2043:2046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2039:2041 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2042:2042 Coqtail.Reals.Ranalysis.Rinterval <> r:60 var
+R2047:2059 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R2063:2065 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2062:2062 Coqtail.Reals.Ranalysis.Rinterval <> c:59 var
+R2066:2066 Coqtail.Reals.Ranalysis.Rinterval <> r:60 var
+R2071:2073 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2070:2070 Coqtail.Reals.Ranalysis.Rinterval <> c:59 var
+R2074:2074 Coqtail.Reals.Ranalysis.Rinterval <> r:60 var
+R2077:2077 Coqtail.Reals.Ranalysis.Rinterval <> c:59 var
+prf 2185:2199 <> middle_identity
+binder 2210:2210 <> x:61
+R2223:2225 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2213:2218 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2220:2220 Coqtail.Reals.Ranalysis.Rinterval <> x:61 var
+R2222:2222 Coqtail.Reals.Ranalysis.Rinterval <> x:61 var
+R2226:2226 Coqtail.Reals.Ranalysis.Rinterval <> x:61 var
+R2252:2257 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+prf 2280:2290 <> middle_comm
+binder 2301:2301 <> x:62
+binder 2303:2303 <> y:63
+R2316:2318 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2306:2311 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2313:2313 Coqtail.Reals.Ranalysis.Rinterval <> x:62 var
+R2315:2315 Coqtail.Reals.Ranalysis.Rinterval <> y:63 var
+R2319:2324 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2326:2326 Coqtail.Reals.Ranalysis.Rinterval <> y:63 var
+R2328:2328 Coqtail.Reals.Ranalysis.Rinterval <> x:62 var
+R2354:2359 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+prf 2382:2394 <> middle_unfold
+binder 2405:2405 <> x:64
+binder 2407:2407 <> y:65
+R2420:2422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2410:2415 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2417:2417 Coqtail.Reals.Ranalysis.Rinterval <> x:64 var
+R2419:2419 Coqtail.Reals.Ranalysis.Rinterval <> y:65 var
+R2423:2423 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2429:2432 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2425:2427 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2424:2424 Coqtail.Reals.Ranalysis.Rinterval <> x:64 var
+R2428:2428 Coqtail.Reals.Ranalysis.Rinterval <> y:65 var
+prf 2477:2485 <> middle_R0
+binder 2496:2496 <> x:66
+R2513:2515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2499:2504 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2507:2508 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R2509:2509 Coqtail.Reals.Ranalysis.Rinterval <> x:66 var
+R2512:2512 Coqtail.Reals.Ranalysis.Rinterval <> x:66 var
+R2542:2547 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+prf 2609:2631 <> middle_is_in_the_middle
+binder 2642:2642 <> x:67
+binder 2644:2644 <> y:68
+R2652:2655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2648:2650 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2647:2647 Coqtail.Reals.Ranalysis.Rinterval <> x:67 var
+R2651:2651 Coqtail.Reals.Ranalysis.Rinterval <> y:68 var
+R2657:2659 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R2670:2672 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R2656:2656 Coqtail.Reals.Ranalysis.Rinterval <> x:67 var
+R2660:2665 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2667:2667 Coqtail.Reals.Ranalysis.Rinterval <> x:67 var
+R2669:2669 Coqtail.Reals.Ranalysis.Rinterval <> y:68 var
+R2660:2665 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2667:2667 Coqtail.Reals.Ranalysis.Rinterval <> x:67 var
+R2669:2669 Coqtail.Reals.Ranalysis.Rinterval <> y:68 var
+R2673:2673 Coqtail.Reals.Ranalysis.Rinterval <> y:68 var
+R2736:2741 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2717:2728 Coq.Reals.RIneq <> Rle_lt_trans thm
+R2736:2741 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2717:2728 Coq.Reals.RIneq <> Rle_lt_trans thm
+R2775:2789 Coqtail.Reals.Ranalysis.Rinterval <> middle_identity thm
+R2775:2789 Coqtail.Reals.Ranalysis.Rinterval <> middle_identity thm
+R2800:2805 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2808:2811 Coq.Reals.Rdefinitions <> Rdiv def
+R2821:2837 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+R2858:2874 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+R2821:2837 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+R2858:2874 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+R2916:2921 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2897:2908 Coq.Reals.RIneq <> Rlt_le_trans thm
+R2916:2921 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2897:2908 Coq.Reals.RIneq <> Rlt_le_trans thm
+R2937:2942 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R2945:2948 Coq.Reals.Rdefinitions <> Rdiv def
+R2958:2974 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+R2995:3011 Coq.Reals.RIneq <> Rplus_lt_compat_r thm
+R2958:2974 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+R2995:3011 Coq.Reals.RIneq <> Rplus_lt_compat_r thm
+R3042:3056 Coqtail.Reals.Ranalysis.Rinterval <> middle_identity thm
+R3042:3056 Coqtail.Reals.Ranalysis.Rinterval <> middle_identity thm
+prf 3071:3094 <> middle_is_in_the_middle'
+binder 3104:3104 <> x:69
+binder 3106:3106 <> y:70
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3110:3113 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3109:3109 Coqtail.Reals.Ranalysis.Rinterval <> x:69 var
+R3114:3114 Coqtail.Reals.Ranalysis.Rinterval <> y:70 var
+R3120:3123 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R3134:3137 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R3119:3119 Coqtail.Reals.Ranalysis.Rinterval <> x:69 var
+R3124:3129 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3131:3131 Coqtail.Reals.Ranalysis.Rinterval <> x:69 var
+R3133:3133 Coqtail.Reals.Ranalysis.Rinterval <> y:70 var
+R3124:3129 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3131:3131 Coqtail.Reals.Ranalysis.Rinterval <> x:69 var
+R3133:3133 Coqtail.Reals.Ranalysis.Rinterval <> y:70 var
+R3138:3138 Coqtail.Reals.Ranalysis.Rinterval <> y:70 var
+R3176:3182 Coqtail.mytheories.myReals.MyRIneq <> Req_dec thm
+R3176:3182 Coqtail.mytheories.myReals.MyRIneq <> Req_dec thm
+R3207:3221 Coqtail.Reals.Ranalysis.Rinterval <> middle_identity thm
+R3207:3221 Coqtail.Reals.Ranalysis.Rinterval <> middle_identity thm
+R3207:3221 Coqtail.Reals.Ranalysis.Rinterval <> middle_identity thm
+R3253:3275 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R3278:3287 Coqtail.mytheories.myReals.MyRIneq <> Rle_neq_lt thm
+R3253:3275 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R3278:3287 Coqtail.mytheories.myReals.MyRIneq <> Rle_neq_lt thm
+R3253:3275 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R3278:3287 Coqtail.mytheories.myReals.MyRIneq <> Rle_neq_lt thm
+prf 3315:3342 <> Rabs_middle_is_in_the_middle
+binder 3353:3353 <> x:71
+binder 3355:3355 <> y:72
+R3364:3367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3359:3362 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3363:3363 Coqtail.Reals.Ranalysis.Rinterval <> x:71 var
+R3373:3378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3369:3371 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3368:3368 Coqtail.Reals.Ranalysis.Rinterval <> x:71 var
+R3372:3372 Coqtail.Reals.Ranalysis.Rinterval <> y:72 var
+R3380:3382 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R3400:3402 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R3379:3379 Coqtail.Reals.Ranalysis.Rinterval <> x:71 var
+R3383:3386 Coq.Reals.Rbasic_fun <> Rabs def
+R3389:3394 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3396:3396 Coqtail.Reals.Ranalysis.Rinterval <> x:71 var
+R3398:3398 Coqtail.Reals.Ranalysis.Rinterval <> y:72 var
+R3383:3386 Coq.Reals.Rbasic_fun <> Rabs def
+R3389:3394 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3396:3396 Coqtail.Reals.Ranalysis.Rinterval <> x:71 var
+R3398:3398 Coqtail.Reals.Ranalysis.Rinterval <> y:72 var
+R3403:3403 Coqtail.Reals.Ranalysis.Rinterval <> y:72 var
+R3458:3460 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3461:3466 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3458:3460 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3461:3466 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3482:3493 Coq.Reals.RIneq <> Rle_lt_trans thm
+R3515:3537 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R3482:3493 Coq.Reals.RIneq <> Rle_lt_trans thm
+R3515:3537 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R3565:3575 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R3588:3610 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R3565:3575 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R3565:3575 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R3565:3575 Coq.Reals.Rbasic_fun <> Rabs_pos_eq thm
+R3588:3610 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+prf 3641:3656 <> middle_le_le_pos
+binder 3667:3667 <> x:73
+binder 3669:3669 <> y:74
+R3678:3681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3673:3676 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3677:3677 Coqtail.Reals.Ranalysis.Rinterval <> x:73 var
+R3688:3691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3683:3686 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3687:3687 Coqtail.Reals.Ranalysis.Rinterval <> y:74 var
+R3693:3696 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3697:3702 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3704:3704 Coqtail.Reals.Ranalysis.Rinterval <> x:73 var
+R3706:3706 Coqtail.Reals.Ranalysis.Rinterval <> y:74 var
+R3748:3753 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3756:3759 Coq.Reals.Rdefinitions <> Rdiv def
+prf 3782:3800 <> middle_lt_lt_pos_lt
+binder 3811:3811 <> x:75
+binder 3813:3813 <> y:76
+R3821:3824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3817:3819 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3820:3820 Coqtail.Reals.Ranalysis.Rinterval <> x:75 var
+R3830:3833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3826:3828 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3829:3829 Coqtail.Reals.Ranalysis.Rinterval <> y:76 var
+R3835:3837 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3838:3843 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3845:3845 Coqtail.Reals.Ranalysis.Rinterval <> x:75 var
+R3847:3847 Coqtail.Reals.Ranalysis.Rinterval <> y:76 var
+R3889:3894 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3897:3900 Coq.Reals.Rdefinitions <> Rdiv def
+prf 3922:3940 <> middle_le_lt_pos_lt
+binder 3951:3951 <> x:77
+binder 3953:3953 <> y:78
+R3962:3965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3957:3960 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R3961:3961 Coqtail.Reals.Ranalysis.Rinterval <> x:77 var
+R3971:3974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3967:3969 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3970:3970 Coqtail.Reals.Ranalysis.Rinterval <> y:78 var
+R3976:3978 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R3979:3984 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R3986:3986 Coqtail.Reals.Ranalysis.Rinterval <> x:77 var
+R3988:3988 Coqtail.Reals.Ranalysis.Rinterval <> y:78 var
+R4030:4035 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R4038:4041 Coq.Reals.Rdefinitions <> Rdiv def
+prf 4063:4081 <> middle_lt_le_pos_lt
+binder 4092:4092 <> x:79
+binder 4094:4094 <> y:80
+R4102:4105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4098:4100 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4101:4101 Coqtail.Reals.Ranalysis.Rinterval <> x:79 var
+R4112:4115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4107:4110 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4111:4111 Coqtail.Reals.Ranalysis.Rinterval <> y:80 var
+R4117:4119 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4120:4125 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R4127:4127 Coqtail.Reals.Ranalysis.Rinterval <> x:79 var
+R4129:4129 Coqtail.Reals.Ranalysis.Rinterval <> y:80 var
+R4172:4182 Coqtail.Reals.Ranalysis.Rinterval <> middle_comm thm
+R4193:4211 Coqtail.Reals.Ranalysis.Rinterval <> middle_le_lt_pos_lt thm
+R4172:4182 Coqtail.Reals.Ranalysis.Rinterval <> middle_comm thm
+R4172:4182 Coqtail.Reals.Ranalysis.Rinterval <> middle_comm thm
+R4193:4211 Coqtail.Reals.Ranalysis.Rinterval <> middle_le_lt_pos_lt thm
+prf 4239:4257 <> middle_lt_lt_neg_lt
+binder 4268:4268 <> x:81
+binder 4270:4270 <> y:82
+R4278:4281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4274:4276 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4273:4273 Coqtail.Reals.Ranalysis.Rinterval <> x:81 var
+R4287:4290 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4283:4285 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4282:4282 Coqtail.Reals.Ranalysis.Rinterval <> y:82 var
+R4301:4303 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4291:4296 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R4298:4298 Coqtail.Reals.Ranalysis.Rinterval <> x:81 var
+R4300:4300 Coqtail.Reals.Ranalysis.Rinterval <> y:82 var
+R4346:4351 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R4354:4357 Coq.Reals.Rdefinitions <> Rdiv def
+R4378:4378 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4384:4387 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4380:4382 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4408:4431 Coq.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+R4378:4378 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4384:4387 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4380:4382 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4408:4431 Coq.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+prf 4452:4470 <> middle_le_lt_neg_lt
+binder 4481:4481 <> x:83
+binder 4483:4483 <> y:84
+R4492:4495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4487:4490 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4486:4486 Coqtail.Reals.Ranalysis.Rinterval <> x:83 var
+R4501:4504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4497:4499 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4496:4496 Coqtail.Reals.Ranalysis.Rinterval <> y:84 var
+R4515:4517 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4505:4510 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R4512:4512 Coqtail.Reals.Ranalysis.Rinterval <> x:83 var
+R4514:4514 Coqtail.Reals.Ranalysis.Rinterval <> y:84 var
+R4560:4565 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R4568:4571 Coq.Reals.Rdefinitions <> Rdiv def
+R4593:4593 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4599:4602 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4595:4597 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4623:4646 Coq.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+R4593:4593 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4599:4602 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4595:4597 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4623:4646 Coq.Reals.RIneq <> Rmult_lt_gt_compat_neg_l thm
+prf 4667:4685 <> middle_lt_le_neg_lt
+binder 4696:4696 <> x:85
+binder 4698:4698 <> y:86
+R4706:4709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4702:4704 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4701:4701 Coqtail.Reals.Ranalysis.Rinterval <> x:85 var
+R4716:4719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4711:4714 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4710:4710 Coqtail.Reals.Ranalysis.Rinterval <> y:86 var
+R4730:4732 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R4720:4725 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R4727:4727 Coqtail.Reals.Ranalysis.Rinterval <> x:85 var
+R4729:4729 Coqtail.Reals.Ranalysis.Rinterval <> y:86 var
+R4776:4786 Coqtail.Reals.Ranalysis.Rinterval <> middle_comm thm
+R4797:4815 Coqtail.Reals.Ranalysis.Rinterval <> middle_le_lt_neg_lt thm
+R4776:4786 Coqtail.Reals.Ranalysis.Rinterval <> middle_comm thm
+R4776:4786 Coqtail.Reals.Ranalysis.Rinterval <> middle_comm thm
+R4797:4815 Coqtail.Reals.Ranalysis.Rinterval <> middle_le_lt_neg_lt thm
+prf 4878:4887 <> interval_l
+binder 4898:4899 <> lb:87
+binder 4901:4902 <> ub:88
+R4913:4916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4907:4910 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4905:4906 Coqtail.Reals.Ranalysis.Rinterval <> lb:87 var
+R4911:4912 Coqtail.Reals.Ranalysis.Rinterval <> ub:88 var
+R4917:4924 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R4926:4927 Coqtail.Reals.Ranalysis.Rinterval <> lb:87 var
+R4929:4930 Coqtail.Reals.Ranalysis.Rinterval <> ub:88 var
+R4932:4933 Coqtail.Reals.Ranalysis.Rinterval <> lb:87 var
+prf 4993:5002 <> interval_r
+binder 5013:5014 <> lb:89
+binder 5016:5017 <> ub:90
+R5028:5031 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5022:5025 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5020:5021 Coqtail.Reals.Ranalysis.Rinterval <> lb:89 var
+R5026:5027 Coqtail.Reals.Ranalysis.Rinterval <> ub:90 var
+R5032:5039 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5041:5042 Coqtail.Reals.Ranalysis.Rinterval <> lb:89 var
+R5044:5045 Coqtail.Reals.Ranalysis.Rinterval <> ub:90 var
+R5047:5048 Coqtail.Reals.Ranalysis.Rinterval <> ub:90 var
+prf 5108:5127 <> interval_restriction
+binder 5138:5139 <> lb:91
+binder 5141:5142 <> ub:92
+binder 5144:5144 <> a:93
+binder 5146:5146 <> b:94
+R5167:5170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5151:5158 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5160:5161 Coqtail.Reals.Ranalysis.Rinterval <> lb:91 var
+R5163:5164 Coqtail.Reals.Ranalysis.Rinterval <> ub:92 var
+R5166:5166 Coqtail.Reals.Ranalysis.Rinterval <> a:93 var
+R5187:5192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5171:5178 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5180:5181 Coqtail.Reals.Ranalysis.Rinterval <> lb:91 var
+R5183:5184 Coqtail.Reals.Ranalysis.Rinterval <> ub:92 var
+R5186:5186 Coqtail.Reals.Ranalysis.Rinterval <> b:94 var
+R5193:5200 Coq.Reals.Rtopology <> included def
+R5203:5210 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5212:5212 Coqtail.Reals.Ranalysis.Rinterval <> a:93 var
+R5214:5214 Coqtail.Reals.Ranalysis.Rinterval <> b:94 var
+R5218:5225 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5227:5228 Coqtail.Reals.Ranalysis.Rinterval <> lb:91 var
+R5230:5231 Coqtail.Reals.Ranalysis.Rinterval <> ub:92 var
+prf 5387:5411 <> open_interval_restriction
+binder 5422:5423 <> lb:95
+binder 5425:5426 <> ub:96
+binder 5428:5428 <> a:97
+binder 5430:5430 <> b:98
+R5451:5454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5435:5442 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5444:5445 Coqtail.Reals.Ranalysis.Rinterval <> lb:95 var
+R5447:5448 Coqtail.Reals.Ranalysis.Rinterval <> ub:96 var
+R5450:5450 Coqtail.Reals.Ranalysis.Rinterval <> a:97 var
+R5471:5476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5455:5462 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5464:5465 Coqtail.Reals.Ranalysis.Rinterval <> lb:95 var
+R5467:5468 Coqtail.Reals.Ranalysis.Rinterval <> ub:96 var
+R5470:5470 Coqtail.Reals.Ranalysis.Rinterval <> b:98 var
+R5477:5484 Coq.Reals.Rtopology <> included def
+R5487:5499 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R5501:5501 Coqtail.Reals.Ranalysis.Rinterval <> a:97 var
+R5503:5503 Coqtail.Reals.Ranalysis.Rinterval <> b:98 var
+R5507:5519 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R5521:5522 Coqtail.Reals.Ranalysis.Rinterval <> lb:95 var
+R5524:5525 Coqtail.Reals.Ranalysis.Rinterval <> ub:96 var
+R5587:5598 Coq.Reals.RIneq <> Rle_lt_trans thm
+R5587:5598 Coq.Reals.RIneq <> Rle_lt_trans thm
+R5639:5650 Coq.Reals.RIneq <> Rlt_le_trans thm
+R5639:5650 Coq.Reals.RIneq <> Rlt_le_trans thm
+prf 5695:5719 <> interval_open_restriction
+binder 5730:5731 <> lb:99
+binder 5733:5734 <> ub:100
+binder 5736:5736 <> a:101
+binder 5738:5738 <> b:102
+R5764:5767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5743:5755 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R5757:5758 Coqtail.Reals.Ranalysis.Rinterval <> lb:99 var
+R5760:5761 Coqtail.Reals.Ranalysis.Rinterval <> ub:100 var
+R5763:5763 Coqtail.Reals.Ranalysis.Rinterval <> a:101 var
+R5789:5794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5768:5780 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R5782:5783 Coqtail.Reals.Ranalysis.Rinterval <> lb:99 var
+R5785:5786 Coqtail.Reals.Ranalysis.Rinterval <> ub:100 var
+R5788:5788 Coqtail.Reals.Ranalysis.Rinterval <> b:102 var
+R5795:5802 Coq.Reals.Rtopology <> included def
+R5805:5812 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R5814:5814 Coqtail.Reals.Ranalysis.Rinterval <> a:101 var
+R5816:5816 Coqtail.Reals.Ranalysis.Rinterval <> b:102 var
+R5820:5832 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R5834:5835 Coqtail.Reals.Ranalysis.Rinterval <> lb:99 var
+R5837:5838 Coqtail.Reals.Ranalysis.Rinterval <> ub:100 var
+R5900:5911 Coq.Reals.RIneq <> Rlt_le_trans thm
+R5900:5911 Coq.Reals.RIneq <> Rlt_le_trans thm
+R5952:5963 Coq.Reals.RIneq <> Rle_lt_trans thm
+R5952:5963 Coq.Reals.RIneq <> Rle_lt_trans thm
+prf 6008:6029 <> open_interval_interval
+binder 6040:6041 <> lb:103
+binder 6043:6044 <> ub:104
+binder 6046:6046 <> x:105
+R6075:6078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6054:6066 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R6068:6069 Coqtail.Reals.Ranalysis.Rinterval <> lb:103 var
+R6071:6072 Coqtail.Reals.Ranalysis.Rinterval <> ub:104 var
+R6074:6074 Coqtail.Reals.Ranalysis.Rinterval <> x:105 var
+R6079:6086 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6088:6089 Coqtail.Reals.Ranalysis.Rinterval <> lb:103 var
+R6091:6092 Coqtail.Reals.Ranalysis.Rinterval <> ub:104 var
+R6094:6094 Coqtail.Reals.Ranalysis.Rinterval <> x:105 var
+R6129:6141 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+prf 6173:6190 <> interval_inhabited
+binder 6201:6202 <> lb:106
+binder 6204:6205 <> ub:107
+binder 6207:6207 <> x:108
+R6228:6231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6212:6219 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6221:6222 Coqtail.Reals.Ranalysis.Rinterval <> lb:106 var
+R6224:6225 Coqtail.Reals.Ranalysis.Rinterval <> ub:107 var
+R6227:6227 Coqtail.Reals.Ranalysis.Rinterval <> x:108 var
+R6234:6237 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6232:6233 Coqtail.Reals.Ranalysis.Rinterval <> lb:106 var
+R6238:6239 Coqtail.Reals.Ranalysis.Rinterval <> ub:107 var
+prf 6305:6327 <> open_interval_inhabited
+binder 6338:6339 <> lb:109
+binder 6341:6342 <> ub:110
+binder 6344:6344 <> x:111
+R6370:6373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6349:6361 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R6363:6364 Coqtail.Reals.Ranalysis.Rinterval <> lb:109 var
+R6366:6367 Coqtail.Reals.Ranalysis.Rinterval <> ub:110 var
+R6369:6369 Coqtail.Reals.Ranalysis.Rinterval <> x:111 var
+R6376:6378 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6374:6375 Coqtail.Reals.Ranalysis.Rinterval <> lb:109 var
+R6379:6380 Coqtail.Reals.Ranalysis.Rinterval <> ub:110 var
+prf 6446:6464 <> interval_opp_compat
+binder 6475:6476 <> lb:112
+binder 6478:6479 <> ub:113
+binder 6481:6481 <> x:114
+R6505:6513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6489:6496 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6498:6499 Coqtail.Reals.Ranalysis.Rinterval <> lb:112 var
+R6501:6502 Coqtail.Reals.Ranalysis.Rinterval <> ub:113 var
+R6504:6504 Coqtail.Reals.Ranalysis.Rinterval <> x:114 var
+R6514:6521 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6524:6524 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6525:6526 Coqtail.Reals.Ranalysis.Rinterval <> ub:113 var
+R6530:6530 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6531:6532 Coqtail.Reals.Ranalysis.Rinterval <> lb:112 var
+R6536:6536 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6537:6537 Coqtail.Reals.Ranalysis.Rinterval <> x:114 var
+R6564:6571 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+prf 6617:6637 <> interval_minus_compat
+binder 6648:6649 <> lb:115
+binder 6651:6652 <> ub:116
+binder 6654:6654 <> x:117
+binder 6656:6656 <> y:118
+R6677:6680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6661:6668 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6670:6671 Coqtail.Reals.Ranalysis.Rinterval <> lb:115 var
+R6673:6674 Coqtail.Reals.Ranalysis.Rinterval <> ub:116 var
+R6676:6676 Coqtail.Reals.Ranalysis.Rinterval <> x:117 var
+R6681:6688 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6693:6695 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6691:6692 Coqtail.Reals.Ranalysis.Rinterval <> lb:115 var
+R6696:6696 Coqtail.Reals.Ranalysis.Rinterval <> y:118 var
+R6702:6704 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6700:6701 Coqtail.Reals.Ranalysis.Rinterval <> ub:116 var
+R6705:6705 Coqtail.Reals.Ranalysis.Rinterval <> y:118 var
+R6710:6712 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6709:6709 Coqtail.Reals.Ranalysis.Rinterval <> x:117 var
+R6713:6713 Coqtail.Reals.Ranalysis.Rinterval <> y:118 var
+prf 6778:6800 <> interval_minus_compat_0
+binder 6811:6812 <> lb:119
+binder 6814:6815 <> ub:120
+binder 6817:6817 <> x:121
+R6838:6841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6822:6829 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6831:6832 Coqtail.Reals.Ranalysis.Rinterval <> lb:119 var
+R6834:6835 Coqtail.Reals.Ranalysis.Rinterval <> ub:120 var
+R6837:6837 Coqtail.Reals.Ranalysis.Rinterval <> x:121 var
+R6842:6849 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R6854:6856 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6852:6853 Coqtail.Reals.Ranalysis.Rinterval <> lb:119 var
+R6857:6857 Coqtail.Reals.Ranalysis.Rinterval <> x:121 var
+R6863:6865 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6861:6862 Coqtail.Reals.Ranalysis.Rinterval <> ub:120 var
+R6866:6866 Coqtail.Reals.Ranalysis.Rinterval <> x:121 var
+R6913:6915 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6936:6956 Coqtail.Reals.Ranalysis.Rinterval <> interval_minus_compat thm
+R6913:6915 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6936:6956 Coqtail.Reals.Ranalysis.Rinterval <> interval_minus_compat thm
+prf 6971:6994 <> open_interval_opp_compat
+binder 7005:7006 <> lb:122
+binder 7008:7009 <> ub:123
+binder 7011:7011 <> x:124
+R7040:7048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7019:7031 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R7033:7034 Coqtail.Reals.Ranalysis.Rinterval <> lb:122 var
+R7036:7037 Coqtail.Reals.Ranalysis.Rinterval <> ub:123 var
+R7039:7039 Coqtail.Reals.Ranalysis.Rinterval <> x:124 var
+R7049:7061 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R7064:7064 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7065:7066 Coqtail.Reals.Ranalysis.Rinterval <> ub:123 var
+R7070:7070 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7071:7072 Coqtail.Reals.Ranalysis.Rinterval <> lb:122 var
+R7076:7076 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7077:7077 Coqtail.Reals.Ranalysis.Rinterval <> x:124 var
+R7104:7116 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+prf 7162:7183 <> interval_middle_compat
+binder 7193:7194 <> lb:125
+binder 7196:7197 <> ub:126
+binder 7199:7199 <> x:127
+binder 7201:7201 <> y:128
+R7222:7225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7206:7213 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R7215:7216 Coqtail.Reals.Ranalysis.Rinterval <> lb:125 var
+R7218:7219 Coqtail.Reals.Ranalysis.Rinterval <> ub:126 var
+R7221:7221 Coqtail.Reals.Ranalysis.Rinterval <> x:127 var
+R7242:7247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7226:7233 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R7235:7236 Coqtail.Reals.Ranalysis.Rinterval <> lb:125 var
+R7238:7239 Coqtail.Reals.Ranalysis.Rinterval <> ub:126 var
+R7241:7241 Coqtail.Reals.Ranalysis.Rinterval <> y:128 var
+R7248:7255 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R7257:7258 Coqtail.Reals.Ranalysis.Rinterval <> lb:125 var
+R7260:7261 Coqtail.Reals.Ranalysis.Rinterval <> ub:126 var
+R7264:7269 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R7271:7271 Coqtail.Reals.Ranalysis.Rinterval <> x:127 var
+R7273:7273 Coqtail.Reals.Ranalysis.Rinterval <> y:128 var
+R7333:7338 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R7341:7348 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R7375:7375 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7383:7386 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7378:7380 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7387:7387 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7375:7375 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7383:7386 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7378:7380 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7387:7387 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7410:7413 Coq.Reals.Rdefinitions <> Rdiv def
+R7423:7439 Coq.Reals.RIneq <> Rmult_le_compat_r thm
+R7423:7439 Coq.Reals.RIneq <> Rmult_le_compat_r thm
+R7473:7473 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7481:7484 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7476:7478 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7485:7485 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7473:7473 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7481:7484 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7476:7478 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7485:7485 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7508:7511 Coq.Reals.Rdefinitions <> Rdiv def
+R7521:7537 Coq.Reals.RIneq <> Rmult_le_compat_r thm
+R7521:7537 Coq.Reals.RIneq <> Rmult_le_compat_r thm
+prf 7564:7590 <> open_interval_middle_compat
+binder 7601:7602 <> lb:129
+binder 7604:7605 <> ub:130
+binder 7607:7607 <> x:131
+binder 7609:7609 <> y:132
+R7635:7638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7614:7626 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R7628:7629 Coqtail.Reals.Ranalysis.Rinterval <> lb:129 var
+R7631:7632 Coqtail.Reals.Ranalysis.Rinterval <> ub:130 var
+R7634:7634 Coqtail.Reals.Ranalysis.Rinterval <> x:131 var
+R7660:7665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7639:7651 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R7653:7654 Coqtail.Reals.Ranalysis.Rinterval <> lb:129 var
+R7656:7657 Coqtail.Reals.Ranalysis.Rinterval <> ub:130 var
+R7659:7659 Coqtail.Reals.Ranalysis.Rinterval <> y:132 var
+R7666:7678 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R7680:7681 Coqtail.Reals.Ranalysis.Rinterval <> lb:129 var
+R7683:7684 Coqtail.Reals.Ranalysis.Rinterval <> ub:130 var
+R7687:7692 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R7694:7694 Coqtail.Reals.Ranalysis.Rinterval <> x:131 var
+R7696:7696 Coqtail.Reals.Ranalysis.Rinterval <> y:132 var
+R7756:7761 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R7764:7776 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R7803:7803 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7811:7814 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7806:7808 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7815:7815 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7803:7803 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7811:7814 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7806:7808 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7815:7815 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7838:7841 Coq.Reals.Rdefinitions <> Rdiv def
+R7851:7867 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+R7851:7867 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+R7901:7901 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7909:7912 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7904:7906 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7913:7913 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7901:7901 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7909:7912 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7904:7906 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7913:7913 Coq.Reals.Rdefinitions <> ::R_scope:'/'_x not
+R7936:7939 Coq.Reals.Rdefinitions <> Rdiv def
+R7949:7965 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+R7949:7965 Coq.Reals.RIneq <> Rmult_lt_compat_r thm
+prf 8022:8036 <> in_interval_dec
+binder 8046:8047 <> lb:133
+binder 8049:8050 <> ub:134
+binder 8052:8052 <> x:135
+R8057:8058 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8075:8081 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8100:8101 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8059:8066 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R8068:8069 Coqtail.Reals.Ranalysis.Rinterval <> lb:133 var
+R8071:8072 Coqtail.Reals.Ranalysis.Rinterval <> ub:134 var
+R8074:8074 Coqtail.Reals.Ranalysis.Rinterval <> x:135 var
+R8082:8083 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8084:8091 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R8093:8094 Coqtail.Reals.Ranalysis.Rinterval <> lb:133 var
+R8096:8097 Coqtail.Reals.Ranalysis.Rinterval <> ub:134 var
+R8099:8099 Coqtail.Reals.Ranalysis.Rinterval <> x:135 var
+R8139:8148 Coq.Reals.RIneq <> Rle_lt_dec thm
+R8139:8148 Coq.Reals.RIneq <> Rle_lt_dec thm
+R8170:8179 Coq.Reals.RIneq <> Rle_lt_dec thm
+R8170:8179 Coq.Reals.RIneq <> Rle_lt_dec thm
+prf 8296:8315 <> in_open_interval_dec
+binder 8325:8326 <> lb:136
+binder 8328:8329 <> ub:137
+binder 8331:8331 <> x:138
+R8336:8337 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8359:8365 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8389:8390 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8338:8350 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R8352:8353 Coqtail.Reals.Ranalysis.Rinterval <> lb:136 var
+R8355:8356 Coqtail.Reals.Ranalysis.Rinterval <> ub:137 var
+R8358:8358 Coqtail.Reals.Ranalysis.Rinterval <> x:138 var
+R8366:8367 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8368:8380 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R8382:8383 Coqtail.Reals.Ranalysis.Rinterval <> lb:136 var
+R8385:8386 Coqtail.Reals.Ranalysis.Rinterval <> ub:137 var
+R8388:8388 Coqtail.Reals.Ranalysis.Rinterval <> x:138 var
+R8421:8430 Coq.Reals.RIneq <> Rlt_le_dec thm
+R8421:8430 Coq.Reals.RIneq <> Rlt_le_dec thm
+R8452:8461 Coq.Reals.RIneq <> Rlt_le_dec thm
+R8452:8461 Coq.Reals.RIneq <> Rlt_le_dec thm
+prf 8578:8603 <> interval_open_interval_dec
+binder 8613:8614 <> lb:139
+binder 8616:8617 <> ub:140
+binder 8619:8619 <> x:141
+R8640:8645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8624:8631 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R8633:8634 Coqtail.Reals.Ranalysis.Rinterval <> lb:139 var
+R8636:8637 Coqtail.Reals.Ranalysis.Rinterval <> ub:140 var
+R8639:8639 Coqtail.Reals.Ranalysis.Rinterval <> x:141 var
+R8684:8688 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R8695:8696 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R8646:8647 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8654:8660 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8682:8683 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R8649:8651 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8648:8648 Coqtail.Reals.Ranalysis.Rinterval <> x:141 var
+R8652:8653 Coqtail.Reals.Ranalysis.Rinterval <> lb:139 var
+R8661:8673 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R8675:8676 Coqtail.Reals.Ranalysis.Rinterval <> lb:139 var
+R8678:8679 Coqtail.Reals.Ranalysis.Rinterval <> ub:140 var
+R8681:8681 Coqtail.Reals.Ranalysis.Rinterval <> x:141 var
+R8690:8692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8689:8689 Coqtail.Reals.Ranalysis.Rinterval <> x:141 var
+R8693:8694 Coqtail.Reals.Ranalysis.Rinterval <> ub:140 var
+R8742:8748 Coqtail.mytheories.myReals.MyRIneq <> Req_dec thm
+R8742:8748 Coqtail.mytheories.myReals.MyRIneq <> Req_dec thm
+R8799:8805 Coqtail.mytheories.myReals.MyRIneq <> Req_dec thm
+R8799:8805 Coqtail.mytheories.myReals.MyRIneq <> Req_dec thm
+R8875:8884 Coqtail.mytheories.myReals.MyRIneq <> Rneq_le_lt thm
+R8875:8884 Coqtail.mytheories.myReals.MyRIneq <> Rneq_le_lt thm
+R8926:8935 Coqtail.mytheories.myReals.MyRIneq <> Rneq_le_lt thm
+R8926:8935 Coqtail.mytheories.myReals.MyRIneq <> Rneq_le_lt thm
+prf 9010:9029 <> open_interval_ext_eq
+binder 9039:9041 <> lb1:142
+binder 9043:9045 <> lb2:143
+binder 9047:9049 <> ub1:144
+binder 9051:9053 <> ub2:145
+R9065:9070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9059:9061 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R9056:9058 Coqtail.Reals.Ranalysis.Rinterval <> lb1:142 var
+R9062:9064 Coqtail.Reals.Ranalysis.Rinterval <> ub1:144 var
+R9071:9071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9133:9139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9079:9079 <> x:146
+R9105:9109 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9082:9094 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R9096:9098 Coqtail.Reals.Ranalysis.Rinterval <> lb1:142 var
+R9100:9102 Coqtail.Reals.Ranalysis.Rinterval <> ub1:144 var
+R9104:9104 Coqtail.Reals.Ranalysis.Rinterval <> x:146 var
+R9110:9122 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R9124:9126 Coqtail.Reals.Ranalysis.Rinterval <> lb2:143 var
+R9128:9130 Coqtail.Reals.Ranalysis.Rinterval <> ub2:145 var
+R9132:9132 Coqtail.Reals.Ranalysis.Rinterval <> x:146 var
+R9149:9152 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9143:9145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9140:9142 Coqtail.Reals.Ranalysis.Rinterval <> lb1:142 var
+R9146:9148 Coqtail.Reals.Ranalysis.Rinterval <> lb2:143 var
+R9156:9158 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9153:9155 Coqtail.Reals.Ranalysis.Rinterval <> ub1:144 var
+R9159:9161 Coqtail.Reals.Ranalysis.Rinterval <> ub2:145 var
+R9224:9226 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R9250:9255 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9282:9304 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9224:9226 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R9250:9255 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9282:9304 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9282:9304 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9332:9341 Coq.Reals.RIneq <> Rlt_le_dec thm
+R9332:9341 Coq.Reals.RIneq <> Rlt_le_dec thm
+R9365:9374 Coq.Reals.RIneq <> Rlt_le_dec thm
+R9365:9374 Coq.Reals.RIneq <> Rlt_le_dec thm
+R9401:9402 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9403:9415 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R9426:9431 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9401:9402 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9403:9415 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R9426:9431 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9465:9474 Coq.Reals.RIneq <> Rlt_irrefl thm
+R9501:9506 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9561:9583 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9465:9474 Coq.Reals.RIneq <> Rlt_irrefl thm
+R9501:9506 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9561:9583 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9616:9624 Coq.Init.Logic <> False_ind scheme
+R9637:9659 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9616:9624 Coq.Init.Logic <> False_ind scheme
+R9637:9659 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9690:9691 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9692:9704 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R9715:9720 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9690:9691 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9692:9704 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R9715:9720 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9771:9776 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9754:9763 Coq.Reals.RIneq <> Rlt_irrefl thm
+R9819:9841 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9771:9776 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R9754:9763 Coq.Reals.RIneq <> Rlt_irrefl thm
+R9819:9841 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9878:9886 Coq.Init.Logic <> False_ind scheme
+R9917:9928 Coq.Reals.RIneq <> Rlt_le_trans thm
+R9961:9983 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9878:9886 Coq.Init.Logic <> False_ind scheme
+R9917:9928 Coq.Reals.RIneq <> Rlt_le_trans thm
+R9961:9983 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R9961:9983 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10011:10020 Coq.Reals.RIneq <> Rlt_le_dec thm
+R10011:10020 Coq.Reals.RIneq <> Rlt_le_dec thm
+R10045:10054 Coq.Reals.RIneq <> Rlt_le_dec thm
+R10045:10054 Coq.Reals.RIneq <> Rlt_le_dec thm
+R10082:10083 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10084:10096 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R10107:10112 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10082:10083 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10084:10096 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R10107:10112 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10147:10156 Coq.Reals.RIneq <> Rlt_irrefl thm
+R10183:10188 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10224:10246 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10147:10156 Coq.Reals.RIneq <> Rlt_irrefl thm
+R10183:10188 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10224:10246 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10273:10281 Coq.Init.Logic <> False_ind scheme
+R10343:10365 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10273:10281 Coq.Init.Logic <> False_ind scheme
+R10343:10365 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10343:10365 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10397:10398 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10399:10411 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R10422:10427 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10397:10398 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10399:10411 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R10422:10427 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10462:10470 Coq.Init.Logic <> False_ind scheme
+R10473:10482 Coq.Reals.RIneq <> Rlt_irrefl thm
+R10494:10505 Coq.Reals.RIneq <> Rle_lt_trans thm
+R10540:10545 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10565:10587 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10462:10470 Coq.Init.Logic <> False_ind scheme
+R10473:10482 Coq.Reals.RIneq <> Rlt_irrefl thm
+R10494:10505 Coq.Reals.RIneq <> Rle_lt_trans thm
+R10540:10545 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10565:10587 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10631:10639 Coq.Init.Logic <> False_ind scheme
+R10652:10674 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10631:10639 Coq.Init.Logic <> False_ind scheme
+R10652:10674 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10711:10713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10711:10713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10763:10772 Coq.Reals.RIneq <> Rlt_le_dec thm
+R10763:10772 Coq.Reals.RIneq <> Rlt_le_dec thm
+R10799:10800 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10801:10813 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R10824:10829 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10799:10800 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10801:10813 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R10824:10829 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10863:10872 Coq.Reals.RIneq <> Rlt_irrefl thm
+R10899:10904 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10928:10950 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10863:10872 Coq.Reals.RIneq <> Rlt_irrefl thm
+R10899:10904 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R10928:10950 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10987:10995 Coq.Init.Logic <> False_ind scheme
+R11075:11097 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R10987:10995 Coq.Init.Logic <> False_ind scheme
+R11075:11097 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R11075:11097 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R11125:11134 Coq.Reals.RIneq <> Rlt_le_dec thm
+R11125:11134 Coq.Reals.RIneq <> Rlt_le_dec thm
+R11161:11162 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11163:11175 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R11186:11191 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R11161:11162 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11163:11175 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R11186:11191 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R11225:11234 Coq.Reals.RIneq <> Rlt_irrefl thm
+R11261:11266 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R11290:11312 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R11225:11234 Coq.Reals.RIneq <> Rlt_irrefl thm
+R11261:11266 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R11290:11312 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R11349:11357 Coq.Init.Logic <> False_ind scheme
+R11434:11456 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R11349:11357 Coq.Init.Logic <> False_ind scheme
+R11434:11456 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+R11434:11456 Coqtail.Reals.Ranalysis.Rinterval <> middle_is_in_the_middle thm
+prf 11546:11576 <> included_open_interval_interval
+binder 11587:11587 <> a:147
+binder 11589:11589 <> b:148
+R11594:11601 Coq.Reals.Rtopology <> included def
+R11604:11616 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R11618:11618 Coqtail.Reals.Ranalysis.Rinterval <> a:147 var
+R11620:11620 Coqtail.Reals.Ranalysis.Rinterval <> b:148 var
+R11624:11631 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R11633:11633 Coqtail.Reals.Ranalysis.Rinterval <> a:147 var
+R11635:11635 Coqtail.Reals.Ranalysis.Rinterval <> b:148 var
+prf 11747:11774 <> included_Rball_open_interval
+binder 11785:11785 <> c:149
+binder 11787:11787 <> r:150
+R11792:11799 Coq.Reals.Rtopology <> included def
+R11802:11806 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R11808:11808 Coqtail.Reals.Ranalysis.Rinterval <> c:149 var
+R11810:11810 Coqtail.Reals.Ranalysis.Rinterval <> r:150 var
+R11814:11826 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R11830:11832 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11829:11829 Coqtail.Reals.Ranalysis.Rinterval <> c:149 var
+R11833:11833 Coqtail.Reals.Ranalysis.Rinterval <> r:150 var
+R11838:11840 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11837:11837 Coqtail.Reals.Ranalysis.Rinterval <> c:149 var
+R11841:11841 Coqtail.Reals.Ranalysis.Rinterval <> r:150 var
+R11884:11892 Coq.Reals.Rbasic_fun <> Rabs_def2 thm
+R11884:11892 Coq.Reals.Rbasic_fun <> Rabs_def2 thm
+prf 11943:11971 <> included_Rball_open_interval2
+binder 11982:11983 <> lb:151
+binder 11985:11986 <> ub:152
+R11991:11998 Coq.Reals.Rtopology <> included def
+R12001:12005 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R12008:12013 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12015:12016 Coqtail.Reals.Ranalysis.Rinterval <> lb:151 var
+R12018:12019 Coqtail.Reals.Ranalysis.Rinterval <> ub:152 var
+R12023:12035 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12037:12038 Coqtail.Reals.Ranalysis.Rinterval <> lb:151 var
+R12040:12041 Coqtail.Reals.Ranalysis.Rinterval <> ub:152 var
+R12046:12058 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R12060:12061 Coqtail.Reals.Ranalysis.Rinterval <> lb:151 var
+R12063:12064 Coqtail.Reals.Ranalysis.Rinterval <> ub:152 var
+R12107:12115 Coq.Reals.Rbasic_fun <> Rabs_def2 thm
+R12107:12115 Coq.Reals.Rbasic_fun <> Rabs_def2 thm
+R12189:12191 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12177:12182 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12192:12204 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12158:12169 Coq.Reals.RIneq <> Rle_lt_trans thm
+R12189:12191 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12177:12182 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12192:12204 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12158:12169 Coq.Reals.RIneq <> Rle_lt_trans thm
+R12231:12236 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12239:12251 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12307:12309 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12295:12300 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12310:12322 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12276:12287 Coq.Reals.RIneq <> Rlt_le_trans thm
+R12307:12309 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12295:12300 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12310:12322 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12276:12287 Coq.Reals.RIneq <> Rlt_le_trans thm
+R12356:12361 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12364:12376 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+prf 12399:12426 <> included_open_interval_Rball
+binder 12437:12438 <> lb:153
+binder 12440:12441 <> ub:154
+R12446:12453 Coq.Reals.Rtopology <> included def
+R12456:12468 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R12470:12471 Coqtail.Reals.Ranalysis.Rinterval <> lb:153 var
+R12473:12474 Coqtail.Reals.Ranalysis.Rinterval <> ub:154 var
+R12478:12482 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R12485:12490 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12492:12493 Coqtail.Reals.Ranalysis.Rinterval <> lb:153 var
+R12495:12496 Coqtail.Reals.Ranalysis.Rinterval <> ub:154 var
+R12500:12512 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12514:12515 Coqtail.Reals.Ranalysis.Rinterval <> lb:153 var
+R12517:12518 Coqtail.Reals.Ranalysis.Rinterval <> ub:154 var
+R12558:12566 Coq.Reals.Rbasic_fun <> Rabs_def1 thm
+R12558:12566 Coq.Reals.Rbasic_fun <> Rabs_def1 thm
+R12576:12589 Coqtail.mytheories.myReals.MyRIneq <> Rlt_minus_sort thm
+R12592:12603 Coq.Reals.RIneq <> Rlt_le_trans thm
+R12576:12589 Coqtail.mytheories.myReals.MyRIneq <> Rlt_minus_sort thm
+R12592:12603 Coq.Reals.RIneq <> Rlt_le_trans thm
+R12637:12642 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12645:12657 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R12683:12697 Coqtail.mytheories.myReals.MyRIneq <> Rlt_minus_sort2 thm
+R12700:12711 Coq.Reals.RIneq <> Rle_lt_trans thm
+R12683:12697 Coqtail.mytheories.myReals.MyRIneq <> Rlt_minus_sort2 thm
+R12700:12711 Coq.Reals.RIneq <> Rle_lt_trans thm
+R12731:12736 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R12739:12751 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+prf 12796:12824 <> included_open_interval_Rball2
+binder 12835:12835 <> c:155
+binder 12837:12837 <> r:156
+R12842:12849 Coq.Reals.Rtopology <> included def
+R12852:12864 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R12868:12870 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12867:12867 Coqtail.Reals.Ranalysis.Rinterval <> c:155 var
+R12871:12871 Coqtail.Reals.Ranalysis.Rinterval <> r:156 var
+R12876:12878 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12875:12875 Coqtail.Reals.Ranalysis.Rinterval <> c:155 var
+R12879:12879 Coqtail.Reals.Ranalysis.Rinterval <> r:156 var
+R12884:12888 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R12890:12890 Coqtail.Reals.Ranalysis.Rinterval <> c:155 var
+R12892:12892 Coqtail.Reals.Ranalysis.Rinterval <> r:156 var
+R12936:12944 Coq.Reals.Rbasic_fun <> Rabs_def1 thm
+R12936:12944 Coq.Reals.Rbasic_fun <> Rabs_def1 thm
+prf 12965:12977 <> Rball_rewrite
+binder 12987:12987 <> c:157
+binder 12989:12989 <> r:158
+binder 12991:12991 <> x:159
+R13007:13011 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12996:13000 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13002:13002 Coqtail.Reals.Ranalysis.Rinterval <> c:157 var
+R13004:13004 Coqtail.Reals.Ranalysis.Rinterval <> r:158 var
+R13006:13006 Coqtail.Reals.Ranalysis.Rinterval <> x:159 var
+R13012:13024 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R13028:13030 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13027:13027 Coqtail.Reals.Ranalysis.Rinterval <> c:157 var
+R13031:13031 Coqtail.Reals.Ranalysis.Rinterval <> r:158 var
+R13036:13038 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13035:13035 Coqtail.Reals.Ranalysis.Rinterval <> c:157 var
+R13039:13039 Coqtail.Reals.Ranalysis.Rinterval <> r:158 var
+R13042:13042 Coqtail.Reals.Ranalysis.Rinterval <> x:159 var
+R13076:13103 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+R13113:13141 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball2 thm
+R13076:13103 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+R13113:13141 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball2 thm
+prf 13157:13170 <> Rball_rewrite2
+binder 13180:13181 <> lb:160
+binder 13183:13184 <> ub:161
+binder 13186:13186 <> x:162
+R13235:13239 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13191:13195 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13198:13203 Coqtail.Reals.Ranalysis.Rinterval <> middle def
+R13205:13206 Coqtail.Reals.Ranalysis.Rinterval <> lb:160 var
+R13208:13209 Coqtail.Reals.Ranalysis.Rinterval <> ub:161 var
+R13213:13225 Coqtail.Reals.Ranalysis.Rinterval <> interval_size def
+R13227:13228 Coqtail.Reals.Ranalysis.Rinterval <> lb:160 var
+R13230:13231 Coqtail.Reals.Ranalysis.Rinterval <> ub:161 var
+R13234:13234 Coqtail.Reals.Ranalysis.Rinterval <> x:162 var
+R13240:13252 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R13254:13255 Coqtail.Reals.Ranalysis.Rinterval <> lb:160 var
+R13257:13258 Coqtail.Reals.Ranalysis.Rinterval <> ub:161 var
+R13260:13260 Coqtail.Reals.Ranalysis.Rinterval <> x:162 var
+R13294:13322 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval2 thm
+R13332:13359 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball thm
+R13294:13322 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval2 thm
+R13332:13359 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball thm
+prf 13406:13419 <> Rball_included
+binder 13429:13429 <> c:163
+binder 13431:13432 <> r1:164
+binder 13434:13435 <> r2:165
+binder 13437:13437 <> x:166
+R13450:13453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13444:13447 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13442:13443 Coqtail.Reals.Ranalysis.Rinterval <> r1:164 var
+R13448:13449 Coqtail.Reals.Ranalysis.Rinterval <> r2:165 var
+R13466:13469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13454:13458 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13460:13460 Coqtail.Reals.Ranalysis.Rinterval <> c:163 var
+R13462:13463 Coqtail.Reals.Ranalysis.Rinterval <> r1:164 var
+R13465:13465 Coqtail.Reals.Ranalysis.Rinterval <> x:166 var
+R13470:13474 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13476:13476 Coqtail.Reals.Ranalysis.Rinterval <> c:163 var
+R13478:13479 Coqtail.Reals.Ranalysis.Rinterval <> r2:165 var
+R13481:13481 Coqtail.Reals.Ranalysis.Rinterval <> x:166 var
+R13498:13502 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+prf 13593:13605 <> Rball_0_simpl
+binder 13615:13615 <> r:167
+binder 13617:13617 <> x:168
+R13633:13637 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13622:13626 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13630:13630 Coqtail.Reals.Ranalysis.Rinterval <> r:167 var
+R13632:13632 Coqtail.Reals.Ranalysis.Rinterval <> x:168 var
+R13644:13646 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R13638:13641 Coq.Reals.Rbasic_fun <> Rabs def
+R13643:13643 Coqtail.Reals.Ranalysis.Rinterval <> x:168 var
+R13647:13647 Coqtail.Reals.Ranalysis.Rinterval <> r:167 var
+R13673:13677 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13689:13698 Coq.Reals.RIneq <> Rminus_0_r thm
+R13689:13698 Coq.Reals.RIneq <> Rminus_0_r thm
+R13689:13698 Coq.Reals.RIneq <> Rminus_0_r thm
+prf 13731:13745 <> Rball_c_0_empty
+binder 13755:13755 <> c:169
+binder 13757:13757 <> r:170
+binder 13759:13759 <> x:171
+R13768:13773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13763:13766 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13762:13762 Coqtail.Reals.Ranalysis.Rinterval <> r:170 var
+R13774:13775 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13776:13780 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13782:13782 Coqtail.Reals.Ranalysis.Rinterval <> c:169 var
+R13784:13784 Coqtail.Reals.Ranalysis.Rinterval <> r:170 var
+R13786:13786 Coqtail.Reals.Ranalysis.Rinterval <> x:171 var
+R13825:13834 Coq.Reals.RIneq <> Rlt_irrefl thm
+R13825:13834 Coq.Reals.RIneq <> Rlt_irrefl thm
+R13848:13859 Coq.Reals.RIneq <> Rle_lt_trans thm
+R13871:13878 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R13848:13859 Coq.Reals.RIneq <> Rle_lt_trans thm
+R13871:13878 Coq.Reals.Rbasic_fun <> Rabs_pos thm
+R13892:13903 Coq.Reals.RIneq <> Rlt_le_trans thm
+R13892:13903 Coq.Reals.RIneq <> Rlt_le_trans thm
+prf 13975:13986 <> in_Rball_dec
+binder 13996:13996 <> c:172
+binder 13998:13998 <> r:173
+binder 14000:14000 <> x:174
+R14005:14006 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14018:14024 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14038:14039 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14007:14011 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R14013:14013 Coqtail.Reals.Ranalysis.Rinterval <> c:172 var
+R14015:14015 Coqtail.Reals.Ranalysis.Rinterval <> r:173 var
+R14017:14017 Coqtail.Reals.Ranalysis.Rinterval <> x:174 var
+R14025:14026 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14027:14031 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R14033:14033 Coqtail.Reals.Ranalysis.Rinterval <> c:172 var
+R14035:14035 Coqtail.Reals.Ranalysis.Rinterval <> r:173 var
+R14037:14037 Coqtail.Reals.Ranalysis.Rinterval <> x:174 var
+R14075:14094 Coqtail.Reals.Ranalysis.Rinterval <> in_open_interval_dec thm
+R14098:14100 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14106:14108 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14075:14094 Coqtail.Reals.Ranalysis.Rinterval <> in_open_interval_dec thm
+R14098:14100 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14106:14108 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14146:14158 Coqtail.Reals.Ranalysis.Rinterval <> Rball_rewrite thm
+R14146:14158 Coqtail.Reals.Ranalysis.Rinterval <> Rball_rewrite thm
+R14146:14158 Coqtail.Reals.Ranalysis.Rinterval <> Rball_rewrite thm
+R14215:14227 Coqtail.Reals.Ranalysis.Rinterval <> Rball_rewrite thm
+R14215:14227 Coqtail.Reals.Ranalysis.Rinterval <> Rball_rewrite thm
+R14215:14227 Coqtail.Reals.Ranalysis.Rinterval <> Rball_rewrite thm
+prf 14303:14314 <> Rball_ext_eq
+binder 14324:14325 <> c1:175
+binder 14327:14328 <> c2:176
+binder 14330:14331 <> r1:177
+binder 14333:14334 <> r2:178
+R14343:14348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14339:14341 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R14337:14338 Coqtail.Reals.Ranalysis.Rinterval <> r1:177 var
+R14349:14349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14391:14397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14357:14357 <> x:179
+R14373:14377 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14360:14364 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R14366:14367 Coqtail.Reals.Ranalysis.Rinterval <> c1:175 var
+R14369:14370 Coqtail.Reals.Ranalysis.Rinterval <> r1:177 var
+R14372:14372 Coqtail.Reals.Ranalysis.Rinterval <> x:179 var
+R14378:14382 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R14384:14385 Coqtail.Reals.Ranalysis.Rinterval <> c2:176 var
+R14387:14388 Coqtail.Reals.Ranalysis.Rinterval <> r2:178 var
+R14390:14390 Coqtail.Reals.Ranalysis.Rinterval <> x:179 var
+R14405:14408 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14400:14402 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14398:14399 Coqtail.Reals.Ranalysis.Rinterval <> c1:175 var
+R14403:14404 Coqtail.Reals.Ranalysis.Rinterval <> c2:176 var
+R14411:14413 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14409:14410 Coqtail.Reals.Ranalysis.Rinterval <> r1:177 var
+R14414:14415 Coqtail.Reals.Ranalysis.Rinterval <> r2:178 var
+R14479:14481 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R14474:14476 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14484:14486 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14479:14481 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R14474:14476 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14484:14486 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14530:14533 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14520:14522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14515:14517 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14525:14527 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14541:14543 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14536:14538 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14546:14548 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14530:14533 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14520:14522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14515:14517 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14525:14527 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14541:14543 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14536:14538 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14546:14548 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14562:14581 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_ext_eq thm
+R14562:14581 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_ext_eq thm
+R14637:14664 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+R14676:14704 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball2 thm
+R14637:14664 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+R14676:14704 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball2 thm
+R14637:14664 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+R14676:14704 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball2 thm
+R14747:14747 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14767:14770 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14755:14758 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14766:14766 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14750:14752 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14761:14763 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14804:14804 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14824:14827 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14812:14815 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14823:14823 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14807:14809 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14818:14820 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14747:14747 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14767:14770 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14755:14758 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14766:14766 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14750:14752 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14761:14763 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14804:14804 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14824:14827 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14812:14815 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14823:14823 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14807:14809 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14818:14820 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14913:14913 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14933:14936 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14921:14924 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14932:14932 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14916:14918 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14927:14929 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14970:14970 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14990:14993 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14978:14981 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14989:14989 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14973:14975 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14984:14986 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14913:14913 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14933:14936 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14921:14924 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14932:14932 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14916:14918 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14927:14929 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14970:14970 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14990:14993 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R14978:14981 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14989:14989 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14973:14975 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14984:14986 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+prf 15098:15119 <> open_interval_dist_pos
+binder 15129:15130 <> lb:180
+binder 15132:15133 <> ub:181
+binder 15135:15135 <> x:182
+R15161:15166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15140:15152 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R15154:15155 Coqtail.Reals.Ranalysis.Rinterval <> lb:180 var
+R15157:15158 Coqtail.Reals.Ranalysis.Rinterval <> ub:181 var
+R15160:15160 Coqtail.Reals.Ranalysis.Rinterval <> x:182 var
+R15168:15170 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15171:15183 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist def
+R15185:15186 Coqtail.Reals.Ranalysis.Rinterval <> lb:180 var
+R15188:15189 Coqtail.Reals.Ranalysis.Rinterval <> ub:181 var
+R15191:15191 Coqtail.Reals.Ranalysis.Rinterval <> x:182 var
+R15237:15247 Coqtail.mytheories.myReals.MyRIneq <> Rmin_pos_lt thm
+R15237:15247 Coqtail.mytheories.myReals.MyRIneq <> Rmin_pos_lt thm
+prf 15268:15284 <> interval_dist_pos
+binder 15294:15295 <> lb:183
+binder 15297:15298 <> ub:184
+binder 15300:15300 <> x:185
+R15321:15324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15305:15312 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R15314:15315 Coqtail.Reals.Ranalysis.Rinterval <> lb:183 var
+R15317:15318 Coqtail.Reals.Ranalysis.Rinterval <> ub:184 var
+R15320:15320 Coqtail.Reals.Ranalysis.Rinterval <> x:185 var
+R15326:15329 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15330:15342 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist def
+R15344:15345 Coqtail.Reals.Ranalysis.Rinterval <> lb:183 var
+R15347:15348 Coqtail.Reals.Ranalysis.Rinterval <> ub:184 var
+R15350:15350 Coqtail.Reals.Ranalysis.Rinterval <> x:185 var
+R15395:15402 Coqtail.mytheories.myReals.MyRIneq <> Rmin_pos thm
+R15395:15402 Coqtail.mytheories.myReals.MyRIneq <> Rmin_pos thm
+prf 15423:15446 <> open_interval_dist_bound
+binder 15458:15459 <> lb:186
+binder 15461:15462 <> ub:187
+binder 15464:15464 <> x:188
+R15483:15488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15467:15474 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R15476:15477 Coqtail.Reals.Ranalysis.Rinterval <> lb:186 var
+R15479:15480 Coqtail.Reals.Ranalysis.Rinterval <> ub:187 var
+R15482:15482 Coqtail.Reals.Ranalysis.Rinterval <> x:188 var
+binder 15496:15496 <> h:189
+R15529:15534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15505:15507 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15499:15502 Coq.Reals.Rbasic_fun <> Rabs def
+R15504:15504 Coqtail.Reals.Ranalysis.Rinterval <> h:189 var
+R15508:15520 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist def
+R15522:15523 Coqtail.Reals.Ranalysis.Rinterval <> lb:186 var
+R15525:15526 Coqtail.Reals.Ranalysis.Rinterval <> ub:187 var
+R15528:15528 Coqtail.Reals.Ranalysis.Rinterval <> x:188 var
+R15535:15547 Coqtail.Reals.Ranalysis.Rinterval <> open_interval def
+R15549:15550 Coqtail.Reals.Ranalysis.Rinterval <> lb:186 var
+R15552:15553 Coqtail.Reals.Ranalysis.Rinterval <> ub:187 var
+R15557:15559 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15556:15556 Coqtail.Reals.Ranalysis.Rinterval <> x:188 var
+R15560:15560 Coqtail.Reals.Ranalysis.Rinterval <> h:189 var
+R15614:15622 Coq.Reals.Rbasic_fun <> Rabs_def2 thm
+R15614:15622 Coq.Reals.Rbasic_fun <> Rabs_def2 thm
+R15688:15690 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15678:15680 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15687:15687 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15682:15684 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15688:15690 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15678:15680 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15687:15687 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15682:15684 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15723:15724 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15725:15728 Coq.Reals.Rbasic_fun <> Rmin def
+R15732:15734 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15742:15744 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15704:15715 Coq.Reals.RIneq <> Rle_lt_trans thm
+R15723:15724 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R15725:15728 Coq.Reals.Rbasic_fun <> Rmin def
+R15732:15734 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15742:15744 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15704:15715 Coq.Reals.RIneq <> Rle_lt_trans thm
+R15760:15776 Coq.Reals.RIneq <> Ropp_le_contravar thm
+R15779:15784 Coq.Reals.Rbasic_fun <> Rmin_l thm
+R15760:15776 Coq.Reals.RIneq <> Ropp_le_contravar thm
+R15779:15784 Coq.Reals.Rbasic_fun <> Rmin_l thm
+R15818:15820 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15823:15825 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15818:15820 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R15823:15825 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15858:15861 Coq.Reals.Rbasic_fun <> Rmin def
+R15865:15867 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15875:15877 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15839:15850 Coq.Reals.RIneq <> Rlt_le_trans thm
+R15858:15861 Coq.Reals.Rbasic_fun <> Rmin def
+R15865:15867 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15875:15877 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15839:15850 Coq.Reals.RIneq <> Rlt_le_trans thm
+R15909:15914 Coq.Reals.Rbasic_fun <> Rmin_r thm
+R15909:15914 Coq.Reals.Rbasic_fun <> Rmin_r thm
+prf 15978:15993 <> Ropp_eq_compat_l
+binder 16004:16004 <> x:190
+binder 16006:16006 <> y:191
+R16016:16019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16012:16014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16009:16010 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16011:16011 Coqtail.Reals.Ranalysis.Rinterval <> x:190 var
+R16015:16015 Coqtail.Reals.Ranalysis.Rinterval <> y:191 var
+R16021:16023 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16020:16020 Coqtail.Reals.Ranalysis.Rinterval <> x:190 var
+R16024:16025 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16026:16026 Coqtail.Reals.Ranalysis.Rinterval <> y:191 var
+R16069:16083 Coq.Reals.RIneq <> Ropp_involutive thm
+R16069:16083 Coq.Reals.RIneq <> Ropp_involutive thm
+prf 16098:16116 <> interval_dist_bound
+R16138:16138 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16128:16129 <> lb:192
+binder 16131:16132 <> ub:193
+binder 16134:16134 <> x:194
+R16157:16162 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16141:16148 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R16150:16151 Coqtail.Reals.Ranalysis.Rinterval <> lb:192 var
+R16153:16154 Coqtail.Reals.Ranalysis.Rinterval <> ub:193 var
+R16156:16156 Coqtail.Reals.Ranalysis.Rinterval <> x:194 var
+R16174:16174 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16170:16170 <> h:195
+R16210:16213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16185:16188 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R16179:16182 Coq.Reals.Rbasic_fun <> Rabs def
+R16184:16184 Coqtail.Reals.Ranalysis.Rinterval <> h:195 var
+R16189:16201 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist def
+R16203:16204 Coqtail.Reals.Ranalysis.Rinterval <> lb:192 var
+R16206:16207 Coqtail.Reals.Ranalysis.Rinterval <> ub:193 var
+R16209:16209 Coqtail.Reals.Ranalysis.Rinterval <> x:194 var
+R16214:16221 Coqtail.Reals.Ranalysis.Rinterval <> interval def
+R16223:16224 Coqtail.Reals.Ranalysis.Rinterval <> lb:192 var
+R16226:16227 Coqtail.Reals.Ranalysis.Rinterval <> ub:193 var
+R16231:16233 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16230:16230 Coqtail.Reals.Ranalysis.Rinterval <> x:194 var
+R16234:16234 Coqtail.Reals.Ranalysis.Rinterval <> h:195 var
+R16288:16309 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_interval thm
+R16312:16335 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_dist_bound thm
+R16288:16309 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_interval thm
+R16312:16335 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_dist_bound thm
+R16361:16364 Coq.Reals.Rbasic_fun <> Rabs def
+R16385:16393 Coq.Reals.Rbasic_fun <> Rcase_abs thm
+R16385:16393 Coq.Reals.Rbasic_fun <> Rcase_abs thm
+R16418:16433 Coqtail.Reals.Ranalysis.Rinterval <> Ropp_eq_compat_l thm
+R16418:16433 Coqtail.Reals.Ranalysis.Rinterval <> Ropp_eq_compat_l thm
+R16418:16433 Coqtail.Reals.Ranalysis.Rinterval <> Ropp_eq_compat_l thm
+R16418:16433 Coqtail.Reals.Ranalysis.Rinterval <> Ropp_eq_compat_l thm
+R16418:16433 Coqtail.Reals.Ranalysis.Rinterval <> Ropp_eq_compat_l thm
+R16463:16465 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16466:16468 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16475:16475 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16470:16472 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16508:16524 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16527:16543 Coq.Reals.RIneq <> Ropp_le_contravar thm
+R16546:16551 Coq.Reals.Rbasic_fun <> Rmin_l thm
+R16463:16465 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16466:16468 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16475:16475 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16470:16472 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16508:16524 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16527:16543 Coq.Reals.RIneq <> Ropp_le_contravar thm
+R16546:16551 Coq.Reals.Rbasic_fun <> Rmin_l thm
+R16573:16575 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16576:16578 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16600:16600 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16579:16591 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist def
+R16573:16575 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16576:16578 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16600:16600 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16579:16591 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist def
+R16614:16630 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R16614:16630 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R16659:16661 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16662:16663 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16659:16661 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16662:16663 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R16697:16713 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16716:16732 Coq.Reals.RIneq <> Ropp_le_contravar thm
+R16740:16756 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist_pos thm
+R16697:16713 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16716:16732 Coq.Reals.RIneq <> Ropp_le_contravar thm
+R16740:16756 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist_pos thm
+R16807:16809 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16807:16809 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16857:16873 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16876:16892 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist_pos thm
+R16857:16873 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16876:16892 Coqtail.Reals.Ranalysis.Rinterval <> interval_dist_pos thm
+R16926:16929 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16936:16936 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16932:16934 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16926:16929 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16936:16936 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16932:16934 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16969:16985 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16988:16993 Coq.Reals.Rbasic_fun <> Rmin_r thm
+R16969:16985 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R16988:16993 Coq.Reals.Rbasic_fun <> Rmin_r thm
+prf 17008:17021 <> Rball_dist_pos
+binder 17031:17031 <> c:196
+binder 17033:17033 <> r:197
+binder 17035:17035 <> x:198
+R17051:17054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17040:17044 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R17046:17046 Coqtail.Reals.Ranalysis.Rinterval <> c:196 var
+R17048:17048 Coqtail.Reals.Ranalysis.Rinterval <> r:197 var
+R17050:17050 Coqtail.Reals.Ranalysis.Rinterval <> x:198 var
+R17056:17058 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R17059:17068 Coqtail.Reals.Ranalysis.Rinterval <> Rball_dist def
+R17070:17070 Coqtail.Reals.Ranalysis.Rinterval <> c:196 var
+R17072:17072 Coqtail.Reals.Ranalysis.Rinterval <> r:197 var
+R17074:17074 Coqtail.Reals.Ranalysis.Rinterval <> x:198 var
+R17100:17121 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_dist_pos thm
+R17124:17151 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+R17100:17121 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_dist_pos thm
+R17124:17151 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+prf 17181:17196 <> Rball_dist_bound
+binder 17206:17206 <> c:199
+binder 17208:17208 <> r:200
+binder 17210:17210 <> x:201
+R17226:17229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17215:17219 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R17221:17221 Coqtail.Reals.Ranalysis.Rinterval <> c:199 var
+R17223:17223 Coqtail.Reals.Ranalysis.Rinterval <> r:200 var
+R17225:17225 Coqtail.Reals.Ranalysis.Rinterval <> x:201 var
+binder 17237:17237 <> h:202
+R17265:17270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17246:17248 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R17240:17243 Coq.Reals.Rbasic_fun <> Rabs def
+R17245:17245 Coqtail.Reals.Ranalysis.Rinterval <> h:202 var
+R17249:17258 Coqtail.Reals.Ranalysis.Rinterval <> Rball_dist def
+R17260:17260 Coqtail.Reals.Ranalysis.Rinterval <> c:199 var
+R17262:17262 Coqtail.Reals.Ranalysis.Rinterval <> r:200 var
+R17264:17264 Coqtail.Reals.Ranalysis.Rinterval <> x:201 var
+R17271:17275 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R17277:17277 Coqtail.Reals.Ranalysis.Rinterval <> c:199 var
+R17279:17279 Coqtail.Reals.Ranalysis.Rinterval <> r:200 var
+R17283:17285 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R17282:17282 Coqtail.Reals.Ranalysis.Rinterval <> x:201 var
+R17286:17286 Coqtail.Reals.Ranalysis.Rinterval <> h:202 var
+R17312:17340 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball2 thm
+R17343:17366 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_dist_bound thm
+R17312:17340 Coqtail.Reals.Ranalysis.Rinterval <> included_open_interval_Rball2 thm
+R17343:17366 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_dist_bound thm
+R17377:17398 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_interval thm
+R17401:17428 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm
+R17377:17398 Coqtail.Reals.Ranalysis.Rinterval <> open_interval_interval thm
+R17401:17428 Coqtail.Reals.Ranalysis.Rinterval <> included_Rball_open_interval thm

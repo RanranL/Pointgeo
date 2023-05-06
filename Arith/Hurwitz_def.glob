@@ -1,0 +1,439 @@
+DIGEST c65f19318f3c1f25589076ba1c3c704a
+FCoqtail.Arith.Hurwitz_def
+R15:20 Coq.ZArith.ZArith <> <> lib
+constr 69:77 <> mkHurwitz
+rec 52:58 <> Hurwitz
+proj 81:81 <> h
+proj 89:89 <> i
+proj 97:97 <> j
+proj 105:105 <> k
+R85:85 Coq.Numbers.BinNums <> Z ind
+R93:93 Coq.Numbers.BinNums <> Z ind
+R101:101 Coq.Numbers.BinNums <> Z ind
+R109:109 Coq.Numbers.BinNums <> Z ind
+def 154:157 <> hopp
+R165:171 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 160:161 <> h1:6
+R176:182 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+R213:214 Coqtail.Arith.Hurwitz_def <> h1:6 var
+binder 194:195 <> h1:7
+binder 198:199 <> i1:8
+binder 202:203 <> j1:9
+binder 206:207 <> k1:10
+R221:229 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R232:233 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R234:235 Coqtail.Arith.Hurwitz_def <> h1:7 var
+R239:240 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R241:242 Coqtail.Arith.Hurwitz_def <> i1:8 var
+R246:247 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R248:249 Coqtail.Arith.Hurwitz_def <> j1:9 var
+R253:254 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R255:256 Coqtail.Arith.Hurwitz_def <> k1:10 var
+def 272:275 <> hadd
+R286:292 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 278:279 <> h1:11
+binder 281:282 <> h2:12
+R297:303 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+R334:335 Coqtail.Arith.Hurwitz_def <> h1:11 var
+binder 315:316 <> h1:13
+binder 319:320 <> i1:14
+binder 323:324 <> j1:15
+binder 327:328 <> k1:16
+R366:367 Coqtail.Arith.Hurwitz_def <> h2:12 var
+binder 347:348 <> h2:17
+binder 351:352 <> i2:18
+binder 355:356 <> j2:19
+binder 359:360 <> k2:20
+R374:382 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R387:389 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R385:386 Coqtail.Arith.Hurwitz_def <> h1:13 var
+R390:391 Coqtail.Arith.Hurwitz_def <> h2:17 var
+R397:399 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R395:396 Coqtail.Arith.Hurwitz_def <> i1:14 var
+R400:401 Coqtail.Arith.Hurwitz_def <> i2:18 var
+R407:409 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R405:406 Coqtail.Arith.Hurwitz_def <> j1:15 var
+R410:411 Coqtail.Arith.Hurwitz_def <> j2:19 var
+R417:419 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R415:416 Coqtail.Arith.Hurwitz_def <> k1:16 var
+R420:421 Coqtail.Arith.Hurwitz_def <> k2:20 var
+def 437:442 <> hminus
+R453:459 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 445:446 <> h1:21
+binder 448:449 <> h2:22
+R464:470 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+R475:478 Coqtail.Arith.Hurwitz_def <> hadd def
+R480:481 Coqtail.Arith.Hurwitz_def <> h1:21 var
+R484:487 Coqtail.Arith.Hurwitz_def <> hopp def
+R489:490 Coqtail.Arith.Hurwitz_def <> h2:22 var
+def 506:509 <> hmul
+R520:526 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 512:513 <> h1:23
+binder 515:516 <> h2:24
+R531:537 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+R568:569 Coqtail.Arith.Hurwitz_def <> h1:23 var
+binder 549:550 <> h1:25
+binder 553:554 <> i1:26
+binder 557:558 <> j1:27
+binder 561:562 <> k1:28
+R600:601 Coqtail.Arith.Hurwitz_def <> h2:24 var
+binder 581:582 <> h2:29
+binder 585:586 <> i2:30
+binder 589:590 <> j2:31
+binder 593:594 <> k2:32
+R620:622 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R618:619 Coqtail.Arith.Hurwitz_def <> h1:25 var
+R623:624 Coqtail.Arith.Hurwitz_def <> h2:29 var
+binder 612:613 <> hh:33
+R643:645 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R641:642 Coqtail.Arith.Hurwitz_def <> h1:25 var
+R646:647 Coqtail.Arith.Hurwitz_def <> i2:30 var
+binder 635:636 <> hi:34
+R666:668 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R664:665 Coqtail.Arith.Hurwitz_def <> h1:25 var
+R669:670 Coqtail.Arith.Hurwitz_def <> j2:31 var
+binder 658:659 <> hj:35
+R689:691 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R687:688 Coqtail.Arith.Hurwitz_def <> h1:25 var
+R692:693 Coqtail.Arith.Hurwitz_def <> k2:32 var
+binder 681:682 <> hk:36
+R712:714 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R710:711 Coqtail.Arith.Hurwitz_def <> i1:26 var
+R715:716 Coqtail.Arith.Hurwitz_def <> h2:29 var
+binder 704:705 <> ih:37
+R735:737 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R733:734 Coqtail.Arith.Hurwitz_def <> i1:26 var
+R738:739 Coqtail.Arith.Hurwitz_def <> i2:30 var
+binder 727:728 <> ii:38
+R758:760 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R756:757 Coqtail.Arith.Hurwitz_def <> i1:26 var
+R761:762 Coqtail.Arith.Hurwitz_def <> j2:31 var
+binder 750:751 <> ij:39
+R781:783 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R779:780 Coqtail.Arith.Hurwitz_def <> i1:26 var
+R784:785 Coqtail.Arith.Hurwitz_def <> k2:32 var
+binder 773:774 <> ik:40
+R804:806 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R802:803 Coqtail.Arith.Hurwitz_def <> j1:27 var
+R807:808 Coqtail.Arith.Hurwitz_def <> h2:29 var
+binder 796:797 <> jh:41
+R827:829 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R825:826 Coqtail.Arith.Hurwitz_def <> j1:27 var
+R830:831 Coqtail.Arith.Hurwitz_def <> i2:30 var
+binder 819:820 <> ji:42
+R850:852 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R848:849 Coqtail.Arith.Hurwitz_def <> j1:27 var
+R853:854 Coqtail.Arith.Hurwitz_def <> j2:31 var
+binder 842:843 <> jj:43
+R873:875 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R871:872 Coqtail.Arith.Hurwitz_def <> j1:27 var
+R876:877 Coqtail.Arith.Hurwitz_def <> k2:32 var
+binder 865:866 <> jk:44
+R896:898 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R894:895 Coqtail.Arith.Hurwitz_def <> k1:28 var
+R899:900 Coqtail.Arith.Hurwitz_def <> h2:29 var
+binder 888:889 <> kh:45
+R919:921 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R917:918 Coqtail.Arith.Hurwitz_def <> k1:28 var
+R922:923 Coqtail.Arith.Hurwitz_def <> i2:30 var
+binder 911:912 <> ki:46
+R942:944 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R940:941 Coqtail.Arith.Hurwitz_def <> k1:28 var
+R945:946 Coqtail.Arith.Hurwitz_def <> j2:31 var
+binder 934:935 <> kj:47
+R965:967 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R963:964 Coqtail.Arith.Hurwitz_def <> k1:28 var
+R968:969 Coqtail.Arith.Hurwitz_def <> k2:32 var
+binder 957:958 <> kk:48
+R978:986 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R1047:1049 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1042:1044 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1033:1035 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1028:1030 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1019:1021 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1014:1016 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1009:1011 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1004:1006 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R999:1001 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R995:996 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R997:998 Coqtail.Arith.Hurwitz_def <> hh:33 var
+R1002:1003 Coqtail.Arith.Hurwitz_def <> hi:34 var
+R1007:1008 Coqtail.Arith.Hurwitz_def <> hj:35 var
+R1012:1013 Coqtail.Arith.Hurwitz_def <> hk:36 var
+R1017:1018 Coqtail.Arith.Hurwitz_def <> ih:37 var
+R1023:1025 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1026:1027 Coqtail.Arith.Hurwitz_def <> ii:38 var
+R1031:1032 Coqtail.Arith.Hurwitz_def <> jh:41 var
+R1037:1039 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1040:1041 Coqtail.Arith.Hurwitz_def <> jj:43 var
+R1045:1046 Coqtail.Arith.Hurwitz_def <> kh:45 var
+R1051:1053 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1054:1055 Coqtail.Arith.Hurwitz_def <> kk:48 var
+R1107:1109 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1102:1104 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1097:1099 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1092:1094 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1087:1089 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1082:1084 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1077:1079 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1072:1074 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1067:1069 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1065:1066 Coqtail.Arith.Hurwitz_def <> hh:33 var
+R1070:1071 Coqtail.Arith.Hurwitz_def <> hi:34 var
+R1075:1076 Coqtail.Arith.Hurwitz_def <> hk:36 var
+R1080:1081 Coqtail.Arith.Hurwitz_def <> ih:37 var
+R1085:1086 Coqtail.Arith.Hurwitz_def <> ii:38 var
+R1090:1091 Coqtail.Arith.Hurwitz_def <> jh:41 var
+R1095:1096 Coqtail.Arith.Hurwitz_def <> jj:43 var
+R1100:1101 Coqtail.Arith.Hurwitz_def <> jk:44 var
+R1105:1106 Coqtail.Arith.Hurwitz_def <> kj:47 var
+R1110:1111 Coqtail.Arith.Hurwitz_def <> kk:48 var
+R1163:1165 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1158:1160 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1153:1155 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1148:1150 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1143:1145 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1138:1140 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1133:1135 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1128:1130 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1123:1125 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1121:1122 Coqtail.Arith.Hurwitz_def <> hh:33 var
+R1126:1127 Coqtail.Arith.Hurwitz_def <> hi:34 var
+R1131:1132 Coqtail.Arith.Hurwitz_def <> hj:35 var
+R1136:1137 Coqtail.Arith.Hurwitz_def <> ii:38 var
+R1141:1142 Coqtail.Arith.Hurwitz_def <> ik:40 var
+R1146:1147 Coqtail.Arith.Hurwitz_def <> jh:41 var
+R1151:1152 Coqtail.Arith.Hurwitz_def <> jj:43 var
+R1156:1157 Coqtail.Arith.Hurwitz_def <> kh:45 var
+R1161:1162 Coqtail.Arith.Hurwitz_def <> ki:46 var
+R1166:1167 Coqtail.Arith.Hurwitz_def <> kk:48 var
+R1219:1221 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1214:1216 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1209:1211 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1204:1206 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1199:1201 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1194:1196 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1189:1191 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1184:1186 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1179:1181 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1177:1178 Coqtail.Arith.Hurwitz_def <> hh:33 var
+R1182:1183 Coqtail.Arith.Hurwitz_def <> hj:35 var
+R1187:1188 Coqtail.Arith.Hurwitz_def <> hk:36 var
+R1192:1193 Coqtail.Arith.Hurwitz_def <> ih:37 var
+R1197:1198 Coqtail.Arith.Hurwitz_def <> ii:38 var
+R1202:1203 Coqtail.Arith.Hurwitz_def <> ij:39 var
+R1207:1208 Coqtail.Arith.Hurwitz_def <> ji:42 var
+R1212:1213 Coqtail.Arith.Hurwitz_def <> jj:43 var
+R1217:1218 Coqtail.Arith.Hurwitz_def <> kh:45 var
+R1222:1223 Coqtail.Arith.Hurwitz_def <> kk:48 var
+R1377:1380 Coqtail.Arith.Hurwitz_def <> hopp def
+not 1369:1369 <> :::'h-'
+R1399:1402 Coqtail.Arith.Hurwitz_def <> hadd def
+not 1389:1389 <> :::x_'h+'_x
+R1435:1440 Coqtail.Arith.Hurwitz_def <> hminus def
+not 1425:1425 <> :::x_'h-'_x
+R1473:1476 Coqtail.Arith.Hurwitz_def <> hmul def
+not 1463:1463 <> :::x_'h*'_x
+def 1533:1535 <> IZH
+R1542:1542 Coq.Numbers.BinNums <> Z ind
+binder 1538:1538 <> n:49
+R1547:1553 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+R1558:1566 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R1570:1572 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1573:1573 Coqtail.Arith.Hurwitz_def <> n:49 var
+R1577:1578 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1579:1579 Coqtail.Arith.Hurwitz_def <> n:49 var
+R1583:1584 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1585:1585 Coqtail.Arith.Hurwitz_def <> n:49 var
+R1589:1590 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1591:1591 Coqtail.Arith.Hurwitz_def <> n:49 var
+def 1607:1611 <> hsmul
+R1618:1618 Coq.Numbers.BinNums <> Z ind
+binder 1614:1614 <> k:50
+R1627:1633 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 1622:1623 <> h1:51
+R1638:1644 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+R1675:1676 Coqtail.Arith.Hurwitz_def <> h1:51 var
+binder 1656:1657 <> h1:52
+binder 1660:1661 <> i1:53
+binder 1664:1665 <> j1:54
+binder 1668:1669 <> k1:55
+R1683:1691 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R1695:1697 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1694:1694 Coqtail.Arith.Hurwitz_def <> k:50 var
+R1698:1699 Coqtail.Arith.Hurwitz_def <> h1:52 var
+R1704:1706 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1703:1703 Coqtail.Arith.Hurwitz_def <> k:50 var
+R1707:1708 Coqtail.Arith.Hurwitz_def <> i1:53 var
+R1713:1715 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1712:1712 Coqtail.Arith.Hurwitz_def <> k:50 var
+R1716:1717 Coqtail.Arith.Hurwitz_def <> j1:54 var
+R1722:1724 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1721:1721 Coqtail.Arith.Hurwitz_def <> k:50 var
+R1725:1726 Coqtail.Arith.Hurwitz_def <> k1:55 var
+def 1766:1770 <> hconj
+R1777:1783 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 1773:1773 <> h:56
+R1811:1811 Coqtail.Arith.Hurwitz_def <> h:56 var
+binder 1796:1796 <> a:57
+binder 1799:1799 <> b:58
+binder 1802:1802 <> c:59
+binder 1805:1805 <> d:60
+R1818:1826 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R1828:1828 Coqtail.Arith.Hurwitz_def <> a:57 var
+R1834:1836 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1831:1832 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1833:1833 Coqtail.Arith.Hurwitz_def <> a:57 var
+R1837:1837 Coqtail.Arith.Hurwitz_def <> b:58 var
+R1844:1846 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1841:1842 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1843:1843 Coqtail.Arith.Hurwitz_def <> a:57 var
+R1847:1847 Coqtail.Arith.Hurwitz_def <> c:59 var
+R1854:1856 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R1851:1852 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1853:1853 Coqtail.Arith.Hurwitz_def <> a:57 var
+R1857:1857 Coqtail.Arith.Hurwitz_def <> d:60 var
+def 1873:1878 <> hnorm2
+R1886:1892 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 1881:1882 <> h1:61
+R1899:1900 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R1901:1901 Coqtail.Arith.Hurwitz_def <> i proj
+R1904:1907 Coqtail.Arith.Hurwitz_def <> hmul def
+R1909:1910 Coqtail.Arith.Hurwitz_def <> h1:61 var
+R1913:1917 Coqtail.Arith.Hurwitz_def <> hconj def
+R1919:1920 Coqtail.Arith.Hurwitz_def <> h1:61 var
+def 1940:1946 <> is_real
+R1953:1959 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 1949:1949 <> x:62
+R1991:1994 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1987:1989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1977:1979 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R1974:1974 Coqtail.Arith.Hurwitz_def <> h proj
+R1976:1976 Coqtail.Arith.Hurwitz_def <> x:62 var
+R1981:1983 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1984:1984 Coqtail.Arith.Hurwitz_def <> i proj
+R1986:1986 Coqtail.Arith.Hurwitz_def <> x:62 var
+R2004:2007 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1998:2000 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1995:1995 Coqtail.Arith.Hurwitz_def <> i proj
+R1997:1997 Coqtail.Arith.Hurwitz_def <> x:62 var
+R2001:2001 Coqtail.Arith.Hurwitz_def <> j proj
+R2003:2003 Coqtail.Arith.Hurwitz_def <> x:62 var
+R2011:2013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2008:2008 Coqtail.Arith.Hurwitz_def <> i proj
+R2010:2010 Coqtail.Arith.Hurwitz_def <> x:62 var
+R2014:2014 Coqtail.Arith.Hurwitz_def <> k proj
+R2016:2016 Coqtail.Arith.Hurwitz_def <> x:62 var
+def 2060:2061 <> h1
+R2066:2074 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+def 2108:2109 <> hh
+R2114:2122 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+def 2144:2145 <> hi
+R2150:2158 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+def 2180:2181 <> hj
+R2186:2194 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+def 2216:2217 <> hk
+R2222:2230 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+def 2254:2259 <> divide
+R2268:2274 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 2262:2262 <> x:63
+binder 2264:2264 <> y:64
+R2280:2281 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R2283:2285 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R2298:2299 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 2282:2282 <> d:65
+R2294:2296 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2286:2289 Coqtail.Arith.Hurwitz_def <> hmul def
+R2291:2291 Coqtail.Arith.Hurwitz_def <> x:63 var
+R2293:2293 Coqtail.Arith.Hurwitz_def <> d:65 var
+R2297:2297 Coqtail.Arith.Hurwitz_def <> y:64 var
+def 2314:2322 <> is_H_unit
+R2329:2335 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 2325:2325 <> x:66
+R2341:2342 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R2344:2346 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R2363:2364 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 2343:2343 <> y:67
+R2355:2357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2347:2350 Coqtail.Arith.Hurwitz_def <> hmul def
+R2352:2352 Coqtail.Arith.Hurwitz_def <> x:66 var
+R2354:2354 Coqtail.Arith.Hurwitz_def <> y:67 var
+R2358:2360 Coqtail.Arith.Hurwitz_def <> IZH def
+ind 2378:2383 <> Z_unit
+constr 2388:2392 <> Z_one
+constr 2396:2401 <> Z_mone
+def 2416:2422 <> halfsub
+R2431:2436 Coqtail.Arith.Hurwitz_def <> Z_unit ind
+binder 2425:2425 <> u:70
+binder 2427:2427 <> v:71
+R2441:2441 Coq.Numbers.BinNums <> Z ind
+R2457:2457 Coqtail.Arith.Hurwitz_def <> v:71 var
+R2454:2454 Coqtail.Arith.Hurwitz_def <> u:70 var
+R2468:2472 Coqtail.Arith.Hurwitz_def <> Z_one constr
+R2475:2479 Coqtail.Arith.Hurwitz_def <> Z_one constr
+R2490:2494 Coqtail.Arith.Hurwitz_def <> Z_one constr
+R2497:2502 Coqtail.Arith.Hurwitz_def <> Z_mone constr
+R2513:2518 Coqtail.Arith.Hurwitz_def <> Z_mone constr
+R2521:2525 Coqtail.Arith.Hurwitz_def <> Z_one constr
+R2537:2542 Coqtail.Arith.Hurwitz_def <> Z_mone constr
+R2545:2550 Coqtail.Arith.Hurwitz_def <> Z_mone constr
+def 2576:2586 <> Z_of_Z_unit
+R2593:2598 Coqtail.Arith.Hurwitz_def <> Z_unit ind
+binder 2589:2589 <> u:74
+R2612:2612 Coqtail.Arith.Hurwitz_def <> u:74 var
+R2623:2627 Coqtail.Arith.Hurwitz_def <> Z_one constr
+R2638:2643 Coqtail.Arith.Hurwitz_def <> Z_mone constr
+ind 2669:2674 <> H_unit
+constr 2701:2708 <> H_unit_1
+constr 2797:2804 <> H_unit_i
+constr 2863:2870 <> H_unit_j
+constr 2929:2936 <> H_unit_k
+constr 2995:3002 <> H_unit_h
+R2685:2688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2678:2684 Coqtail.Arith.Hurwitz_def <> Hurwitz rec
+binder 2719:2719 <> u:78
+R2731:2741 Coqtail.Arith.Hurwitz_def <> Z_of_Z_unit def
+R2743:2743 Coqtail.Arith.Hurwitz_def <> u:78 var
+binder 2726:2726 <> n:79
+R2748:2753 Coqtail.Arith.Hurwitz_def <> H_unit:76 ind
+R2756:2764 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R2768:2770 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2771:2771 Coqtail.Arith.Hurwitz_def <> n:79 var
+R2775:2776 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2777:2777 Coqtail.Arith.Hurwitz_def <> n:79 var
+R2781:2782 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2783:2783 Coqtail.Arith.Hurwitz_def <> n:79 var
+R2787:2788 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2789:2789 Coqtail.Arith.Hurwitz_def <> n:79 var
+binder 2815:2815 <> u:80
+R2818:2823 Coqtail.Arith.Hurwitz_def <> H_unit:76 ind
+R2826:2834 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R2839:2849 Coqtail.Arith.Hurwitz_def <> Z_of_Z_unit def
+R2851:2851 Coqtail.Arith.Hurwitz_def <> u:80 var
+binder 2881:2881 <> u:81
+R2884:2889 Coqtail.Arith.Hurwitz_def <> H_unit:76 ind
+R2892:2900 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R2907:2917 Coqtail.Arith.Hurwitz_def <> Z_of_Z_unit def
+R2919:2919 Coqtail.Arith.Hurwitz_def <> u:81 var
+binder 2947:2947 <> u:82
+R2950:2955 Coqtail.Arith.Hurwitz_def <> H_unit:76 ind
+R2958:2966 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R2975:2985 Coqtail.Arith.Hurwitz_def <> Z_of_Z_unit def
+R2987:2987 Coqtail.Arith.Hurwitz_def <> u:82 var
+binder 3013:3013 <> u:83
+binder 3015:3015 <> v:84
+binder 3017:3017 <> w:85
+binder 3019:3019 <> z:86
+R3022:3027 Coqtail.Arith.Hurwitz_def <> H_unit:76 ind
+R3030:3038 Coqtail.Arith.Hurwitz_def <> mkHurwitz constr
+R3047:3057 Coqtail.Arith.Hurwitz_def <> Z_of_Z_unit def
+R3059:3059 Coqtail.Arith.Hurwitz_def <> u:83 var
+R3069:3075 Coqtail.Arith.Hurwitz_def <> halfsub def
+R3077:3077 Coqtail.Arith.Hurwitz_def <> v:84 var
+R3079:3079 Coqtail.Arith.Hurwitz_def <> u:83 var
+R3089:3095 Coqtail.Arith.Hurwitz_def <> halfsub def
+R3097:3097 Coqtail.Arith.Hurwitz_def <> w:85 var
+R3099:3099 Coqtail.Arith.Hurwitz_def <> u:83 var
+R3109:3115 Coqtail.Arith.Hurwitz_def <> halfsub def
+R3117:3117 Coqtail.Arith.Hurwitz_def <> z:86 var
+R3119:3119 Coqtail.Arith.Hurwitz_def <> u:83 var

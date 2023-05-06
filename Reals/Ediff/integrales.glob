@@ -1,0 +1,431 @@
+DIGEST 5f558272e1701d2ebed5eef1da655add
+FCoqtail.Reals.Ediff.integrales
+R15:19 Coq.Reals.Reals <> <> lib
+modtype 81:89 <> Integrals
+ax 99:116 Integrals Riemann_integrable
+R133:136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R132:132 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R137:137 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 128:128 <> f:1
+R145:145 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 141:141 <> a:2
+binder 143:143 <> b:3
+ax 161:173 Integrals RiemannInt_P1
+R189:192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R188:188 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R193:193 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 185:185 <> f:5
+R203:203 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 197:197 <> a:6
+binder 199:199 <> b:7
+R231:234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R207:224 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R230:230 Coqtail.Reals.Ediff.integrales <> b:7 var
+R228:228 Coqtail.Reals.Ediff.integrales <> a:6 var
+R226:226 Coqtail.Reals.Ediff.integrales <> f:5 var
+R235:252 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R258:258 Coqtail.Reals.Ediff.integrales <> a:6 var
+R256:256 Coqtail.Reals.Ediff.integrales <> b:7 var
+R254:254 Coqtail.Reals.Ediff.integrales <> f:5 var
+ax 267:276 Integrals RiemannInt
+R293:296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R292:292 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R297:297 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 288:288 <> f:9
+R306:306 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 301:301 <> a:10
+binder 303:303 <> b:11
+R314:331 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R337:337 Coqtail.Reals.Ediff.integrales <> b:11 var
+R335:335 Coqtail.Reals.Ediff.integrales <> a:10 var
+R333:333 Coqtail.Reals.Ediff.integrales <> f:9 var
+binder 310:311 <> pr:12
+R341:341 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+ax 350:363 Integrals RiemannInt_ext
+R380:383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R379:379 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R384:384 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 375:375 <> f:14
+R392:392 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 388:388 <> a:15
+binder 390:390 <> b:16
+R405:422 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R428:428 Coqtail.Reals.Ediff.integrales <> b:16 var
+R426:426 Coqtail.Reals.Ediff.integrales <> a:15 var
+R424:424 Coqtail.Reals.Ediff.integrales <> f:14 var
+binder 396:398 <> pr1:17
+binder 400:402 <> pr2:18
+R446:448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R432:441 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R443:445 Coqtail.Reals.Ediff.integrales <> pr1:17 var
+R449:458 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R460:462 Coqtail.Reals.Ediff.integrales <> pr2:18 var
+ax 471:498 Integrals Riemann_integrable_singleton
+R513:516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R512:512 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R517:517 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 510:510 <> f:20
+R523:523 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 521:521 <> a:21
+R527:544 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R550:550 Coqtail.Reals.Ediff.integrales <> a:21 var
+R548:548 Coqtail.Reals.Ediff.integrales <> a:21 var
+R546:546 Coqtail.Reals.Ediff.integrales <> f:20 var
+ax 559:587 Integrals continuity_implies_RiemannInt
+R604:607 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R603:603 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R608:608 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 601:601 <> f:23
+R616:616 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 612:612 <> a:24
+binder 614:614 <> b:25
+R624:624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R685:689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R634:634 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 632:632 <> x:26
+R637:637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R664:667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R649:652 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R639:642 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R644:647 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R638:638 Coqtail.Reals.Ediff.integrales <> a:24 var
+R643:643 Coqtail.Reals.Ediff.integrales <> x:26 var
+R643:643 Coqtail.Reals.Ediff.integrales <> x:26 var
+R648:648 Coqtail.Reals.Ediff.integrales <> b:25 var
+R654:657 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R659:662 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R653:653 Coqtail.Reals.Ediff.integrales <> b:25 var
+R658:658 Coqtail.Reals.Ediff.integrales <> x:26 var
+R658:658 Coqtail.Reals.Ediff.integrales <> x:26 var
+R663:663 Coqtail.Reals.Ediff.integrales <> a:24 var
+R668:680 Coq.Reals.Ranalysis1 <> continuity_pt def
+R682:682 Coqtail.Reals.Ediff.integrales <> f:23 var
+R684:684 Coqtail.Reals.Ediff.integrales <> x:26 var
+R690:707 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R713:713 Coqtail.Reals.Ediff.integrales <> b:25 var
+R711:711 Coqtail.Reals.Ediff.integrales <> a:24 var
+R709:709 Coqtail.Reals.Ediff.integrales <> f:23 var
+ax 722:735 Integrals RiemannInt_opp
+R750:753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R749:749 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R754:754 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 747:747 <> f:28
+R762:762 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 758:758 <> a:29
+binder 760:760 <> b:30
+R770:787 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R793:793 Coqtail.Reals.Ediff.integrales <> b:30 var
+R791:791 Coqtail.Reals.Ediff.integrales <> a:29 var
+R789:789 Coqtail.Reals.Ediff.integrales <> f:28 var
+binder 766:768 <> pr1:31
+R805:822 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R828:828 Coqtail.Reals.Ediff.integrales <> a:29 var
+R826:826 Coqtail.Reals.Ediff.integrales <> b:30 var
+R824:824 Coqtail.Reals.Ediff.integrales <> f:28 var
+binder 801:803 <> pr2:32
+R846:848 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R832:841 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R843:845 Coqtail.Reals.Ediff.integrales <> pr1:31 var
+R849:850 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R851:860 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R862:864 Coqtail.Reals.Ediff.integrales <> pr2:32 var
+ax 873:892 Integrals RiemannInt_singleton
+R907:910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R906:906 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R911:911 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 904:904 <> f:34
+R917:917 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 915:915 <> a:35
+R924:941 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R947:947 Coqtail.Reals.Ediff.integrales <> a:35 var
+R945:945 Coqtail.Reals.Ediff.integrales <> a:35 var
+R943:943 Coqtail.Reals.Ediff.integrales <> f:34 var
+binder 921:922 <> pr:36
+R964:966 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R951:960 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R962:963 Coqtail.Reals.Ediff.integrales <> pr:36 var
+ax 976:1000 Integrals Riemann_integrable_linear
+R1017:1020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1016:1016 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1021:1021 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1012:1012 <> f:38
+binder 1014:1014 <> g:39
+R1031:1031 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1025:1025 <> a:40
+binder 1027:1027 <> b:41
+binder 1029:1029 <> l:42
+R1063:1070 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1039:1056 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1062:1062 Coqtail.Reals.Ediff.integrales <> b:41 var
+R1060:1060 Coqtail.Reals.Ediff.integrales <> a:40 var
+R1058:1058 Coqtail.Reals.Ediff.integrales <> f:38 var
+R1095:1102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1071:1088 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1094:1094 Coqtail.Reals.Ediff.integrales <> b:41 var
+R1092:1092 Coqtail.Reals.Ediff.integrales <> a:40 var
+R1090:1090 Coqtail.Reals.Ediff.integrales <> g:39 var
+R1103:1120 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1151:1151 Coqtail.Reals.Ediff.integrales <> b:41 var
+R1149:1149 Coqtail.Reals.Ediff.integrales <> a:40 var
+R1129:1129 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1127:1127 <> x:43
+R1137:1139 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1134:1134 Coqtail.Reals.Ediff.integrales <> f:38 var
+R1136:1136 Coqtail.Reals.Ediff.integrales <> x:43 var
+R1141:1143 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1140:1140 Coqtail.Reals.Ediff.integrales <> l:42 var
+R1144:1144 Coqtail.Reals.Ediff.integrales <> g:39 var
+R1146:1146 Coqtail.Reals.Ediff.integrales <> x:43 var
+ax 1160:1176 Integrals RiemannInt_linear
+R1193:1196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1192:1192 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1197:1197 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1188:1188 <> f:45
+binder 1190:1190 <> g:46
+R1207:1207 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1201:1201 <> a:47
+binder 1203:1203 <> b:48
+binder 1205:1205 <> l:49
+R1215:1232 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1238:1238 Coqtail.Reals.Ediff.integrales <> b:48 var
+R1236:1236 Coqtail.Reals.Ediff.integrales <> a:47 var
+R1234:1234 Coqtail.Reals.Ediff.integrales <> f:45 var
+binder 1211:1213 <> pr1:50
+R1250:1267 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1273:1273 Coqtail.Reals.Ediff.integrales <> b:48 var
+R1271:1271 Coqtail.Reals.Ediff.integrales <> a:47 var
+R1269:1269 Coqtail.Reals.Ediff.integrales <> g:46 var
+binder 1246:1248 <> pr2:51
+R1285:1302 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1333:1333 Coqtail.Reals.Ediff.integrales <> b:48 var
+R1331:1331 Coqtail.Reals.Ediff.integrales <> a:47 var
+R1311:1311 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1309:1309 <> x:52
+R1319:1321 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1316:1316 Coqtail.Reals.Ediff.integrales <> f:45 var
+R1318:1318 Coqtail.Reals.Ediff.integrales <> x:52 var
+R1323:1325 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1322:1322 Coqtail.Reals.Ediff.integrales <> l:49 var
+R1326:1326 Coqtail.Reals.Ediff.integrales <> g:46 var
+R1328:1328 Coqtail.Reals.Ediff.integrales <> x:52 var
+binder 1281:1283 <> pr3:53
+R1355:1357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1341:1350 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R1352:1354 Coqtail.Reals.Ediff.integrales <> pr3:53 var
+R1372:1374 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1358:1367 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R1369:1371 Coqtail.Reals.Ediff.integrales <> pr1:50 var
+R1376:1378 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1375:1375 Coqtail.Reals.Ediff.integrales <> l:49 var
+R1379:1388 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R1390:1392 Coqtail.Reals.Ediff.integrales <> pr2:51 var
+ax 1401:1424 Integrals Riemann_integrable_const
+R1441:1441 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1435:1435 <> a:55
+binder 1437:1437 <> b:56
+binder 1439:1439 <> c:57
+R1444:1461 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1477:1477 Coqtail.Reals.Ediff.integrales <> b:56 var
+R1475:1475 Coqtail.Reals.Ediff.integrales <> a:55 var
+R1464:1470 Coq.Reals.Ranalysis1 <> fct_cte def
+R1472:1472 Coqtail.Reals.Ediff.integrales <> c:57 var
+ax 1486:1501 Integrals RiemannInt_const
+R1519:1519 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1513:1513 <> a:59
+binder 1515:1515 <> b:60
+binder 1517:1517 <> c:61
+R1526:1543 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1559:1559 Coqtail.Reals.Ediff.integrales <> b:60 var
+R1557:1557 Coqtail.Reals.Ediff.integrales <> a:59 var
+R1546:1552 Coq.Reals.Ranalysis1 <> fct_cte def
+R1554:1554 Coqtail.Reals.Ediff.integrales <> c:61 var
+binder 1523:1524 <> pr:62
+R1580:1582 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1567:1576 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R1578:1579 Coqtail.Reals.Ediff.integrales <> pr:62 var
+R1584:1587 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1593:1593 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1583:1583 Coqtail.Reals.Ediff.integrales <> c:61 var
+R1589:1591 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1588:1588 Coqtail.Reals.Ediff.integrales <> b:60 var
+R1592:1592 Coqtail.Reals.Ediff.integrales <> a:59 var
+ax 1603:1625 Integrals Riemann_integrable_Rabs
+R1640:1643 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1639:1639 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1644:1644 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1637:1637 <> f:64
+R1652:1652 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1648:1648 <> a:65
+binder 1650:1650 <> b:66
+R1684:1687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1660:1677 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1683:1683 Coqtail.Reals.Ediff.integrales <> b:66 var
+R1681:1681 Coqtail.Reals.Ediff.integrales <> a:65 var
+R1679:1679 Coqtail.Reals.Ediff.integrales <> f:64 var
+R1688:1705 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1733:1733 Coqtail.Reals.Ediff.integrales <> b:66 var
+R1731:1731 Coqtail.Reals.Ediff.integrales <> a:65 var
+R1714:1714 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1712:1712 <> x:67
+R1719:1722 Coq.Reals.Rbasic_fun <> Rabs def
+R1725:1725 Coqtail.Reals.Ediff.integrales <> f:64 var
+R1727:1727 Coqtail.Reals.Ediff.integrales <> x:67 var
+ax 1742:1767 Integrals Riemann_integrable_chasles
+R1783:1784 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1782:1782 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1785:1785 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1779:1779 <> f:69
+R1796:1796 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1789:1789 <> a:70
+binder 1791:1791 <> b:71
+binder 1793:1793 <> c:72
+R1826:1833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1802:1819 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1825:1825 Coqtail.Reals.Ediff.integrales <> b:71 var
+R1823:1823 Coqtail.Reals.Ediff.integrales <> a:70 var
+R1821:1821 Coqtail.Reals.Ediff.integrales <> f:69 var
+R1858:1861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1834:1851 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1857:1857 Coqtail.Reals.Ediff.integrales <> c:72 var
+R1855:1855 Coqtail.Reals.Ediff.integrales <> b:71 var
+R1853:1853 Coqtail.Reals.Ediff.integrales <> f:69 var
+R1862:1879 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1885:1885 Coqtail.Reals.Ediff.integrales <> c:72 var
+R1883:1883 Coqtail.Reals.Ediff.integrales <> a:70 var
+R1881:1881 Coqtail.Reals.Ediff.integrales <> f:69 var
+ax 1894:1912 Integrals RiemannInt_monotony
+R1926:1929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1925:1925 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1930:1930 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1923:1923 <> f:74
+R1940:1940 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1934:1934 <> a:75
+binder 1936:1936 <> b:76
+binder 1938:1938 <> c:77
+R1972:1975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1948:1965 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R1971:1971 Coqtail.Reals.Ediff.integrales <> b:76 var
+R1969:1969 Coqtail.Reals.Ediff.integrales <> a:75 var
+R1967:1967 Coqtail.Reals.Ediff.integrales <> f:74 var
+R1987:1990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1977:1980 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1982:1985 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1976:1976 Coqtail.Reals.Ediff.integrales <> a:75 var
+R1981:1981 Coqtail.Reals.Ediff.integrales <> c:77 var
+R1981:1981 Coqtail.Reals.Ediff.integrales <> c:77 var
+R1986:1986 Coqtail.Reals.Ediff.integrales <> b:76 var
+R1991:2008 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2014:2014 Coqtail.Reals.Ediff.integrales <> c:77 var
+R2012:2012 Coqtail.Reals.Ediff.integrales <> a:75 var
+R2010:2010 Coqtail.Reals.Ediff.integrales <> f:74 var
+ax 2023:2042 Integrals RiemannInt_monotony2
+R2057:2060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2056:2056 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2061:2061 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2054:2054 <> f:79
+R2071:2071 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2065:2065 <> a:80
+binder 2067:2067 <> b:81
+binder 2069:2069 <> c:82
+R2103:2106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2079:2096 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2102:2102 Coqtail.Reals.Ediff.integrales <> b:81 var
+R2100:2100 Coqtail.Reals.Ediff.integrales <> a:80 var
+R2098:2098 Coqtail.Reals.Ediff.integrales <> f:79 var
+R2118:2121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2108:2111 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R2113:2116 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R2107:2107 Coqtail.Reals.Ediff.integrales <> a:80 var
+R2112:2112 Coqtail.Reals.Ediff.integrales <> c:82 var
+R2112:2112 Coqtail.Reals.Ediff.integrales <> c:82 var
+R2117:2117 Coqtail.Reals.Ediff.integrales <> b:81 var
+R2122:2139 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2145:2145 Coqtail.Reals.Ediff.integrales <> b:81 var
+R2143:2143 Coqtail.Reals.Ediff.integrales <> c:82 var
+R2141:2141 Coqtail.Reals.Ediff.integrales <> f:79 var
+ax 2154:2171 Integrals RiemannInt_chasles
+R2185:2188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2184:2184 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2189:2189 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2182:2182 <> f:84
+R2199:2199 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2193:2193 <> a:85
+binder 2195:2195 <> b:86
+binder 2197:2197 <> c:87
+R2207:2224 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2230:2230 Coqtail.Reals.Ediff.integrales <> b:86 var
+R2228:2228 Coqtail.Reals.Ediff.integrales <> a:85 var
+R2226:2226 Coqtail.Reals.Ediff.integrales <> f:84 var
+binder 2203:2205 <> pr1:88
+R2242:2259 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2265:2265 Coqtail.Reals.Ediff.integrales <> c:87 var
+R2263:2263 Coqtail.Reals.Ediff.integrales <> b:86 var
+R2261:2261 Coqtail.Reals.Ediff.integrales <> f:84 var
+binder 2238:2240 <> pr2:89
+R2273:2290 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2296:2296 Coqtail.Reals.Ediff.integrales <> c:87 var
+R2294:2294 Coqtail.Reals.Ediff.integrales <> a:85 var
+R2292:2292 Coqtail.Reals.Ediff.integrales <> f:84 var
+binder 2269:2271 <> pr3:90
+R2335:2337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2318:2320 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2304:2313 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R2315:2317 Coqtail.Reals.Ediff.integrales <> pr1:88 var
+R2321:2330 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R2332:2334 Coqtail.Reals.Ediff.integrales <> pr2:89 var
+R2338:2347 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R2349:2351 Coqtail.Reals.Ediff.integrales <> pr3:90 var
+ax 2360:2384 Integrals derive_Riemann_integrable
+R2398:2401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2397:2397 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2402:2402 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2395:2395 <> f:92
+R2409:2417 Coq.Reals.Ranalysis1 <> derivable def
+R2419:2419 Coqtail.Reals.Ediff.integrales <> f:92 var
+binder 2406:2406 <> H:93
+R2431:2440 Coq.Reals.Ranalysis1 <> continuity def
+R2443:2448 Coq.Reals.Ranalysis1 <> derive def
+R2450:2450 Coqtail.Reals.Ediff.integrales <> f:92 var
+R2452:2452 Coqtail.Reals.Ediff.integrales <> H:93 var
+binder 2423:2427 <> cont1:94
+R2461:2461 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2457:2457 <> a:95
+binder 2459:2459 <> b:96
+R2465:2482 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2501:2501 Coqtail.Reals.Ediff.integrales <> b:96 var
+R2499:2499 Coqtail.Reals.Ediff.integrales <> a:95 var
+R2485:2490 Coq.Reals.Ranalysis1 <> derive def
+R2492:2492 Coqtail.Reals.Ediff.integrales <> f:92 var
+R2495:2495 Coqtail.Reals.Ediff.integrales <> H:93 var
+ax 2510:2520 Integrals FTC_Riemann
+R2535:2538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2534:2534 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R2539:2539 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2532:2532 <> f:98
+R2546:2554 Coq.Reals.Ranalysis1 <> derivable def
+R2556:2556 Coqtail.Reals.Ediff.integrales <> f:98 var
+binder 2543:2543 <> H:99
+R2568:2577 Coq.Reals.Ranalysis1 <> continuity def
+R2580:2585 Coq.Reals.Ranalysis1 <> derive def
+R2587:2587 Coqtail.Reals.Ediff.integrales <> f:98 var
+R2589:2589 Coqtail.Reals.Ediff.integrales <> H:99 var
+binder 2560:2564 <> cont1:100
+R2598:2598 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2594:2594 <> a:101
+binder 2596:2596 <> b:102
+R2605:2622 Coqtail.Reals.Ediff.integrales Integrals Riemann_integrable prfax
+R2639:2639 Coqtail.Reals.Ediff.integrales <> b:102 var
+R2637:2637 Coqtail.Reals.Ediff.integrales <> a:101 var
+R2625:2630 Coq.Reals.Ranalysis1 <> derive def
+R2632:2632 Coqtail.Reals.Ediff.integrales <> f:98 var
+R2634:2634 Coqtail.Reals.Ediff.integrales <> H:99 var
+binder 2602:2603 <> pr:103
+R2660:2662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2647:2656 Coqtail.Reals.Ediff.integrales Integrals RiemannInt prfax
+R2658:2659 Coqtail.Reals.Ediff.integrales <> pr:103 var
+R2666:2668 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2663:2663 Coqtail.Reals.Ediff.integrales <> f:98 var
+R2665:2665 Coqtail.Reals.Ediff.integrales <> b:102 var
+R2669:2669 Coqtail.Reals.Ediff.integrales <> f:98 var
+R2671:2671 Coqtail.Reals.Ediff.integrales <> a:101 var
+R2679:2687 Coqtail.Reals.Ediff.integrales Integrals <> modtype

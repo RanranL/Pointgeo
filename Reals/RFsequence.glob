@@ -1,0 +1,146 @@
+DIGEST 5e31ca0cff83b5e1d125e95384659add
+FCoqtail.Reals.RFsequence
+R871:875 Coq.Reals.Reals <> <> lib
+R893:905 Coqtail.Reals.Rsequence.Rsequence_def <> <> lib
+R1049:1051 Coq.Init.Datatypes <> nat ind
+R1079:1082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1076:1078 Coq.Init.Datatypes <> nat ind
+R1084:1087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1083:1083 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1088:1088 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1112:1115 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1111:1111 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1116:1116 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 1187:1196 <> RFseq_plus
+binder 1198:1199 <> fn:1
+binder 1201:1202 <> gn:2
+binder 1204:1204 <> n:3
+R1214:1216 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R1210:1211 Coqtail.Reals.RFsequence <> fn:1 var
+R1213:1213 Coqtail.Reals.RFsequence <> n:3 var
+R1217:1218 Coqtail.Reals.RFsequence <> gn:2 var
+R1220:1220 Coqtail.Reals.RFsequence <> n:3 var
+def 1237:1246 <> RFseq_mult
+binder 1248:1249 <> fn:4
+binder 1251:1252 <> gn:5
+binder 1254:1254 <> n:6
+R1264:1266 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R1260:1261 Coqtail.Reals.RFsequence <> fn:4 var
+R1263:1263 Coqtail.Reals.RFsequence <> n:6 var
+R1267:1268 Coqtail.Reals.RFsequence <> gn:5 var
+R1270:1270 Coqtail.Reals.RFsequence <> n:6 var
+def 1287:1295 <> RFseq_opp
+binder 1297:1298 <> fn:7
+binder 1300:1300 <> n:8
+binder 1310:1310 <> x:9
+R1315:1318 Coq.Reals.Rdefinitions RbaseSymbolsImpl Ropp defax
+R1321:1322 Coqtail.Reals.RFsequence <> fn:7 var
+R1324:1324 Coqtail.Reals.RFsequence <> n:8 var
+R1326:1326 Coqtail.Reals.RFsequence <> x:9 var
+def 1344:1352 <> RFseq_inv
+binder 1354:1355 <> fn:10
+binder 1357:1357 <> n:11
+binder 1367:1367 <> x:12
+R1372:1375 Coq.Reals.Rdefinitions <> Rinv syndef
+R1378:1379 Coqtail.Reals.RFsequence <> fn:10 var
+R1381:1381 Coqtail.Reals.RFsequence <> n:11 var
+R1383:1383 Coqtail.Reals.RFsequence <> x:12 var
+R1404:1413 Coqtail.Reals.RFsequence <> RFseq_plus def
+not 1397:1397 <> ::RFseq_scope:x_'+'_x
+R1443:1452 Coqtail.Reals.RFsequence <> RFseq_mult def
+not 1436:1436 <> ::RFseq_scope:x_'*'_x
+R1488:1496 Coqtail.Reals.RFsequence <> RFseq_opp def
+not 1478:1478 <> ::RFseq_scope:'-'_x
+R1535:1543 Coqtail.Reals.RFsequence <> RFseq_inv def
+not 1525:1525 <> ::RFseq_scope:'/'_x
+def 1575:1585 <> RFseq_minus
+binder 1587:1588 <> fn:13
+binder 1590:1591 <> gn:14
+binder 1593:1593 <> n:15
+R1603:1605 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R1599:1600 Coqtail.Reals.RFsequence <> fn:13 var
+R1602:1602 Coqtail.Reals.RFsequence <> n:15 var
+R1606:1607 Coqtail.Reals.RFsequence <> gn:14 var
+R1609:1609 Coqtail.Reals.RFsequence <> n:15 var
+def 1626:1634 <> RFseq_div
+binder 1636:1637 <> fn:16
+binder 1639:1640 <> gn:17
+binder 1642:1642 <> n:18
+R1652:1654 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'/'_x not
+R1648:1649 Coqtail.Reals.RFsequence <> fn:16 var
+R1651:1651 Coqtail.Reals.RFsequence <> n:18 var
+R1655:1656 Coqtail.Reals.RFsequence <> gn:17 var
+R1658:1658 Coqtail.Reals.RFsequence <> n:18 var
+R1678:1688 Coqtail.Reals.RFsequence <> RFseq_minus def
+not 1671:1671 <> ::RFseq_scope:x_'-'_x
+R1718:1726 Coqtail.Reals.RFsequence <> RFseq_div def
+not 1711:1711 <> ::RFseq_scope:x_'/'_x
+def 1801:1808 <> RFseq_cv
+binder 1810:1811 <> fn:19
+binder 1813:1813 <> f:20
+binder 1825:1825 <> x:21
+R1828:1834 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+binder 1841:1841 <> n:22
+R1846:1847 Coqtail.Reals.RFsequence <> fn:19 var
+R1849:1849 Coqtail.Reals.RFsequence <> n:22 var
+R1851:1851 Coqtail.Reals.RFsequence <> x:21 var
+R1855:1855 Coqtail.Reals.RFsequence <> f:20 var
+R1857:1857 Coqtail.Reals.RFsequence <> x:21 var
+def 1872:1886 <> RFseq_cv_interv
+binder 1888:1889 <> fn:23
+binder 1891:1891 <> f:24
+R1902:1902 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1894:1895 <> lb:25
+binder 1897:1898 <> ub:26
+binder 1917:1917 <> x:27
+R1926:1929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1922:1924 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1920:1921 Coqtail.Reals.RFsequence <> lb:25 var
+R1925:1925 Coqtail.Reals.RFsequence <> x:27 var
+R1936:1939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1931:1933 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R1930:1930 Coqtail.Reals.RFsequence <> x:27 var
+R1934:1935 Coqtail.Reals.RFsequence <> ub:26 var
+R1940:1946 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_cv def
+binder 1953:1953 <> n:28
+R1958:1959 Coqtail.Reals.RFsequence <> fn:23 var
+R1961:1961 Coqtail.Reals.RFsequence <> n:28 var
+R1963:1963 Coqtail.Reals.RFsequence <> x:27 var
+R1967:1967 Coqtail.Reals.RFsequence <> f:24 var
+R1969:1969 Coqtail.Reals.RFsequence <> x:27 var
+def 1985:1993 <> RFseq_cvu
+binder 1995:1996 <> fn:29
+binder 1998:1998 <> f:30
+R2005:2005 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2001:2001 <> x:31
+R2013:2019 Coq.Reals.RIneq <> posreal rec
+binder 2009:2009 <> r:32
+R2038:2038 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2032:2034 <> eps:33
+R2048:2053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2042:2044 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2045:2047 Coqtail.Reals.RFsequence <> eps:33 var
+R2054:2060 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2068:2069 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2065:2067 Coq.Init.Datatypes <> nat ind
+binder 2061:2061 <> N:34
+binder 2077:2077 <> n:35
+R2084:2084 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2080:2080 <> y:36
+R2100:2103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2090:2093 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R2089:2089 Coqtail.Reals.RFsequence <> N:34 var
+R2094:2094 Coqtail.Reals.RFsequence <> n:35 var
+R2115:2120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2104:2108 Coq.Reals.PSeries_reg <> Boule def
+R2110:2110 Coqtail.Reals.RFsequence <> x:31 var
+R2112:2112 Coqtail.Reals.RFsequence <> r:32 var
+R2114:2114 Coqtail.Reals.RFsequence <> y:36 var
+R2142:2144 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R2121:2126 Coq.Reals.Rfunctions <> R_dist def
+R2129:2130 Coqtail.Reals.RFsequence <> fn:29 var
+R2132:2132 Coqtail.Reals.RFsequence <> n:35 var
+R2134:2134 Coqtail.Reals.RFsequence <> y:36 var
+R2138:2138 Coqtail.Reals.RFsequence <> f:30 var
+R2140:2140 Coqtail.Reals.RFsequence <> y:36 var
+R2145:2147 Coqtail.Reals.RFsequence <> eps:33 var

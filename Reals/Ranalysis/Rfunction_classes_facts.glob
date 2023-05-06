@@ -1,0 +1,1843 @@
+DIGEST 41020b6f4f708731707da09bf9a0c937
+FCoqtail.Reals.Ranalysis.Rfunction_classes_facts
+R15:19 Coq.Reals.Rbase <> <> lib
+R21:29 Coq.Reals.Ranalysis <> <> lib
+R31:33 Coq.micromega.Lia <> <> lib
+R35:37 Coq.micromega.Lra <> <> lib
+R55:64 Coq.Reals.Rfunctions <> <> lib
+R66:80 Coqtail.Reals.Ranalysis.Rfunction_facts <> <> lib
+R82:96 Coqtail.Reals.Rextensionality <> <> lib
+R114:122 Coqtail.Reals.Ranalysis.Rinterval <> <> lib
+R124:136 Coqtail.Reals.Ranalysis.Ranalysis_def <> <> lib
+R138:156 Coqtail.Reals.Ranalysis.Ranalysis_def_simpl <> <> lib
+R158:172 Coqtail.Reals.Ranalysis.Ranalysis_facts <> <> lib
+R190:209 Coqtail.Reals.Ranalysis.Ranalysis_continuity <> <> lib
+R211:232 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> <> lib
+R234:255 Coqtail.Reals.Ranalysis.Ranalysis_monotonicity <> <> lib
+R273:293 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> <> lib
+R311:318 Coqtail.mytheories.myReals.MyR_dist <> <> lib
+R336:348 Coqtail.Reals.Tactics <> <> lib
+prf 429:433 <> D_ext
+binder 443:443 <> n:1
+binder 445:445 <> f:2
+binder 447:447 <> g:3
+R456:459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R451:454 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R450:450 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:2 var
+R455:455 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:3 var
+R465:468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R460:460 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R462:462 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:1 var
+R464:464 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:2 var
+R469:469 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R471:471 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:1 var
+R473:473 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:3 var
+R585:593 Coq.Reals.Ranalysis1 <> derivable def
+R609:621 Coqtail.Reals.Rextensionality <> derivable_ext thm
+R585:593 Coq.Reals.Ranalysis1 <> derivable def
+R609:621 Coqtail.Reals.Rextensionality <> derivable_ext thm
+R647:649 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R675:680 Coq.Reals.Ranalysis1 <> derive def
+R647:649 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R675:680 Coq.Reals.Ranalysis1 <> derive def
+R707:712 Coq.Reals.Ranalysis1 <> derive def
+R725:734 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+R725:734 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+R725:734 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+prf 810:820 <> D_Rball_ext
+binder 830:830 <> c:4
+binder 832:832 <> r:5
+binder 834:834 <> n:6
+binder 836:836 <> f:7
+binder 838:838 <> g:8
+R859:862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R843:850 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R852:852 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:4 var
+R854:854 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:5 var
+R856:856 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:7 var
+R858:858 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:8 var
+R878:881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R863:869 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R871:871 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:4 var
+R873:873 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:5 var
+R875:875 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:6 var
+R877:877 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:7 var
+R882:888 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R890:890 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:4 var
+R892:892 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:5 var
+R894:894 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:6 var
+R896:896 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:8 var
+R1007:1021 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_Rball def
+R1041:1063 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_ext_strong thm
+R1007:1021 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_Rball def
+R1041:1063 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_ext_strong thm
+R1089:1092 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R1122:1133 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R1089:1092 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R1122:1133 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R1170:1192 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext_strong thm
+R1170:1192 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext_strong thm
+prf 1234:1238 <> C_ext
+binder 1249:1249 <> n:9
+binder 1251:1251 <> f:10
+binder 1253:1253 <> g:11
+R1262:1265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1257:1260 Coqtail.Reals.Ranalysis.Rfunction_def <> ::Rfun_scope:x_'=='_x not
+R1256:1256 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:10 var
+R1261:1261 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:11 var
+R1271:1274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1266:1266 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R1268:1268 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:9 var
+R1270:1270 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:10 var
+R1275:1275 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R1277:1277 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:9 var
+R1279:1279 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:11 var
+R1374:1387 Coqtail.Reals.Rextensionality <> continuity_ext thm
+R1374:1387 Coqtail.Reals.Rextensionality <> continuity_ext thm
+R1445:1453 Coq.Reals.Ranalysis1 <> derivable def
+R1469:1481 Coqtail.Reals.Rextensionality <> derivable_ext thm
+R1445:1453 Coq.Reals.Ranalysis1 <> derivable def
+R1469:1481 Coqtail.Reals.Rextensionality <> derivable_ext thm
+R1507:1509 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R1507:1509 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R1542:1547 Coq.Reals.Ranalysis1 <> derive def
+R1542:1547 Coq.Reals.Ranalysis1 <> derive def
+R1574:1579 Coq.Reals.Ranalysis1 <> derive def
+R1592:1601 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+R1592:1601 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+R1592:1601 Coq.Reals.Ranalysis4 <> pr_nu_var2 thm
+prf 1677:1687 <> C_Rball_ext
+binder 1697:1697 <> c:12
+binder 1699:1699 <> r:13
+binder 1701:1701 <> n:14
+binder 1703:1703 <> f:15
+binder 1705:1705 <> g:16
+R1726:1729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1710:1717 Coqtail.Reals.Ranalysis.Rinterval <> Rball_eq def
+R1719:1719 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:12 var
+R1721:1721 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:13 var
+R1723:1723 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:15 var
+R1725:1725 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:16 var
+R1745:1748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1730:1736 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R1738:1738 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:12 var
+R1740:1740 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:13 var
+R1742:1742 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:14 var
+R1744:1744 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:15 var
+R1749:1755 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R1757:1757 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:12 var
+R1759:1759 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:13 var
+R1761:1761 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:14 var
+R1763:1763 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:16 var
+R1864:1887 Coqtail.Reals.Ranalysis.Ranalysis_continuity <> continuity_in_ext_strong thm
+R1864:1887 Coqtail.Reals.Ranalysis.Ranalysis_continuity <> continuity_in_ext_strong thm
+R1922:1936 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_Rball def
+R1956:1978 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_ext_strong thm
+R1922:1936 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_Rball def
+R1956:1978 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_ext_strong thm
+R2004:2007 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R2037:2048 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R2004:2007 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R2037:2048 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R2085:2107 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext_strong thm
+R2085:2107 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext_strong thm
+prf 2230:2240 <> C_implies_D
+binder 2251:2251 <> n:17
+binder 2253:2253 <> f:18
+R2261:2264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2256:2256 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R2258:2258 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:17 var
+R2260:2260 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:18 var
+R2265:2265 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R2267:2267 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:17 var
+R2269:2269 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:18 var
+R2350:2352 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R2350:2352 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+prf 2400:2412 <> D_S_implies_C
+binder 2423:2423 <> n:19
+binder 2425:2425 <> f:20
+R2437:2440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2428:2428 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R2431:2431 Coq.Init.Datatypes <> S constr
+R2433:2433 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:19 var
+R2436:2436 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:20 var
+R2441:2441 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R2443:2443 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:19 var
+R2445:2445 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:20 var
+R2526:2545 Coq.Reals.Ranalysis1 <> derivable_continuous thm
+R2526:2545 Coq.Reals.Ranalysis1 <> derivable_continuous thm
+R2568:2570 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R2568:2570 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+prf 2618:2640 <> C_infty_implies_D_infty
+binder 2651:2651 <> f:21
+R2663:2666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2654:2660 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R2662:2662 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:21 var
+R2667:2673 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R2675:2675 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:21 var
+R2706:2716 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_implies_D thm
+R2706:2716 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_implies_D thm
+prf 2741:2763 <> D_infty_implies_C_infty
+binder 2774:2774 <> f:22
+R2786:2789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2777:2783 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R2785:2785 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:22 var
+R2790:2796 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R2798:2798 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:22 var
+R2829:2841 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_S_implies_C thm
+R2829:2841 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_S_implies_C thm
+prf 2917:2939 <> C_Rball_implies_D_Rball
+binder 2950:2950 <> n:23
+binder 2952:2952 <> f:24
+binder 2954:2954 <> c:25
+binder 2956:2956 <> r:26
+R2976:2979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2961:2967 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R2969:2969 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:25 var
+R2971:2971 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:26 var
+R2973:2973 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:23 var
+R2975:2975 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:24 var
+R2980:2986 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R2988:2988 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:25 var
+R2990:2990 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:26 var
+R2992:2992 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:23 var
+R2994:2994 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:24 var
+R3080:3083 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R3080:3083 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+prf 3131:3155 <> D_Rball_S_implies_C_Rball
+binder 3166:3166 <> c:27
+binder 3168:3168 <> r:28
+binder 3170:3170 <> n:29
+binder 3172:3172 <> f:30
+R3196:3199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3177:3183 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R3185:3185 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:27 var
+R3187:3187 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:28 var
+R3190:3190 Coq.Init.Datatypes <> S constr
+R3192:3192 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:29 var
+R3195:3195 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:30 var
+R3200:3206 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R3208:3208 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:27 var
+R3210:3210 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:28 var
+R3212:3212 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:29 var
+R3214:3214 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:30 var
+R3302:3327 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_continuity_in thm
+R3302:3327 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_continuity_in thm
+R3350:3353 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R3350:3353 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+prf 3401:3435 <> C_Rball_infty_implies_D_Rball_infty
+binder 3446:3446 <> c:31
+binder 3448:3448 <> r:32
+binder 3450:3450 <> f:33
+R3474:3477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3455:3467 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R3469:3469 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:31 var
+R3471:3471 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:32 var
+R3473:3473 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:33 var
+R3478:3490 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R3492:3492 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:31 var
+R3494:3494 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:32 var
+R3496:3496 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:33 var
+R3529:3551 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_implies_D_Rball thm
+R3529:3551 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_implies_D_Rball thm
+prf 3637:3645 <> C_C_Rball
+binder 3655:3655 <> c:34
+binder 3657:3657 <> r:35
+binder 3659:3659 <> n:36
+binder 3661:3661 <> f:37
+R3669:3672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3664:3664 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R3666:3666 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:36 var
+R3668:3668 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:37 var
+R3673:3679 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R3681:3681 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:34 var
+R3683:3683 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:35 var
+R3685:3685 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:36 var
+R3687:3687 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:37 var
+R3783:3806 Coqtail.Reals.Ranalysis.Ranalysis_continuity <> continuity_continuity_in thm
+R3783:3806 Coqtail.Reals.Ranalysis.Ranalysis_continuity <> continuity_continuity_in thm
+R3840:3861 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_derivable_in thm
+R3866:3870 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R3829:3832 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R3840:3861 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_derivable_in thm
+R3866:3870 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R3829:3832 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R3890:3900 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R3890:3900 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R3941:3959 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_derive_Rball thm
+R3941:3959 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_derive_Rball thm
+prf 4001:4006 <> D_pred
+binder 4017:4017 <> n:38
+binder 4019:4019 <> f:39
+R4031:4034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4022:4022 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R4025:4025 Coq.Init.Datatypes <> S constr
+R4027:4027 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:38 var
+R4030:4030 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:39 var
+R4035:4035 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R4037:4037 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:38 var
+R4039:4039 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:39 var
+R4064:4074 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_implies_D thm
+R4077:4089 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_S_implies_C thm
+R4064:4074 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_implies_D thm
+R4077:4089 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_S_implies_C thm
+prf 4117:4128 <> D_Rball_pred
+binder 4138:4138 <> c:40
+binder 4140:4140 <> r:41
+binder 4142:4142 <> n:42
+binder 4144:4144 <> f:43
+R4168:4171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4149:4155 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R4157:4157 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:40 var
+R4159:4159 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:41 var
+R4162:4162 Coq.Init.Datatypes <> S constr
+R4164:4164 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:42 var
+R4167:4167 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:43 var
+R4172:4178 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R4180:4180 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:40 var
+R4182:4182 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:41 var
+R4184:4184 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:42 var
+R4186:4186 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:43 var
+R4211:4233 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_implies_D_Rball thm
+R4237:4261 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_S_implies_C_Rball thm
+R4211:4233 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_implies_D_Rball thm
+R4237:4261 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_S_implies_C_Rball thm
+prf 4289:4294 <> C_pred
+binder 4305:4305 <> n:44
+binder 4307:4307 <> f:45
+R4319:4322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4310:4310 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R4313:4313 Coq.Init.Datatypes <> S constr
+R4315:4315 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:44 var
+R4318:4318 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:45 var
+R4323:4323 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R4325:4325 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:44 var
+R4327:4327 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:45 var
+R4353:4365 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_S_implies_C thm
+R4368:4378 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_implies_D thm
+R4353:4365 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_S_implies_C thm
+R4368:4378 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_implies_D thm
+prf 4406:4417 <> C_Rball_pred
+binder 4428:4428 <> c:46
+binder 4430:4430 <> r:47
+binder 4432:4432 <> n:48
+binder 4434:4434 <> f:49
+R4458:4461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4439:4445 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R4447:4447 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:46 var
+R4449:4449 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:47 var
+R4452:4452 Coq.Init.Datatypes <> S constr
+R4454:4454 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:48 var
+R4457:4457 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:49 var
+R4462:4468 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R4470:4470 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:46 var
+R4472:4472 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:47 var
+R4474:4474 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:48 var
+R4476:4476 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:49 var
+R4502:4526 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_S_implies_C_Rball thm
+R4529:4551 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_implies_D_Rball thm
+R4502:4526 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_S_implies_C_Rball thm
+R4529:4551 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_implies_D_Rball thm
+prf 4579:4582 <> D_le
+binder 4592:4592 <> m:50
+binder 4594:4594 <> n:51
+binder 4596:4596 <> f:52
+R4611:4614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4601:4604 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4600:4600 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:51 var
+R4605:4605 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:50 var
+R4620:4623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4615:4615 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R4617:4617 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:50 var
+R4619:4619 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:52 var
+R4624:4624 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R4626:4626 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:51 var
+R4628:4628 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:52 var
+R4715:4721 Coq.Arith.Le <> le_Sn_O syndef
+R4715:4721 Coq.Arith.Le <> le_Sn_O syndef
+R4743:4752 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R4757:4757 Coq.Init.Datatypes <> S constr
+R4743:4752 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R4757:4757 Coq.Init.Datatypes <> S constr
+R4825:4830 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+R4825:4830 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+prf 4862:4871 <> D_Rball_le
+binder 4881:4881 <> c:53
+binder 4883:4883 <> r:54
+binder 4885:4885 <> m:55
+binder 4887:4887 <> n:56
+binder 4889:4889 <> f:57
+R4904:4909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4894:4897 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4893:4893 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:56 var
+R4898:4898 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:55 var
+R4925:4928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4910:4916 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R4918:4918 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:53 var
+R4920:4920 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:54 var
+R4922:4922 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:55 var
+R4924:4924 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:57 var
+R4929:4935 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R4937:4937 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:53 var
+R4939:4939 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:54 var
+R4941:4941 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:56 var
+R4943:4943 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:57 var
+R5035:5041 Coq.Arith.Le <> le_Sn_O syndef
+R5035:5041 Coq.Arith.Le <> le_Sn_O syndef
+R5063:5072 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5077:5077 Coq.Init.Datatypes <> S constr
+R5063:5072 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5077:5077 Coq.Init.Datatypes <> S constr
+R5145:5156 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_pred thm
+R5145:5156 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_pred thm
+prf 5188:5191 <> C_le
+binder 5202:5202 <> m:58
+binder 5204:5204 <> n:59
+binder 5206:5206 <> f:60
+R5221:5224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5211:5214 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5210:5210 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:59 var
+R5215:5215 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:58 var
+R5230:5233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5225:5225 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R5227:5227 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:58 var
+R5229:5229 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:60 var
+R5234:5234 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R5236:5236 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:59 var
+R5238:5238 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:60 var
+R5323:5329 Coq.Arith.Le <> le_Sn_O syndef
+R5323:5329 Coq.Arith.Le <> le_Sn_O syndef
+R5349:5358 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5363:5363 Coq.Init.Datatypes <> S constr
+R5349:5358 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5363:5363 Coq.Init.Datatypes <> S constr
+R5431:5436 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+R5431:5436 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+prf 5468:5477 <> C_Rball_le
+binder 5488:5488 <> c:61
+binder 5490:5490 <> r:62
+binder 5492:5492 <> m:63
+binder 5494:5494 <> n:64
+binder 5496:5496 <> f:65
+R5511:5516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5501:5504 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5500:5500 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:64 var
+R5505:5505 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:63 var
+R5532:5535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5517:5523 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R5525:5525 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:61 var
+R5527:5527 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:62 var
+R5529:5529 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> m:63 var
+R5531:5531 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:65 var
+R5536:5542 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R5544:5544 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:61 var
+R5546:5546 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:62 var
+R5548:5548 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:64 var
+R5550:5550 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:65 var
+R5640:5646 Coq.Arith.Le <> le_Sn_O syndef
+R5640:5646 Coq.Arith.Le <> le_Sn_O syndef
+R5666:5675 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5680:5680 Coq.Init.Datatypes <> S constr
+R5666:5675 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R5680:5680 Coq.Init.Datatypes <> S constr
+R5748:5759 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_pred thm
+R5748:5759 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_pred thm
+prf 5845:5849 <> D_opp
+binder 5859:5859 <> n:66
+binder 5861:5861 <> f:67
+R5869:5872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5864:5864 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R5866:5866 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:66 var
+R5868:5868 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:67 var
+R5873:5873 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R5875:5875 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:66 var
+R5878:5879 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R5880:5880 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:67 var
+R6009:6021 Coq.Reals.Ranalysis1 <> derivable_opp thm
+R6038:6040 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R6071:6072 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6073:6078 Coq.Reals.Ranalysis1 <> derive def
+R6059:6063 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R6009:6021 Coq.Reals.Ranalysis1 <> derivable_opp thm
+R6038:6040 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R6071:6072 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6073:6078 Coq.Reals.Ranalysis1 <> derive def
+R6059:6063 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R6119:6124 Coq.Reals.Ranalysis1 <> derive def
+R6136:6147 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R6159:6178 Coq.Reals.Ranalysis1 <> derivable_pt_lim_opp thm
+R6136:6147 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R6136:6147 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R6159:6178 Coq.Reals.Ranalysis1 <> derivable_pt_lim_opp thm
+prf 6256:6266 <> D_Rball_opp
+binder 6276:6276 <> c:68
+binder 6278:6278 <> r:69
+binder 6280:6280 <> n:70
+binder 6282:6282 <> f:71
+R6302:6305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6287:6293 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R6295:6295 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:68 var
+R6297:6297 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:69 var
+R6299:6299 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:70 var
+R6301:6301 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:71 var
+R6306:6312 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R6314:6314 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:68 var
+R6316:6316 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:69 var
+R6318:6318 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:70 var
+R6321:6322 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6323:6323 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:71 var
+R6431:6446 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_opp thm
+R6420:6423 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R6483:6484 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6485:6496 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R6465:6475 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R6431:6446 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_opp thm
+R6420:6423 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R6483:6484 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6485:6496 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R6465:6475 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R6529:6540 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R6558:6573 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_opp thm
+R6529:6540 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R6558:6573 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_opp thm
+prf 6613:6617 <> C_opp
+binder 6627:6627 <> n:72
+binder 6629:6629 <> f:73
+R6637:6640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6632:6632 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R6634:6634 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:72 var
+R6636:6636 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:73 var
+R6641:6641 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R6643:6643 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:72 var
+R6646:6647 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6648:6648 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:73 var
+R6777:6789 Coq.Reals.Ranalysis1 <> derivable_opp thm
+R6806:6808 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R6839:6840 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6841:6846 Coq.Reals.Ranalysis1 <> derive def
+R6827:6831 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R6777:6789 Coq.Reals.Ranalysis1 <> derivable_opp thm
+R6806:6808 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R6839:6840 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R6841:6846 Coq.Reals.Ranalysis1 <> derive def
+R6827:6831 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R6887:6892 Coq.Reals.Ranalysis1 <> derive def
+R6904:6915 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R6927:6946 Coq.Reals.Ranalysis1 <> derivable_pt_lim_opp thm
+R6904:6915 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R6904:6915 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R6927:6946 Coq.Reals.Ranalysis1 <> derivable_pt_lim_opp thm
+prf 7024:7034 <> C_Rball_opp
+binder 7044:7044 <> c:74
+binder 7046:7046 <> r:75
+binder 7048:7048 <> n:76
+binder 7050:7050 <> f:77
+R7070:7073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7055:7061 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R7063:7063 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:74 var
+R7065:7065 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:75 var
+R7067:7067 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:76 var
+R7069:7069 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:77 var
+R7074:7080 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R7082:7082 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:74 var
+R7084:7084 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:75 var
+R7086:7086 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:76 var
+R7089:7090 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R7091:7091 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:77 var
+R7202:7211 Coq.Reals.Rlimit <> limit_Ropp thm
+R7202:7211 Coq.Reals.Rlimit <> limit_Ropp thm
+R7265:7280 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_opp thm
+R7254:7257 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R7317:7318 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R7319:7330 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R7299:7309 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R7265:7280 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_opp thm
+R7254:7257 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R7317:7318 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R7319:7330 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R7299:7309 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R7363:7374 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R7392:7407 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_opp thm
+R7363:7374 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R7392:7407 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_opp thm
+prf 7447:7452 <> D_plus
+binder 7462:7462 <> n:78
+binder 7464:7464 <> f:79
+binder 7466:7466 <> g:80
+R7476:7479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7471:7471 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R7473:7473 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:78 var
+R7475:7475 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:79 var
+R7485:7488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7480:7480 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R7482:7482 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:78 var
+R7484:7484 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:80 var
+R7489:7489 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R7491:7491 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:78 var
+R7495:7497 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R7494:7494 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:79 var
+R7498:7498 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:80 var
+R7634:7647 Coq.Reals.Ranalysis1 <> derivable_plus thm
+R7624:7626 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R7682:7689 Coq.Reals.Ranalysis1 <> plus_fct def
+R7692:7697 Coq.Reals.Ranalysis1 <> derive def
+R7706:7711 Coq.Reals.Ranalysis1 <> derive def
+R7670:7674 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R7634:7647 Coq.Reals.Ranalysis1 <> derivable_plus thm
+R7624:7626 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R7682:7689 Coq.Reals.Ranalysis1 <> plus_fct def
+R7692:7697 Coq.Reals.Ranalysis1 <> derive def
+R7706:7711 Coq.Reals.Ranalysis1 <> derive def
+R7670:7674 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R7771:7773 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7758:7763 Coq.Reals.Ranalysis1 <> derive def
+R7774:7779 Coq.Reals.Ranalysis1 <> derive def
+R7771:7773 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7758:7763 Coq.Reals.Ranalysis1 <> derive def
+R7774:7779 Coq.Reals.Ranalysis1 <> derive def
+R7799:7804 Coq.Reals.Ranalysis1 <> derive def
+R7816:7827 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R7838:7858 Coq.Reals.Ranalysis1 <> derivable_pt_lim_plus thm
+R7869:7882 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R7816:7827 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R7816:7827 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R7838:7858 Coq.Reals.Ranalysis1 <> derivable_pt_lim_plus thm
+R7869:7882 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R7869:7882 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+prf 7944:7955 <> D_Rball_plus
+binder 7966:7966 <> c:81
+binder 7968:7968 <> r:82
+binder 7970:7970 <> n:83
+binder 7972:7972 <> f:84
+binder 7974:7974 <> g:85
+R7994:7997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7979:7985 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R7987:7987 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:81 var
+R7989:7989 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:82 var
+R7991:7991 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:83 var
+R7993:7993 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:84 var
+R8013:8018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7998:8004 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R8006:8006 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:81 var
+R8008:8008 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:82 var
+R8010:8010 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:83 var
+R8012:8012 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:85 var
+R8019:8025 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R8027:8027 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:81 var
+R8029:8029 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:82 var
+R8031:8031 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:83 var
+R8035:8037 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R8034:8034 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:84 var
+R8038:8038 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:85 var
+R8180:8196 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_plus thm
+R8169:8172 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R8260:8262 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R8239:8250 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R8263:8274 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R8221:8231 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R8180:8196 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_plus thm
+R8169:8172 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R8260:8262 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R8239:8250 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R8263:8274 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R8221:8231 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R8324:8340 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_plus thm
+R8324:8340 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_plus thm
+prf 8393:8398 <> C_plus
+binder 8409:8409 <> n:86
+binder 8411:8411 <> f:87
+binder 8413:8413 <> g:88
+R8423:8426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8418:8418 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R8420:8420 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:86 var
+R8422:8422 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:87 var
+R8432:8435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8427:8427 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R8429:8429 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:86 var
+R8431:8431 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:88 var
+R8436:8436 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R8438:8438 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:86 var
+R8442:8444 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R8441:8441 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:87 var
+R8445:8445 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:88 var
+R8587:8600 Coq.Reals.Ranalysis1 <> derivable_plus thm
+R8577:8579 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R8635:8642 Coq.Reals.Ranalysis1 <> plus_fct def
+R8645:8650 Coq.Reals.Ranalysis1 <> derive def
+R8659:8664 Coq.Reals.Ranalysis1 <> derive def
+R8623:8627 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R8587:8600 Coq.Reals.Ranalysis1 <> derivable_plus thm
+R8577:8579 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R8635:8642 Coq.Reals.Ranalysis1 <> plus_fct def
+R8645:8650 Coq.Reals.Ranalysis1 <> derive def
+R8659:8664 Coq.Reals.Ranalysis1 <> derive def
+R8623:8627 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R8724:8726 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8711:8716 Coq.Reals.Ranalysis1 <> derive def
+R8727:8732 Coq.Reals.Ranalysis1 <> derive def
+R8724:8726 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8711:8716 Coq.Reals.Ranalysis1 <> derive def
+R8727:8732 Coq.Reals.Ranalysis1 <> derive def
+R8752:8757 Coq.Reals.Ranalysis1 <> derive def
+R8769:8780 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R8791:8811 Coq.Reals.Ranalysis1 <> derivable_pt_lim_plus thm
+R8822:8835 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R8769:8780 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R8769:8780 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R8791:8811 Coq.Reals.Ranalysis1 <> derivable_pt_lim_plus thm
+R8822:8835 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R8822:8835 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+prf 8897:8908 <> C_Rball_plus
+binder 8919:8919 <> c:89
+binder 8921:8921 <> r:90
+binder 8923:8923 <> n:91
+binder 8925:8925 <> f:92
+binder 8927:8927 <> g:93
+R8947:8950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8932:8938 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R8940:8940 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:89 var
+R8942:8942 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:90 var
+R8944:8944 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:91 var
+R8946:8946 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:92 var
+R8966:8971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8951:8957 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R8959:8959 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:89 var
+R8961:8961 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:90 var
+R8963:8963 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:91 var
+R8965:8965 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:93 var
+R8972:8978 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R8980:8980 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:89 var
+R8982:8982 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:90 var
+R8984:8984 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:91 var
+R8988:8990 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R8987:8987 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:92 var
+R8991:8991 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:93 var
+R9136:9145 Coq.Reals.Rlimit <> limit_plus thm
+R9136:9145 Coq.Reals.Rlimit <> limit_plus thm
+R9203:9219 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_plus thm
+R9192:9195 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R9283:9285 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R9262:9273 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R9286:9297 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R9244:9254 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R9203:9219 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_plus thm
+R9192:9195 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R9283:9285 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R9262:9273 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R9286:9297 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R9244:9254 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R9347:9363 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_plus thm
+R9347:9363 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_plus thm
+prf 9416:9422 <> D_minus
+binder 9432:9432 <> n:94
+binder 9434:9434 <> f:95
+binder 9436:9436 <> g:96
+R9446:9449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9441:9441 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R9443:9443 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:94 var
+R9445:9445 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:95 var
+R9455:9458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9450:9450 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R9452:9452 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:94 var
+R9454:9454 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:96 var
+R9459:9459 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R9461:9461 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:94 var
+R9465:9467 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R9464:9464 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:95 var
+R9468:9468 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:96 var
+R9497:9505 Coq.Reals.Ranalysis1 <> minus_fct def
+R9508:9513 Coq.Reals.Rdefinitions <> Rminus def
+R9523:9528 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_plus thm
+R9542:9546 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_opp thm
+R9523:9528 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_plus thm
+R9542:9546 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_opp thm
+prf 9575:9587 <> D_Rball_minus
+binder 9598:9598 <> c:97
+binder 9600:9600 <> r:98
+binder 9602:9602 <> n:99
+binder 9604:9604 <> f:100
+binder 9606:9606 <> g:101
+R9626:9629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9611:9617 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R9619:9619 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:97 var
+R9621:9621 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:98 var
+R9623:9623 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:99 var
+R9625:9625 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:100 var
+R9645:9650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9630:9636 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R9638:9638 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:97 var
+R9640:9640 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:98 var
+R9642:9642 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:99 var
+R9644:9644 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:101 var
+R9651:9657 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R9659:9659 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:97 var
+R9661:9661 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:98 var
+R9663:9663 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:99 var
+R9667:9669 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R9666:9666 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:100 var
+R9670:9670 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:101 var
+R9699:9707 Coq.Reals.Ranalysis1 <> minus_fct def
+R9710:9715 Coq.Reals.Rdefinitions <> Rminus def
+R9725:9736 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_plus thm
+R9750:9760 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_opp thm
+R9725:9736 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_plus thm
+R9750:9760 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_opp thm
+prf 9789:9795 <> C_minus
+binder 9806:9806 <> n:102
+binder 9808:9808 <> f:103
+binder 9810:9810 <> g:104
+R9820:9823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9815:9815 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R9817:9817 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:102 var
+R9819:9819 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:103 var
+R9829:9832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9824:9824 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R9826:9826 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:102 var
+R9828:9828 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:104 var
+R9833:9833 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R9835:9835 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:102 var
+R9839:9841 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R9838:9838 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:103 var
+R9842:9842 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:104 var
+R9871:9879 Coq.Reals.Ranalysis1 <> minus_fct def
+R9882:9887 Coq.Reals.Rdefinitions <> Rminus def
+R9897:9902 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_plus thm
+R9916:9920 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_opp thm
+R9897:9902 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_plus thm
+R9916:9920 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_opp thm
+prf 9949:9961 <> C_Rball_minus
+binder 9972:9972 <> c:105
+binder 9974:9974 <> r:106
+binder 9976:9976 <> n:107
+binder 9978:9978 <> f:108
+binder 9980:9980 <> g:109
+R10000:10003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9985:9991 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R9993:9993 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:105 var
+R9995:9995 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:106 var
+R9997:9997 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:107 var
+R9999:9999 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:108 var
+R10019:10024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10004:10010 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R10012:10012 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:105 var
+R10014:10014 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:106 var
+R10016:10016 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:107 var
+R10018:10018 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:109 var
+R10025:10031 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R10033:10033 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:105 var
+R10035:10035 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:106 var
+R10037:10037 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:107 var
+R10041:10043 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R10040:10040 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:108 var
+R10044:10044 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:109 var
+R10073:10081 Coq.Reals.Ranalysis1 <> minus_fct def
+R10084:10089 Coq.Reals.Rdefinitions <> Rminus def
+R10099:10110 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_plus thm
+R10124:10134 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_opp thm
+R10099:10110 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_plus thm
+R10124:10134 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_opp thm
+prf 10163:10168 <> D_scal
+binder 10179:10179 <> n:110
+binder 10181:10181 <> f:111
+binder 10183:10183 <> a:112
+R10193:10196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10188:10188 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R10190:10190 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:110 var
+R10192:10192 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:111 var
+R10197:10197 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R10199:10199 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:110 var
+R10202:10214 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R10216:10216 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:112 var
+R10218:10218 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:111 var
+R10323:10336 Coq.Reals.Ranalysis1 <> derivable_scal thm
+R10313:10315 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R10368:10380 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R10385:10390 Coq.Reals.Ranalysis1 <> derive def
+R10355:10359 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R10323:10336 Coq.Reals.Ranalysis1 <> derivable_scal thm
+R10313:10315 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+R10368:10380 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R10385:10390 Coq.Reals.Ranalysis1 <> derive def
+R10355:10359 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R10409:10421 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R10453:10458 Coq.Reals.Ranalysis1 <> derive def
+R10472:10483 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R10493:10513 Coq.Reals.Ranalysis1 <> derivable_pt_lim_scal thm
+R10526:10539 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R10472:10483 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R10472:10483 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R10493:10513 Coq.Reals.Ranalysis1 <> derivable_pt_lim_scal thm
+R10526:10539 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+prf 10586:10597 <> D_Rball_scal
+binder 10608:10608 <> c:113
+binder 10610:10610 <> r:114
+binder 10612:10612 <> n:115
+binder 10614:10614 <> f:116
+binder 10616:10616 <> a:117
+R10636:10639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10621:10627 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R10629:10629 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:113 var
+R10631:10631 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:114 var
+R10633:10633 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:115 var
+R10635:10635 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:116 var
+R10640:10646 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R10648:10648 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:113 var
+R10650:10650 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:114 var
+R10652:10652 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:115 var
+R10655:10667 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R10669:10669 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:117 var
+R10671:10671 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:116 var
+R10782:10798 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_scal thm
+R10771:10774 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R10838:10850 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R10855:10866 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R10819:10829 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R10782:10798 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_scal thm
+R10771:10774 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+R10838:10850 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R10855:10866 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R10819:10829 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R10914:10930 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_scal thm
+R10914:10930 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_scal thm
+prf 10971:10976 <> C_scal
+binder 10987:10987 <> n:118
+binder 10989:10989 <> f:119
+binder 10991:10991 <> a:120
+R11001:11004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10996:10996 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R10998:10998 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:118 var
+R11000:11000 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:119 var
+R11005:11005 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R11007:11007 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:118 var
+R11010:11022 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R11024:11024 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:120 var
+R11026:11026 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:119 var
+R11137:11150 Coq.Reals.Ranalysis1 <> derivable_scal thm
+R11127:11129 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R11182:11194 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R11199:11204 Coq.Reals.Ranalysis1 <> derive def
+R11169:11173 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R11137:11150 Coq.Reals.Ranalysis1 <> derivable_scal thm
+R11127:11129 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+R11182:11194 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R11199:11204 Coq.Reals.Ranalysis1 <> derive def
+R11169:11173 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R11223:11235 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R11267:11272 Coq.Reals.Ranalysis1 <> derive def
+R11286:11297 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R11307:11327 Coq.Reals.Ranalysis1 <> derivable_pt_lim_scal thm
+R11340:11353 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R11286:11297 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R11286:11297 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R11307:11327 Coq.Reals.Ranalysis1 <> derivable_pt_lim_scal thm
+R11340:11353 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+prf 11423:11432 <> limit_scal
+binder 11442:11442 <> a:121
+binder 11444:11444 <> f:122
+binder 11446:11446 <> D:123
+binder 11448:11448 <> x:124
+binder 11450:11450 <> l:125
+R11472:11477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11455:11463 Coq.Reals.Rlimit <> limit1_in def
+R11465:11465 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:122 var
+R11467:11467 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D:123 var
+R11469:11469 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> l:125 var
+R11471:11471 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:124 var
+R11478:11486 Coq.Reals.Rlimit <> limit1_in def
+R11489:11501 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R11503:11503 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:121 var
+R11505:11505 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:122 var
+R11508:11508 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D:123 var
+R11512:11514 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11511:11511 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:121 var
+R11515:11515 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> l:125 var
+R11518:11518 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:124 var
+R11572:11578 Coq.Reals.RIneq <> Req_dec thm
+R11572:11578 Coq.Reals.RIneq <> Req_dec thm
+R11646:11658 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R11688:11705 Coqtail.mytheories.myReals.MyR_dist <> R_dist_scal_compat thm
+R11708:11714 Coq.Reals.Rbasic_fun <> Rabs_R0 thm
+R11717:11725 Coq.Reals.RIneq <> Rmult_0_l thm
+R11688:11705 Coqtail.mytheories.myReals.MyR_dist <> R_dist_scal_compat thm
+R11688:11705 Coqtail.mytheories.myReals.MyR_dist <> R_dist_scal_compat thm
+R11708:11714 Coq.Reals.Rbasic_fun <> Rabs_R0 thm
+R11708:11714 Coq.Reals.Rbasic_fun <> Rabs_R0 thm
+R11717:11725 Coq.Reals.RIneq <> Rmult_0_l thm
+R11717:11725 Coq.Reals.RIneq <> Rmult_0_l thm
+R11761:11763 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R11764:11767 Coq.Reals.Rbasic_fun <> Rabs def
+R11793:11795 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R11761:11763 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R11764:11767 Coq.Reals.Rbasic_fun <> Rabs def
+R11793:11795 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R11811:11826 Coq.Reals.R_sqrt <> Rlt_mult_inv_pos thm
+R11839:11849 Coq.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R11811:11826 Coq.Reals.R_sqrt <> Rlt_mult_inv_pos thm
+R11839:11849 Coq.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R11987:11999 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R12019:12036 Coqtail.mytheories.myReals.MyR_dist <> R_dist_scal_compat thm
+R12071:12073 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12065:12068 Coq.Reals.Rbasic_fun <> Rabs def
+R12046:12057 Coq.Reals.RIneq <> Rlt_le_trans thm
+R12019:12036 Coqtail.mytheories.myReals.MyR_dist <> R_dist_scal_compat thm
+R12019:12036 Coqtail.mytheories.myReals.MyR_dist <> R_dist_scal_compat thm
+R12071:12073 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12065:12068 Coq.Reals.Rbasic_fun <> Rabs def
+R12046:12057 Coq.Reals.RIneq <> Rlt_le_trans thm
+R12089:12105 Coq.Reals.Raxioms <> Rmult_lt_compat_l thm
+R12116:12126 Coq.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R12089:12105 Coq.Reals.Raxioms <> Rmult_lt_compat_l thm
+R12116:12126 Coq.Reals.Rbasic_fun <> Rabs_pos_lt thm
+R12213:12222 Coq.Reals.Rbasic_fun <> Rabs_no_R0 thm
+R12213:12222 Coq.Reals.Rbasic_fun <> Rabs_no_R0 thm
+prf 12250:12261 <> C_Rball_scal
+binder 12272:12272 <> c:126
+binder 12274:12274 <> r:127
+binder 12276:12276 <> n:128
+binder 12278:12278 <> f:129
+binder 12280:12280 <> a:130
+R12300:12303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12285:12291 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R12293:12293 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:126 var
+R12295:12295 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:127 var
+R12297:12297 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:128 var
+R12299:12299 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:129 var
+R12304:12310 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R12312:12312 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:126 var
+R12314:12314 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:127 var
+R12316:12316 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:128 var
+R12319:12331 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R12333:12333 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:130 var
+R12335:12335 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:129 var
+R12451:12460 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> limit_scal thm
+R12451:12460 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> limit_scal thm
+R12507:12523 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_scal thm
+R12496:12499 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R12563:12575 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R12580:12591 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R12544:12554 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R12507:12523 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_scal thm
+R12496:12499 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+R12563:12575 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R12580:12591 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R12544:12554 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R12639:12655 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_scal thm
+R12639:12655 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_scal thm
+prf 12696:12701 <> D_mult
+binder 12712:12712 <> n:131
+binder 12714:12714 <> f:132
+binder 12716:12716 <> g:133
+R12726:12729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12721:12721 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R12723:12723 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:131 var
+R12725:12725 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:132 var
+R12735:12738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12730:12730 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R12732:12732 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:131 var
+R12734:12734 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:133 var
+R12739:12739 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R12741:12741 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:131 var
+R12745:12747 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R12744:12744 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:132 var
+R12748:12748 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:133 var
+R12878:12886 Coq.Reals.Ranalysis1 <> derivable def
+R12890:12892 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R12916:12918 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+binder 12955:12955 <> x:134
+R12981:12983 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12975:12977 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12961:12966 Coq.Reals.Ranalysis1 <> derive def
+R12974:12974 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:134 var
+R12980:12980 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:134 var
+R12987:12989 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12986:12986 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:134 var
+R12991:12996 Coq.Reals.Ranalysis1 <> derive def
+R13005:13005 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:134 var
+R12939:12943 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R12878:12886 Coq.Reals.Ranalysis1 <> derivable def
+R12890:12892 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R12916:12918 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+binder 12955:12955 <> x:135
+R12981:12983 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12975:12977 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12961:12966 Coq.Reals.Ranalysis1 <> derive def
+R12974:12974 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:135 var
+R12980:12980 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:135 var
+R12987:12989 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12986:12986 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:135 var
+R12991:12996 Coq.Reals.Ranalysis1 <> derive def
+R13005:13005 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:135 var
+R12939:12943 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R13041:13046 Coq.Reals.Ranalysis1 <> derive def
+R13060:13071 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R13082:13095 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R13107:13120 Coq.Reals.Ranalysis1 <> derive_pt_mult thm
+R13060:13071 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R13060:13071 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R13082:13095 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R13107:13120 Coq.Reals.Ranalysis1 <> derive_pt_mult thm
+R13134:13139 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_plus thm
+R13164:13169 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+R13179:13184 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+R13134:13139 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_plus thm
+R13164:13169 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+R13179:13184 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+prf 13217:13228 <> D_Rball_mult
+binder 13239:13239 <> c:136
+binder 13241:13241 <> r:137
+binder 13243:13243 <> n:138
+binder 13245:13245 <> f:139
+binder 13247:13247 <> g:140
+R13267:13270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13252:13258 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R13260:13260 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:136 var
+R13262:13262 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:137 var
+R13264:13264 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:138 var
+R13266:13266 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:139 var
+R13286:13289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13271:13277 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R13279:13279 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:136 var
+R13281:13281 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:137 var
+R13283:13283 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:138 var
+R13285:13285 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:140 var
+R13290:13296 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R13298:13298 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:136 var
+R13300:13300 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:137 var
+R13302:13302 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:138 var
+R13306:13308 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R13305:13305 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:139 var
+R13309:13309 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:140 var
+R13444:13455 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_in def
+R13458:13462 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13471:13473 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R13493:13509 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_mult thm
+R13444:13455 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_in def
+R13458:13462 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R13471:13473 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R13493:13509 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_mult thm
+R13534:13537 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+binder 13580:13580 <> x:141
+R13616:13620 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13610:13612 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13586:13597 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R13609:13609 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:141 var
+R13615:13615 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:141 var
+R13624:13626 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13623:13623 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:141 var
+R13628:13639 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R13652:13652 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:141 var
+R13558:13568 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R13534:13537 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Db_S constr
+binder 13580:13580 <> x:142
+R13616:13620 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13610:13612 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13586:13597 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R13609:13609 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:142 var
+R13615:13615 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:142 var
+R13624:13626 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13623:13623 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:142 var
+R13628:13639 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R13652:13652 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:142 var
+R13558:13568 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R13666:13677 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R13706:13722 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_mult thm
+R13666:13677 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R13706:13722 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_mult thm
+R13733:13744 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_plus thm
+R13769:13780 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_pred thm
+R13790:13801 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_pred thm
+R13733:13744 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_plus thm
+R13769:13780 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_pred thm
+R13790:13801 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_pred thm
+prf 13834:13839 <> C_mult
+binder 13850:13850 <> n:143
+binder 13852:13852 <> f:144
+binder 13854:13854 <> g:145
+R13864:13867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13859:13859 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R13861:13861 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:143 var
+R13863:13863 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:144 var
+R13873:13876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13868:13868 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R13870:13870 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:143 var
+R13872:13872 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:145 var
+R13877:13877 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R13879:13879 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:143 var
+R13883:13885 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R13882:13882 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:144 var
+R13886:13886 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:145 var
+R14022:14030 Coq.Reals.Ranalysis1 <> derivable def
+R14034:14036 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R14060:14062 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+binder 14099:14099 <> x:146
+R14125:14127 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14119:14121 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14105:14110 Coq.Reals.Ranalysis1 <> derive def
+R14118:14118 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:146 var
+R14124:14124 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:146 var
+R14131:14133 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14130:14130 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:146 var
+R14135:14140 Coq.Reals.Ranalysis1 <> derive def
+R14149:14149 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:146 var
+R14083:14087 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R14022:14030 Coq.Reals.Ranalysis1 <> derivable def
+R14034:14036 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R14060:14062 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+binder 14099:14099 <> x:147
+R14125:14127 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14119:14121 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14105:14110 Coq.Reals.Ranalysis1 <> derive def
+R14118:14118 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:147 var
+R14124:14124 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:147 var
+R14131:14133 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14130:14130 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:147 var
+R14135:14140 Coq.Reals.Ranalysis1 <> derive def
+R14149:14149 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:147 var
+R14083:14087 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R14185:14190 Coq.Reals.Ranalysis1 <> derive def
+R14204:14215 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R14226:14239 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R14251:14264 Coq.Reals.Ranalysis1 <> derive_pt_mult thm
+R14204:14215 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R14204:14215 Coq.Reals.Ranalysis1 <> derive_pt_eq thm
+R14226:14239 Coq.Reals.Ranalysis1 <> derive_pt_eq_1 thm
+R14251:14264 Coq.Reals.Ranalysis1 <> derive_pt_mult thm
+R14278:14283 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_plus thm
+R14308:14313 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+R14323:14328 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+R14278:14283 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_plus thm
+R14308:14313 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+R14323:14328 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+prf 14361:14372 <> C_Rball_mult
+binder 14383:14383 <> c:148
+binder 14385:14385 <> r:149
+binder 14387:14387 <> n:150
+binder 14389:14389 <> f:151
+binder 14391:14391 <> g:152
+R14411:14414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14396:14402 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R14404:14404 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:148 var
+R14406:14406 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:149 var
+R14408:14408 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:150 var
+R14410:14410 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:151 var
+R14430:14433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14415:14421 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R14423:14423 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:148 var
+R14425:14425 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:149 var
+R14427:14427 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:150 var
+R14429:14429 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:152 var
+R14434:14440 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R14442:14442 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:148 var
+R14444:14444 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:149 var
+R14446:14446 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:150 var
+R14450:14452 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R14449:14449 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:151 var
+R14453:14453 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:152 var
+R14594:14602 Coq.Reals.Rlimit <> limit_mul thm
+R14594:14602 Coq.Reals.Rlimit <> limit_mul thm
+R14655:14666 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_in def
+R14669:14673 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R14682:14684 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R14704:14720 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_mult thm
+R14655:14666 Coqtail.Reals.Ranalysis.Ranalysis_def <> derivable_in def
+R14669:14673 Coqtail.Reals.Ranalysis.Rinterval <> Rball def
+R14682:14684 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R14704:14720 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derivable_in_mult thm
+R14745:14748 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+binder 14791:14791 <> x:153
+R14827:14831 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14821:14823 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14797:14808 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R14820:14820 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:153 var
+R14826:14826 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:153 var
+R14835:14837 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14834:14834 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:153 var
+R14839:14850 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R14863:14863 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:153 var
+R14769:14779 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R14745:14748 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> Cb_S constr
+binder 14791:14791 <> x:154
+R14827:14831 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14821:14823 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14797:14808 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R14820:14820 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:154 var
+R14826:14826 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:154 var
+R14835:14837 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14834:14834 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:154 var
+R14839:14850 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R14863:14863 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:154 var
+R14769:14779 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R14877:14888 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R14917:14933 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_mult thm
+R14877:14888 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R14917:14933 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_mult thm
+R14944:14955 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_plus thm
+R14980:14991 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_pred thm
+R15001:15012 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_pred thm
+R14944:14955 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_plus thm
+R14980:14991 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_pred thm
+R15001:15012 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_pred thm
+prf 15045:15050 <> D_comp
+binder 15061:15061 <> n:155
+binder 15063:15063 <> f:156
+binder 15065:15065 <> g:157
+R15075:15078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15070:15070 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R15072:15072 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:155 var
+R15074:15074 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:156 var
+R15084:15087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15079:15079 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R15081:15081 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:155 var
+R15083:15083 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:157 var
+R15088:15088 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R15090:15090 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:155 var
+R15093:15096 Coq.Reals.Ranalysis1 <> comp def
+R15098:15098 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:156 var
+R15100:15100 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:157 var
+R15233:15246 Coq.Reals.Ranalysis1 <> derivable_comp thm
+R15223:15225 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+binder 15286:15286 <> x:158
+R15310:15312 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15292:15297 Coq.Reals.Ranalysis1 <> derive def
+R15308:15308 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:158 var
+R15314:15319 Coq.Reals.Ranalysis1 <> derive def
+R15328:15328 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:158 var
+R15270:15274 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R15233:15246 Coq.Reals.Ranalysis1 <> derivable_comp thm
+R15223:15225 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_S constr
+binder 15286:15286 <> x:159
+R15310:15312 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15292:15297 Coq.Reals.Ranalysis1 <> derive def
+R15308:15308 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:159 var
+R15314:15319 Coq.Reals.Ranalysis1 <> derive def
+R15328:15328 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:159 var
+R15270:15274 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R15364:15369 Coq.Reals.Ranalysis1 <> derive def
+R15381:15390 Coq.Reals.Raxioms <> Rmult_comm thm
+R15400:15413 Coqtail.Reals.Ranalysis.Ranalysis_facts <> derive_pt_comp thm
+R15381:15390 Coq.Reals.Raxioms <> Rmult_comm thm
+R15381:15390 Coq.Reals.Raxioms <> Rmult_comm thm
+R15400:15413 Coqtail.Reals.Ranalysis.Ranalysis_facts <> derive_pt_comp thm
+R15427:15432 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_mult thm
+R15427:15432 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_mult thm
+R15444:15447 Coq.Reals.Ranalysis1 <> comp def
+R15450:15455 Coq.Reals.Ranalysis1 <> derive def
+R15444:15447 Coq.Reals.Ranalysis1 <> comp def
+R15450:15455 Coq.Reals.Ranalysis1 <> derive def
+R15491:15496 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+R15491:15496 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_pred thm
+prf 15540:15545 <> C_comp
+binder 15556:15556 <> n:160
+binder 15558:15558 <> f:161
+binder 15560:15560 <> g:162
+R15570:15573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15565:15565 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R15567:15567 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:160 var
+R15569:15569 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:161 var
+R15579:15582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15574:15574 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R15576:15576 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:160 var
+R15578:15578 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:162 var
+R15583:15583 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R15585:15585 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:160 var
+R15588:15591 Coq.Reals.Ranalysis1 <> comp def
+R15593:15593 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:161 var
+R15595:15595 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:162 var
+R15734:15747 Coq.Reals.Ranalysis1 <> derivable_comp thm
+R15724:15726 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+binder 15787:15787 <> x:163
+R15811:15813 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15793:15798 Coq.Reals.Ranalysis1 <> derive def
+R15809:15809 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:163 var
+R15815:15820 Coq.Reals.Ranalysis1 <> derive def
+R15829:15829 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:163 var
+R15771:15775 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R15734:15747 Coq.Reals.Ranalysis1 <> derivable_comp thm
+R15724:15726 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_S constr
+binder 15787:15787 <> x:164
+R15811:15813 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15793:15798 Coq.Reals.Ranalysis1 <> derive def
+R15809:15809 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:164 var
+R15815:15820 Coq.Reals.Ranalysis1 <> derive def
+R15829:15829 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> x:164 var
+R15771:15775 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R15865:15870 Coq.Reals.Ranalysis1 <> derive def
+R15882:15891 Coq.Reals.Raxioms <> Rmult_comm thm
+R15901:15914 Coqtail.Reals.Ranalysis.Ranalysis_facts <> derive_pt_comp thm
+R15882:15891 Coq.Reals.Raxioms <> Rmult_comm thm
+R15882:15891 Coq.Reals.Raxioms <> Rmult_comm thm
+R15901:15914 Coqtail.Reals.Ranalysis.Ranalysis_facts <> derive_pt_comp thm
+R15928:15933 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_mult thm
+R15928:15933 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_mult thm
+R15945:15948 Coq.Reals.Ranalysis1 <> comp def
+R15951:15956 Coq.Reals.Ranalysis1 <> derive def
+R15945:15948 Coq.Reals.Ranalysis1 <> comp def
+R15951:15956 Coq.Reals.Ranalysis1 <> derive def
+R15992:15997 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+R15992:15997 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_pred thm
+prf 16454:16461 <> D_derive
+binder 16471:16471 <> n:165
+binder 16473:16473 <> f:166
+R16481:16489 Coq.Reals.Ranalysis1 <> derivable def
+R16491:16491 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:166 var
+binder 16476:16477 <> pr:167
+R16506:16509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16497:16497 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R16500:16500 Coq.Init.Datatypes <> S constr
+R16502:16502 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:165 var
+R16505:16505 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:166 var
+R16510:16510 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D def
+R16512:16512 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:165 var
+R16515:16520 Coq.Reals.Ranalysis1 <> derive def
+R16522:16522 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:166 var
+R16524:16525 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> pr:167 var
+R16585:16589 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R16627:16631 Coq.Reals.Ranalysis1 <> pr_nu thm
+R16585:16589 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_ext thm
+R16627:16631 Coq.Reals.Ranalysis1 <> pr_nu thm
+prf 16646:16659 <> D_Rball_derive
+binder 16669:16669 <> c:168
+binder 16671:16671 <> r:169
+binder 16673:16673 <> n:170
+binder 16675:16675 <> f:171
+binder 16677:16678 <> pr:172
+R16702:16707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16683:16689 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R16691:16691 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:168 var
+R16693:16693 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:169 var
+R16696:16696 Coq.Init.Datatypes <> S constr
+R16698:16698 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:170 var
+R16701:16701 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:171 var
+R16708:16714 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball def
+R16716:16716 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:168 var
+R16718:16718 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:169 var
+R16720:16720 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:170 var
+R16723:16734 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R16736:16736 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:168 var
+R16738:16738 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:169 var
+R16740:16740 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:171 var
+R16742:16743 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> pr:172 var
+R16808:16818 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R16848:16859 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R16862:16877 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext thm
+R16808:16818 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_ext thm
+R16848:16859 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R16862:16877 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext thm
+prf 16906:16913 <> C_derive
+binder 16924:16924 <> n:173
+binder 16926:16926 <> f:174
+R16934:16942 Coq.Reals.Ranalysis1 <> derivable def
+R16944:16944 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:174 var
+binder 16929:16930 <> pr:175
+R16959:16962 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16950:16950 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R16953:16953 Coq.Init.Datatypes <> S constr
+R16955:16955 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:173 var
+R16958:16958 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:174 var
+R16963:16963 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C def
+R16965:16965 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:173 var
+R16968:16973 Coq.Reals.Ranalysis1 <> derive def
+R16975:16975 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:174 var
+R16977:16978 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> pr:175 var
+R17038:17042 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R17080:17084 Coq.Reals.Ranalysis1 <> pr_nu thm
+R17038:17042 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_ext thm
+R17080:17084 Coq.Reals.Ranalysis1 <> pr_nu thm
+prf 17099:17112 <> C_Rball_derive
+binder 17122:17122 <> c:176
+binder 17124:17124 <> r:177
+binder 17126:17126 <> n:178
+binder 17128:17128 <> f:179
+binder 17130:17131 <> pr:180
+R17155:17160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17136:17142 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R17144:17144 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:176 var
+R17146:17146 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:177 var
+R17149:17149 Coq.Init.Datatypes <> S constr
+R17151:17151 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:178 var
+R17154:17154 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:179 var
+R17161:17167 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball def
+R17169:17169 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:176 var
+R17171:17171 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:177 var
+R17173:17173 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> n:178 var
+R17176:17187 Coqtail.Reals.Ranalysis.Ranalysis_def <> derive_Rball def
+R17189:17189 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:176 var
+R17191:17191 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:177 var
+R17193:17193 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:179 var
+R17195:17196 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> pr:180 var
+R17261:17271 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R17301:17312 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R17315:17330 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext thm
+R17261:17271 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_ext thm
+R17301:17312 Coqtail.Reals.Ranalysis.Rinterval <> Req_Rball_eq thm
+R17315:17330 Coqtail.Reals.Ranalysis.Ranalysis_derivability <> derive_Rball_ext thm
+prf 17423:17433 <> D_infty_opp
+binder 17444:17444 <> f:181
+R17456:17459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17447:17453 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R17455:17455 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:181 var
+R17460:17466 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R17469:17470 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R17471:17471 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:181 var
+R17506:17510 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_opp thm
+R17506:17510 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_opp thm
+prf 17579:17595 <> D_Rball_infty_opp
+binder 17605:17605 <> c:182
+binder 17607:17607 <> r:183
+binder 17609:17609 <> f:184
+R17633:17638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17614:17626 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R17628:17628 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:182 var
+R17630:17630 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:183 var
+R17632:17632 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:184 var
+R17639:17651 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R17653:17653 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:182 var
+R17655:17655 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:183 var
+R17658:17659 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R17660:17660 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:184 var
+R17691:17701 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_opp thm
+R17691:17701 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_opp thm
+prf 17736:17746 <> C_infty_opp
+binder 17757:17757 <> f:185
+R17769:17772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17760:17766 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R17768:17768 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:185 var
+R17773:17779 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R17782:17783 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R17784:17784 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:185 var
+R17819:17823 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_opp thm
+R17819:17823 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_opp thm
+prf 17848:17864 <> C_Rball_infty_opp
+binder 17874:17874 <> c:186
+binder 17876:17876 <> r:187
+binder 17878:17878 <> f:188
+R17902:17907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17883:17895 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R17897:17897 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:186 var
+R17899:17899 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:187 var
+R17901:17901 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:188 var
+R17908:17920 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R17922:17922 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:186 var
+R17924:17924 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:187 var
+R17927:17928 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R17929:17929 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:188 var
+R17960:17970 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_opp thm
+R17960:17970 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_opp thm
+prf 18005:18016 <> D_infty_plus
+binder 18027:18027 <> f:189
+binder 18029:18029 <> g:190
+R18043:18046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18034:18040 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R18042:18042 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:189 var
+R18056:18059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18047:18053 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R18055:18055 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:190 var
+R18060:18066 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R18070:18072 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R18069:18069 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:189 var
+R18073:18073 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:190 var
+R18114:18119 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_plus thm
+R18114:18119 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_plus thm
+prf 18144:18161 <> D_Rball_infty_plus
+binder 18172:18172 <> c:191
+binder 18174:18174 <> r:192
+binder 18176:18176 <> f:193
+binder 18178:18178 <> g:194
+R18202:18207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18183:18195 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R18197:18197 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:191 var
+R18199:18199 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:192 var
+R18201:18201 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:193 var
+R18227:18232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18208:18220 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R18222:18222 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:191 var
+R18224:18224 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:192 var
+R18226:18226 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:194 var
+R18233:18245 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R18247:18247 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:191 var
+R18249:18249 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:192 var
+R18253:18255 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R18252:18252 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:193 var
+R18256:18256 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:194 var
+R18288:18299 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_plus thm
+R18288:18299 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_plus thm
+prf 18334:18345 <> C_infty_plus
+binder 18356:18356 <> f:195
+binder 18358:18358 <> g:196
+R18372:18375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18363:18369 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R18371:18371 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:195 var
+R18385:18388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18376:18382 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R18384:18384 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:196 var
+R18389:18395 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R18398:18405 Coq.Reals.Ranalysis1 <> plus_fct def
+R18407:18407 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:195 var
+R18409:18409 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:196 var
+R18448:18453 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_plus thm
+R18448:18453 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_plus thm
+prf 18478:18495 <> C_Rball_infty_plus
+binder 18506:18506 <> c:197
+binder 18508:18508 <> r:198
+binder 18510:18510 <> f:199
+binder 18512:18512 <> g:200
+R18536:18541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18517:18529 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R18531:18531 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:197 var
+R18533:18533 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:198 var
+R18535:18535 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:199 var
+R18561:18566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18542:18554 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R18556:18556 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:197 var
+R18558:18558 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:198 var
+R18560:18560 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:200 var
+R18567:18579 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R18581:18581 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:197 var
+R18583:18583 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:198 var
+R18587:18589 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R18586:18586 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:199 var
+R18590:18590 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:200 var
+R18622:18633 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_plus thm
+R18622:18633 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_plus thm
+prf 18668:18680 <> D_infty_minus
+binder 18691:18691 <> f:201
+binder 18693:18693 <> g:202
+R18707:18710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18698:18704 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R18706:18706 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:201 var
+R18720:18723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18711:18717 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R18719:18719 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:202 var
+R18724:18730 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R18734:18736 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R18733:18733 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:201 var
+R18737:18737 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:202 var
+R18778:18784 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_minus thm
+R18778:18784 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_minus thm
+prf 18809:18827 <> D_Rball_infty_minus
+binder 18838:18838 <> c:203
+binder 18840:18840 <> r:204
+binder 18842:18842 <> f:205
+binder 18844:18844 <> g:206
+R18868:18873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18849:18861 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R18863:18863 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:203 var
+R18865:18865 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:204 var
+R18867:18867 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:205 var
+R18893:18898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18874:18886 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R18888:18888 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:203 var
+R18890:18890 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:204 var
+R18892:18892 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:206 var
+R18899:18911 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R18913:18913 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:203 var
+R18915:18915 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:204 var
+R18919:18921 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R18918:18918 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:205 var
+R18922:18922 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:206 var
+R18954:18966 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_minus thm
+R18954:18966 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_minus thm
+prf 19001:19013 <> C_infty_minus
+binder 19024:19024 <> f:207
+binder 19026:19026 <> g:208
+R19040:19043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19031:19037 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R19039:19039 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:207 var
+R19053:19056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19044:19050 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R19052:19052 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:208 var
+R19057:19063 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R19066:19074 Coq.Reals.Ranalysis1 <> minus_fct def
+R19076:19076 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:207 var
+R19078:19078 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:208 var
+R19117:19123 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_minus thm
+R19117:19123 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_minus thm
+prf 19148:19166 <> C_Rball_infty_minus
+binder 19177:19177 <> c:209
+binder 19179:19179 <> r:210
+binder 19181:19181 <> f:211
+binder 19183:19183 <> g:212
+R19207:19212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19188:19200 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R19202:19202 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:209 var
+R19204:19204 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:210 var
+R19206:19206 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:211 var
+R19232:19237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19213:19225 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R19227:19227 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:209 var
+R19229:19229 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:210 var
+R19231:19231 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:212 var
+R19238:19250 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R19252:19252 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:209 var
+R19254:19254 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:210 var
+R19258:19260 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R19257:19257 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:211 var
+R19261:19261 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:212 var
+R19293:19305 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_minus thm
+R19293:19305 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_minus thm
+prf 19340:19351 <> D_infty_scal
+binder 19362:19362 <> f:213
+binder 19364:19364 <> a:214
+R19378:19381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19369:19375 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R19377:19377 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:213 var
+R19382:19388 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R19391:19403 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R19405:19405 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:214 var
+R19407:19407 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:213 var
+R19443:19448 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_scal thm
+R19443:19448 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_scal thm
+prf 19473:19490 <> D_Rball_infty_scal
+binder 19501:19501 <> c:215
+binder 19503:19503 <> r:216
+binder 19505:19505 <> f:217
+binder 19507:19507 <> a:218
+R19531:19536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19512:19524 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R19526:19526 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:215 var
+R19528:19528 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:216 var
+R19530:19530 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:217 var
+R19537:19549 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R19551:19551 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:215 var
+R19553:19553 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:216 var
+R19556:19568 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R19570:19570 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:218 var
+R19572:19572 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:217 var
+R19602:19613 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_scal thm
+R19602:19613 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_scal thm
+prf 19648:19659 <> C_infty_scal
+binder 19670:19670 <> f:219
+binder 19672:19672 <> a:220
+R19686:19689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19677:19683 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R19685:19685 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:219 var
+R19690:19696 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R19699:19711 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R19713:19713 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:220 var
+R19715:19715 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:219 var
+R19751:19756 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_scal thm
+R19751:19756 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_scal thm
+prf 19781:19798 <> C_Rball_infty_scal
+binder 19809:19809 <> c:221
+binder 19811:19811 <> r:222
+binder 19813:19813 <> f:223
+binder 19815:19815 <> a:224
+R19839:19844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19820:19832 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R19834:19834 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:221 var
+R19836:19836 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:222 var
+R19838:19838 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:223 var
+R19845:19857 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R19859:19859 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:221 var
+R19861:19861 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:222 var
+R19864:19876 Coq.Reals.Ranalysis1 <> mult_real_fct def
+R19878:19878 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> a:224 var
+R19880:19880 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:223 var
+R19910:19921 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_scal thm
+R19910:19921 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_scal thm
+prf 19956:19967 <> D_infty_mult
+binder 19978:19978 <> f:225
+binder 19980:19980 <> g:226
+R19994:19997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19985:19991 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R19993:19993 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:225 var
+R20007:20010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19998:20004 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R20006:20006 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:226 var
+R20011:20017 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R20021:20023 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R20020:20020 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:225 var
+R20024:20024 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:226 var
+R20065:20070 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_mult thm
+R20065:20070 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_mult thm
+prf 20095:20112 <> D_Rball_infty_mult
+binder 20123:20123 <> c:227
+binder 20125:20125 <> r:228
+binder 20127:20127 <> f:229
+binder 20129:20129 <> g:230
+R20153:20158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20134:20146 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R20148:20148 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:227 var
+R20150:20150 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:228 var
+R20152:20152 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:229 var
+R20178:20183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20159:20171 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R20173:20173 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:227 var
+R20175:20175 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:228 var
+R20177:20177 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:230 var
+R20184:20196 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_Rball_infty def
+R20198:20198 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:227 var
+R20200:20200 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:228 var
+R20204:20206 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R20203:20203 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:229 var
+R20207:20207 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:230 var
+R20239:20250 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_mult thm
+R20239:20250 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_Rball_mult thm
+prf 20285:20296 <> C_infty_mult
+binder 20307:20307 <> f:231
+binder 20309:20309 <> g:232
+R20323:20326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20314:20320 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R20322:20322 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:231 var
+R20336:20339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20327:20333 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R20335:20335 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:232 var
+R20340:20346 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R20349:20356 Coq.Reals.Ranalysis1 <> mult_fct def
+R20358:20358 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:231 var
+R20360:20360 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:232 var
+R20399:20404 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_mult thm
+R20399:20404 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_mult thm
+prf 20429:20446 <> C_Rball_infty_mult
+binder 20457:20457 <> c:233
+binder 20459:20459 <> r:234
+binder 20461:20461 <> f:235
+binder 20463:20463 <> g:236
+R20487:20492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20468:20480 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R20482:20482 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:233 var
+R20484:20484 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:234 var
+R20486:20486 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:235 var
+R20512:20517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20493:20505 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R20507:20507 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:233 var
+R20509:20509 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:234 var
+R20511:20511 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:236 var
+R20518:20530 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_Rball_infty def
+R20532:20532 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> c:233 var
+R20534:20534 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> r:234 var
+R20538:20540 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R20537:20537 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:235 var
+R20541:20541 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:236 var
+R20573:20584 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_mult thm
+R20573:20584 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_Rball_mult thm
+prf 20619:20630 <> D_infty_comp
+binder 20641:20641 <> f:237
+binder 20643:20643 <> g:238
+R20657:20660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20648:20654 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R20656:20656 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:237 var
+R20670:20673 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20661:20667 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R20669:20669 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:238 var
+R20674:20680 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> D_infty def
+R20683:20686 Coq.Reals.Ranalysis1 <> comp def
+R20688:20688 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:237 var
+R20690:20690 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:238 var
+R20729:20734 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_comp thm
+R20729:20734 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> D_comp thm
+prf 20759:20770 <> C_infty_comp
+binder 20781:20781 <> f:239
+binder 20783:20783 <> g:240
+R20797:20800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20788:20794 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R20796:20796 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:239 var
+R20810:20813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20801:20807 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R20809:20809 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:240 var
+R20814:20820 Coqtail.Reals.Ranalysis.Rfunction_classes_def <> C_infty def
+R20823:20826 Coq.Reals.Ranalysis1 <> comp def
+R20828:20828 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> f:239 var
+R20830:20830 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> g:240 var
+R20869:20874 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_comp thm
+R20869:20874 Coqtail.Reals.Ranalysis.Rfunction_classes_facts <> C_comp thm

@@ -1,0 +1,15 @@
+DIGEST e76a9ddea23983fc601f81286a3eeaf9
+FCoqtail.mytheories.myReals.MyRbasic_fun
+R816:820 Coq.Reals.Reals <> <> lib
+prf 856:869 <> Rabs_eq_compat
+binder 880:880 <> x:1
+binder 882:882 <> y:2
+R890:893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R886:888 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R885:885 Coqtail.mytheories.myReals.MyRbasic_fun <> x:1 var
+R889:889 Coqtail.mytheories.myReals.MyRbasic_fun <> y:2 var
+R900:902 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R894:897 Coq.Reals.Rbasic_fun <> Rabs def
+R899:899 Coqtail.mytheories.myReals.MyRbasic_fun <> x:1 var
+R903:906 Coq.Reals.Rbasic_fun <> Rabs def
+R908:908 Coqtail.mytheories.myReals.MyRbasic_fun <> y:2 var

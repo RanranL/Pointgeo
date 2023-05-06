@@ -1,0 +1,290 @@
+DIGEST 55008e2428af80333ab42e5ba3766eaa
+FCoqtail.Reals.Dequa.Dequa_def
+R15:19 Coq.Reals.Reals <> <> lib
+R37:45 Coqtail.Reals.Rpser.Rpser_def <> <> lib
+R47:56 Coqtail.Reals.Rpser.Rpser_sums <> <> lib
+R58:68 Coqtail.Reals.Rpser.Rpser_usual <> <> lib
+R70:85 Coqtail.Reals.Rpser.Rpser_derivative <> <> lib
+R103:119 Coqtail.Reals.Ranalysis.Rfunction_classes <> <> lib
+R137:154 Coqtail.Reals.Ranalysis.Nth_derivative_def <> <> lib
+R172:184 Coqtail.Reals.Ranalysis.Rfunction_def <> <> lib
+R186:194 Coqtail.Fresh.Inhabited.Functions <> <> lib
+R212:224 Coqtail.Reals.Rsequence.Rsequence_def <> <> lib
+R242:245 Coq.Lists.List <> <> lib
+R263:268 Coqtail.Monad.Option <> <> lib
+ind 407:415 <> side_equa
+constr 432:434 <> cst
+constr 471:474 <> scal
+constr 526:526 <> y
+constr 585:587 <> opp
+constr 633:635 <> min
+constr 684:687 <> plus
+constr 735:738 <> mult
+R451:451 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 447:447 <> r:3
+R455:463 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+R490:490 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 486:486 <> r:4
+R498:506 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+binder 494:494 <> s:5
+R510:518 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+R545:547 Coq.Init.Datatypes <> nat ind
+binder 541:541 <> p:6
+R555:557 Coq.Init.Datatypes <> nat ind
+binder 551:551 <> k:7
+R565:565 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 561:561 <> a:8
+R569:577 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+R605:613 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+binder 600:601 <> s1:9
+R617:625 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+R656:664 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+binder 648:649 <> s1:10
+binder 651:652 <> s2:11
+R668:676 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+R707:715 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+binder 699:700 <> s1:12
+binder 702:703 <> s2:13
+R719:727 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+R758:766 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+binder 750:751 <> s1:14
+binder 753:754 <> s2:15
+R770:778 Coqtail.Reals.Dequa.Dequa_def <> side_equa:1 ind
+def 793:801 <> diff_equa
+R812:815 Coq.Init.Datatypes <> prod ind
+R830:838 Coqtail.Reals.Dequa.Dequa_def <> side_equa ind
+R818:826 Coqtail.Reals.Dequa.Dequa_def <> side_equa ind
+def 852:872 <> interp_side_equa_in_N
+binder 874:874 <> s:16
+R883:886 Coq.Init.Datatypes <> list ind
+R888:891 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq def
+binder 877:879 <> rho:17
+R896:901 Coq.Init.Datatypes <> option ind
+R903:906 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq def
+R917:917 Coqtail.Reals.Dequa.Dequa_def <> s:16 var
+R928:930 Coqtail.Reals.Dequa.Dequa_def <> cst constr
+R942:947 Coqtail.Monad.Option <> Return def
+R950:961 Coqtail.Reals.Rpser.Rpser_usual <> constant_seq def
+R970:973 Coqtail.Reals.Dequa.Dequa_def <> scal constr
+R984:987 Coqtail.Monad.Option <> Bind def
+binder 1024:1025 <> un:20
+R1030:1035 Coqtail.Monad.Option <> Return def
+R1039:1041 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'*'_x not
+R1042:1043 Coqtail.Reals.Dequa.Dequa_def <> un:20 var
+R990:1010 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1014:1016 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1051:1051 Coqtail.Reals.Dequa.Dequa_def <> y constr
+R1065:1068 Coqtail.Monad.Option <> Bind def
+binder 1093:1094 <> un:21
+R1099:1104 Coqtail.Monad.Option <> Return def
+R1107:1115 Coqtail.Reals.Rpser.Rpser_def <> An_expand def
+R1118:1129 Coqtail.Reals.Rpser.Rpser_def <> An_nth_deriv def
+R1131:1132 Coqtail.Reals.Dequa.Dequa_def <> un:21 var
+R1071:1079 Coq.Lists.List <> nth_error def
+R1081:1083 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1145:1147 Coqtail.Reals.Dequa.Dequa_def <> opp constr
+R1159:1162 Coqtail.Monad.Option <> Bind def
+binder 1199:1200 <> un:22
+R1205:1210 Coqtail.Monad.Option <> Return def
+R1213:1214 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:'-'_x not
+R1215:1216 Coqtail.Reals.Dequa.Dequa_def <> un:22 var
+R1165:1185 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1189:1191 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1224:1226 Coqtail.Reals.Dequa.Dequa_def <> min constr
+R1238:1241 Coqtail.Monad.Option <> Bind def
+binder 1279:1280 <> un:23
+R1303:1306 Coqtail.Monad.Option <> Bind def
+binder 1344:1345 <> vn:24
+R1350:1355 Coqtail.Monad.Option <> Return def
+R1360:1362 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'-'_x not
+R1358:1359 Coqtail.Reals.Dequa.Dequa_def <> un:23 var
+R1363:1364 Coqtail.Reals.Dequa.Dequa_def <> vn:24 var
+R1309:1329 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1334:1336 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1244:1264 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1269:1271 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1373:1376 Coqtail.Reals.Dequa.Dequa_def <> plus constr
+R1387:1390 Coqtail.Monad.Option <> Bind def
+binder 1428:1429 <> un:25
+R1452:1455 Coqtail.Monad.Option <> Bind def
+binder 1493:1494 <> vn:26
+R1499:1504 Coqtail.Monad.Option <> Return def
+R1509:1511 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'+'_x not
+R1507:1508 Coqtail.Reals.Dequa.Dequa_def <> un:25 var
+R1512:1513 Coqtail.Reals.Dequa.Dequa_def <> vn:26 var
+R1458:1478 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1483:1485 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1393:1413 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1418:1420 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1522:1525 Coqtail.Reals.Dequa.Dequa_def <> mult constr
+R1536:1539 Coqtail.Monad.Option <> Bind def
+binder 1577:1578 <> un:27
+R1601:1604 Coqtail.Monad.Option <> Bind def
+binder 1642:1643 <> vn:28
+R1648:1653 Coqtail.Monad.Option <> Return def
+R1658:1660 Coqtail.Reals.Rsequence.Rsequence_def <> ::Rseq_scope:x_'#'_x not
+R1656:1657 Coqtail.Reals.Dequa.Dequa_def <> un:27 var
+R1661:1662 Coqtail.Reals.Dequa.Dequa_def <> vn:28 var
+R1607:1627 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1632:1634 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+R1542:1562 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N:18 def
+R1567:1569 Coqtail.Reals.Dequa.Dequa_def <> rho:17 var
+def 1682:1702 <> interp_side_equa_in_R
+binder 1704:1704 <> s:29
+R1713:1716 Coq.Init.Datatypes <> list ind
+R1719:1722 Coq.Init.Specif <> sigT ind
+R1724:1741 Coqtail.Reals.Rpser.Rpser_def <> infinite_cv_radius def
+binder 1707:1709 <> rho:30
+R1747:1752 Coq.Init.Datatypes <> option ind
+R1756:1759 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1755:1755 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1760:1760 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1772:1772 Coqtail.Reals.Dequa.Dequa_def <> s:29 var
+R1783:1785 Coqtail.Reals.Dequa.Dequa_def <> cst constr
+R1797:1802 Coqtail.Monad.Option <> Return def
+R1821:1824 Coqtail.Reals.Dequa.Dequa_def <> scal constr
+R1835:1838 Coqtail.Monad.Option <> Bind def
+binder 1875:1875 <> f:33
+R1880:1885 Coqtail.Monad.Option <> Return def
+R1888:1888 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R1899:1902 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R1903:1903 Coqtail.Reals.Dequa.Dequa_def <> f:33 var
+R1841:1861 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R1865:1867 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R1913:1913 Coqtail.Reals.Dequa.Dequa_def <> y constr
+R1927:1930 Coqtail.Monad.Option <> Bind def
+binder 1955:1955 <> f:34
+R1960:1965 Coqtail.Monad.Option <> Return def
+binder 1972:1972 <> x:35
+R1977:1986 Coqtail.Reals.Ranalysis.Nth_derivative_def <> nth_derive def
+R2075:2077 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2078:2078 Coqtail.Reals.Dequa.Dequa_def <> x:35 var
+R2034:2046 Coqtail.Reals.Ranalysis.Rfunction_classes_usual <> D_infty_Rpser thm
+R2049:2054 Coq.Init.Specif <> projT1 def
+R2056:2056 Coqtail.Reals.Dequa.Dequa_def <> f:34 var
+R2060:2065 Coq.Init.Specif <> projT2 def
+R2067:2067 Coqtail.Reals.Dequa.Dequa_def <> f:34 var
+R1989:1991 Coqtail.Reals.Rpser.Rpser_sums <> sum def
+R1994:1999 Coq.Init.Specif <> projT1 def
+R2001:2001 Coqtail.Reals.Dequa.Dequa_def <> f:34 var
+R2005:2010 Coq.Init.Specif <> projT2 def
+R2012:2012 Coqtail.Reals.Dequa.Dequa_def <> f:34 var
+R1933:1941 Coq.Lists.List <> nth_error def
+R1943:1945 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R2089:2091 Coqtail.Reals.Dequa.Dequa_def <> opp constr
+R2103:2106 Coqtail.Monad.Option <> Bind def
+binder 2143:2143 <> f:36
+R2148:2153 Coqtail.Monad.Option <> Return def
+R2156:2157 Coq.Reals.Ranalysis1 <> ::Rfun_scope:'-'_x not
+R2158:2158 Coqtail.Reals.Dequa.Dequa_def <> f:36 var
+R2109:2129 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R2133:2135 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R2168:2170 Coqtail.Reals.Dequa.Dequa_def <> min constr
+R2182:2185 Coqtail.Monad.Option <> Bind def
+binder 2223:2223 <> f:37
+R2246:2249 Coqtail.Monad.Option <> Bind def
+binder 2287:2287 <> g:38
+R2292:2297 Coqtail.Monad.Option <> Return def
+R2301:2303 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'-'_x not
+R2300:2300 Coqtail.Reals.Dequa.Dequa_def <> f:37 var
+R2304:2304 Coqtail.Reals.Dequa.Dequa_def <> g:38 var
+R2252:2272 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R2277:2279 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R2188:2208 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R2213:2215 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R2315:2318 Coqtail.Reals.Dequa.Dequa_def <> plus constr
+R2329:2332 Coqtail.Monad.Option <> Bind def
+binder 2370:2370 <> f:39
+R2393:2396 Coqtail.Monad.Option <> Bind def
+binder 2434:2434 <> g:40
+R2439:2444 Coqtail.Monad.Option <> Return def
+R2448:2450 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'+'_x not
+R2447:2447 Coqtail.Reals.Dequa.Dequa_def <> f:39 var
+R2451:2451 Coqtail.Reals.Dequa.Dequa_def <> g:40 var
+R2399:2419 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R2424:2426 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R2335:2355 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R2360:2362 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R2462:2465 Coqtail.Reals.Dequa.Dequa_def <> mult constr
+R2476:2479 Coqtail.Monad.Option <> Bind def
+binder 2517:2517 <> f:41
+R2540:2543 Coqtail.Monad.Option <> Bind def
+binder 2581:2581 <> g:42
+R2586:2591 Coqtail.Monad.Option <> Return def
+R2595:2597 Coq.Reals.Ranalysis1 <> ::Rfun_scope:x_'*'_x not
+R2594:2594 Coqtail.Reals.Dequa.Dequa_def <> f:41 var
+R2598:2598 Coqtail.Reals.Dequa.Dequa_def <> g:42 var
+R2546:2566 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R2571:2573 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+R2482:2502 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R:31 def
+R2507:2509 Coqtail.Reals.Dequa.Dequa_def <> rho:30 var
+def 2622:2636 <> Invalid_context
+R2641:2645 Coq.Init.Logic <> False ind
+def 2660:2665 <> interp
+binder 2668:2668 <> A:43
+binder 2670:2670 <> B:44
+R2685:2693 Coqtail.Reals.Dequa.Dequa_def <> diff_equa def
+binder 2681:2681 <> e:45
+R2703:2706 Coq.Init.Datatypes <> list ind
+R2708:2708 Coqtail.Reals.Dequa.Dequa_def <> A:43 var
+binder 2697:2699 <> rho:46
+R2727:2730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2718:2726 Coqtail.Reals.Dequa.Dequa_def <> side_equa ind
+R2737:2740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2731:2734 Coq.Init.Datatypes <> list ind
+R2736:2736 Coqtail.Reals.Dequa.Dequa_def <> A:43 var
+R2741:2746 Coq.Init.Datatypes <> option ind
+R2748:2748 Coqtail.Reals.Dequa.Dequa_def <> B:44 var
+binder 2714:2714 <> f:47
+R2757:2760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2756:2756 Coqtail.Reals.Dequa.Dequa_def <> B:44 var
+R2762:2765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2761:2761 Coqtail.Reals.Dequa.Dequa_def <> B:44 var
+binder 2752:2752 <> P:48
+R2791:2791 Coqtail.Reals.Dequa.Dequa_def <> e:45 var
+binder 2780:2781 <> s1:49
+binder 2784:2785 <> s2:50
+R2815:2815 Coqtail.Reals.Dequa.Dequa_def <> f:47 var
+R2820:2822 Coqtail.Reals.Dequa.Dequa_def <> rho:46 var
+R2817:2818 Coqtail.Reals.Dequa.Dequa_def <> s2:50 var
+R2803:2803 Coqtail.Reals.Dequa.Dequa_def <> f:47 var
+R2808:2810 Coqtail.Reals.Dequa.Dequa_def <> rho:46 var
+R2805:2806 Coqtail.Reals.Dequa.Dequa_def <> s1:49 var
+R2834:2837 Coq.Init.Datatypes <> Some constr
+R2843:2846 Coq.Init.Datatypes <> Some constr
+R2854:2854 Coqtail.Reals.Dequa.Dequa_def <> P:48 var
+R2874:2888 Coqtail.Reals.Dequa.Dequa_def <> Invalid_context def
+def 2907:2917 <> interp_in_N
+binder 2919:2919 <> e:51
+binder 2921:2923 <> rho:52
+R2937:2942 Coqtail.Reals.Dequa.Dequa_def <> interp def
+R2972:2978 Coqtail.Reals.Rsequence.Rsequence_def <> Rseq_eq def
+R2950:2970 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_N def
+R2946:2948 Coqtail.Reals.Dequa.Dequa_def <> rho:52 var
+R2944:2944 Coqtail.Reals.Dequa.Dequa_def <> e:51 var
+def 2993:3003 <> interp_in_R
+binder 3005:3005 <> e:53
+binder 3007:3009 <> rho:54
+R3023:3028 Coqtail.Reals.Dequa.Dequa_def <> interp def
+R3058:3064 Coqtail.Reals.Ranalysis.Rfunction_def <> Rfun_eq def
+R3036:3056 Coqtail.Reals.Dequa.Dequa_def <> interp_side_equa_in_R def
+R3032:3034 Coqtail.Reals.Dequa.Dequa_def <> rho:54 var
+R3030:3030 Coqtail.Reals.Dequa.Dequa_def <> e:53 var
+R3312:3314 Coqtail.Reals.Dequa.Dequa_def <> cst constr
+not 3301:3301 <> ::de_scope:'`c'_x
+R3364:3366 Coqtail.Reals.Dequa.Dequa_def <> opp constr
+not 3354:3354 <> ::de_scope:'-'_x
+R3432:3435 Coqtail.Reals.Dequa.Dequa_def <> plus constr
+not 3425:3425 <> ::de_scope:x_'+'_x
+R3462:3465 Coqtail.Reals.Dequa.Dequa_def <> plus constr
+not 3455:3455 <> ::de_scope:x_'*'_x
+R3492:3494 Coqtail.Reals.Dequa.Dequa_def <> min constr
+not 3485:3485 <> ::de_scope:x_'-'_x
+R3525:3528 Coq.Init.Datatypes <> pair constr
+R3530:3538 Coqtail.Reals.Dequa.Dequa_def <> side_equa ind
+R3540:3548 Coqtail.Reals.Dequa.Dequa_def <> side_equa ind
+not 3514:3514 <> ::de_scope:x_':=:'_x
+R3601:3611 Coqtail.Reals.Dequa.Dequa_def <> interp_in_N def
+not 3586:3586 <> :::'[|'_x_'|]N'
+R3658:3668 Coqtail.Reals.Dequa.Dequa_def <> interp_in_R def
+not 3643:3643 <> :::'[|'_x_'|]R'

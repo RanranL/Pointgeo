@@ -1,0 +1,21 @@
+DIGEST aaf1cb13cd9fa58e7c58704c27c6f23a
+FCoqtail.Arith.Nle
+R816:820 Coq.Arith.Arith <> <> lib
+R838:844 Coq.Arith.Compare <> <> lib
+prf 955:962 <> Nle_plus
+binder 973:973 <> n:1
+binder 975:975 <> k:2
+R984:987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R979:982 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R978:978 Coqtail.Arith.Nle <> k:2 var
+R983:983 Coqtail.Arith.Nle <> n:1 var
+R988:994 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R996:997 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 995:995 <> p:3
+R999:1001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R998:998 Coqtail.Arith.Nle <> n:1 var
+R1003:1005 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1002:1002 Coqtail.Arith.Nle <> k:2 var
+R1006:1006 Coqtail.Arith.Nle <> p:3 var
+R1103:1103 Coq.Init.Datatypes <> S constr
+R1103:1103 Coq.Init.Datatypes <> S constr

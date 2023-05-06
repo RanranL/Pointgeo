@@ -1,0 +1,4 @@
+DIGEST 242b85dee3d792866c6f26a5ac11fcf8
+FCoqtail.Arith.Nminus
+R816:820 Coq.Arith.Arith <> <> lib
+R838:844 Coq.Arith.Compare <> <> lib
