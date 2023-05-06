@@ -1,0 +1,398 @@
+Require Import Reals.
+Require Export Lra.
+
+Open Scope R_scope.
+Require Export Complex.
+
+(** * The definition of point *)
+
+Definition Point : Set := (prod R R).
+
+Definition R_R_to_Point (a : R) (b : R) : Point := (a, b).
+
+Declare Scope Point_scope.
+Delimit Scope Point_scope with Point.
+Bind Scope Point_scope with Point.
+
+Open Scope Point_scope.
+
+Notation "( a , b )"  := (R_R_to_Point a b).
+
+Definition Point0 := R_R_to_Point 0 0.
+Definition Point1 := R_R_to_Point 1 1.
+Definition Point1' := R_R_to_Point 0 1.
+
+Notation "0" := Point0.
+Notation "1" := Point1.
+
+Definition Px (P : Point) : R :=
+  let (x, y) := P in
+  x.
+
+Definition Py (P : Point) : R :=
+  let (x, y) := P in
+  y.
+
+Definition Pplus (p1 : Point) (p2 : Point) : Point :=
+  R_R_to_Point (Px p1 + Px p2) (Py p1 + Py p2).
+
+Definition Pmults (r : R) (p : Point) : Point :=
+  R_R_to_Point (r * Px p) (r * Py p).
+
+Definition Pneg (p : Point) : Point :=
+  R_R_to_Point (-Px p) (-Py p).
+
+Definition Pinv (p : Point) : Point :=
+  R_R_to_Point (Px p * Px p - Py p * Py p) (Px p * Py p + Py p * Px p).
+
+Definition Pconj (p : Point) : Point :=
+  R_R_to_Point (Px p) (-Py p).
+
+Definition Pquantityprod (p1 : Point)  (p2 : Point) : R := 
+  Px p1 * Px p2 + Py p1 * Py p2.
+
+Definition s (p1 : Point)  (p2 : Point) (p3: Point): R := 
+  Px p1 * Py p2 + Px p2 * Py p3 + Px p3 * Py p1 - Px p1 * Py p3 - Px p2 * Py p1 - Px p3 * Py p2.
+
+Definition Pnorm_sqr (p : Point) : R := Pquantityprod p p.
+
+Definition Pnorm (p : Point) : R := (sqrt (Pnorm_sqr p)).
+
+Definition OutP (A B: Point) : Point := B - A.
+
+Definition IRP (x : R) : Point := R_R_to_Point x 0%R.
+
+(*Definition vec (A B : Point) : Point := (B - A)%Point.*)
+
+Coercion IRP : R >-> Point.
+
+Infix "+" := Pplus : Point_scope.
+Infix "*" := Pmults : Point_scope.
+Notation "p1 · p2" := (Pquantityprod p1 p2)
+                        (at level 0, right associativity) : Point_scope.
+Notation "- p" := (Pneg p) : Point_scope.
+Notation "/ p" := (Pinv p) : Point_scope.
+Notation "  A @ B  " := (OutP A B)
+                          (at level 50, left associativity) : Point_scope.
+
+
+Definition Pminus (p1 p2 : Point) : Point := p1 + - p2.
+
+Infix "-" := Pminus : Point_scope.
+
+Fixpoint INP (n:nat) : Point :=
+  match n with
+  | O => 0
+  | S O => 1
+  | S n => INP n + 1
+  end.
+
+Definition IZP (z:Z) : Point :=
+  match z with
+  | Z0 => 0
+  | Zpos n => INP (nat_of_P n)
+  | Zneg n => - INP (nat_of_P n)
+  end.
+(*
+(* begin hide *)
+Lemma Req_or_neq : forall (x:R), {x = 0%R}+{x<>0%R}.
+Proof.
+intro x.
+case (Rgt_ge_dec x 0) ; intro H1.
+right ; intro Hfalse ; rewrite Hfalse in H1 ; apply False_ind ; lra.
+case (Rle_lt_or_eq_dec x 0).
+intuition.
+clear H1 ; intro H1 ; right ; intro Hfalse ; rewrite Hfalse in H1 ; apply False_ind ; lra.
+intro H ; left ; assumption.
+Qed.
+(* end hide *)
+
+Lemma Pproj_right : forall p : Point, (Px p, Py p) = p.
+Proof.
+intros p;  elim p; reflexivity.
+Qed.
+
+Lemma Peq : forall p1 p2 : Point, Px p1 = Px p2 /\ Py p1 = Py p2 <-> p1 = p2.
+Proof.
+intros p1 p2 ; split ; intro H.
+ rewrite <- Pproj_right ; symmetry ; rewrite <- Pproj_right ; destruct H as (H, H0) ;
+ rewrite H ; rewrite H0 ; reflexivity.
+ split; rewrite H; reflexivity.
+Qed.
+
+(** Simple tactics using the projections *)
+
+Ltac PusingR_simpl :=
+  rewrite <- Peq ; simpl ; split.
+
+Ltac PusingR_rec := match goal with
+     | id:Point |- _ => destruct id ; try PusingR_rec
+end.
+
+Ltac PusingR := intros; try PusingR_rec ; apply (proj1 (Peq _ _)) ; split ; simpl ; auto with real.
+
+Ltac PusingR_f := PusingR ; field.
+
+(* begin hide *)
+(* Annex tactic that should not be used *)
+Ltac PusingRR :=  try rewrite <- Peq in * .
+
+Ltac PusingR_rec1 := unfold not in *;
+match goal with
+(* destruct complex *)
+     | id:Point |- _ => destruct id ; PusingRR ; try PusingR_rec1
+(* logical destruct in goal *)
+     | id: _|- _ -> _ => intros ; PusingRR ; try PusingR_rec1
+     | id: _|- _ /\ _ => split ; PusingRR ; try PusingR_rec1
+     | id: _ /\ _ |- _ => destruct id ; PusingRR ; try PusingR_rec1
+     | id: _ \/ _ |- _ => destruct id ; PusingRR ; try PusingR_rec1
+(* false*)
+     | id: _ |- False => (apply id ; PusingR1) 
+(* si le apply id echoue on continue le matching sur les clauses*) 
+
+(* le ou a la fin sinon c'est galere*)
+     | id: _|- _ \/ _ => try ((left ; PusingR1 ; fail) || (right ; PusingR1 ; fail)) ;
+PusingRR ; simpl in *
+     | _ => simpl in *
+end
+with
+PusingR1 := intros ; PusingRR ; PusingR_rec1 ; subst ; intuition ;
+            try ((lra || (field ; PusingR1))).
+
+(** * Field Lemmas. *)
+
+Lemma P0_neq_R0_neq : forall p, p <> 0 <-> (Px p <> 0%R \/ Py p <> 0%R).
+Proof.
+intro p ; split ; intro H.
+ destruct p as (a,b) ; case (Req_or_neq a) ; case (Req_or_neq b) ; intros Ha Hb.
+  elim H ; rewrite Ha, Hb ; reflexivity.
+  right ; intuition.
+  left ; intuition.
+  left ; intuition.
+  intro Hf ; destruct H ; apply H ; rewrite Hf ; intuition.
+Qed.
+Hint Resolve P0_neq_R0_neq : point.
+
+Lemma HintP0_neq_R0_neq : forall p, (Px p <> 0%R \/ Py p <> 0%R) -> p <> 0.
+Proof.
+intros p. apply <- P0_neq_R0_neq.
+Qed.
+Hint Resolve HintP0_neq_R0_neq : point.
+
+Lemma P0_norm_R0 : forall p, p = 0 <-> Pnorm_sqr p = 0%R.
+Proof.
+intro p ; unfold Pnorm_sqr ; unfold Pquantityprod; split ; intro Hrew.
+ destruct (proj2 (Peq p 0) Hrew) as (H1, H2) ; destruct p as (r1,r2);
+  simpl in * ; rewrite H1 ; rewrite H2 ; field. 
+  apply (proj1 (Peq _ _)) ; split. 
+  apply Rsqr_0_uniq.
+  apply Rplus_eq_0_l with ((Py p)²)%R ; [apply Rle_0_sqr | apply Rle_0_sqr |].
+  unfold Rsqr.
+  assumption.
+  destruct p as (a,b) ; intuition. (*simpl in *.
+ apply Rsqr_0_uniq.
+ apply Rplus_eq_0_l with ((a)²)%R ; [apply Rle_0_sqr | apply Rle_0_sqr |].
+ unfold Rsqr.
+ rewrite Rplus_comm.
+ assumption.*)
+Qed.
+Hint Resolve P0_norm_R0 : point.
+
+Lemma HP0_norm_R0 : forall p, Pnorm_sqr p = 0%R -> p = 0.
+Proof.
+intros. apply <- P0_norm_R0. assumption.
+Qed.
+Hint Resolve HP0_norm_R0 : point.
+
+
+(** Px / Py compatibility with simple operators *)
+
+Lemma Px_simpl : forall (a b : R), Px (a, b) = a.
+Proof.
+intros; reflexivity.
+Qed.
+
+Lemma Py_simpl : forall (a b : R), Py (a, b) = b.
+Proof.
+intros ; reflexivity.
+Qed.
+
+Lemma Pre_opp_compat : forall p, (- Px p = Px (-p))%R.
+Proof.
+  intro P ; destruct P ; reflexivity.
+Qed.
+
+Lemma Pim_opp_compat : forall p, (- Py p = Py (-p))%R.
+Proof.
+  intro P ; destruct P; reflexivity.
+Qed.
+
+Lemma Pre_add_compat : forall p1 p2, (Px p1 + Px p2 = Px (p1 + p2))%R.
+Proof.
+  intros p1 p2; destruct p1; destruct p2; reflexivity.
+Qed.
+
+Lemma Py_add_compat : forall p1 p2, (Py p1 + Py p2 = Py (p1 + p2))%R.
+Proof.
+intros p1 p2 ; destruct p1 ; destruct p2 ; reflexivity.
+Qed.
+
+Lemma Px_minus_compat : forall p1 p2, (Px p1 - Px p2 = Px (p1 - p2))%R.
+Proof.
+intros p1 p2 ; destruct p1 ; destruct p2 ; reflexivity.
+Qed.
+
+Lemma Pim_minus_compat : forall p1 p2, (Py p1 - Py p2 = Py (p1 - p2))%R.
+Proof.
+intros p1 p2 ; destruct p1 ; destruct p2 ; reflexivity.
+Qed.
+
+Lemma Pre_scal_compat : forall p l, (Px (l * p) = l * Px p)%R.
+Proof.
+intros p l ; destruct p ; reflexivity.
+Qed.
+
+Lemma Pim_scal_compat : forall p l, (Py (l * p) = l * Py p)%R.
+Proof.
+intros p l ; destruct p ; reflexivity.
+Qed.
+
+Lemma Pre_eq_compat : forall p1 p2, p1 = p2 -> Px p1 = Px p2.
+Proof.
+intros a b H ; rewrite H ; reflexivity.
+Qed.
+
+Lemma Pim_eq_compat : forall p1 p2, p1 = p2 -> Py p1 = Py p2.
+Proof.
+intros a b H ; rewrite H ; reflexivity.
+Qed.
+
+
+(**  Addition. *)
+
+Lemma Padd_comm : forall z1 z2 : Point, z1 + z2 = z2 + z1.
+Proof. 
+PusingR.
+Qed.
+Hint Resolve Pplus_comm : point.
+
+Lemma Padd_assoc : forall a b c : Point, a + b + c = a + (b + c).
+Proof.
+PusingR.
+Qed.
+Hint Resolve Padd_assoc : point.
+
+Lemma Padd_0_l : forall p : Point, 0 + p = p.
+Proof.
+PusingR.
+Qed.
+Hint Resolve Padd_0_l : point.
+
+Lemma Padd_0_r : forall p : Point, p + 0 = p.
+Proof.
+PusingR.
+Qed.
+Hint Resolve Padd_0_r : point.
+
+Lemma Padd_opp_r : forall p : Point, p + - p = 0.
+Proof.
+PusingR.
+Qed.
+Hint Resolve Padd_opp_r : point.
+
+Lemma Padd_opp_l : forall p : Point, - p + p = 0.
+Proof.
+PusingR.
+Qed.
+Hint Resolve Padd_opp_l : point.
+
+(** Opposite *)
+
+Lemma Popp_invol : forall p, --p = p.
+Proof.
+PusingR.
+Qed.
+Hint Resolve Popp_invol : point.
+
+(** Minus *)
+
+Lemma Popp_add_distr : forall p p', - (p + p') = -p - p'.
+Proof.
+PusingR_f.
+Qed.
+Hint Resolve Popp_add_distr : point.
+
+Lemma Popp_minus_distr : forall p p', - (p - p') = - p + p'.
+Proof.
+PusingR_f.
+Qed.
+Hint Resolve Popp_minus_distr : point.
+
+Lemma Pminus_antisym : forall p p', (p - p') = - (p' - p).
+Proof.
+PusingR_f.
+Qed.
+Hint Resolve Pminus_antisym : point.
+
+(**  Multiplication. *)
+Lemma Pmult_comm : forall z1 z2 : Point, z1 · z2 = z2 · z1.
+Proof.
+  intros; try PusingR_rec. 
+  unfold Pquantityprod.
+  simpl. lra.
+Qed.
+Hint Resolve Pmult_comm : point.
+
+Lemma Pmult_assoc : forall l1 l2 p, l1 * l2 * p = l1 * (l2 * p).
+Proof.
+PusingR_f.
+Qed.
+Hint Resolve Pmult_assoc : point.
+
+Lemma Pmult_1_l : forall p : Point, 1 * p = p .
+Proof.
+PusingR_f.
+Qed.
+Hint Resolve Pmult_1_l : point.
+
+Lemma Pmult_add_distr_l : forall p1 p2 l, l * (p1 + p2) = l * p1 + l * p2.
+Proof.
+ PusingR_f.
+Qed.
+Hint Resolve Pmult_add_distr_l : point.
+
+Lemma Pscal_distr_C_l : forall l, forall u v, l * (u + v) = l * u + l * v.
+Proof.
+PusingR.
+Qed.
+
+Lemma Pscal_distr_R_r : forall l m p, (l + m) * p = l * p + m * p.
+Proof.
+PusingR_f.
+Qed.
+
+Lemma Pscal_assoc : forall l m p, (l * m)%R * p = l * (m * p).
+Proof.
+PusingR_f.
+Qed.
+
+Lemma Prev_distr : forall l u v, l * (u + v) = l * u + l * v.
+Proof.
+PusingR.
+Qed.
+
+
+(** 1 <> 0 *)
+Lemma P1_neq_C0 : 1 <> 0.
+Proof.
+intro H ; apply (proj2 (Peq _ _)) in H ; destruct H as (H, H0); compute in H ;
+ apply R1_neq_R0 ; assumption.
+Qed.
+Hint Resolve P1_neq_C0 : point.
+
+*)
+
+
+
+
+

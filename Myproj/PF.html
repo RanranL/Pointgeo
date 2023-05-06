@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="coqdoc.css" rel="stylesheet" type="text/css" />
+<title>PF</title>
+</head>
+
+<body>
+
+<div id="page">
+
+<div id="header">
+</div>
+
+<div id="main">
+
+<h1 class="libtitle">Library PF</h1>
+
+<div class="code">
+<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">Arith.Arith</span>.<br/>
+<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Import</span> <span class="id" title="var">Reals</span>.<br/>
+<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Export</span> <span class="id" title="var">Lra</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Open</span> <span class="id" title="keyword">Scope</span> <span class="id" title="var">R_scope</span>.<br/>
+<span class="id" title="keyword">Require</span> <span class="id" title="keyword">Export</span> <span class="id" title="var">Complex</span>.<br/>
+</div>
+
+<div class="doc">
+<a id="lab1"></a><h1 class="section">The definition of point</h1>
+
+</div>
+<div class="code">
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Point</span> : <span class="id" title="keyword">Set</span> := (<span class="id" title="var">prod</span> <span class="id" title="var">R</span> <span class="id" title="var">R</span>).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">R_R_to_Point</span> (<span class="id" title="var">a</span> : <span class="id" title="var">R</span>) (<span class="id" title="var">b</span> : <span class="id" title="var">R</span>) : <span class="id" title="var">Point</span> := (<span class="id" title="var">a</span>, <span class="id" title="var">b</span>).<br/>
+
+<br/>
+<span class="id" title="keyword">Declare Scope</span> <span class="id" title="var">Point_scope</span>.<br/>
+<span class="id" title="keyword">Delimit</span> <span class="id" title="keyword">Scope</span> <span class="id" title="var">Point_scope</span> <span class="id" title="keyword">with</span> <span class="id" title="var">Point</span>.<br/>
+<span class="id" title="keyword">Bind Scope</span> <span class="id" title="var">Point_scope</span> <span class="id" title="keyword">with</span> <span class="id" title="var">Point</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Open</span> <span class="id" title="keyword">Scope</span> <span class="id" title="var">Point_scope</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Check</span> (1, 1).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Point0</span> := <span class="id" title="var">R_R_to_Point</span> 0 0.<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Point1</span> := <span class="id" title="var">R_R_to_Point</span> 1 1.<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Point1'</span> := <span class="id" title="var">R_R_to_Point</span> 0 1.<br/>
+
+<br/>
+<span class="id" title="keyword">Notation</span> &quot;0" := <span class="id" title="var">Point0</span>.<br/>
+<span class="id" title="keyword">Notation</span> &quot;1" := <span class="id" title="var">Point1</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Px</span> (<span class="id" title="var">P</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">R</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">let</span> (<span class="id" title="var">x</span>, <span class="id" title="var">y</span>) := <span class="id" title="var">P</span> <span class="id" title="tactic">in</span><br/>
+&nbsp;&nbsp;<span class="id" title="var">x</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Py</span> (<span class="id" title="var">P</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">R</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">let</span> (<span class="id" title="var">x</span>, <span class="id" title="var">y</span>) := <span class="id" title="var">P</span> <span class="id" title="tactic">in</span><br/>
+&nbsp;&nbsp;<span class="id" title="var">y</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pplus</span> (<span class="id" title="var">p1</span> : <span class="id" title="var">Point</span>) (<span class="id" title="var">p2</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">Point</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="var">R_R_to_Point</span> (<span class="id" title="var">Px</span> <span class="id" title="var">p1</span> + <span class="id" title="var">Px</span> <span class="id" title="var">p2</span>) (<span class="id" title="var">Py</span> <span class="id" title="var">p1</span> + <span class="id" title="var">Py</span> <span class="id" title="var">p2</span>).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pmults</span> (<span class="id" title="var">r</span> : <span class="id" title="var">R</span>) (<span class="id" title="var">p</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">Point</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="var">R_R_to_Point</span> (<span class="id" title="var">r</span> * <span class="id" title="var">Px</span> <span class="id" title="var">p</span>) (<span class="id" title="var">r</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p</span>).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pneg</span> (<span class="id" title="var">p</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">Point</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="var">R_R_to_Point</span> (-<span class="id" title="var">Px</span> <span class="id" title="var">p</span>) (-<span class="id" title="var">Py</span> <span class="id" title="var">p</span>).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pinv</span> (<span class="id" title="var">p</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">Point</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="var">R_R_to_Point</span> (<span class="id" title="var">Px</span> <span class="id" title="var">p</span> * <span class="id" title="var">Px</span> <span class="id" title="var">p</span> - <span class="id" title="var">Py</span> <span class="id" title="var">p</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p</span>) (<span class="id" title="var">Px</span> <span class="id" title="var">p</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p</span> + <span class="id" title="var">Py</span> <span class="id" title="var">p</span> * <span class="id" title="var">Px</span> <span class="id" title="var">p</span>).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pconj</span> (<span class="id" title="var">p</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">Point</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="var">R_R_to_Point</span> (<span class="id" title="var">Px</span> <span class="id" title="var">p</span>) (-<span class="id" title="var">Py</span> <span class="id" title="var">p</span>).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pquantityprod</span> (<span class="id" title="var">p1</span> : <span class="id" title="var">Point</span>)  (<span class="id" title="var">p2</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">R</span> := <br/>
+&nbsp;&nbsp;<span class="id" title="var">Px</span> <span class="id" title="var">p1</span> * <span class="id" title="var">Px</span> <span class="id" title="var">p2</span> + <span class="id" title="var">Py</span> <span class="id" title="var">p1</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p2</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">s</span> (<span class="id" title="var">p1</span> : <span class="id" title="var">Point</span>)  (<span class="id" title="var">p2</span> : <span class="id" title="var">Point</span>) (<span class="id" title="var">p3</span>: <span class="id" title="var">Point</span>): <span class="id" title="var">R</span> := <br/>
+&nbsp;&nbsp;<span class="id" title="var">Px</span> <span class="id" title="var">p1</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p2</span> + <span class="id" title="var">Px</span> <span class="id" title="var">p2</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p3</span> + <span class="id" title="var">Px</span> <span class="id" title="var">p3</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p1</span> - <span class="id" title="var">Px</span> <span class="id" title="var">p1</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p3</span> - <span class="id" title="var">Px</span> <span class="id" title="var">p2</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p1</span> - <span class="id" title="var">Px</span> <span class="id" title="var">p3</span> * <span class="id" title="var">Py</span> <span class="id" title="var">p2</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pnorm_sqr</span> (<span class="id" title="var">p</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">R</span> := <span class="id" title="var">Pquantityprod</span> <span class="id" title="var">p</span> <span class="id" title="var">p</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pnorm</span> (<span class="id" title="var">p</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">R</span> := (<span class="id" title="var">sqrt</span> (<span class="id" title="var">Pnorm_sqr</span> <span class="id" title="var">p</span>)).<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">IRP</span> (<span class="id" title="var">x</span> : <span class="id" title="var">R</span>) : <span class="id" title="var">Point</span> := <span class="id" title="var">R_R_to_Point</span> <span class="id" title="var">x</span> 0%<span class="id" title="var">R</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Coercion</span> <span class="id" title="var">IRP</span> : <span class="id" title="var">R</span> &gt;-&gt; <span class="id" title="var">Point</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Infix</span> &quot;+" := <span class="id" title="var">Pplus</span> : <span class="id" title="var">Point_scope</span>.<br/>
+<span class="id" title="keyword">Infix</span> &quot;*" := <span class="id" title="var">Pmults</span> : <span class="id" title="var">Point_scope</span>.<br/>
+<span class="id" title="keyword">Notation</span> &quot;p1 · p2" := (<span class="id" title="var">Pquantityprod</span> <span class="id" title="var">p1</span> <span class="id" title="var">p2</span>) (<span class="id" title="tactic">at</span> <span class="id" title="keyword">level</span> 0, <span class="id" title="tactic">right</span> <span class="id" title="keyword">associativity</span>) : <span class="id" title="var">Point_scope</span>.<br/>
+<span class="id" title="keyword">Notation</span> &quot;- p" := (<span class="id" title="var">Pneg</span> <span class="id" title="var">p</span>) : <span class="id" title="var">Point_scope</span>.<br/>
+<span class="id" title="keyword">Notation</span> &quot;/ p" := (<span class="id" title="var">Pinv</span> <span class="id" title="var">p</span>) : <span class="id" title="var">Point_scope</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">Pminus</span> (<span class="id" title="var">p1</span> <span class="id" title="var">p2</span> : <span class="id" title="var">Point</span>) : <span class="id" title="var">Point</span> := <span class="id" title="var">p1</span> + - <span class="id" title="var">p2</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Infix</span> &quot;-" := <span class="id" title="var">Pminus</span> : <span class="id" title="var">Point_scope</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Fixpoint</span> <span class="id" title="var">INP</span> (<span class="id" title="var">n</span>:<span class="id" title="var">nat</span>) : <span class="id" title="var">Point</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">match</span> <span class="id" title="var">n</span> <span class="id" title="keyword">with</span><br/>
+&nbsp;&nbsp;| <span class="id" title="var">O</span> =&gt; 0<br/>
+&nbsp;&nbsp;| <span class="id" title="var">S</span> <span class="id" title="var">O</span> =&gt; 1<br/>
+&nbsp;&nbsp;| <span class="id" title="var">S</span> <span class="id" title="var">n</span> =&gt; <span class="id" title="var">INP</span> <span class="id" title="var">n</span> + 1<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">end</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Definition</span> <span class="id" title="var">IZP</span> (<span class="id" title="var">z</span>:<span class="id" title="var">Z</span>) : <span class="id" title="var">Point</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">match</span> <span class="id" title="var">z</span> <span class="id" title="keyword">with</span><br/>
+&nbsp;&nbsp;| <span class="id" title="var">Z0</span> =&gt; 0<br/>
+&nbsp;&nbsp;| <span class="id" title="var">Zpos</span> <span class="id" title="var">n</span> =&gt; <span class="id" title="var">INP</span> (<span class="id" title="var">nat_of_P</span> <span class="id" title="var">n</span>)<br/>
+&nbsp;&nbsp;| <span class="id" title="var">Zneg</span> <span class="id" title="var">n</span> =&gt; - <span class="id" title="var">INP</span> (<span class="id" title="var">nat_of_P</span> <span class="id" title="var">n</span>)<br/>
+&nbsp;&nbsp;<span class="id" title="keyword">end</span>.<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+<span class="id" title="keyword">Lemma</span> <span class="id" title="var">Pproj_right</span> : <span class="id" title="keyword">forall</span> <span class="id" title="var">p</span> : <span class="id" title="var">Point</span>, (<span class="id" title="var">Px</span> <span class="id" title="var">p</span>, <span class="id" title="var">Py</span> <span class="id" title="var">p</span>) = <span class="id" title="var">p</span>.<br/>
+<span class="id" title="keyword">Proof</span>.<br/>
+<span class="id" title="tactic">intros</span> <span class="id" title="var">p</span>;  <span class="id" title="tactic">elim</span> <span class="id" title="var">p</span>; <span class="id" title="tactic">reflexivity</span>.<br/>
+<span class="id" title="keyword">Qed</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Lemma</span> <span class="id" title="var">Peq</span> : <span class="id" title="keyword">forall</span> <span class="id" title="var">p1</span> <span class="id" title="var">p2</span> : <span class="id" title="var">Point</span>, <span class="id" title="var">Px</span> <span class="id" title="var">p1</span> = <span class="id" title="var">Px</span> <span class="id" title="var">p2</span> /\ <span class="id" title="var">Py</span> <span class="id" title="var">p1</span> = <span class="id" title="var">Py</span> <span class="id" title="var">p2</span> &lt;-&gt; <span class="id" title="var">p1</span> = <span class="id" title="var">p2</span>.<br/>
+<span class="id" title="keyword">Proof</span>.<br/>
+<span class="id" title="tactic">intros</span> <span class="id" title="var">p1</span> <span class="id" title="var">p2</span> ; <span class="id" title="tactic">split</span> ; <span class="id" title="tactic">intro</span> <span class="id" title="var">H</span>.<br/>
+&nbsp;<span class="id" title="tactic">rewrite</span> &lt;- <span class="id" title="var">Pproj_right</span> ; <span class="id" title="tactic">symmetry</span> ; <span class="id" title="tactic">rewrite</span> &lt;- <span class="id" title="var">Pproj_right</span> ; <span class="id" title="tactic">destruct</span> <span class="id" title="var">H</span> <span class="id" title="keyword">as</span> (<span class="id" title="var">H</span>, <span class="id" title="var">H0</span>) ;<br/>
+&nbsp;<span class="id" title="tactic">rewrite</span> <span class="id" title="var">H</span> ; <span class="id" title="tactic">rewrite</span> <span class="id" title="var">H0</span> ; <span class="id" title="tactic">reflexivity</span>.<br/>
+&nbsp;<span class="id" title="tactic">split</span>; <span class="id" title="tactic">rewrite</span> <span class="id" title="var">H</span>; <span class="id" title="tactic">reflexivity</span>.<br/>
+<span class="id" title="keyword">Qed</span>.<br/>
+
+<br/>
+</div>
+
+<div class="doc">
+Simple tactics using the projections 
+</div>
+<div class="code">
+
+<br/>
+<span class="id" title="keyword">Ltac</span> <span class="id" title="var">PusingR_simpl</span> :=<br/>
+&nbsp;&nbsp;<span class="id" title="tactic">rewrite</span> &lt;- <span class="id" title="var">Peq</span> ; <span class="id" title="tactic">simpl</span> ; <span class="id" title="tactic">split</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Ltac</span> <span class="id" title="var">PusingR_rec</span> := <span class="id" title="keyword">match</span> <span class="id" title="keyword">goal</span> <span class="id" title="keyword">with</span><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <span class="id" title="var">id</span>:<span class="id" title="var">Point</span> |- <span class="id" title="var">_</span> =&gt; <span class="id" title="tactic">destruct</span> <span class="id" title="var">id</span> ; <span class="id" title="tactic">try</span> <span class="id" title="var">PusingR_rec</span><br/>
+<span class="id" title="keyword">end</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Ltac</span> <span class="id" title="var">PusingR</span> := <span class="id" title="tactic">intros</span>; <span class="id" title="tactic">try</span> <span class="id" title="var">PusingR_rec</span> ; <span class="id" title="tactic">apply</span> (<span class="id" title="var">proj1</span> (<span class="id" title="var">Peq</span> <span class="id" title="var">_</span> <span class="id" title="var">_</span>)) ; <span class="id" title="tactic">split</span> ; <span class="id" title="tactic">simpl</span> ; <span class="id" title="tactic">auto</span> <span class="id" title="keyword">with</span> <span class="id" title="var">real</span>.<br/>
+
+<br/>
+<span class="id" title="keyword">Ltac</span> <span class="id" title="var">PusingR_f</span> := <span class="id" title="var">PusingR</span> ; <span class="id" title="tactic">field</span>.<br/>
+
+<br/>
+</div>
+</div>
+
+<div id="footer">
+<hr/><a href="index.html">Index</a><hr/>This page has been generated by <a href="http://coq.inria.fr/">coqdoc</a>
+</div>
+
+</div>
+
+</body>
+</html>

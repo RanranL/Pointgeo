@@ -1,0 +1,224 @@
+DIGEST 7f54fadfa6acc081b6ce8d3b501e92bc
+FCoqtail.Myproj.Pconstruct
+R15:31 Coq.micromega.Lra <> <> lib
+R49:53 Coqtail.Myproj.Lemma <> <> lib
+R71:72 Coqtail.Myproj.PF <> <> lib
+R90:96 Coqtail.Myproj.Pbasics <> <> lib
+def 148:155 <> Midpoint
+R166:170 Coqtail.Myproj.PF <> Point def
+binder 158:158 <> C:1
+binder 160:160 <> A:2
+binder 162:162 <> B:3
+R187:189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R178:182 Coqtail.Myproj.PF <> Pplus def
+R184:184 Coqtail.Myproj.Pconstruct <> A:2 var
+R186:186 Coqtail.Myproj.Pconstruct <> B:3 var
+R190:195 Coqtail.Myproj.PF <> Pmults def
+R199:199 Coqtail.Myproj.Pconstruct <> C:1 var
+def 231:236 <> Parall
+R249:253 Coqtail.Myproj.PF <> Point def
+binder 239:239 <> A:4
+binder 241:241 <> B:5
+binder 243:243 <> C:6
+binder 245:245 <> D:7
+R271:273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R267:269 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R266:266 Coqtail.Myproj.Pconstruct <> A:4 var
+R270:270 Coqtail.Myproj.Pconstruct <> C:6 var
+R275:277 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R274:274 Coqtail.Myproj.Pconstruct <> B:5 var
+R278:278 Coqtail.Myproj.Pconstruct <> D:7 var
+def 322:328 <> Lseg_eq
+R341:345 Coqtail.Myproj.PF <> Point def
+binder 331:331 <> A:8
+binder 333:333 <> B:9
+binder 335:335 <> C:10
+binder 337:337 <> D:11
+R378:380 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R360:360 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R366:371 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R377:377 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R362:364 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R361:361 Coqtail.Myproj.Pconstruct <> A:8 var
+R365:365 Coqtail.Myproj.Pconstruct <> B:9 var
+R373:375 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R372:372 Coqtail.Myproj.Pconstruct <> A:8 var
+R376:376 Coqtail.Myproj.Pconstruct <> B:9 var
+R381:381 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R387:390 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R396:396 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R383:385 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R382:382 Coqtail.Myproj.Pconstruct <> C:10 var
+R386:386 Coqtail.Myproj.Pconstruct <> D:11 var
+R392:394 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R391:391 Coqtail.Myproj.Pconstruct <> C:10 var
+R395:395 Coqtail.Myproj.Pconstruct <> D:11 var
+def 432:444 <> Perpendicular
+R457:461 Coqtail.Myproj.PF <> Point def
+binder 447:447 <> A:12
+binder 449:449 <> B:13
+binder 451:451 <> C:14
+binder 453:453 <> D:15
+R492:494 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R474:474 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R480:485 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R491:491 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R476:478 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R475:475 Coqtail.Myproj.Pconstruct <> A:12 var
+R479:479 Coqtail.Myproj.Pconstruct <> B:13 var
+R487:489 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R486:486 Coqtail.Myproj.Pconstruct <> C:14 var
+R490:490 Coqtail.Myproj.Pconstruct <> D:15 var
+def 533:539 <> PonLine
+R550:554 Coqtail.Myproj.PF <> Point def
+binder 542:542 <> C:16
+binder 544:544 <> A:17
+binder 546:546 <> B:18
+R561:561 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 558:558 <> t:19
+R567:569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R566:566 Coqtail.Myproj.Pconstruct <> C:16 var
+R573:575 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R571:571 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R570:570 Coqtail.Myproj.Pconstruct <> t:19 var
+R572:572 Coqtail.Myproj.Pconstruct <> A:17 var
+R583:585 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R578:578 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R579:579 Coqtail.Myproj.Pconstruct <> t:19 var
+R586:586 Coqtail.Myproj.Pconstruct <> B:18 var
+def 633:648 <> Ptraingle_median
+R661:665 Coqtail.Myproj.PF <> Point def
+binder 651:651 <> G:20
+binder 653:653 <> A:21
+binder 655:655 <> B:22
+binder 657:657 <> C:23
+R676:678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R672:674 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R675:675 Coqtail.Myproj.Pconstruct <> G:20 var
+R684:686 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R680:682 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R679:679 Coqtail.Myproj.Pconstruct <> A:21 var
+R683:683 Coqtail.Myproj.Pconstruct <> B:22 var
+R687:687 Coqtail.Myproj.Pconstruct <> C:23 var
+def 737:747 <> Ptraingle_H
+R759:763 Coqtail.Myproj.PF <> Point def
+binder 750:750 <> H:24
+binder 752:752 <> A:25
+binder 754:754 <> B:26
+binder 756:756 <> C:27
+R792:797 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R771:783 Coqtail.Myproj.Pconstruct <> Perpendicular def
+R785:785 Coqtail.Myproj.Pconstruct <> A:25 var
+R787:787 Coqtail.Myproj.Pconstruct <> H:24 var
+R789:789 Coqtail.Myproj.Pconstruct <> B:26 var
+R791:791 Coqtail.Myproj.Pconstruct <> C:27 var
+R819:826 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R798:810 Coqtail.Myproj.Pconstruct <> Perpendicular def
+R812:812 Coqtail.Myproj.Pconstruct <> B:26 var
+R814:814 Coqtail.Myproj.Pconstruct <> H:24 var
+R816:816 Coqtail.Myproj.Pconstruct <> A:25 var
+R818:818 Coqtail.Myproj.Pconstruct <> C:27 var
+R827:839 Coqtail.Myproj.Pconstruct <> Perpendicular def
+R841:841 Coqtail.Myproj.Pconstruct <> C:27 var
+R843:843 Coqtail.Myproj.Pconstruct <> H:24 var
+R845:845 Coqtail.Myproj.Pconstruct <> A:25 var
+R847:847 Coqtail.Myproj.Pconstruct <> B:26 var
+def 881:887 <> ParallE
+binder 889:889 <> E:28
+binder 891:891 <> A:29
+binder 893:893 <> B:30
+binder 895:895 <> C:31
+binder 897:897 <> D:32
+R918:921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R904:909 Coqtail.Myproj.Pconstruct <> Parall def
+R911:911 Coqtail.Myproj.Pconstruct <> A:29 var
+R913:913 Coqtail.Myproj.Pconstruct <> B:30 var
+R915:915 Coqtail.Myproj.Pconstruct <> C:31 var
+R917:917 Coqtail.Myproj.Pconstruct <> D:32 var
+R936:939 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R922:929 Coqtail.Myproj.Pconstruct <> Midpoint def
+R931:931 Coqtail.Myproj.Pconstruct <> E:28 var
+R933:933 Coqtail.Myproj.Pconstruct <> A:29 var
+R935:935 Coqtail.Myproj.Pconstruct <> C:31 var
+R940:947 Coqtail.Myproj.Pconstruct <> Midpoint def
+R949:949 Coqtail.Myproj.Pconstruct <> E:28 var
+R951:951 Coqtail.Myproj.Pconstruct <> B:30 var
+R953:953 Coqtail.Myproj.Pconstruct <> D:32 var
+def 968:975 <> Xcollin0
+R989:993 Coqtail.Myproj.PF <> Point def
+binder 978:978 <> A:33
+binder 980:980 <> B:34
+binder 982:982 <> C:35
+binder 984:984 <> D:36
+binder 986:986 <> F:37
+R1006:1006 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 997:997 <> u:38
+binder 999:999 <> v:39
+binder 1001:1001 <> r:40
+binder 1003:1003 <> s:41
+R1028:1034 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1020:1022 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1016:1018 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R1015:1015 Coqtail.Myproj.Pconstruct <> u:38 var
+R1019:1019 Coqtail.Myproj.Pconstruct <> v:39 var
+R1024:1026 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R1023:1023 Coqtail.Myproj.Pconstruct <> r:40 var
+R1027:1027 Coqtail.Myproj.Pconstruct <> s:41 var
+R1062:1068 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1046:1048 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1035:1035 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1041:1044 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1037:1039 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1036:1036 Coqtail.Myproj.Pconstruct <> u:38 var
+R1040:1040 Coqtail.Myproj.Pconstruct <> v:39 var
+R1045:1045 Coqtail.Myproj.Pconstruct <> F:37 var
+R1054:1056 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R1050:1052 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1049:1049 Coqtail.Myproj.Pconstruct <> u:38 var
+R1053:1053 Coqtail.Myproj.Pconstruct <> A:33 var
+R1058:1060 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1057:1057 Coqtail.Myproj.Pconstruct <> v:39 var
+R1061:1061 Coqtail.Myproj.Pconstruct <> B:34 var
+R1076:1082 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1070:1072 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1069:1069 Coqtail.Myproj.Pconstruct <> u:38 var
+R1089:1095 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1084:1087 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1083:1083 Coqtail.Myproj.Pconstruct <> F:37 var
+R1088:1088 Coqtail.Myproj.Pconstruct <> B:34 var
+R1109:1111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1101:1103 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R1097:1099 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1096:1096 Coqtail.Myproj.Pconstruct <> u:38 var
+R1100:1100 Coqtail.Myproj.Pconstruct <> A:33 var
+R1105:1107 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1104:1104 Coqtail.Myproj.Pconstruct <> v:39 var
+R1108:1108 Coqtail.Myproj.Pconstruct <> B:34 var
+R1117:1119 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R1113:1115 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1112:1112 Coqtail.Myproj.Pconstruct <> r:40 var
+R1116:1116 Coqtail.Myproj.Pconstruct <> C:35 var
+R1121:1123 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R1120:1120 Coqtail.Myproj.Pconstruct <> s:41 var
+R1124:1124 Coqtail.Myproj.Pconstruct <> D:36 var
+def 1139:1145 <> XCOLLIN
+binder 1147:1147 <> A:42
+binder 1149:1149 <> B:43
+binder 1151:1151 <> C:44
+binder 1153:1153 <> D:45
+binder 1155:1155 <> F:46
+R1176:1176 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1167:1167 <> u:47
+binder 1169:1169 <> v:48
+binder 1171:1171 <> r:49
+binder 1173:1174 <> s':50
+R1180:1187 Coqtail.Myproj.Pconstruct <> Xcollin0 def
+R1189:1189 Coqtail.Myproj.Pconstruct <> A:42 var
+R1191:1191 Coqtail.Myproj.Pconstruct <> B:43 var
+R1193:1193 Coqtail.Myproj.Pconstruct <> C:44 var
+R1195:1195 Coqtail.Myproj.Pconstruct <> D:45 var
+R1197:1197 Coqtail.Myproj.Pconstruct <> F:46 var
+R1199:1199 Coqtail.Myproj.Pconstruct <> u:47 var
+R1201:1201 Coqtail.Myproj.Pconstruct <> v:48 var
+R1203:1203 Coqtail.Myproj.Pconstruct <> r:49 var
+R1205:1206 Coqtail.Myproj.Pconstruct <> s':50 var

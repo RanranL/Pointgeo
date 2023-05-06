@@ -1,0 +1,265 @@
+DIGEST 8c4bf3cc0238f0eea92c6338c08269bb
+FCoqtail.Myproj.PF
+R15:19 Coq.Reals.Reals <> <> lib
+R37:39 Coq.micromega.Lra <> <> lib
+R78:84 Coqtail.Complex.Complex <> <> lib
+def 133:137 <> Point
+R149:152 Coq.Init.Datatypes <> prod ind
+R156:156 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R154:154 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 172:183 <> R_R_to_Point
+R190:190 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 186:186 <> a:1
+R198:198 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 194:194 <> b:2
+R203:207 Coqtail.Myproj.PF <> Point def
+R212:212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R214:215 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R217:217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R213:213 Coqtail.Myproj.PF <> a:1 var
+R216:216 Coqtail.Myproj.PF <> b:2 var
+R373:384 Coqtail.Myproj.PF <> R_R_to_Point def
+not 356:356 <> :::'('_x_','_x_')'
+def 404:409 <> Point0
+R414:425 Coqtail.Myproj.PF <> R_R_to_Point def
+def 443:448 <> Point1
+R453:464 Coqtail.Myproj.PF <> R_R_to_Point def
+def 482:488 <> Point1'
+R493:504 Coqtail.Myproj.PF <> R_R_to_Point def
+R528:533 Coqtail.Myproj.PF <> Point0 def
+not 521:521 <> :::'0'
+R552:557 Coqtail.Myproj.PF <> Point1 def
+not 545:545 <> :::'1'
+def 572:573 <> Px
+R580:584 Coqtail.Myproj.PF <> Point def
+binder 576:576 <> P:3
+R589:589 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R610:610 Coqtail.Myproj.PF <> P:3 var
+binder 601:601 <> x:4
+binder 604:604 <> y:5
+R617:617 Coqtail.Myproj.PF <> x:4 var
+def 632:633 <> Py
+R640:644 Coqtail.Myproj.PF <> Point def
+binder 636:636 <> P:6
+R649:649 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R670:670 Coqtail.Myproj.PF <> P:6 var
+binder 661:661 <> x:7
+binder 664:664 <> y:8
+R677:677 Coqtail.Myproj.PF <> y:8 var
+def 692:696 <> Pplus
+R704:708 Coqtail.Myproj.PF <> Point def
+binder 699:700 <> p1:9
+R717:721 Coqtail.Myproj.PF <> Point def
+binder 712:713 <> p2:10
+R726:730 Coqtail.Myproj.PF <> Point def
+R737:748 Coqtail.Myproj.PF <> R_R_to_Point def
+R756:758 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R751:752 Coqtail.Myproj.PF <> Px def
+R754:755 Coqtail.Myproj.PF <> p1:9 var
+R759:760 Coqtail.Myproj.PF <> Px def
+R762:763 Coqtail.Myproj.PF <> p2:10 var
+R772:774 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R767:768 Coqtail.Myproj.PF <> Py def
+R770:771 Coqtail.Myproj.PF <> p1:9 var
+R775:776 Coqtail.Myproj.PF <> Py def
+R778:779 Coqtail.Myproj.PF <> p2:10 var
+def 795:800 <> Pmults
+R807:807 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 803:803 <> r:11
+R815:819 Coqtail.Myproj.PF <> Point def
+binder 811:811 <> p:12
+R824:828 Coqtail.Myproj.PF <> Point def
+R835:846 Coqtail.Myproj.PF <> R_R_to_Point def
+R850:852 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R849:849 Coqtail.Myproj.PF <> r:11 var
+R853:854 Coqtail.Myproj.PF <> Px def
+R856:856 Coqtail.Myproj.PF <> p:12 var
+R861:863 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R860:860 Coqtail.Myproj.PF <> r:11 var
+R864:865 Coqtail.Myproj.PF <> Py def
+R867:867 Coqtail.Myproj.PF <> p:12 var
+def 883:886 <> Pneg
+R893:897 Coqtail.Myproj.PF <> Point def
+binder 889:889 <> p:13
+R902:906 Coqtail.Myproj.PF <> Point def
+R913:924 Coqtail.Myproj.PF <> R_R_to_Point def
+R927:927 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R928:929 Coqtail.Myproj.PF <> Px def
+R931:931 Coqtail.Myproj.PF <> p:13 var
+R935:935 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R936:937 Coqtail.Myproj.PF <> Py def
+R939:939 Coqtail.Myproj.PF <> p:13 var
+def 955:958 <> Pinv
+R965:969 Coqtail.Myproj.PF <> Point def
+binder 961:961 <> p:14
+R974:978 Coqtail.Myproj.PF <> Point def
+R985:996 Coqtail.Myproj.PF <> R_R_to_Point def
+R1010:1012 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1003:1005 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R999:1000 Coqtail.Myproj.PF <> Px def
+R1002:1002 Coqtail.Myproj.PF <> p:14 var
+R1006:1007 Coqtail.Myproj.PF <> Px def
+R1009:1009 Coqtail.Myproj.PF <> p:14 var
+R1017:1019 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1013:1014 Coqtail.Myproj.PF <> Py def
+R1016:1016 Coqtail.Myproj.PF <> p:14 var
+R1020:1021 Coqtail.Myproj.PF <> Py def
+R1023:1023 Coqtail.Myproj.PF <> p:14 var
+R1038:1040 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1031:1033 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1027:1028 Coqtail.Myproj.PF <> Px def
+R1030:1030 Coqtail.Myproj.PF <> p:14 var
+R1034:1035 Coqtail.Myproj.PF <> Py def
+R1037:1037 Coqtail.Myproj.PF <> p:14 var
+R1045:1047 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1041:1042 Coqtail.Myproj.PF <> Py def
+R1044:1044 Coqtail.Myproj.PF <> p:14 var
+R1048:1049 Coqtail.Myproj.PF <> Px def
+R1051:1051 Coqtail.Myproj.PF <> p:14 var
+def 1067:1071 <> Pconj
+R1078:1082 Coqtail.Myproj.PF <> Point def
+binder 1074:1074 <> p:15
+R1087:1091 Coqtail.Myproj.PF <> Point def
+R1098:1109 Coqtail.Myproj.PF <> R_R_to_Point def
+R1112:1113 Coqtail.Myproj.PF <> Px def
+R1115:1115 Coqtail.Myproj.PF <> p:15 var
+R1119:1119 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R1120:1121 Coqtail.Myproj.PF <> Py def
+R1123:1123 Coqtail.Myproj.PF <> p:15 var
+def 1139:1151 <> Pquantityprod
+R1159:1163 Coqtail.Myproj.PF <> Point def
+binder 1154:1155 <> p1:16
+R1173:1177 Coqtail.Myproj.PF <> Point def
+binder 1168:1169 <> p2:17
+R1182:1182 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1203:1205 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1195:1197 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1190:1191 Coqtail.Myproj.PF <> Px def
+R1193:1194 Coqtail.Myproj.PF <> p1:16 var
+R1198:1199 Coqtail.Myproj.PF <> Px def
+R1201:1202 Coqtail.Myproj.PF <> p2:17 var
+R1211:1213 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1206:1207 Coqtail.Myproj.PF <> Py def
+R1209:1210 Coqtail.Myproj.PF <> p1:16 var
+R1214:1215 Coqtail.Myproj.PF <> Py def
+R1217:1218 Coqtail.Myproj.PF <> p2:17 var
+def 1233:1233 <> s
+R1241:1245 Coqtail.Myproj.PF <> Point def
+binder 1236:1237 <> p1:18
+R1255:1259 Coqtail.Myproj.PF <> Point def
+binder 1250:1251 <> p2:19
+R1267:1271 Coqtail.Myproj.PF <> Point def
+binder 1263:1264 <> p3:20
+R1275:1275 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1360:1362 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1344:1346 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1328:1330 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R1312:1314 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1296:1298 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1288:1290 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1283:1284 Coqtail.Myproj.PF <> Px def
+R1286:1287 Coqtail.Myproj.PF <> p1:18 var
+R1291:1292 Coqtail.Myproj.PF <> Py def
+R1294:1295 Coqtail.Myproj.PF <> p2:19 var
+R1304:1306 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1299:1300 Coqtail.Myproj.PF <> Px def
+R1302:1303 Coqtail.Myproj.PF <> p2:19 var
+R1307:1308 Coqtail.Myproj.PF <> Py def
+R1310:1311 Coqtail.Myproj.PF <> p3:20 var
+R1320:1322 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1315:1316 Coqtail.Myproj.PF <> Px def
+R1318:1319 Coqtail.Myproj.PF <> p3:20 var
+R1323:1324 Coqtail.Myproj.PF <> Py def
+R1326:1327 Coqtail.Myproj.PF <> p1:18 var
+R1336:1338 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1331:1332 Coqtail.Myproj.PF <> Px def
+R1334:1335 Coqtail.Myproj.PF <> p1:18 var
+R1339:1340 Coqtail.Myproj.PF <> Py def
+R1342:1343 Coqtail.Myproj.PF <> p3:20 var
+R1352:1354 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1347:1348 Coqtail.Myproj.PF <> Px def
+R1350:1351 Coqtail.Myproj.PF <> p2:19 var
+R1355:1356 Coqtail.Myproj.PF <> Py def
+R1358:1359 Coqtail.Myproj.PF <> p1:18 var
+R1368:1370 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R1363:1364 Coqtail.Myproj.PF <> Px def
+R1366:1367 Coqtail.Myproj.PF <> p3:20 var
+R1371:1372 Coqtail.Myproj.PF <> Py def
+R1374:1375 Coqtail.Myproj.PF <> p2:19 var
+def 1390:1398 <> Pnorm_sqr
+R1405:1409 Coqtail.Myproj.PF <> Point def
+binder 1401:1401 <> p:21
+R1414:1414 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1419:1431 Coqtail.Myproj.PF <> Pquantityprod def
+R1433:1433 Coqtail.Myproj.PF <> p:21 var
+R1435:1435 Coqtail.Myproj.PF <> p:21 var
+def 1450:1454 <> Pnorm
+R1461:1465 Coqtail.Myproj.PF <> Point def
+binder 1457:1457 <> p:22
+R1470:1470 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R1476:1479 Coq.Reals.R_sqrt <> sqrt def
+R1482:1490 Coqtail.Myproj.PF <> Pnorm_sqr def
+R1492:1492 Coqtail.Myproj.PF <> p:22 var
+def 1509:1512 <> OutP
+R1520:1524 Coqtail.Myproj.PF <> Point def
+binder 1515:1515 <> A:23
+binder 1517:1517 <> B:24
+R1529:1533 Coqtail.Myproj.PF <> Point def
+R1540:1542 Coqtail.Complex.Cdefinitions <> ::C_scope:x_'-'_x not
+R1539:1539 Coqtail.Myproj.PF <> B:24 var
+R1543:1543 Coqtail.Myproj.PF <> A:23 var
+def 1565:1567 <> IRP
+R1574:1574 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1570:1570 <> x:25
+R1579:1583 Coqtail.Myproj.PF <> Point def
+R1588:1599 Coqtail.Myproj.PF <> R_R_to_Point def
+R1601:1601 Coqtail.Myproj.PF <> x:25 var
+R1669:1694 Coqtail.Myproj.PF <> IRP def
+R1711:1715 Coqtail.Myproj.PF <> Pplus def
+not 1704:1704 <> ::Point_scope:x_'+'_x
+R1745:1750 Coqtail.Myproj.PF <> Pmults def
+not 1738:1738 <> ::Point_scope:x_'*'_x
+R1791:1803 Coqtail.Myproj.PF <> Pquantityprod def
+not 1776:1776 <> ::Point_scope:x_'·'_x
+R1904:1907 Coqtail.Myproj.PF <> Pneg def
+not 1894:1894 <> ::Point_scope:'-'_x
+R1946:1949 Coqtail.Myproj.PF <> Pinv def
+not 1936:1936 <> ::Point_scope:'/'_x
+R1994:1997 Coqtail.Myproj.PF <> OutP def
+not 1978:1978 <> ::Point_scope:x_'@'_x
+def 2092:2097 <> Pminus
+R2108:2112 Coqtail.Myproj.PF <> Point def
+binder 2100:2101 <> p1:26
+binder 2103:2104 <> p2:27
+R2117:2121 Coqtail.Myproj.PF <> Point def
+R2128:2130 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R2126:2127 Coqtail.Myproj.PF <> p1:26 var
+R2131:2132 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R2133:2134 Coqtail.Myproj.PF <> p2:27 var
+R2151:2156 Coqtail.Myproj.PF <> Pminus def
+not 2144:2144 <> ::Point_scope:x_'-'_x
+def 2183:2185 <> INP
+R2190:2192 Coq.Init.Datatypes <> nat ind
+binder 2188:2188 <> n:28
+R2197:2201 Coqtail.Myproj.PF <> Point def
+R2214:2214 Coqtail.Myproj.PF <> n:28 var
+R2225:2225 Coq.Init.Datatypes <> O constr
+R2236:2236 Coq.Init.Datatypes <> S constr
+R2238:2238 Coq.Init.Datatypes <> O constr
+R2249:2249 Coq.Init.Datatypes <> S constr
+R2261:2263 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R2256:2258 Coqtail.Myproj.PF <> INP:29 def
+R2260:2260 Coqtail.Myproj.PF <> n:28 var
+def 2285:2287 <> IZP
+R2292:2292 Coq.Numbers.BinNums <> Z ind
+binder 2290:2290 <> z:31
+R2297:2301 Coqtail.Myproj.PF <> Point def
+R2314:2314 Coqtail.Myproj.PF <> z:31 var
+R2325:2326 Coq.Numbers.BinNums <> Z0 constr
+R2337:2340 Coq.Numbers.BinNums <> Zpos constr
+R2347:2349 Coqtail.Myproj.PF <> INP def
+R2352:2359 Coq.PArith.BinPos <> nat_of_P syndef
+R2368:2371 Coq.Numbers.BinNums <> Zneg constr
+R2378:2379 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R2380:2382 Coqtail.Myproj.PF <> INP def
+R2385:2392 Coq.PArith.BinPos <> nat_of_P syndef

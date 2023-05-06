@@ -1,0 +1,329 @@
+From Coq Require Import Arith.Arith.
+Require Export Coq.Reals.RIneq.
+Require Export Coq.Reals.R_sqrt.
+Require Export Coq.micromega.Lra.
+Require Import Lemma.
+Require Import PF.
+Require Export Pbasics.
+Require Export Pconstruct.
+
+Definition vec (A B : Point) : Point := (B - A).
+
+Tactic Notation " print_goal " :=
+  match goal with |- ?x => idtac x end.
+ 
+Ltac print_pre :=
+    match goal with
+    | id : ?A |- _ => match type of id with
+                    | Point => idtac
+                    | _ => idtac id  A; clear A
+                    end
+    end.
+
+Ltac print_hy H :=
+    match goal with
+    | H : ?A |- _ => idtac H A
+    end.
+
+
+Ltac Oelim :=
+  intros; try repeat
+      (unfold Midpoint, Xcollin, collin, Perpendicular, Parall, ParallE, Ptraingle_median, vec in *);
+  match goal with
+  | H : _ = O |- _ =>
+       rewrite H in *;
+       try repeat (try rewrite Pminus_O_r in *; try rewrite Pplus_0_l in *;
+                   try rewrite Pminus_O_l in *; try rewrite Pplus_0_r in *);
+       try repeat rewrite Pplus_0_r in *; Oelim
+  | |- _ =>
+       try repeat (try rewrite Pminus_O_r in *; try rewrite Pplus_0_l in *;
+                   try rewrite Pminus_O_l in *; try rewrite Pplus_0_r in *);
+      (*try repeat rewrite Unit_right in *;
+      try repeat (rewrite Pplus_minus; auto); *)auto
+  end.
+
+Tactic Notation " Oelim' " :=
+  idtac "After unfold predicts and eliminit the O:";
+  Oelim; idtac "we have hypothies ";
+  print_pre;
+  idtac "and now we begin to proof the goal: ";
+  print_goal.
+
+Lemma moveterm_1: forall A B C, 
+    A + B = C -> A = C - B.
+Proof. intros; rewrite <- H; PusingR_f. Qed.
+
+Lemma moveterm_2: forall A B C,
+    A + B = C -> B = C - A.
+Proof. intros; rewrite <- H; PusingR_f. Qed.
+
+Lemma moveterm_3 : forall A B C,
+    A - C = B -> A = B + C.
+Proof. intros; rewrite <- H; PusingR_f. Qed.
+
+Lemma moveterm_1': forall A B C,
+    C = A + B -> A = C - B.
+Proof. intros; rewrite H; PusingR_f. Qed.
+
+Ltac Moveas A:=
+  idtac "Move";
+  match goal with 
+  | H: A + _ = _ |- _ => apply moveterm_1 in H
+  | H: _ + A = _ |- _ => apply moveterm_2 in H
+  | H: _ = A + _ |- _ => apply moveterm_1' in H
+  | H: A - _ = _ |- _ => apply moveterm_3 in H
+  end.
+
+Tactic Notation "Movsub" constr(A) := Moveas A; subst.
+
+Ltac Psolver := unfold not in *;
+match goal with
+     | id:Point |- _ => destruct id ; PusingRR ; try Psolver
+     | id: _|- _ -> _ => intros ; PusingRR ; try Psolver
+     | id: _|- _ /\ _ => split ; PusingRR ; try Psolver
+     | id: _ /\ _ |- _ => destruct id ; PusingRR ; try Psolver
+     | id: _ \/ _ |- _ => destruct id ; PusingRR ; try Psolver
+     | id: _ |- False => (apply id ; Psolver) 
+     | id: _|- _ \/ _ => try ((left ; Psolver ; fail) || (right ; Psolver ; fail)) ;
+PusingRR ; simpl in *
+     | _ => simpl in *
+end;
+    subst; intuition ; try ((lra || (field ; PusingR1))).
+
+  
+Inductive ltac_No_arg : Set :=
+|ltac_no_arg: ltac_No_arg.
+
+Ltac Hilast a b c d:=
+  Oelim;
+  match type of a with
+  | ltac_No_arg => idtac
+  | _ =>
+    match goal with
+    | H: forall u v r s : R,
+        (u + v)%R = (r + s)%R ->
+        u * ?A + v * ?B = r * ?C + s * ?D -> (r + s) * ?K = r * ?C + s * ?D |- _ =>
+        assert (Hx : (a * A + b * B)%Point = (c*C + d*D)%Point)
+    end
+  end.
+
+Tactic Notation "HilAst" := Hilast ltac_no_arg ltac_no_arg ltac_no_arg ltac_no_arg.
+
+Ltac Hilxcol a b c d:=
+  Oelim';
+  match type of a with
+  | ltac_No_arg => try unfold Pquantityprod, Pnorm_sqr, s in *; Psolver
+  | _ =>
+    match goal with
+    | H: forall u v r s : R,
+        (u + v)%R = (r + s)%R ->
+        u * ?A + v * ?B = r * ?C + s * ?D -> (r + s) * ?K = r * ?C + s * ?D |- _ =>
+        assert (Hx : (a * A + b * B)%Point = (c*C + d*D)%Point); [Psolver| idtac];
+        idtac "Firstly, we construct the equation Hx "; print_hy Hx;
+        einduction H; [idtac|idtac|eauto];
+        apply H in Hx;
+        [idtac "by the rule of Xcollin we get the equation of" K; print_hy Hx| idtac|idtac|idtac];
+        try lra; Psolver;
+        idtac "Finally， the proposition can be proved by the algebraic operation of point.";
+        idtac "Done"
+  end
+  end.
+
+Tactic Notation "HilXcol" := Hilxcol ltac_no_arg ltac_no_arg ltac_no_arg ltac_no_arg.
+Tactic Notation "HilXcol" constr(a) constr(b) constr(c) constr(d) :=
+  Hilxcol a b c d.
+
+Ltac HilXcol' a b c d:=
+  Oelim; 
+  match goal with
+    | H: forall u v r s : R,
+        (u + v)%R = (r + s)%R ->
+        u * ?A + v * ?B = r * ?C + s * ?D -> (r + s) * ?K = r * ?C + s * ?D |- _ =>
+        assert (Hx : (a * A + b * B)%Point = (c*C + d*D)%Point); [PusingR1| idtac];
+        einduction H; [idtac|idtac|eauto];
+        apply H in Hx;
+        try lra;
+        [idtac "by rule of Xcollin we get the equation of" K; print_hy Hx| idtac];
+        PusingR1     
+  end.
+
+Lemma Peq : forall p1 p2 : Point, Px p1 = Px p2 /\ Py p1 = Py p2 <-> p1 = p2.
+Proof.
+intros p1 p2 ; split ; intro H.
+ rewrite <- Pproj_right ; symmetry ; rewrite <- Pproj_right ; destruct H as (H, H0) ;
+ rewrite H ; rewrite H0 ; reflexivity.
+ split; rewrite H; reflexivity.
+Qed.
+
+(** Simple tactics using the projections *)
+
+Ltac PusingR_simpl :=
+  rewrite <- Peq ; simpl ; split.
+
+Ltac PusingR_rec := match goal with
+     | id:Point |- _ => destruct id ; try PusingR_rec
+end.
+
+Ltac PusingR := intros; try PusingR_rec ; apply (proj1 (Peq _ _)) ; split ; simpl ; auto with real.
+
+Ltac PusingR_f := PusingR ; field.
+
+(* begin hide *)
+(* Annex tactic that should not be used *)
+Ltac PusingRR :=  try rewrite <- Peq in * .
+ 
+
+Example Hil_1: forall A B C F K N: Point,
+    A = O ->
+    Midpoint F A B ->
+    Midpoint N C F ->
+    Xcollin A N B C K ->
+    vec B K = 2 * vec K C.
+Proof.
+  Oelim. assert (Hx : (-1) * O + 4 * N = 1 * B + 2 * C). Psolver.   
+   einduction H2. 3: eauto. 2:lra. apply H2 in Hx;  Psolver.
+Qed.
+
+(*
+ HilXcol (-1)%R 4%R 1%R 2%R. Qed.  
+  *)
+
+Theorem Hil_2_firstexam: forall A B N C P G M,
+    A = O ->  
+    Midpoint P A B ->
+    Midpoint N A C ->
+    Midpoint M B C ->
+    Xcollin N B P C G ->
+    3 * vec G A = 2 * vec M A.
+Proof. HilXcol 2%R 1%R 2%R 1%R. Qed.
+
+Example Hil_3: forall A B C D E F: Point,
+    A = O ->
+    vec A D = 2 * vec D B ->
+    vec B E = 3 * vec E C ->
+    Xcollin C D A E F ->
+    vec A F = 8 * vec F E.
+Proof. HilXcol 6%R 3%R 1%R 8%R. Qed.
+
+Example Hil_4: forall A B C D E F: Point,
+    A = O ->
+    vec A D = 2 * vec D B ->
+    vec B E = 3 * vec E C ->
+    Xcollin C D A E F ->
+    vec D F = 2 * vec F C.
+Proof. HilXcol 6%R 3%R 1%R 8%R. Qed.
+
+Example Hil_5: forall A B C D E F: Point,
+    A = O ->
+    vec A D = 2 * vec D B ->
+    vec B E = 3 * vec E C ->
+    Xcollin C D A E F ->
+    vec D F = 2 * vec F C.
+Proof. HilXcol 6%R 3%R 1%R 8%R. Qed.
+
+Example Hil_6: forall A B C D E F G: Point,
+    A = O ->
+    3 * vec A E = 4 * vec E B ->
+    2 * vec B D = 5 * vec D C ->
+    7 * vec A F = 3 * vec F C ->
+    Xcollin B F D E G ->
+    9 * vec D G = 35 * vec G E.
+Proof. HilXcol 158%R 150%R 63%R 245%R. Qed.
+
+Example Hil_7: forall A B C D E F G: Point,
+    B = O ->
+    3 * vec A E = 4 * vec E B ->
+    2 * vec B D = 5 * vec D C ->
+    7 * vec A F = 3 * vec F C ->
+    Xcollin B F D E G ->
+    79 * vec B G = 75 * vec G F.
+Proof. HilXcol 158%R 150%R 63%R 245%R. Qed.
+
+Example Hil_8: forall A B C D E F G H: Point,
+    A = O ->
+    Midpoint F A B ->
+    vec B G = 3 * vec G C ->
+    2 * vec B D = vec D C ->
+    4 * vec A E = vec E C ->
+    Xcollin F G D E H ->
+    39 * vec D H = 25 * vec H E.
+Proof. HilXcol 40%R 24%R 39%R 25%R. Qed.
+
+Example Hil_9: forall A B C D E F G H: Point,
+    A = O ->
+    Midpoint F A B ->
+    vec B G = 3 * vec G C ->
+    2 * vec B D = vec D C ->
+    4 * vec A E = vec E C ->
+    Xcollin F G D E H ->
+    5 * vec F H = 3 * vec H G.
+Proof.  HilXcol 40%R 24%R 39%R 25%R. Qed.
+
+Example Hil_10: forall A B C D E F G H P Q R': Point,
+    A = O ->
+    vec A C = 3 * vec A P ->
+    3 * vec A B = 5 * vec A Q ->
+    Xcollin B C P Q R' ->
+    Xcollin B P C Q D ->
+    vec B D = vec D P.
+Proof. HilXcol 3%R 3%R 1%R 5%R. Qed.
+
+Example Hil_11: forall A B C D E F G H P Q R': Point,
+    A = O ->
+    vec A C = 3 * vec A P ->
+    3 * vec A B = 5 * vec A Q ->
+    Xcollin B C P Q R' ->
+    Xcollin B P C Q D ->
+    vec C D = 5 * vec D Q.
+Proof. HilXcol 3%R 3%R 1%R 5%R. Qed.
+
+Example Hil_12: forall A B C D E F G H P Q R': Point,
+    A = O ->
+    vec A C = 3 * vec A P ->
+    3 * vec A B = 5 * vec A Q ->
+    Xcollin B P C Q D ->
+    Xcollin B C P Q R' ->
+    3 * vec R' P = 5 * vec R' Q.
+Proof. HilXcol 3%R (-1)%R (-3)%R 5%R. Qed.
+
+Example Hil_13: forall A B C D E F G H P Q R': Point,
+    A = O ->
+    vec A C = 3 * vec A P ->
+    3 * vec A B = 5 * vec A Q ->
+    Xcollin B P C Q D ->
+    Xcollin B C P Q R' ->
+    vec R' C = 3 * vec R' B.
+Proof. HilXcol 3%R (-1)%R (-3)%R 5%R. Qed.
+
+Theorem Hil_14_Exam2: forall A B C D M P,
+    A = O ->
+    Parall A B C D ->
+    Midpoint M A B -> 
+    Xcollin A C M D P ->
+    C = 3 * P.
+Proof.
+  (*HilXcol 2%R 1%R 2%R 1%R. Qed.*)
+  
+  Oelim.
+  assert (HX : 2 * O + 1 * C = 2 * M + 1 * D).
+  {  rewrite H0, <- H1. PusingR_f. }
+  apply H2 in HX; Psolver.
+  induction H2 with (u:=2) (v:=1%R) (r:=2) (s:=1%R); auto.
+  assert (HCP :  2 * O + 1 * C = C).
+  { PusingR_f. }
+  rewrite HCP in HX. rewrite HX. PusingR_f. 
+  
+
+
+  
+
+
+
+
+
+
+
+  
+ 
+  
+

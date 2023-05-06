@@ -1,0 +1,624 @@
+DIGEST 41683cbea3945433b947b1ec9decb772
+FCoqtail.Myproj.Lemma
+R15:16 Coqtail.Myproj.PF <> <> lib
+R34:40 Coqtail.Myproj.Pbasics <> <> lib
+R58:62 Coq.Reals.Reals <> <> lib
+def 79:79 <> O
+R82:86 Coqtail.Myproj.PF <> Point def
+def 419:424 <> collin
+R434:438 Coqtail.Myproj.PF <> Point def
+binder 427:427 <> A:1
+binder 429:429 <> B:2
+binder 431:431 <> C:3
+R453:459 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R461:462 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 460:460 <> m:4
+R463:463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R469:472 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R465:467 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R464:464 Coqtail.Myproj.Lemma <> B:2 var
+R468:468 Coqtail.Myproj.Lemma <> A:1 var
+R474:477 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R483:483 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R473:473 Coqtail.Myproj.Lemma <> m:4 var
+R479:481 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R478:478 Coqtail.Myproj.Lemma <> C:3 var
+R482:482 Coqtail.Myproj.Lemma <> A:1 var
+def 605:611 <> collinP
+R622:626 Coqtail.Myproj.PF <> Point def
+binder 614:614 <> A:5
+binder 616:616 <> B:6
+binder 618:618 <> C:7
+R646:649 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R642:644 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R641:641 Coqtail.Myproj.Lemma <> A:5 var
+R645:645 Coqtail.Myproj.Lemma <> O def
+R650:656 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R658:659 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 657:657 <> l:8
+R661:663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R660:660 Coqtail.Myproj.Lemma <> B:6 var
+R664:669 Coqtail.Myproj.PF <> Pmults def
+R671:671 Coqtail.Myproj.Lemma <> l:8 var
+R673:673 Coqtail.Myproj.Lemma <> C:7 var
+def 688:694 <> collin'
+R705:709 Coqtail.Myproj.PF <> Point def
+binder 697:697 <> A:9
+binder 699:699 <> B:10
+binder 701:701 <> P:11
+R717:724 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R734:736 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R733:733 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 725:725 <> u:12
+R733:733 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 727:727 <> v:13
+R733:733 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 729:729 <> t:14
+R750:775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R746:748 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R739:741 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R738:738 Coqtail.Myproj.Lemma <> u:12 var
+R742:742 Coqtail.Myproj.Lemma <> v:13 var
+R749:749 Coqtail.Myproj.Lemma <> t:14 var
+R793:795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R776:776 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R782:786 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R792:792 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R778:780 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R777:777 Coqtail.Myproj.Lemma <> u:12 var
+R781:781 Coqtail.Myproj.Lemma <> A:9 var
+R788:790 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R787:787 Coqtail.Myproj.Lemma <> v:13 var
+R791:791 Coqtail.Myproj.Lemma <> B:10 var
+R797:799 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R796:796 Coqtail.Myproj.Lemma <> t:14 var
+R800:800 Coqtail.Myproj.Lemma <> P:11 var
+prf 810:820 <> Pplus_minus
+binder 830:830 <> A:15
+binder 832:832 <> B:16
+R846:848 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R836:839 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R845:845 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R835:835 Coqtail.Myproj.Lemma <> A:15 var
+R841:843 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R840:840 Coqtail.Myproj.Lemma <> B:16 var
+R844:844 Coqtail.Myproj.Lemma <> A:15 var
+R849:849 Coqtail.Myproj.Lemma <> B:16 var
+prf 883:893 <> Pplus_opp_r
+binder 903:903 <> P:17
+R906:906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R913:916 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R908:910 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R907:907 Coqtail.Myproj.Lemma <> P:17 var
+R911:911 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R912:912 Coqtail.Myproj.Lemma <> P:17 var
+R917:917 Coqtail.Myproj.Lemma <> O def
+prf 952:962 <> Pplus_assoc
+binder 972:972 <> A:18
+binder 974:974 <> B:19
+binder 976:976 <> C:20
+R988:990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R984:986 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R980:982 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R979:979 Coqtail.Myproj.Lemma <> A:18 var
+R983:983 Coqtail.Myproj.Lemma <> B:19 var
+R987:987 Coqtail.Myproj.Lemma <> C:20 var
+R992:995 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R1001:1001 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R991:991 Coqtail.Myproj.Lemma <> A:18 var
+R997:999 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R996:996 Coqtail.Myproj.Lemma <> B:19 var
+R1000:1000 Coqtail.Myproj.Lemma <> C:20 var
+R1111:1113 Coqtail.Myproj.Pbasics <> Peq thm
+R1179:1183 Coqtail.Myproj.PF <> Point def
+R1179:1183 Coqtail.Myproj.PF <> Point def
+R1278:1282 Coq.Init.Logic <> proj1 thm
+R1285:1287 Coqtail.Myproj.Pbasics <> Peq thm
+R1966:1968 Coq.Init.Logic <> not def
+R2033:2037 Coqtail.Myproj.PF <> Point def
+R2033:2037 Coqtail.Myproj.PF <> Point def
+R2148:2151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2148:2151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2223:2226 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2223:2226 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2293:2296 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2293:2296 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2373:2376 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2373:2376 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2468:2472 Coq.Init.Logic <> False ind
+R2468:2472 Coq.Init.Logic <> False ind
+R2642:2645 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2642:2645 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2953:2955 Coq.Init.Logic <> not def
+R3012:3016 Coqtail.Myproj.PF <> Point def
+R3012:3016 Coqtail.Myproj.PF <> Point def
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3115:3118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3177:3180 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3177:3180 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3234:3237 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3234:3237 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3302:3305 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3302:3305 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3385:3389 Coq.Init.Logic <> False ind
+R3385:3389 Coq.Init.Logic <> False ind
+R3541:3544 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3541:3544 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+prf 3789:3802 <> Pplus_eq_reg_l
+binder 3812:3812 <> P:21
+binder 3814:3814 <> A:22
+binder 3816:3816 <> B:23
+R3832:3835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3824:3826 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3820:3822 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R3819:3819 Coqtail.Myproj.Lemma <> P:21 var
+R3823:3823 Coqtail.Myproj.Lemma <> A:22 var
+R3828:3830 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R3827:3827 Coqtail.Myproj.Lemma <> P:21 var
+R3831:3831 Coqtail.Myproj.Lemma <> B:23 var
+R3837:3839 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3836:3836 Coqtail.Myproj.Lemma <> A:22 var
+R3840:3840 Coqtail.Myproj.Lemma <> B:23 var
+prf 3871:3887 <> Pplus_eq_compat_l
+binder 3897:3897 <> P:24
+binder 3899:3899 <> A:25
+binder 3901:3901 <> B:26
+R3909:3912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3905:3907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3904:3904 Coqtail.Myproj.Lemma <> A:25 var
+R3908:3908 Coqtail.Myproj.Lemma <> B:26 var
+R3918:3920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3914:3916 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R3913:3913 Coqtail.Myproj.Lemma <> P:24 var
+R3917:3917 Coqtail.Myproj.Lemma <> A:25 var
+R3922:3924 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R3921:3921 Coqtail.Myproj.Lemma <> P:24 var
+R3925:3925 Coqtail.Myproj.Lemma <> B:26 var
+prf 3959:3975 <> Pplus_eq_compat_r
+binder 3985:3985 <> P:27
+binder 3987:3987 <> A:28
+binder 3989:3989 <> B:29
+R3997:4000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3993:3995 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3992:3992 Coqtail.Myproj.Lemma <> A:28 var
+R3996:3996 Coqtail.Myproj.Lemma <> B:29 var
+R4006:4008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4002:4004 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4001:4001 Coqtail.Myproj.Lemma <> A:28 var
+R4005:4005 Coqtail.Myproj.Lemma <> P:27 var
+R4010:4012 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4009:4009 Coqtail.Myproj.Lemma <> B:29 var
+R4013:4013 Coqtail.Myproj.Lemma <> P:27 var
+prf 4046:4056 <> Pplus_opp_l
+binder 4066:4066 <> P:30
+R4076:4078 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4072:4074 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4069:4070 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R4071:4071 Coqtail.Myproj.Lemma <> P:30 var
+R4075:4075 Coqtail.Myproj.Lemma <> P:30 var
+R4079:4079 Coqtail.Myproj.Lemma <> O def
+prf 4113:4127 <> Popp_plus_distr
+binder 4137:4137 <> A:31
+binder 4139:4139 <> B:32
+R4151:4153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4142:4144 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R4150:4150 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R4146:4148 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4145:4145 Coqtail.Myproj.Lemma <> A:31 var
+R4149:4149 Coqtail.Myproj.Lemma <> B:32 var
+R4157:4159 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4154:4155 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R4156:4156 Coqtail.Myproj.Lemma <> A:31 var
+R4160:4161 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R4162:4162 Coqtail.Myproj.Lemma <> B:32 var
+prf 4195:4208 <> Pplus_0_r_uniq
+binder 4218:4218 <> P:33
+binder 4220:4220 <> A:34
+R4232:4235 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4228:4230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4224:4226 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4223:4223 Coqtail.Myproj.Lemma <> P:33 var
+R4227:4227 Coqtail.Myproj.Lemma <> A:34 var
+R4231:4231 Coqtail.Myproj.Lemma <> P:33 var
+R4237:4239 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4236:4236 Coqtail.Myproj.Lemma <> A:34 var
+R4240:4240 Coqtail.Myproj.Lemma <> O def
+prf 4273:4281 <> Pplus_0_l
+R4296:4300 Coqtail.Myproj.PF <> Point def
+binder 4292:4292 <> A:35
+R4309:4311 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4305:4307 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4304:4304 Coqtail.Myproj.Lemma <> O def
+R4308:4308 Coqtail.Myproj.Lemma <> A:35 var
+R4312:4312 Coqtail.Myproj.Lemma <> A:35 var
+prf 4345:4352 <> Pmult_nO
+R4366:4366 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4362:4362 <> n:36
+R4374:4376 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4370:4372 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R4369:4369 Coqtail.Myproj.Lemma <> n:36 var
+R4373:4373 Coqtail.Myproj.Lemma <> O def
+R4377:4377 Coqtail.Myproj.Lemma <> O def
+prf 4417:4424 <> Pmult_eq
+R4441:4441 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4435:4435 <> n:37
+binder 4437:4437 <> m:38
+R4449:4453 Coqtail.Myproj.PF <> Point def
+binder 4445:4445 <> P:39
+R4462:4465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4458:4460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4457:4457 Coqtail.Myproj.Lemma <> n:37 var
+R4461:4461 Coqtail.Myproj.Lemma <> m:38 var
+R4471:4473 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4467:4469 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R4466:4466 Coqtail.Myproj.Lemma <> n:37 var
+R4470:4470 Coqtail.Myproj.Lemma <> P:39 var
+R4475:4477 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R4474:4474 Coqtail.Myproj.Lemma <> m:38 var
+R4478:4478 Coqtail.Myproj.Lemma <> P:39 var
+prf 4537:4542 <> omega3
+R4557:4557 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4552:4552 <> x:40
+binder 4554:4554 <> y:41
+R4582:4584 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4560:4560 Coqtail.Myproj.PF <> :::'('_x_','_x_')' not
+R4570:4571 Coqtail.Myproj.PF <> :::'('_x_','_x_')' not
+R4581:4581 Coqtail.Myproj.PF <> :::'('_x_','_x_')' not
+R4563:4565 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4562:4562 Coqtail.Myproj.Lemma <> x:40 var
+R4574:4576 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4573:4573 Coqtail.Myproj.Lemma <> y:41 var
+R4585:4585 Coqtail.Myproj.PF <> :::'('_x_','_x_')' not
+R4587:4588 Coqtail.Myproj.PF <> :::'('_x_','_x_')' not
+R4590:4590 Coqtail.Myproj.PF <> :::'('_x_','_x_')' not
+R4586:4586 Coqtail.Myproj.Lemma <> x:40 var
+R4589:4589 Coqtail.Myproj.Lemma <> y:41 var
+prf 4664:4672 <> Pplus_0_r
+binder 4682:4682 <> A:42
+R4690:4692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4686:4688 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R4685:4685 Coqtail.Myproj.Lemma <> A:42 var
+R4689:4689 Coqtail.Myproj.Lemma <> O def
+R4693:4693 Coqtail.Myproj.Lemma <> A:42 var
+prf 4815:4821 <> Pmult_O
+binder 4831:4831 <> n:43
+R4839:4841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4835:4837 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R4834:4834 Coqtail.Myproj.Lemma <> n:43 var
+R4838:4838 Coqtail.Myproj.Lemma <> O def
+R4842:4842 Coqtail.Myproj.Lemma <> O def
+prf 4965:4974 <> Pminus_O_r
+binder 4984:4984 <> P:44
+R4992:4994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4988:4990 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R4987:4987 Coqtail.Myproj.Lemma <> P:44 var
+R4991:4991 Coqtail.Myproj.Lemma <> O def
+R4995:4995 Coqtail.Myproj.Lemma <> P:44 var
+prf 5028:5037 <> Pminus_O_l
+binder 5047:5047 <> P:45
+R5055:5057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5051:5053 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5050:5050 Coqtail.Myproj.Lemma <> O def
+R5054:5054 Coqtail.Myproj.Lemma <> P:45 var
+R5058:5058 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R5059:5059 Coqtail.Myproj.Lemma <> P:45 var
+prf 5092:5107 <> Popp_minus_distr
+binder 5117:5117 <> A:46
+binder 5119:5119 <> B:47
+R5131:5133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5122:5124 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R5130:5130 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R5126:5128 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5125:5125 Coqtail.Myproj.Lemma <> A:46 var
+R5129:5129 Coqtail.Myproj.Lemma <> B:47 var
+R5135:5137 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5134:5134 Coqtail.Myproj.Lemma <> B:47 var
+R5138:5138 Coqtail.Myproj.Lemma <> A:46 var
+prf 5171:5187 <> Popp_minus_distr'
+binder 5197:5197 <> A:48
+binder 5199:5199 <> B:49
+R5211:5213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5202:5204 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R5210:5210 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R5206:5208 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5205:5205 Coqtail.Myproj.Lemma <> B:49 var
+R5209:5209 Coqtail.Myproj.Lemma <> A:48 var
+R5215:5217 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5214:5214 Coqtail.Myproj.Lemma <> A:48 var
+R5218:5218 Coqtail.Myproj.Lemma <> B:49 var
+prf 5251:5270 <> Pminus_diag_uniq_sym
+binder 5280:5280 <> A:50
+binder 5282:5282 <> B:51
+R5294:5297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5290:5292 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5286:5288 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5285:5285 Coqtail.Myproj.Lemma <> B:51 var
+R5289:5289 Coqtail.Myproj.Lemma <> A:50 var
+R5293:5293 Coqtail.Myproj.Lemma <> O def
+R5299:5301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5298:5298 Coqtail.Myproj.Lemma <> A:50 var
+R5302:5302 Coqtail.Myproj.Lemma <> B:51 var
+R5326:5328 Coqtail.Myproj.Pbasics <> Peq thm
+R5326:5328 Coqtail.Myproj.Pbasics <> Peq thm
+R5355:5357 Coqtail.Myproj.Pbasics <> Peq thm
+R5355:5357 Coqtail.Myproj.Pbasics <> Peq thm
+prf 5396:5400 <> PnegO
+R5406:5408 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5403:5404 Coqtail.Myproj.PF <> ::Point_scope:'-'_x not
+R5405:5405 Coqtail.Myproj.Lemma <> O def
+R5409:5409 Coqtail.Myproj.Lemma <> O def
+prf 5442:5457 <> Pminus_diag_uniq
+binder 5467:5467 <> A:52
+binder 5469:5469 <> B:53
+R5481:5484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5477:5479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5473:5475 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5472:5472 Coqtail.Myproj.Lemma <> A:52 var
+R5476:5476 Coqtail.Myproj.Lemma <> B:53 var
+R5480:5480 Coqtail.Myproj.Lemma <> O def
+R5486:5488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5485:5485 Coqtail.Myproj.Lemma <> A:52 var
+R5489:5489 Coqtail.Myproj.Lemma <> B:53 var
+R5513:5515 Coqtail.Myproj.Pbasics <> Peq thm
+R5513:5515 Coqtail.Myproj.Pbasics <> Peq thm
+R5542:5544 Coqtail.Myproj.Pbasics <> Peq thm
+R5542:5544 Coqtail.Myproj.Pbasics <> Peq thm
+prf 5583:5596 <> Pminus_diag_eq
+binder 5606:5606 <> A:54
+binder 5608:5608 <> B:55
+R5616:5619 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5612:5614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5611:5611 Coqtail.Myproj.Lemma <> A:54 var
+R5615:5615 Coqtail.Myproj.Lemma <> B:55 var
+R5625:5627 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5621:5623 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5620:5620 Coqtail.Myproj.Lemma <> A:54 var
+R5624:5624 Coqtail.Myproj.Lemma <> B:55 var
+R5628:5628 Coqtail.Myproj.Lemma <> O def
+R5654:5656 Coqtail.Myproj.Pbasics <> Peq thm
+R5654:5656 Coqtail.Myproj.Pbasics <> Peq thm
+R5683:5685 Coqtail.Myproj.Pbasics <> Peq thm
+R5683:5685 Coqtail.Myproj.Pbasics <> Peq thm
+prf 5724:5731 <> Pminus_P
+binder 5741:5741 <> P:56
+R5749:5751 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5745:5747 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R5744:5744 Coqtail.Myproj.Lemma <> P:56 var
+R5748:5748 Coqtail.Myproj.Lemma <> P:56 var
+R5752:5752 Coqtail.Myproj.Lemma <> O def
+prf 5860:5869 <> Unit_right
+binder 5879:5879 <> A:57
+R5887:5889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5883:5885 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R5886:5886 Coqtail.Myproj.Lemma <> A:57 var
+R5890:5890 Coqtail.Myproj.Lemma <> A:57 var
+prf 5939:5949 <> Unit_right'
+binder 5959:5959 <> A:58
+R5963:5965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5962:5962 Coqtail.Myproj.Lemma <> A:58 var
+R5967:5969 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R5970:5970 Coqtail.Myproj.Lemma <> A:58 var
+prf 6003:6020 <> Pmult_plus_distr_l
+binder 6030:6030 <> n:59
+binder 6032:6032 <> B:60
+binder 6034:6034 <> C:61
+R6052:6054 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6042:6045 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6051:6051 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6041:6041 Coqtail.Myproj.Lemma <> n:59 var
+R6047:6049 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R6046:6046 Coqtail.Myproj.Lemma <> B:60 var
+R6050:6050 Coqtail.Myproj.Lemma <> C:61 var
+R6060:6062 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R6056:6058 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6055:6055 Coqtail.Myproj.Lemma <> n:59 var
+R6059:6059 Coqtail.Myproj.Lemma <> B:60 var
+R6064:6066 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6063:6063 Coqtail.Myproj.Lemma <> n:59 var
+R6067:6067 Coqtail.Myproj.Lemma <> C:61 var
+prf 6101:6118 <> Pmult_plus_distr_r
+binder 6128:6128 <> a:62
+binder 6130:6130 <> b:63
+binder 6132:6132 <> P:64
+R6150:6152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6139:6139 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6145:6148 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6141:6143 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6140:6140 Coqtail.Myproj.Lemma <> a:62 var
+R6144:6144 Coqtail.Myproj.Lemma <> b:63 var
+R6149:6149 Coqtail.Myproj.Lemma <> P:64 var
+R6158:6160 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R6154:6156 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6153:6153 Coqtail.Myproj.Lemma <> a:62 var
+R6157:6157 Coqtail.Myproj.Lemma <> P:64 var
+R6162:6164 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6161:6161 Coqtail.Myproj.Lemma <> b:63 var
+R6165:6165 Coqtail.Myproj.Lemma <> P:64 var
+prf 6199:6217 <> Pmult_minus_distr_r
+binder 6227:6227 <> a:65
+binder 6229:6229 <> b:66
+binder 6231:6231 <> P:67
+R6249:6251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6238:6238 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6244:6247 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6240:6242 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6239:6239 Coqtail.Myproj.Lemma <> a:65 var
+R6243:6243 Coqtail.Myproj.Lemma <> b:66 var
+R6248:6248 Coqtail.Myproj.Lemma <> P:67 var
+R6257:6259 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R6253:6255 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6252:6252 Coqtail.Myproj.Lemma <> a:65 var
+R6256:6256 Coqtail.Myproj.Lemma <> P:67 var
+R6261:6263 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6260:6260 Coqtail.Myproj.Lemma <> b:66 var
+R6264:6264 Coqtail.Myproj.Lemma <> P:67 var
+prf 6297:6315 <> Pmult_minus_distr_l
+binder 6325:6325 <> n:68
+binder 6327:6327 <> B:69
+binder 6329:6329 <> C:70
+R6347:6349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6337:6340 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6346:6346 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6336:6336 Coqtail.Myproj.Lemma <> n:68 var
+R6342:6344 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R6341:6341 Coqtail.Myproj.Lemma <> B:69 var
+R6345:6345 Coqtail.Myproj.Lemma <> C:70 var
+R6355:6357 Coqtail.Myproj.PF <> ::Point_scope:x_'-'_x not
+R6351:6353 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6350:6350 Coqtail.Myproj.Lemma <> n:68 var
+R6354:6354 Coqtail.Myproj.Lemma <> B:69 var
+R6359:6361 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6358:6358 Coqtail.Myproj.Lemma <> n:68 var
+R6362:6362 Coqtail.Myproj.Lemma <> C:70 var
+prf 6438:6446 <> property6
+binder 6456:6456 <> A:71
+binder 6458:6458 <> B:72
+R6467:6469 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6462:6465 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R6461:6461 Coqtail.Myproj.Lemma <> A:71 var
+R6466:6466 Coqtail.Myproj.Lemma <> B:72 var
+R6471:6474 Coqtail.Myproj.PF <> ::Point_scope:x_'·'_x not
+R6470:6470 Coqtail.Myproj.Lemma <> B:72 var
+R6475:6475 Coqtail.Myproj.Lemma <> A:71 var
+prf 6560:6566 <> Pplus_1
+binder 6576:6576 <> A:73
+binder 6578:6578 <> B:74
+R6590:6594 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6586:6588 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6582:6584 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R6581:6581 Coqtail.Myproj.Lemma <> A:73 var
+R6585:6585 Coqtail.Myproj.Lemma <> B:74 var
+R6589:6589 Coqtail.Myproj.Lemma <> O def
+R6596:6598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6595:6595 Coqtail.Myproj.Lemma <> A:73 var
+R6599:6599 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6602:6605 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R6606:6606 Coqtail.Myproj.Lemma <> B:74 var
+R6647:6649 Coqtail.Myproj.Pbasics <> Peq thm
+R6677:6679 Coqtail.Myproj.Pbasics <> Peq thm
+R6647:6649 Coqtail.Myproj.Pbasics <> Peq thm
+R6677:6679 Coqtail.Myproj.Pbasics <> Peq thm
+R6707:6709 Coqtail.Myproj.Pbasics <> Peq thm
+R6736:6738 Coqtail.Myproj.Pbasics <> Peq thm
+R6707:6709 Coqtail.Myproj.Pbasics <> Peq thm
+R6736:6738 Coqtail.Myproj.Pbasics <> Peq thm
+prf 6772:6779 <> Pmults_1
+binder 6789:6789 <> n:75
+binder 6791:6791 <> m:76
+binder 6793:6793 <> A:77
+R6819:6821 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6796:6801 Coqtail.Myproj.PF <> Pmults def
+R6804:6804 Coqtail.Myproj.Lemma <> n:75 var
+R6808:6813 Coqtail.Myproj.PF <> Pmults def
+R6815:6815 Coqtail.Myproj.Lemma <> m:76 var
+R6817:6817 Coqtail.Myproj.Lemma <> A:77 var
+R6822:6827 Coqtail.Myproj.PF <> Pmults def
+R6831:6833 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6830:6830 Coqtail.Myproj.Lemma <> n:75 var
+R6834:6834 Coqtail.Myproj.Lemma <> m:76 var
+R6837:6837 Coqtail.Myproj.Lemma <> A:77 var
+prf 6870:6873 <> Alge
+R6886:6886 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6883:6883 <> x:78
+R6905:6907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6890:6890 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6893:6897 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6904:6904 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6900:6902 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R6903:6903 Coqtail.Myproj.Lemma <> x:78 var
+R6908:6908 Coqtail.Myproj.Lemma <> x:78 var
+prf 6946:6953 <> collinO1
+binder 6963:6963 <> A:79
+binder 6965:6965 <> B:80
+R6970:6970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7001:7005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6971:6978 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6984:6986 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6983:6983 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6979:6979 <> l:81
+R6988:6990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6987:6987 Coqtail.Myproj.Lemma <> A:79 var
+R6991:6996 Coqtail.Myproj.PF <> Pmults def
+R6998:6998 Coqtail.Myproj.Lemma <> l:81 var
+R7000:7000 Coqtail.Myproj.Lemma <> B:80 var
+R7006:7012 Coqtail.Myproj.Lemma <> collin' def
+R7014:7014 Coqtail.Myproj.Lemma <> A:79 var
+R7016:7016 Coqtail.Myproj.Lemma <> B:80 var
+R7018:7018 Coqtail.Myproj.Lemma <> O def
+R7046:7052 Coqtail.Myproj.Lemma <> collin' def
+R7093:7095 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7093:7095 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7111:7111 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7111:7111 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7157:7157 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7136:7142 Coqtail.Myproj.Lemma <> Pmult_O thm
+R7157:7157 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7136:7142 Coqtail.Myproj.Lemma <> Pmult_O thm
+R7157:7157 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7136:7142 Coqtail.Myproj.Lemma <> Pmult_O thm
+R7173:7182 Coqtail.Myproj.Lemma <> Unit_right thm
+R7173:7182 Coqtail.Myproj.Lemma <> Unit_right thm
+R7173:7182 Coqtail.Myproj.Lemma <> Unit_right thm
+R7193:7199 Coqtail.Myproj.Lemma <> Pplus_1 thm
+R7193:7199 Coqtail.Myproj.Lemma <> Pplus_1 thm
+R7210:7217 Coqtail.Myproj.Lemma <> Pmults_1 thm
+R7210:7217 Coqtail.Myproj.Lemma <> Pmults_1 thm
+R7210:7217 Coqtail.Myproj.Lemma <> Pmults_1 thm
+R7228:7231 Coqtail.Myproj.Lemma <> Alge thm
+R7228:7231 Coqtail.Myproj.Lemma <> Alge thm
+R7228:7231 Coqtail.Myproj.Lemma <> Alge thm
+def 7259:7265 <> Xcollin
+R7280:7284 Coqtail.Myproj.PF <> Point def
+binder 7268:7268 <> A:82
+binder 7270:7270 <> B:83
+binder 7272:7272 <> C:84
+binder 7274:7274 <> D:85
+binder 7276:7276 <> F:86
+binder 7299:7299 <> u:87
+binder 7301:7301 <> v:88
+binder 7303:7303 <> r:89
+binder 7305:7305 <> s:90
+R7325:7337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7314:7316 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7310:7312 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7309:7309 Coqtail.Myproj.Lemma <> u:87 var
+R7313:7313 Coqtail.Myproj.Lemma <> v:88 var
+R7318:7320 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7317:7317 Coqtail.Myproj.Lemma <> r:89 var
+R7321:7321 Coqtail.Myproj.Lemma <> s:90 var
+R7375:7387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7355:7357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7338:7338 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7344:7348 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7354:7354 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7340:7342 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7339:7339 Coqtail.Myproj.Lemma <> u:87 var
+R7343:7343 Coqtail.Myproj.Lemma <> A:82 var
+R7350:7352 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7349:7349 Coqtail.Myproj.Lemma <> v:88 var
+R7353:7353 Coqtail.Myproj.Lemma <> B:83 var
+R7358:7358 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7364:7368 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7374:7374 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7360:7362 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7359:7359 Coqtail.Myproj.Lemma <> r:89 var
+R7363:7363 Coqtail.Myproj.Lemma <> C:84 var
+R7370:7372 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7369:7369 Coqtail.Myproj.Lemma <> s:90 var
+R7373:7373 Coqtail.Myproj.Lemma <> D:85 var
+R7399:7401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7388:7388 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7394:7397 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7390:7392 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7389:7389 Coqtail.Myproj.Lemma <> r:89 var
+R7393:7393 Coqtail.Myproj.Lemma <> s:90 var
+R7398:7398 Coqtail.Myproj.Lemma <> F:86 var
+R7402:7402 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7408:7412 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7418:7418 Coqtail.Myproj.PF <> ::Point_scope:x_'+'_x not
+R7404:7406 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7403:7403 Coqtail.Myproj.Lemma <> r:89 var
+R7407:7407 Coqtail.Myproj.Lemma <> C:84 var
+R7414:7416 Coqtail.Myproj.PF <> ::Point_scope:x_'*'_x not
+R7413:7413 Coqtail.Myproj.Lemma <> s:90 var
+R7417:7417 Coqtail.Myproj.Lemma <> D:85 var

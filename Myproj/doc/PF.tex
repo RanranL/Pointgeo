@@ -1,0 +1,216 @@
+\documentclass[12pt]{report}
+\usepackage[]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage{coqdoc}
+\usepackage{amsmath,amssymb}
+\usepackage{url}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% This file has been automatically generated with the command
+%% coqdoc --latex -d doc PF.v 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coqlibrary{PF}{Library }{PF}
+
+\begin{coqdoccode}
+\coqdocnoindent
+\coqdockw{Require} \coqdockw{Import} \coqdocvar{Arith.Arith}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Require} \coqdockw{Import} \coqdocvar{Reals}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Require} \coqdockw{Export} \coqdocvar{Lra}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Open} \coqdockw{Scope} \coqdocvar{R\_scope}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Require} \coqdockw{Export} \coqdocvar{Complex}.\coqdoceol
+\end{coqdoccode}
+\section{The definition of point}
+
+
+\begin{coqdoccode}
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Point} : \coqdockw{Set} := (\coqdocvar{prod} \coqdocvar{R} \coqdocvar{R}).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{R\_R\_to\_Point} (\coqdocvar{a} : \coqdocvar{R}) (\coqdocvar{b} : \coqdocvar{R}) : \coqdocvar{Point} := (\coqdocvar{a}, \coqdocvar{b}).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Declare Scope} \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Delimit} \coqdockw{Scope} \coqdocvar{Point\_scope} \coqdockw{with} \coqdocvar{Point}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Bind Scope} \coqdocvar{Point\_scope} \coqdockw{with} \coqdocvar{Point}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Open} \coqdockw{Scope} \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Check} (1, 1).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Point0} := \coqdocvar{R\_R\_to\_Point} 0 0.\coqdoceol
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Point1} := \coqdocvar{R\_R\_to\_Point} 1 1.\coqdoceol
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Point1'} := \coqdocvar{R\_R\_to\_Point} 0 1.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Notation} "0" := \coqdocvar{Point0}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Notation} "1" := \coqdocvar{Point1}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Px} (\coqdocvar{P} : \coqdocvar{Point}) : \coqdocvar{R} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdockw{let} (\coqdocvar{x}, \coqdocvar{y}) := \coqdocvar{P} \coqdoctac{in}\coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{x}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Py} (\coqdocvar{P} : \coqdocvar{Point}) : \coqdocvar{R} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdockw{let} (\coqdocvar{x}, \coqdocvar{y}) := \coqdocvar{P} \coqdoctac{in}\coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{y}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pplus} (\coqdocvar{p1} : \coqdocvar{Point}) (\coqdocvar{p2} : \coqdocvar{Point}) : \coqdocvar{Point} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{R\_R\_to\_Point} (\coqdocvar{Px} \coqdocvar{p1} + \coqdocvar{Px} \coqdocvar{p2}) (\coqdocvar{Py} \coqdocvar{p1} + \coqdocvar{Py} \coqdocvar{p2}).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pmults} (\coqdocvar{r} : \coqdocvar{R}) (\coqdocvar{p} : \coqdocvar{Point}) : \coqdocvar{Point} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{R\_R\_to\_Point} (\coqdocvar{r} \ensuremath{\times} \coqdocvar{Px} \coqdocvar{p}) (\coqdocvar{r} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p}).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pneg} (\coqdocvar{p} : \coqdocvar{Point}) : \coqdocvar{Point} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{R\_R\_to\_Point} (-\coqdocvar{Px} \coqdocvar{p}) (-\coqdocvar{Py} \coqdocvar{p}).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pinv} (\coqdocvar{p} : \coqdocvar{Point}) : \coqdocvar{Point} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{R\_R\_to\_Point} (\coqdocvar{Px} \coqdocvar{p} \ensuremath{\times} \coqdocvar{Px} \coqdocvar{p} - \coqdocvar{Py} \coqdocvar{p} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p}) (\coqdocvar{Px} \coqdocvar{p} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p} + \coqdocvar{Py} \coqdocvar{p} \ensuremath{\times} \coqdocvar{Px} \coqdocvar{p}).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pconj} (\coqdocvar{p} : \coqdocvar{Point}) : \coqdocvar{Point} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{R\_R\_to\_Point} (\coqdocvar{Px} \coqdocvar{p}) (-\coqdocvar{Py} \coqdocvar{p}).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pquantityprod} (\coqdocvar{p1} : \coqdocvar{Point})  (\coqdocvar{p2} : \coqdocvar{Point}) : \coqdocvar{R} := \coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{Px} \coqdocvar{p1} \ensuremath{\times} \coqdocvar{Px} \coqdocvar{p2} + \coqdocvar{Py} \coqdocvar{p1} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p2}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{s} (\coqdocvar{p1} : \coqdocvar{Point})  (\coqdocvar{p2} : \coqdocvar{Point}) (\coqdocvar{p3}: \coqdocvar{Point}): \coqdocvar{R} := \coqdoceol
+\coqdocindent{1.00em}
+\coqdocvar{Px} \coqdocvar{p1} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p2} + \coqdocvar{Px} \coqdocvar{p2} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p3} + \coqdocvar{Px} \coqdocvar{p3} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p1} - \coqdocvar{Px} \coqdocvar{p1} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p3} - \coqdocvar{Px} \coqdocvar{p2} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p1} - \coqdocvar{Px} \coqdocvar{p3} \ensuremath{\times} \coqdocvar{Py} \coqdocvar{p2}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pnorm\_sqr} (\coqdocvar{p} : \coqdocvar{Point}) : \coqdocvar{R} := \coqdocvar{Pquantityprod} \coqdocvar{p} \coqdocvar{p}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pnorm} (\coqdocvar{p} : \coqdocvar{Point}) : \coqdocvar{R} := (\coqdocvar{sqrt} (\coqdocvar{Pnorm\_sqr} \coqdocvar{p})).\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{IRP} (\coqdocvar{x} : \coqdocvar{R}) : \coqdocvar{Point} := \coqdocvar{R\_R\_to\_Point} \coqdocvar{x} 0\%\coqdocvar{R}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Coercion} \coqdocvar{IRP} : \coqdocvar{R} >-> \coqdocvar{Point}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Infix} "+" := \coqdocvar{Pplus} : \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Infix} "*" := \coqdocvar{Pmults} : \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Notation} "p1 · p2" := (\coqdocvar{Pquantityprod} \coqdocvar{p1} \coqdocvar{p2}) (\coqdoctac{at} \coqdockw{level} 0, \coqdoctac{right} \coqdockw{associativity}) : \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Notation} "- p" := (\coqdocvar{Pneg} \coqdocvar{p}) : \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Notation} "/ p" := (\coqdocvar{Pinv} \coqdocvar{p}) : \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{Pminus} (\coqdocvar{p1} \coqdocvar{p2} : \coqdocvar{Point}) : \coqdocvar{Point} := \coqdocvar{p1} + - \coqdocvar{p2}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Infix} "-" := \coqdocvar{Pminus} : \coqdocvar{Point\_scope}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Fixpoint} \coqdocvar{INP} (\coqdocvar{n}:\coqdocvar{nat}) : \coqdocvar{Point} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdockw{match} \coqdocvar{n} \coqdockw{with}\coqdoceol
+\coqdocindent{1.00em}
+\ensuremath{|} \coqdocvar{O} \ensuremath{\Rightarrow} 0\coqdoceol
+\coqdocindent{1.00em}
+\ensuremath{|} \coqdocvar{S} \coqdocvar{O} \ensuremath{\Rightarrow} 1\coqdoceol
+\coqdocindent{1.00em}
+\ensuremath{|} \coqdocvar{S} \coqdocvar{n} \ensuremath{\Rightarrow} \coqdocvar{INP} \coqdocvar{n} + 1\coqdoceol
+\coqdocindent{1.00em}
+\coqdockw{end}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Definition} \coqdocvar{IZP} (\coqdocvar{z}:\coqdocvar{Z}) : \coqdocvar{Point} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdockw{match} \coqdocvar{z} \coqdockw{with}\coqdoceol
+\coqdocindent{1.00em}
+\ensuremath{|} \coqdocvar{Z0} \ensuremath{\Rightarrow} 0\coqdoceol
+\coqdocindent{1.00em}
+\ensuremath{|} \coqdocvar{Zpos} \coqdocvar{n} \ensuremath{\Rightarrow} \coqdocvar{INP} (\coqdocvar{nat\_of\_P} \coqdocvar{n})\coqdoceol
+\coqdocindent{1.00em}
+\ensuremath{|} \coqdocvar{Zneg} \coqdocvar{n} \ensuremath{\Rightarrow} - \coqdocvar{INP} (\coqdocvar{nat\_of\_P} \coqdocvar{n})\coqdoceol
+\coqdocindent{1.00em}
+\coqdockw{end}.\coqdoceol
+\coqdocemptyline
+\coqdocemptyline
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Lemma} \coqdocvar{Pproj\_right} : \coqdockw{\ensuremath{\forall}} \coqdocvar{p} : \coqdocvar{Point}, (\coqdocvar{Px} \coqdocvar{p}, \coqdocvar{Py} \coqdocvar{p}) = \coqdocvar{p}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Proof}.\coqdoceol
+\coqdocnoindent
+\coqdoctac{intros} \coqdocvar{p};  \coqdoctac{elim} \coqdocvar{p}; \coqdoctac{reflexivity}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Qed}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Lemma} \coqdocvar{Peq} : \coqdockw{\ensuremath{\forall}} \coqdocvar{p1} \coqdocvar{p2} : \coqdocvar{Point}, \coqdocvar{Px} \coqdocvar{p1} = \coqdocvar{Px} \coqdocvar{p2} \ensuremath{\land} \coqdocvar{Py} \coqdocvar{p1} = \coqdocvar{Py} \coqdocvar{p2} \ensuremath{\leftrightarrow} \coqdocvar{p1} = \coqdocvar{p2}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Proof}.\coqdoceol
+\coqdocnoindent
+\coqdoctac{intros} \coqdocvar{p1} \coqdocvar{p2} ; \coqdoctac{split} ; \coqdoctac{intro} \coqdocvar{H}.\coqdoceol
+\coqdocindent{0.50em}
+\coqdoctac{rewrite} \ensuremath{\leftarrow} \coqdocvar{Pproj\_right} ; \coqdoctac{symmetry} ; \coqdoctac{rewrite} \ensuremath{\leftarrow} \coqdocvar{Pproj\_right} ; \coqdoctac{destruct} \coqdocvar{H} \coqdockw{as} (\coqdocvar{H}, \coqdocvar{H0}) ;\coqdoceol
+\coqdocindent{0.50em}
+\coqdoctac{rewrite} \coqdocvar{H} ; \coqdoctac{rewrite} \coqdocvar{H0} ; \coqdoctac{reflexivity}.\coqdoceol
+\coqdocindent{0.50em}
+\coqdoctac{split}; \coqdoctac{rewrite} \coqdocvar{H}; \coqdoctac{reflexivity}.\coqdoceol
+\coqdocnoindent
+\coqdockw{Qed}.\coqdoceol
+\coqdocemptyline
+\end{coqdoccode}
+Simple tactics using the projections 
+\begin{coqdoccode}
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Ltac} \coqdocvar{PusingR\_simpl} :=\coqdoceol
+\coqdocindent{1.00em}
+\coqdoctac{rewrite} \ensuremath{\leftarrow} \coqdocvar{Peq} ; \coqdoctac{simpl} ; \coqdoctac{split}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Ltac} \coqdocvar{PusingR\_rec} := \coqdockw{match} \coqdockw{goal} \coqdockw{with}\coqdoceol
+\coqdocindent{2.50em}
+\ensuremath{|} \coqdocvar{id}:\coqdocvar{Point} \ensuremath{\vdash} \coqdocvar{\_} \ensuremath{\Rightarrow} \coqdoctac{destruct} \coqdocvar{id} ; \coqdoctac{try} \coqdocvar{PusingR\_rec}\coqdoceol
+\coqdocnoindent
+\coqdockw{end}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Ltac} \coqdocvar{PusingR} := \coqdoctac{intros}; \coqdoctac{try} \coqdocvar{PusingR\_rec} ; \coqdoctac{apply} (\coqdocvar{proj1} (\coqdocvar{Peq} \coqdocvar{\_} \coqdocvar{\_})) ; \coqdoctac{split} ; \coqdoctac{simpl} ; \coqdoctac{auto} \coqdockw{with} \coqdocvar{real}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Ltac} \coqdocvar{PusingR\_f} := \coqdocvar{PusingR} ; \coqdoctac{field}.\coqdoceol
+\coqdocemptyline
+\end{coqdoccode}
+\end{document}
